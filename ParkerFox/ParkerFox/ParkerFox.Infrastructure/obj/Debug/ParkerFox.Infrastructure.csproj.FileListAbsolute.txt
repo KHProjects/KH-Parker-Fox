@@ -1,0 +1,30 @@
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\obj\Debug\ParkerFox.Infrastructure.csprojResolveAssemblyReference.cache
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\ParkerFox.Infrastructure.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\ParkerFox.Infrastructure.pdb
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\Dapper.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\ParkerFox.Core.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\ParkerFox.Core.pdb
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\Dapper.pdb
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\obj\Debug\ParkerFox.Infrastructure.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\obj\Debug\ParkerFox.Infrastructure.pdb
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\obj\Debug\ParkerFox.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\obj\Debug\ParkerFox.Infrastructure.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\ParkerFox.Infrastructure.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\ParkerFox.Infrastructure.pdb
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\Dapper.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\FluentNHibernate.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\Iesi.Collections.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\NHibernate.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\ParkerFox.Core.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\ParkerFox.Core.pdb
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\Dapper.pdb
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\FluentNHibernate.xml
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\Iesi.Collections.xml
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\bin\Debug\NHibernate.xml
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Infrastructure\obj\Debug\ParkerFox.Infrastructure.pdb
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\FluentNHibernate.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\Iesi.Collections.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\NHibernate.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\FluentNHibernate.xml
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\Iesi.Collections.xml
+F:\Examples & Labs\ParkerFox\ParkerFox.Infrastructure\bin\Debug\NHibernate.xml

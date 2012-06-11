@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ASP.NET Web API</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/modernizr-2.0.6-development-only.js")" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width" />
+
+    <script type="text/javascript">
+        $(function () {
+            ///http://stephenwalther.com/archive/2012/03/05/introduction-to-the-asp-net-web-api.aspx
+            $('#getProduct').click(function () {
+                alert('yp');
+                $.ajax({url:"/api/Product",
+                    data:{id:1},
+                    type:"GET",
+                    contentType : "application/json;charset=utf-8",
+                    statusCode : {
+                        200 : function(product){
+                            alert(product.Name);
+                        },
+                        404 : function(){
+                            alert("not found");
+                        }
+                    }
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">       
+            <div class="float-left">
+                <p class="site-title"><a href="/">ASP.NET Web API</a></p>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        <section class="featured">
+            <div class="content-wrapper">
+                <hgroup class="title">
+                    <h1>Parker Fox</h1>
+                    <h2>Working sample</h2>
+                </hgroup>
+                <p>
+                    
+                </p>
+                <p>
+                   <input id="getProduct" type="button" value="get product" />
+                </p>
+            </div>
+        </section>
+        <section class="content-wrapper main-content clear-fix">
+            <h3>We suggest the following steps:</h3>
+            <ol class="round">
+                <li class="one">
+                    <h5>one</h5>
+                    
+                </li>
+                <li class="two">
+                    <h5>two</h5>
+                    
+                </li>
+                <li class="three">
+                    <h5>three</h5>                    
+                </li>
+            </ol>
+
+            <section class="features">
+                <section class="feature">
+                    <img src="@Url.Content("~/Images/aspNetHome.png")" alt="ASP.NET Home" />
+                    <h3>Home of ASP.NET</h3>
+                    <p>
+                        
+                    </p>
+                </section>
+                <section class="feature">
+                    <img src="@Url.Content("~/Images/NuGetGallery.png")" alt="NuGet Gallery" />
+                    <h3>NuGet Gallery</h3>
+                    <p>
+                        
+                    </p>
+                </section>
+                <section class="feature">
+                    <img src="@Url.Content("~/Images/findHosting.png")" alt="Find Hosting" />
+                    <h3>Find Web Hosting</h3>
+                    <p>
+                        
+                    </p>
+                </section>
+            </section>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+F:\Examples & Labs\ParkerFox\ParkerFox.Application\bin\Debug\ParkerFox.Application.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Application\bin\Debug\ParkerFox.Application.pdb
+F:\Examples & Labs\ParkerFox\ParkerFox.Application\obj\Debug\ParkerFox.Application.csprojResolveAssemblyReference.cache
+F:\Examples & Labs\ParkerFox\ParkerFox.Application\obj\Debug\ParkerFox.Application.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Application\obj\Debug\ParkerFox.Application.pdb

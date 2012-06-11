@@ -1,0 +1,41 @@
+﻿/*http://coding.smashingmagazine.com/2010/12/06/using-the-less-css-preprocessor-for-smarter-style-sheets/*/
+
+@brand-color:#4455EE;
+
+.reusable-style-set(@radius: 5px)
+{
+	-webkit-border-radius:@radius;
+	-moz-border-radius:@radius;
+	border-radius:@radius;
+}
+
+#theme-one
+{
+	@heading-color:#EE3322;
+}
+#theme-two
+{
+	
+}
+
+#header 
+{
+	#nav
+	{
+		
+	}
+}
+
+a
+{	
+	&:hover{text-decoration:underline;color:@brand-color}
+	&:visited{font-weight:bolder}
+}
+
+div.notice
+{
+	.reusable-style-set(10px);
+	background-color:#F5F5F5;
+	width:200px;
+	height:100px;
+}

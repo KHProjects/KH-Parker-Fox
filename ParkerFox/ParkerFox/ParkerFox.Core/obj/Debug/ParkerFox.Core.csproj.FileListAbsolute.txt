@@ -1,0 +1,18 @@
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\bin\Debug\ParkerFox.Core.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\bin\Debug\ParkerFox.Core.pdb
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\bin\Debug\Iesi.Collections.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\bin\Debug\NHibernate.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\bin\Debug\Iesi.Collections.xml
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\bin\Debug\NHibernate.xml
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\obj\Debug\ParkerFox.Core.csprojResolveAssemblyReference.cache
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\obj\Debug\ParkerFox.Core.dll
+F:\Examples & Labs\ParkerFox\ParkerFox.Core\obj\Debug\ParkerFox.Core.pdb
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\bin\Debug\ParkerFox.Core.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\bin\Debug\ParkerFox.Core.pdb
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\bin\Debug\Iesi.Collections.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\bin\Debug\NHibernate.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\bin\Debug\Iesi.Collections.xml
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\bin\Debug\NHibernate.xml
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\obj\Debug\ParkerFox.Core.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\obj\Debug\ParkerFox.Core.dll
+C:\Projects\Sandbox\ParkerFox\ParkerFox.Core\obj\Debug\ParkerFox.Core.pdb
