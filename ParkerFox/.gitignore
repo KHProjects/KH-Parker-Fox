@@ -1,0 +1,8 @@
+*.suo
+*.csproj.user
+_ReSharper.*
+*.dotCover
+
+packages
+*/bin
+*/obj
