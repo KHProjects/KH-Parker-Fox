@@ -1,0 +1,13 @@
+﻿@model ParkerFox.Site.ViewModels.ProductViewModel
+@{
+    ViewBag.Title = "AddProduct";
+}
+
+<h2>AddProduct</h2>
+
+@using (Html.BeginForm())
+{
+    <dl>
+        <dt>@Html.LabelFor(x=>x.Name)</dt>    
+    </dl>
+}

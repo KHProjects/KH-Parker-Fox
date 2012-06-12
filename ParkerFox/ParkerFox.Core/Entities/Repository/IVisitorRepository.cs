@@ -10,5 +10,7 @@ namespace ParkerFox.Core.Entities.Repository
     {
         void Save(Visitor visitor);
         IList<Visitor> GetRecent(int limit);
+
+        //IList<Visitor> Query(ISpecification<Visitor>);
     }
 }

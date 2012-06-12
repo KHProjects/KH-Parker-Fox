@@ -19,5 +19,10 @@ namespace ParkerFox.Site.Controllers
 
             throw new HttpResponseException(HttpStatusCode.NotFound);
         }
+
+        public void Put(ProductViewModel product)
+        {
+
+        }
     }
 }

@@ -64,6 +64,7 @@ namespace ParkerFox.Site
             IKernel kernel = new StandardKernel();
 
             kernel.Bind<IVisitorRepository>().To<VisitorRepository>();
+
             var resolver = new NinjectDependencyResolver(kernel);
 
             DependencyResolver.SetResolver(resolver);            

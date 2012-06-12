@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +11,12 @@
     <script type="text/javascript">
         $(function () {
             ///http://stephenwalther.com/archive/2012/03/05/introduction-to-the-asp-net-web-api.aspx
-            $('#getProduct').click(function () {
+            $("#getProduct").click(function () {
                 alert('yp');
-                $.ajax({url:"/api/Product",
+
+                $.ajax(
+                {
+                    url:"/api/Product",
                     data:{id:1},
                     type:"GET",
                     contentType : "application/json;charset=utf-8",
@@ -24,7 +28,7 @@
                             alert("not found");
                         }
                     }
-            });
+                });
         });
 
     </script>
