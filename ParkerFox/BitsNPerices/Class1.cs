@@ -8,6 +8,48 @@ using System.Threading.Tasks;
 namespace BitsNPerices
 {
 
+
+  public class Person
+  {
+    private DoSomething doSomething;
+  }
+
+  public abstract class DoSomething
+  {
+
+    public void DoAlgorithm()
+    {
+      NonConfigurable();
+      Configurable();
+    }
+
+    private void NonConfigurable()
+    {
+      Debug.WriteLine("non configurable step called");
+    }
+
+    public abstract void Configurable();
+
+  }
+
+  public class OneImplementationOfDoSomething : DoSomething
+  {
+    public override void Configurable()
+    {
+      Debug.WriteLine("Configurable stuff in implementation one");
+    }
+  }
+  public class AnotherImplentationOfDoSomething : DoSomething
+  {
+    public override void Configurable()
+    {
+      Debug.WriteLine("Configurable stuff in a implementation two");
+    }
+  }
+
+
+
+
     public class ClientOfTheAlogrithm
     {
         private TemplateMethodPattern templatePattern;
@@ -24,13 +66,13 @@ namespace BitsNPerices
     {
         public void DoAlgorithm()
         {
-            NoneConfigurable();
+            NonConfigurable();
             Configurable();
         }
 
-        private void NoneConfigurable()
+        private void NonConfigurable()
         {
-            Debug.WriteLine("none configurable step called");
+            Debug.WriteLine("non configurable step called");
         }
 
         public abstract void Configurable();
@@ -40,14 +82,14 @@ namespace BitsNPerices
     {
         public override void Configurable()
         {
-            Debug.WriteLine("Configurable stuff in alog one");
+            Debug.WriteLine("Configurable stuff in implementation one");
         }
     }
     public class TwoInplentationOfAloritgh : TemplateMethodPattern
     {
         public override void Configurable()
         {
-            Debug.WriteLine("Configurable stuff in alog two");
+          Debug.WriteLine("Configurable stuff in implementation two");
         }
     }
 }
