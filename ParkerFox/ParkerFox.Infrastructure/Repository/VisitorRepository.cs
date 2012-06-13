@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NHibernate;
 using ParkerFox.Core.Entities;
 using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
 using FluentNHibernate;
+using NHibernate;
 
 namespace ParkerFox.Infrastructure.Repository
 {
@@ -20,7 +20,7 @@ namespace ParkerFox.Infrastructure.Repository
                 session.BeginTransaction();
                 session.SaveOrUpdate(visitor);
                 session.Transaction.Commit();
-            }
+            }            
         }
 
 

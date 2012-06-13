@@ -8,6 +8,7 @@ namespace ParkerFox.Infrastructure.Data
 {
     public interface IUnitOfWork
     {
+        
         void Commit();
     }
 }
