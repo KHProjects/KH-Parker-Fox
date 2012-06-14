@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F7198E49-D059-41E4-A565-E3DA758A74AC}</ProjectGuid>
+    <ProjectGuid>{5B2ED4EE-EDAC-46BE-B473-AD2C4743A613}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ParkerFox.Core</RootNamespace>
-    <AssemblyName>ParkerFox.Core</AssemblyName>
+    <RootNamespace>ParkerFox.IntegrationTests</RootNamespace>
+    <AssemblyName>ParkerFox.IntegrationTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -32,11 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Iesi.Collections">
-      <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>..\packages\NHibernate.3.3.0.4000\lib\Net35\NHibernate.dll</HintPath>
+    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.0.12054\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,15 +44,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Product.cs" />
-    <Compile Include="Entities\Repository\IProductRepository.cs" />
-    <Compile Include="Entities\Repository\IRepository.cs" />
-    <Compile Include="Entities\Repository\IVisitorRepository.cs" />
-    <Compile Include="Entities\Visitor.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParkerFox.Application\ParkerFox.Application.csproj">
+      <Project>{13b42e01-21e9-4ca1-8eec-a3c32d3935dc}</Project>
+      <Name>ParkerFox.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Core\ParkerFox.Core.csproj">
+      <Project>{f7198e49-d059-41e4-a565-e3da758a74ac}</Project>
+      <Name>ParkerFox.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Infrastructure\ParkerFox.Infrastructure.csproj">
+      <Project>{f3c0773e-d0c8-45bb-b054-d395f3ee1deb}</Project>
+      <Name>ParkerFox.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Site\ParkerFox.Site.csproj">
+      <Project>{ffd0b652-57b7-4c2b-ad07-af94d882db07}</Project>
+      <Name>ParkerFox.Site</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

@@ -43,6 +43,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,12 +52,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\ActiveSessionManager.cs" />
+    <Compile Include="Data\AspRequestState.cs" />
     <Compile Include="Data\DataConfig.cs" />
+    <Compile Include="Data\IActiveSessionManager.cs" />
     <Compile Include="Data\IRepository.cs" />
+    <Compile Include="Data\IRequestState.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
+    <Compile Include="Data\Mapping\ProductMapping.cs" />
     <Compile Include="Data\Mapping\VisitorMapping.cs" />
+    <Compile Include="Data\UnitOfWork.cs" />
+    <Compile Include="Data\Web\UnitOfWorkFilter.cs" />
     <Compile Include="IBootStrapTask.cs" />
     <Compile Include="Messaging\Events\IRespondToEvent.cs" />
+    <Compile Include="Repository\ProductRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
     <Compile Include="Repository\VisitorRepository.cs" />
     <Compile Include="Messaging\Commands\IHandleCommand.cs" />

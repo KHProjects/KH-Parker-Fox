@@ -53,21 +53,7 @@ namespace ParkerFox.Site
 
             DataConfig.EnsureStartup();
 
-            SetupContainer();
-        }
-
-        //TODO: make IBootStrapTask
-        private void SetupContainer()
-        {
-            IKernel kernel = new StandardKernel();
-
-            kernel.Bind<IVisitorRepository>().To<VisitorRepository>();
-
-            var resolver = new NinjectDependencyResolver(kernel);
-
-            DependencyResolver.SetResolver(resolver);            
-        }
-
-        
+            new NinjectBindingTask().Execute(); //TODO: Reflect over assembly to extract all IBootStrapTask implementers
+        }        
     }
 }

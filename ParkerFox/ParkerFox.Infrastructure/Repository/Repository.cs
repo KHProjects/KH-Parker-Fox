@@ -13,30 +13,22 @@ namespace ParkerFox.Infrastructure.Repository
     /// <summary>
     /// http://blog.bobcravens.com/2010/06/the-repository-pattern-with-linq-to-fluent-nhibernate-and-mysql/
     /// http://www.storminajar.net/2010/08/30/letting-your-unitofwork-repositories-support-multiple-frameworks/
+    /// http://codebetter.com/gregyoung/2009/01/16/ddd-the-generic-repository/
     /// </summary>    
-    public class Repository<T> : IRepository<T> where T : class
-    {
-        private readonly ISession _Session;
-
-        public Repository(ISession session)
-        {
-            _Session = session;
+    public class Repository<T>  where T : class
+    {        
+        protected IEnumerable<T> Query(Expression<Func<T, bool>> expression) 
+        {            
+            ISession session = DataConfig.GetSession();
+            return session.QueryOver<T>().Where(expression).List();            
         }
 
-        void IRepository<T>.Add(T entity)
+        private ISession CurrentSession
         {
-            _Session.SaveOrUpdate(entity);            
-        }
-
-        public void Remove(T entity)
-        {
-            _Session.Delete(entity);
-        }
-
-        public IQueryable<T> Query(Expression<Func<T, object>> expression) 
-        {
-            throw new NotImplementedException();
-            //return _Session.QueryOver<T>().Fetch(expression);
+            get
+            {
+                return null;
+            }
         }
     }
 }
