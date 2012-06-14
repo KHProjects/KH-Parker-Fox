@@ -6,6 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using NHibernate;
+using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
 
 namespace ParkerFox.Infrastructure.Repository
@@ -17,10 +18,16 @@ namespace ParkerFox.Infrastructure.Repository
     /// </summary>    
     public class Repository<T>  where T : class
     {        
-        protected IEnumerable<T> Query(Expression<Func<T, bool>> expression) 
-        {            
-            ISession session = DataConfig.GetSession();
-            return session.QueryOver<T>().Where(expression).List();            
+        //protected IEnumerable<T> Query(Expression<Func<T, bool>> expression) 
+        //{            
+        //    ISession session = DataConfig.GetSession();
+        //    return session.QueryOver<T>().Where(expression).List();
+        //}
+
+        protected EntitySet<T> Query(Expression<Func<T, bool>> expression)
+        {
+            ISession session = DataConfig.GetSession();            
+            return new EntitySet<T>(session.QueryOver<T>().Where(expression));
         }
 
         private ISession CurrentSession

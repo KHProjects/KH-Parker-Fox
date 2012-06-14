@@ -21,12 +21,12 @@ namespace ParkerFox.Infrastructure.Repository
         
         public void Add(Product product)
         {
-            _activeSessionManager.GetActiveSession().SaveOrUpdate(product);            
+            _activeSessionManager.GetActiveSession().SaveOrUpdate(product);
         }
 
-        public IEnumerable<Product> GetOnPromotion()
-        {
-            return Query(p => p.ProductId == 1);
+        public IEntitySet<Product> GetOnPromotion()
+        {            
+            return Query(p => p.ProductId > 0);
         }
     }
 }

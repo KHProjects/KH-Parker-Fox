@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ParkerFox.Core.Entities;
 using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Data.Web;
@@ -22,13 +23,8 @@ namespace ParkerFox.Site.Controllers
         }
         
         public ActionResult Index()
-        {
-            //_unitOfWork.BeginTransaction();
-
-            var products = _products.GetOnPromotion();
-
-            //_unitOfWork
-
+        {            
+            var products = _products.GetOnPromotion().Page(0, 1);
 
             return View();
         }

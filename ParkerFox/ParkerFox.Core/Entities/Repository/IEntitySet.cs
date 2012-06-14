@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ParkerFox.Core.Entities.Repository
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface IEntitySet<T>
     {
-        IEntitySet<Product> GetOnPromotion();
+        IEnumerable<T> Page(int index, int size);
+        IEnumerable<T> All();
     }
 }
