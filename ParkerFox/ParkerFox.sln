@@ -32,6 +32,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkerFox.UnitTests", "Park
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkerFox.IntegrationTests", "ParkerFox.IntegrationTests\ParkerFox.IntegrationTests.csproj", "{5B2ED4EE-EDAC-46BE-B473-AD2C4743A613}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Notes", "0 - Notes", "{E0A5CA0F-121D-40CD-BBB6-E5208CD97067}"
+	ProjectSection(SolutionItems) = preProject
+		Links.txt = Links.txt
+		Principals and Practices.txt = Principals and Practices.txt
+		Testing.txt = Testing.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

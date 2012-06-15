@@ -1,0 +1,7 @@
+Encapsulate what varies.
+	When you know an area of code will vary, as in the repayment method of a loan varies.
+	This principal is behind nearly every design pattern!!!
+	Look for portions of code most likely to change and prepare them for future expansion by sheilding the rest of the program
+	from this change by using interfaces or abstract classes. SO when the implementation changes the software written against the interface doens't need to change too
+
+Favour composition over inheritance

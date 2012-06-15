@@ -2,12 +2,30 @@
 @{
     ViewBag.Title = "AddProduct";
 }
+<script type="text/javascript" src="~/Scripts/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="~/Scripts/knockout-2.1.0.js"></script>
+<script type="text/javascript">
+
+    //--KNOCKOUT => http://www.sitepoint.com/beginners-guide-to-knockoutjs-part-1/
+    $(function () {
+        function productViewModel() {
+            this.name = ko.observable("YO MAMA");            
+        };
+
+        ko.applyBindings(new productViewModel());
+    });
+</script>
 
 <h2>AddProduct</h2>
 
 @using (Html.BeginForm())
 {
     <dl>
-        <dt>@Html.LabelFor(x=>x.Name)</dt>    
+        <dt>@Html.LabelFor(x=>x.Name)</dt>
+        <dd>@Html.TextBoxFor(x => x.Name, new { data_bind = "text: name" })</dd>
+        <dt>&nbsp;</dt>
+        <dd class="commands">
+            <input id="saveProductCommand" type="submit" value="Save" />
+        </dd>
     </dl>
 }

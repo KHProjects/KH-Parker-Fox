@@ -51,6 +51,7 @@ namespace ParkerFox.Site
             DataConfig.EnsureStartup();
 
             new NinjectBindingTask().Execute(); //TODO: Reflect over assembly to extract all IBootStrapTask implementers
+            new MapViewModelToCommand().Execute();
         }        
     }
 }

@@ -1,0 +1,5 @@
+Martin Fowler (a leading mind in our industry) => http://martinfowler.com/articles/mocksArentStubs.html
+
+
+Mock: Fakes object with the intention of testing behaviour (asserting expectations)
+Stub: Fakes object which allows us to ignore behaviour or replace it and test state

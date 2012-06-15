@@ -8,6 +8,7 @@ using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Data.Web;
 using ParkerFox.Infrastructure.Repository;
+using ParkerFox.Site.ViewModels;
 
 namespace ParkerFox.Site.Controllers
 {
@@ -25,6 +26,18 @@ namespace ParkerFox.Site.Controllers
         public ActionResult Index()
         {            
             var products = _products.GetOnPromotion().Page(0, 1);
+                        
+            return View();
+        }
+
+        public ActionResult AddProduct()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AddProduct(ProductViewModel productViewModel)
+        {
 
             return View();
         }
