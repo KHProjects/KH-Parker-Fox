@@ -1,0 +1,9 @@
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\bin\Debug\MvcAsyncAwaitTest.Tests.dll.config
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\bin\Debug\MvcAsyncAwaitTest.Tests.dll
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\bin\Debug\MvcAsyncAwaitTest.Tests.pdb
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\bin\Debug\MvcAsyncAwaitTest.dll
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\bin\Debug\System.Web.Optimization.dll
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\bin\Debug\MvcAsyncAwaitTest.pdb
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\obj\Debug\MvcAsyncAwaitTest.Tests.csprojResolveAssemblyReference.cache
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\obj\Debug\MvcAsyncAwaitTest.Tests.dll
+c:\users\win7prox86\documents\visual studio 11\Projects\MvcAsyncAwaitTest\MvcAsyncAwaitTest.Tests\obj\Debug\MvcAsyncAwaitTest.Tests.pdb

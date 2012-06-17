@@ -1,0 +1,8 @@
+c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\obj\x86\Debug\NinjectIoC.csprojResolveAssemblyReference.cache
+c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\bin\Debug\NinjectIoC.exe
+c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\bin\Debug\NinjectIoC.pdb
+c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\bin\Debug\Ninject.dll
+c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\bin\Debug\Ninject.pdb
+c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\bin\Debug\Ninject.xml
+c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\obj\x86\Debug\NinjectIoC.exe
+c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\obj\x86\Debug\NinjectIoC.pdb

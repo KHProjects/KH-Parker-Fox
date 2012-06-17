@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAsyncAwaitTest", "MvcAsyncAwaitTest\MvcAsyncAwaitTest.csproj", "{12B044D9-F26D-44CD-B858-848CBE1E432D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAsyncAwaitTest.Tests", "MvcAsyncAwaitTest.Tests\MvcAsyncAwaitTest.Tests.csproj", "{6EFDA02E-B623-46D8-9FDD-283E9F9D792F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B044D9-F26D-44CD-B858-848CBE1E432D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B044D9-F26D-44CD-B858-848CBE1E432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B044D9-F26D-44CD-B858-848CBE1E432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B044D9-F26D-44CD-B858-848CBE1E432D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFDA02E-B623-46D8-9FDD-283E9F9D792F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFDA02E-B623-46D8-9FDD-283E9F9D792F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFDA02E-B623-46D8-9FDD-283E9F9D792F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFDA02E-B623-46D8-9FDD-283E9F9D792F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+c:\users\win7prox86\documents\visual studio 2010\Projects\ParkerFoxQuote\ParkerFoxQuote\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\win7prox86\documents\visual studio 2010\Projects\ParkerFoxQuote\ParkerFoxQuote\bin\Debug\ParkerFoxQuote.exe
+c:\users\win7prox86\documents\visual studio 2010\Projects\ParkerFoxQuote\ParkerFoxQuote\bin\Debug\ParkerFoxQuote.pdb
+c:\users\win7prox86\documents\visual studio 2010\Projects\ParkerFoxQuote\ParkerFoxQuote\obj\x86\Debug\ParkerFoxQuote.exe
+c:\users\win7prox86\documents\visual studio 2010\Projects\ParkerFoxQuote\ParkerFoxQuote\obj\x86\Debug\ParkerFoxQuote.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\ParkerFoxQuote - Ver 1\ParkerFoxQuote\obj\x86\Debug\ParkerFoxQuote.exe
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\ParkerFoxQuote - Ver 1\ParkerFoxQuote\obj\x86\Debug\ParkerFoxQuote.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\ParkerFoxQuote - Ver 1\ParkerFoxQuote\bin\Debug\ParkerFoxQuote.exe
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\ParkerFoxQuote - Ver 1\ParkerFoxQuote\bin\Debug\ParkerFoxQuote.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\ParkerFoxQuote - Ver 1\ParkerFoxQuote\obj\x86\Debug\ParkerFoxQuote.csprojResolveAssemblyReference.cache

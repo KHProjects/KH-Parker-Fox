@@ -1,0 +1,12 @@
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\UnityIoC.exe
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\UnityIoC.pdb
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\obj\x86\Debug\UnityIoC.csprojResolveAssemblyReference.cache
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\obj\x86\Debug\UnityIoC.exe
+c:\users\win7prox86\documents\visual studio 2010\Projects\UnityIoC\UnityIoC\obj\x86\Debug\UnityIoC.pdb

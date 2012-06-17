@@ -1,0 +1,11 @@
+This is a simple program to demonstrate how I solved the number to words challenge.
+
+There is probably a better way to do this and there are some areas that can be improved, but this project was created without any research or solutions that might already exist to perform this functionality and was coded in 1 day.
+
+The program should accept commas, negative numbers and currency symbols but not characters or decimal places.
+
+If i was creating this functionality in MVC or WPF then I would use the same "Tools" class that I have created and change the output.
+
+
+The technologies I would like to work with are:
+C#, ASP.NET MVC, Entity Framework, LinQ, Web Services (WCF, WebApi), XML, SQL Server 2008r2, AJAX and N-Tier Standards.
