@@ -10,6 +10,7 @@ namespace ParkerFox.Infrastructure.Data
     public class ActiveSessionManager : IActiveSessionManager
     {
         private const string sessionKey = "currentSession";
+        private const string unitOfWorkKey = "unitOfWork";
         private readonly IRequestState _requestState;
 
         public ActiveSessionManager(IRequestState requestState)
@@ -38,6 +39,13 @@ namespace ParkerFox.Infrastructure.Data
             {
                 _requestState.Store(sessionKey, value);
             }
+        }
+
+
+        public IUnitOfWork GetCurrentUnit
+        {
+            get{return _requestState.Get<IUnitOfWork>(unitOfWorkKey);}
+            set{_requestState.Store(unitOfWorkKey, value);}
         }
     }
 }

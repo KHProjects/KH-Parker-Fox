@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AutoMapper;
 using ParkerFox.Core.Entities;
 using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
@@ -38,6 +39,10 @@ namespace ParkerFox.Site.Controllers
         [HttpPost]
         public ActionResult AddProduct(ProductViewModel productViewModel)
         {
+            //_unitOfWork.BeginTransaction();
+            Product product = Mapper.Map<Product>(productViewModel);
+            _products.Add(product);
+            _unitOfWork.Commit();
 
             return View();
         }

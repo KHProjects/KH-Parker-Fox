@@ -13,5 +13,7 @@ namespace ParkerFox.Infrastructure.Data
     public interface IActiveSessionManager
     {
         ISession GetActiveSession();
+
+        ///IUnitOfWork GetCurrentUnit();
     }
 }

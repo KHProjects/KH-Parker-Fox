@@ -48,10 +48,10 @@ namespace ParkerFox.Site
 
             BundleTable.Bundles.RegisterTemplateBundles();
 
-            DataConfig.EnsureStartup();
-
+            DataConfig.EnsureStartup();            
+            
             new NinjectBindingTask().Execute(); //TODO: Reflect over assembly to extract all IBootStrapTask implementers
             new MapViewModelToCommand().Execute();
-        }        
+        }
     }
 }

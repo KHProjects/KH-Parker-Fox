@@ -11,6 +11,7 @@ namespace ParkerFox.Infrastructure.Data
     {
         private readonly IActiveSessionManager _activeSessionManager;
         private ITransaction _transactionScope;
+        private ISession _currentSession;
 
         public UnitOfWork(IActiveSessionManager activeSessionManager)
         {
@@ -19,12 +20,30 @@ namespace ParkerFox.Infrastructure.Data
 
         public void Commit()
         {
-            _transactionScope.Commit();
+            if(_transactionScope != null)
+                _transactionScope.Commit();
         }
 
         public void BeginTransaction()
         {
-            _transactionScope = _activeSessionManager.GetActiveSession().BeginTransaction();
+            //_transactionScope = _activeSessionManager.GetActiveSession().BeginTransaction();
+            ISession currentSession = GetCurrentSession();
+            _transactionScope = currentSession.BeginTransaction();
+        }
+
+        public void SaveOrUpdate(object obj)
+        {
+            ISession currentSession = GetCurrentSession();
+            if (_transactionScope == null)
+                BeginTransaction();
+            currentSession.SaveOrUpdate(obj);
+        }
+
+        private ISession GetCurrentSession()
+        {
+            if (_currentSession == null)
+                _currentSession = DataConfig.GetSession();
+            return _currentSession;
         }
     }
 }

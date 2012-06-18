@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace ParkerFox.Infrastructure.Data
 {
     public interface IUnitOfWork
-    {        
+    {
+        void SaveOrUpdate(object obj);
+
         void Commit();
 
         void BeginTransaction();
