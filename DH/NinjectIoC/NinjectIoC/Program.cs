@@ -28,6 +28,8 @@ namespace NinjectIoC
       shopper.Charge();
       Console.WriteLine(shopper.ChargesForCurrentCard);
 
+      kernal.Rebind<ICreditCard>().To<MasterCard>();
+
       var shopper2 = kernal.Get<Shopper>();
       shopper2.Charge();
       Console.WriteLine(shopper2.ChargesForCurrentCard);

@@ -6,3 +6,11 @@ c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\
 c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\bin\Debug\Ninject.xml
 c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\obj\x86\Debug\NinjectIoC.exe
 c:\users\win7prox86\documents\visual studio 2010\Projects\NinjectIoC\NinjectIoC\obj\x86\Debug\NinjectIoC.pdb
+C:\Users\Win7ProX86\Documents\GitHub\KH-Parker-Fox\DH\NinjectIoC\NinjectIoC\obj\x86\Debug\NinjectIoC.exe
+C:\Users\Win7ProX86\Documents\GitHub\KH-Parker-Fox\DH\NinjectIoC\NinjectIoC\obj\x86\Debug\NinjectIoC.pdb
+C:\Users\Win7ProX86\Documents\GitHub\KH-Parker-Fox\DH\NinjectIoC\NinjectIoC\bin\Debug\NinjectIoC.exe
+C:\Users\Win7ProX86\Documents\GitHub\KH-Parker-Fox\DH\NinjectIoC\NinjectIoC\bin\Debug\NinjectIoC.pdb
+C:\Users\Win7ProX86\Documents\GitHub\KH-Parker-Fox\DH\NinjectIoC\NinjectIoC\bin\Debug\Ninject.dll
+C:\Users\Win7ProX86\Documents\GitHub\KH-Parker-Fox\DH\NinjectIoC\NinjectIoC\bin\Debug\Ninject.pdb
+C:\Users\Win7ProX86\Documents\GitHub\KH-Parker-Fox\DH\NinjectIoC\NinjectIoC\bin\Debug\Ninject.xml
+C:\Users\Win7ProX86\Documents\GitHub\KH-Parker-Fox\DH\NinjectIoC\NinjectIoC\obj\x86\Debug\NinjectIoC.csprojResolveAssemblyReference.cache
