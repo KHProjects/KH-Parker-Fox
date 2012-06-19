@@ -18,24 +18,11 @@ namespace ParkerFox.Infrastructure.Repository
     /// </summary>    
     public class Repository<T>  where T : class
     {        
-        //protected IEnumerable<T> Query(Expression<Func<T, bool>> expression) 
-        //{            
-        //    ISession session = DataConfig.GetSession();
-        //    return session.QueryOver<T>().Where(expression).List();
-        //}
+        private IUnitOfWork _unitOfWork;
 
         protected EntitySet<T> Query(Expression<Func<T, bool>> expression)
         {
-            ISession session = DataConfig.GetSession();            
-            return new EntitySet<T>(session.QueryOver<T>().Where(expression));
-        }
-
-        private ISession CurrentSession
-        {
-            get
-            {
-                return null;
-            }
+            return _unitOfWork.Query<T>(expression);
         }
     }
 }

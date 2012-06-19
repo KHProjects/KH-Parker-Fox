@@ -25,9 +25,9 @@ namespace ParkerFox.Site.Controllers
         }
         
         public ActionResult Index()
-        {            
+        {
             var products = _products.GetOnPromotion().Page(0, 1);
-                        
+
             return View();
         }
 

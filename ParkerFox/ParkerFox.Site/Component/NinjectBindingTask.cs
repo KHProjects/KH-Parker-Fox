@@ -8,6 +8,7 @@ using ParkerFox.Infrastructure;
 using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Repository;
 using Ninject.Web.Common;
+using System.Web.Http;
 
 namespace ParkerFox.Site.Component
 {
@@ -29,9 +30,9 @@ namespace ParkerFox.Site.Component
             kernel.Bind<IActiveSessionManager>().To<ActiveSessionManager>();
             kernel.Bind<IUnitOfWork>().To<UnitOfWork>().InRequestScope();
 
-            var resolver = new NinjectDependencyResolver(kernel);
-
-            System.Web.Mvc.DependencyResolver.SetResolver(resolver);
+            //TODO: TWO! really
+            System.Web.Mvc.DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
+            GlobalConfiguration.Configuration.DependencyResolver = new NinjectHttpDependencyResolver(kernel); 
         }
     }
 }
