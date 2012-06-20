@@ -1,0 +1,107 @@
+{
+  "categories": {
+    "category": [{
+      "alias": "jquery",
+      "type": "application/javascript",
+      "files": {
+        "file": [{
+          "directory": "~/Scripts",
+          "name": "jquery-1.6.2.js"
+        }, {
+          "directory": "~/Scripts",
+          "name": "jquery-ui-1.8.11.js"
+        }, {
+          "directory": "~/Scripts",
+          "name": "jquery.validate.unobtrusive.js"
+        }, {
+          "directory": "~/Scripts",
+          "name": "jquery.unobtrusive-ajax.js"
+        }, {
+          "directory": "~/Scripts",
+          "name": "jquery.validate.js"
+        }]
+      }
+    }],
+    "category": [{
+      "alias": "modernizr",
+      "type": "application/javascript",
+      "files": {
+        "file": [{
+          "directory": "~/Scripts",
+          "name": "modernizr-2.0.6-development-only.js"
+        }]
+      }
+    }],
+    "category": [{
+      "alias": "ajaxlogin",
+      "type": "application/javascript",
+      "files": {
+        "file": [{
+          "directory": "~/Scripts",
+          "name": "ajaxlogin.js"
+        }]
+      }
+    }],
+    "category": [{
+      "alias": "knockout",
+      "type": "application/javascript",
+      "files": {
+        "file": [{
+          "directory": "~/Scripts",
+          "name": "knockout-2.0.0.debug.js"
+        }]
+      }
+    }],
+    "category": [{
+      "alias": "site",
+      "type": "application/css",
+      "files": {
+        "file": [{
+          "directory": "~/Content",
+          "name": "site.css"
+        }]
+      }
+    }],
+    "category": [{
+      "alias": "jqueryui",
+      "type": "application/css",
+      "files": {
+        "file": [{
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.core.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.resizable.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.selectable.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.accordion.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.autocomplete.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.autocomplete.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.slider.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.dialog.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.tabs.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.datepicker.css"
+        }, {
+          "directory": "~/Content/themes/base",
+          "name": "jquery.ui.theme.css"
+        }]
+      }
+    }]
+
+  }
+}

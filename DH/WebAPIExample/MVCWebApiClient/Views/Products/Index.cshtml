@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Data.Product>
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<span class="pagetitle">Products</span>
+
+<p class="navlink">
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+@{if (@Model.ToList().Count > 0) {
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Actions</th>
+    </tr>
+
+@foreach ( Data.Product product in Model) {
+    <tr>
+        <td>@product.Id</td>
+        <td>@product.Name</td>
+        <td>@product.Price</td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=product.Id}) 
+            @Html.ActionLink("Details", "Details", new { id = product.Id }) 
+            @Html.ActionLink("Delete", "Delete", new { id = product.Id })
+        </td>
+    </tr>
+}
+
+</table>
+}}

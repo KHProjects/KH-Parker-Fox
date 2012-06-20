@@ -1,0 +1,38 @@
+﻿@model Data.Product
+
+@{
+    ViewBag.Title = "Edit Product";
+}
+
+<span class="pagetitle">Edit Product</span>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Price)
+            @Html.ValidationMessageFor(model => model.Price)
+        </div>
+
+        <p>
+            <input class="button" type="submit" value="Save" />
+        </p>
+}
+
+<div class="navlink">
+    @Html.ActionLink("Back to List", "Index")
+</div>

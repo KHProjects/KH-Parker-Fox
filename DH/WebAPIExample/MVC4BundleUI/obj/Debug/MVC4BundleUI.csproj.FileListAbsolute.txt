@@ -1,0 +1,111 @@
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\MVC4BundleUI.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\MVC4BundleUI.pdb
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\EntityFramework.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\Newtonsoft.Json.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Json.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Net.Http.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Net.Http.Formatting.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Net.Http.WebRequest.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Helpers.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Http.Common.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Http.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Http.WebHost.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Mvc.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Optimization.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Providers.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Razor.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.WebPages.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\EntityFramework.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Json.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Net.Http.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Net.Http.Formatting.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Net.Http.WebRequest.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Helpers.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Http.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Http.Common.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Http.WebHost.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Mvc.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.Razor.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.WebPages.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\obj\Debug\MVC4BundleUI.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\obj\Debug\MVC4BundleUI.pdb
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\EcmaScript.NET.modified.dll
+C:\Users\jpetersen\documents\visual studio 2010\Projects\MVC4BundleExample\MVC4BundleUI\bin\Yahoo.Yui.Compressor.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\MVC4BundleUI.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\MVC4BundleUI.pdb
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\EntityFramework.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Json.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Net.Http.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Net.Http.Formatting.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Net.Http.WebRequest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Helpers.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Http.Common.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Http.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Http.WebHost.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Mvc.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Optimization.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Providers.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Razor.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.WebPages.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\EntityFramework.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Json.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Net.Http.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Net.Http.Formatting.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Net.Http.WebRequest.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Helpers.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Http.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Http.Common.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Http.WebHost.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Mvc.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.Razor.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.WebPages.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\obj\Debug\MVC4BundleUI.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\obj\Debug\MVC4BundleUI.pdb
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\MVC4BundleUI\obj\Debug\MVC4BundleUI.csprojResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\MVC4BundleUI.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\MVC4BundleUI.pdb
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\EntityFramework.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Json.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Net.Http.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Net.Http.Formatting.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Net.Http.WebRequest.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Helpers.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Http.Common.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Http.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Http.WebHost.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Mvc.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Optimization.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Providers.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Razor.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.WebPages.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\EntityFramework.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Json.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Net.Http.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Net.Http.Formatting.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Net.Http.WebRequest.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Helpers.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Http.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Http.Common.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Http.WebHost.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Mvc.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.Razor.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.WebPages.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\obj\Debug\MVC4BundleUI.csprojResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\obj\Debug\MVC4BundleUI.dll
+C:\Users\jpetersen\Documents\presentations\2012\aspwebapiexample\webapiexample\MVC4BundleUI\obj\Debug\MVC4BundleUI.pdb

@@ -1,0 +1,35 @@
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPITest\bin\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPITest\bin\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPITest\bin\Debug\nunit.framework.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPITest\bin\Debug\nunit.framework.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPITest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPITest\obj\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPITest\obj\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPITest\bin\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPITest\bin\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPITest\bin\Debug\nunit.framework.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPITest\bin\Debug\nunit.framework.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPITest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPITest\obj\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPITest\obj\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPITest\bin\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPITest\bin\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPITest\bin\Debug\nunit.framework.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPITest\bin\Debug\nunit.framework.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPITest\obj\Debug\WebAPITest.csprojResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPITest\obj\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPITest\obj\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\WebApiTest.dll.config
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\WebApiTest.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\WebApiTest.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\nunit.framework.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\Serializer.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\System.Net.Http.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\Serializer.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\nunit.framework.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\System.Net.Http.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\obj\Debug\WebApiTest.csprojResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\obj\Debug\WebApiTest.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPITest\obj\Debug\WebApiTest.pdb

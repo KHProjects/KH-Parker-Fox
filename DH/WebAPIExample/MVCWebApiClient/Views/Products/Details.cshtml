@@ -1,0 +1,19 @@
+﻿@model Data.Product
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<span class="pagetitle">Product Details</span>
+
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+    </div>
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Price): @Html.DisplayFor(model => model.Price)
+    </div>
+<p class="navlink">
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

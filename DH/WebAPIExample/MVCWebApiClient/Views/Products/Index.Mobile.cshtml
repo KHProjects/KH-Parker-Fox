@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Data.Product>
+
+@{
+    ViewBag.Title = "Products - Mobile";
+    Layout = null;
+}
+
+<span class="pagetitle">Products</span>
+
+@{if (@Model.ToList().Count > 0) {
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+
+@foreach ( Data.Product product in Model) {
+    <tr>
+        <td>@product.Id</td>
+        <td>@product.Name</td>
+        <td>@product.Price</td>
+    </tr>
+}
+</table>
+}}

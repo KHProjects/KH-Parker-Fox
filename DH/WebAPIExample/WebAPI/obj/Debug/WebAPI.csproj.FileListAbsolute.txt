@@ -1,0 +1,144 @@
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\WebAPITest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\EntityFramework.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Json.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Net.Http.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Net.Http.WebRequest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Http.Common.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Http.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Providers.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Razor.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\EntityFramework.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Json.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Net.Http.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Net.Http.WebRequest.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Http.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Http.Common.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.Razor.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\obj\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\Web-Api\Example\WebAPI\obj\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\WebAPITest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\EntityFramework.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Json.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Net.Http.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Net.Http.WebRequest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Http.Common.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Http.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Providers.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Razor.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\EntityFramework.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Json.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Net.Http.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Net.Http.WebRequest.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Http.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Http.Common.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.Razor.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\obj\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Visual Studio 2010\Projects\MVC4Essentials\WebAPI\obj\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\WebAPITest.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\EntityFramework.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Json.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Net.Http.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Net.Http.WebRequest.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Http.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Providers.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Razor.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\EntityFramework.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Json.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Net.Http.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Net.Http.WebRequest.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Http.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.Razor.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\obj\Debug\WebAPITest.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\obj\Debug\WebAPITest.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\jpetersen\Documents\Presentations\2012\VSLive-032012\ASPNETMVC4\Code\MVC4Essentials\WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\WebAPI.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\WebAPI.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\EntityFramework.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Json.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Net.Http.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Net.Http.WebRequest.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Http.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Providers.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Razor.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\EntityFramework.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Json.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Net.Http.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Net.Http.WebRequest.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Http.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.Razor.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\obj\Debug\WebApi.csprojResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\obj\Debug\WebAPI.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\WebAPI\obj\Debug\WebAPI.pdb

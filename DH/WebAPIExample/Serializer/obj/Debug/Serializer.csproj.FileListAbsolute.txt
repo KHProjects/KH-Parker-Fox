@@ -1,0 +1,9 @@
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\bin\Debug\Serializer.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\bin\Debug\Serializer.pdb
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\bin\Debug\System.Net.Http.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\bin\Debug\System.Net.Http.xml
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\obj\Debug\Serializer.csprojResolveAssemblyReference.cache
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\obj\Debug\Serializer.dll
+C:\Users\jpetersen\Documents\Presentations\2012\ASPWebAPIExample\WebAPIExample\Serializer\obj\Debug\Serializer.pdb
