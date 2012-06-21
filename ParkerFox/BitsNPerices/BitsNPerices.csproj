@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Composite.cs" />
     <Compile Include="StrategyPattern.cs" />
     <Compile Include="LoanApplications.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
