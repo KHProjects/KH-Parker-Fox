@@ -12,23 +12,18 @@ namespace ParkerFox.Infrastructure.Repository
 {
     public class ProductRepository : Repository<Product>, IProductRepository
     {
-        //private readonly IActiveSessionManager _activeSessionManager;
-        private readonly IUnitOfWork _unitOfWork;
-
-        public ProductRepository(/*IActiveSessionManager activeSessionManager*/ IUnitOfWork unitOfWork)
+        public ProductRepository(IUnitOfWork unitOfWork)
+            : base(unitOfWork)
         {
-            //_activeSessionManager = activeSessionManager;
-            _unitOfWork = unitOfWork;
         }
-        
+
         public void Add(Product product)
         {
-            //_activeSessionManager.GetActiveSession().SaveOrUpdate(product);
-            _unitOfWork.SaveOrUpdate(product);
+            CurrentUnitOfWork.SaveOrUpdate(product);
         }
 
         public IEntitySet<Product> GetOnPromotion()
-        {            
+        {
             return Query(p => p.ProductId > 0);
         }
     }

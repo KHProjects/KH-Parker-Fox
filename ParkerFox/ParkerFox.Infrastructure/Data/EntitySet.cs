@@ -26,5 +26,10 @@ namespace ParkerFox.Infrastructure.Data
         {
             return _source.List();
         }
+
+        public T SingleOrDefault()
+        {
+            return _source.SingleOrDefault();
+        }
     }
 }

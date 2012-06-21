@@ -10,7 +10,7 @@ namespace ParkerFox.Infrastructure.Data
     public interface IUnitOfWork
     {
         //TODO: this would allow anyone to query and bypass the repository all together
-        EntitySet<T> Query<T>(Expression<Func<T, bool>> expression);
+        EntitySet<T> Query<T>(Expression<Func<T, bool>> expression) where T : class;
 
         void SaveOrUpdate(object obj);
 

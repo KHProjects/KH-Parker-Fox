@@ -25,6 +25,7 @@ namespace ParkerFox.Site.Component
 
             kernel.Bind<IVisitorRepository>().To<VisitorRepository>();
             kernel.Bind<IProductRepository>().To<ProductRepository>();
+            kernel.Bind<ISubscriptionRepository>().To<SubscriptionRepository>();
 
             kernel.Bind<IRequestState>().To<AspRequestState>();
             kernel.Bind<IActiveSessionManager>().To<ActiveSessionManager>();

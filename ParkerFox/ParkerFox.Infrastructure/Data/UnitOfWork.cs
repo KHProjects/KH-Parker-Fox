@@ -47,10 +47,17 @@ namespace ParkerFox.Infrastructure.Data
             return _currentSession;
         }
 
-        public EntitySet<T> Query<T>(Expression<Func<T, bool>> expression)
+        public EntitySet<T> Query<T>(Expression<Func<T, bool>> expression) where T:class
         {
             ISession session = GetCurrentSession();
             return new EntitySet<T>(session.QueryOver<T>().Where(expression));
+        }
+
+        public void CreateQuery(string query)
+        {
+            ISession session = GetCurrentSession();
+
+        
         }
     }
 }

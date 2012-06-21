@@ -62,13 +62,16 @@
     <Compile Include="Data\IRequestState.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
     <Compile Include="Data\Mapping\ProductMapping.cs" />
+    <Compile Include="Data\Mapping\SubscriptionMapping.cs" />
     <Compile Include="Data\Mapping\VisitorMapping.cs" />
     <Compile Include="Data\UnitOfWork.cs" />
     <Compile Include="Data\Web\UnitOfWorkFilter.cs" />
     <Compile Include="IBootStrapTask.cs" />
     <Compile Include="Messaging\Events\IRespondToEvent.cs" />
+    <Compile Include="Repository\ISubscriptionRepository.cs" />
     <Compile Include="Repository\ProductRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\SubscriptionRepository.cs" />
     <Compile Include="Repository\VisitorRepository.cs" />
     <Compile Include="Messaging\Commands\IHandleCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

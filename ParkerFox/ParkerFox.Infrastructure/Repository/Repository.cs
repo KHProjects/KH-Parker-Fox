@@ -20,9 +20,19 @@ namespace ParkerFox.Infrastructure.Repository
     {        
         private IUnitOfWork _unitOfWork;
 
+        public Repository(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+
         protected EntitySet<T> Query(Expression<Func<T, bool>> expression)
         {
             return _unitOfWork.Query<T>(expression);
+        }
+
+        protected IUnitOfWork CurrentUnitOfWork
+        {
+            get { return _unitOfWork; }
         }
     }
 }
