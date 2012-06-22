@@ -1,0 +1,14 @@
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\WebApiTest.dll.config
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\WebApiTest.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\WebApiTest.pdb
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\nunit.framework.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\Serializer.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\System.Net.Http.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\Newtonsoft.Json.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\Serializer.pdb
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\nunit.framework.xml
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\System.Net.Http.xml
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\bin\Release\Newtonsoft.Json.xml
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\obj\Release\WebApiTest.csprojResolveAssemblyReference.cache
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\obj\Release\WebApiTest.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\WebAPITest\obj\Release\WebApiTest.pdb

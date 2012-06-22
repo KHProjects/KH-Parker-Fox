@@ -1,0 +1,9 @@
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\bin\Release\Serializer.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\bin\Release\Serializer.pdb
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\bin\Release\Newtonsoft.Json.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\bin\Release\System.Net.Http.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\bin\Release\Newtonsoft.Json.xml
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\bin\Release\System.Net.Http.xml
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\obj\Release\Serializer.csprojResolveAssemblyReference.cache
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\obj\Release\Serializer.dll
+C:\Users\dhavelock\Documents\GitHub\KH-Parker-Fox\DH\WebAPIExample\Serializer\obj\Release\Serializer.pdb
