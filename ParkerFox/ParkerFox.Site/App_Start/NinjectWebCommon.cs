@@ -1,3 +1,5 @@
+///http://haacked.com/archive/2010/05/16/three-hidden-extensibility-gems-in-asp-net-4.aspx
+
 [assembly: WebActivator.PreApplicationStartMethod(typeof(ParkerFox.Site.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(ParkerFox.Site.App_Start.NinjectWebCommon), "Stop")]
 

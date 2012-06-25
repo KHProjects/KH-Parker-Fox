@@ -26,8 +26,6 @@ namespace ParkerFox.Site
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            
-
             //routes.MapHttpRoute(
             //    name: "DefaultApi",
             //    routeTemplate: "api/{controller}/{id}",
@@ -44,16 +42,17 @@ namespace ParkerFox.Site
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-            
+
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
 
             BundleTable.Bundles.RegisterTemplateBundles();
 
-            DataConfig.EnsureStartup();            
-            
+            DataConfig.EnsureStartup();
+
             new NinjectBindingTask().Execute(); //TODO: Reflect over assembly to extract all IBootStrapTask implementers
             new MapViewModelToCommand().Execute();
+
         }
     }
 }

@@ -88,6 +88,9 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
     </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>..\packages\Rx-Main.1.0.11226\lib\Net4\System.Reactive.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -144,6 +147,7 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="Component\MapViewModelToCommand.cs" />
     <Compile Include="Component\NinjectBindingTask.cs" />
+    <Compile Include="Component\NinjectControllerFactory.cs" />
     <Compile Include="Component\NinjectDependencyResolver.cs" />
     <Compile Include="Component\NinjectHttpDependencyResolver.cs" />
     <Compile Include="Component\NinjectScope.cs" />
@@ -159,6 +163,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\ParkerFox.sdf" />
+    <Content Include="Content\images\ajax-loader.gif" />
+    <Content Include="Content\images\ajax-loader.png" />
+    <Content Include="Content\images\icons-18-black.png" />
+    <Content Include="Content\images\icons-18-white.png" />
+    <Content Include="Content\images\icons-36-black.png" />
+    <Content Include="Content\images\icons-36-white.png" />
+    <Content Include="Content\jquery.mobile-1.1.0.css" />
+    <Content Include="Content\jquery.mobile-1.1.0.min.css" />
+    <Content Include="Content\jquery.mobile.structure-1.1.0.css" />
+    <Content Include="Content\jquery.mobile.structure-1.1.0.min.css" />
+    <Content Include="Content\jquery.mobile.theme-1.1.0.css" />
+    <Content Include="Content\jquery.mobile.theme-1.1.0.min.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -225,6 +241,10 @@
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.min.js">
       <DependentUpon>jquery-ui-1.8.20.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery.mobile-1.1.0.js" />
+    <Content Include="Scripts\jquery.mobile-1.1.0.min.js">
+      <DependentUpon>jquery.mobile-1.1.0.js</DependentUpon>
     </Content>
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js">

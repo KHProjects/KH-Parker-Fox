@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Magazine\Subscription.cs" />
+    <Compile Include="Entities\Magazine\SubscriptionTerm.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Repository\IEntitySet.cs" />
     <Compile Include="Entities\Repository\IProductRepository.cs" />

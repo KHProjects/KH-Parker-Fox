@@ -31,6 +31,9 @@ namespace ParkerFox.Site.Component
             kernel.Bind<IActiveSessionManager>().To<ActiveSessionManager>();
             kernel.Bind<IUnitOfWork>().To<UnitOfWork>().InRequestScope();
 
+            //below is how you would just supply ninject to controller injection
+            //ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory(kernel));
+
             //TODO: TWO! really
             System.Web.Mvc.DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
             GlobalConfiguration.Configuration.DependencyResolver = new NinjectHttpDependencyResolver(kernel); 
