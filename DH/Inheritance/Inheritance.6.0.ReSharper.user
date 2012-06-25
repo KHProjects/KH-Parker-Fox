@@ -1,0 +1,66 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="320" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="1294" fromTop="23" />
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="809" fromTop="37" />
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="492" fromTop="15" />
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="1266" fromTop="33" />
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="1028" fromTop="24" />
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="503" fromTop="11" />
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="826" fromTop="20" />
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="344" fromTop="15" />
+      <File id="DECD1B7F-1B9F-4C9D-856C-CD417C356F96/f:Program.cs" caret="281" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="93" />
+      <Item value="interface" priority="30" />
+      <Item value="int" priority="31" />
+      <Item value="class" priority="30" />
+      <Item value="IAccount`0" priority="63" />
+      <Item value="private" priority="31" />
+      <Item value="GetBalance`0" priority="31" />
+      <Item value="prop" priority="31" />
+      <Item value="_balance" priority="63" />
+      <Item value="payment" priority="31" />
+      <Item value="return" priority="127" />
+      <Item value="true" priority="63" />
+      <Item value="bool" priority="31" />
+      <Item value="double" priority="31" />
+      <Item value="virtual" priority="31" />
+      <Item value="override" priority="31" />
+      <Item value="if" priority="31" />
+      <Item value="withdrawal" priority="95" />
+      <Item value="false" priority="63" />
+      <Item value="new" priority="31" />
+      <Item value="CurrentAccount" priority="28" />
+      <Item value="account" priority="63" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Inheritance.IAccount">
+      <Item value="Payment`0" priority="26" />
+      <Item value="Withdraw`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
