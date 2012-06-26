@@ -1,2 +1,3 @@
 CQRS => http://ericfarr.net/ddd-anti-pattern-1-not-accounting-for-commands-and-queries-as-separate-concerns/
 Application Bus => http://trycatchfail.com/blog/post/The-Application-Bus.aspx
+NHibernate docs => http://www.nhforge.org/doc/nh/en/index.html

@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using AutoMapper;
 using ParkerFox.Core.Entities;
+using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Core.Entities.Magazine;
 using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
@@ -29,21 +30,12 @@ namespace ParkerFox.Site.Controllers
         
         public ActionResult Index()
         {
-            var products = _products.GetOnPromotion().Page(0, 1);
-            
-            var sub = subs.GetById(2);
-
-            //Subscription s = new Subscription("this is a test", DateTime.Now);
-            //subs.Add(s);
-
-            //_unitOfWork.Commit();
-
             return View();
         }
 
         public ActionResult AddProduct()
         {
-            return View();
+            return View(new ProductViewModel { Name = "initial view model" });
         }
 
         [HttpPost]

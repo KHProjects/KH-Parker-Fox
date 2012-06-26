@@ -8,7 +8,7 @@ using ParkerFox.Core.Entities;
 
 namespace ParkerFox.Infrastructure.Data.Mapping
 {
-    public class ProductMapping : ClassMap<Product>
+    public class ProductMapping : ClassMap<ParkerFox.Core.Entities.Ecommerce.Product>
     {
         public ProductMapping()
         {

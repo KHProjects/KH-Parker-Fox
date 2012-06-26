@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParkerFox.Core.Entities
+namespace ParkerFox.Core.Entities.Ecommerce
 {
     public class Product
     {

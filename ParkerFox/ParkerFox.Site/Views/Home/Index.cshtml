@@ -4,38 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <title>ASP.NET Web API</title>
-    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
-    <script src="@Url.Content("~/Scripts/modernizr-2.0.6-development-only.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />    
     <meta name="viewport" content="width=device-width" />
-
-    <script type="text/javascript">
-        $(function () {
-            ///http://stephenwalther.com/archive/2012/03/05/introduction-to-the-asp-net-web-api.aspx
-            $("#getProduct").click(function () {
-                alert('yp');
-
-                $.ajax(
-                {
-                    url:"/api/Product",
-                    data:{id:1},
-                    type:"GET",
-                    contentType : "application/json;charset=utf-8",
-                    statusCode : {
-                        200 : function(product){
-                            alert(product.Name);
-                        },
-                        404 : function(){
-                            alert("not found");
-                        }
-                    }
-                });
-        });
-
-    </script>
 </head>
 <body>
     <header>
-        <div class="content-wrapper">       
+        <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title"><a href="/">ASP.NET Web API</a></p>
             </div>
@@ -97,5 +71,28 @@
             </section>
         </section>
     </div>
+    <script type="text/javascript">
+        $(function () {
+            alert('hello');
+            ///http://stephenwalther.com/archive/2012/03/05/introduction-to-the-asp-net-web-api.aspx
+            $("#getProduct").click(function () {
+                $.ajax(
+                {
+                    url: "/api/Product",
+                    data: { id: 1 },
+                    type: "GET",
+                    contentType: "application/json;charset=utf-8",
+                    statusCode: {
+                        200: function (product) {
+                            alert(product.Name);
+                        },
+                        404: function () {
+                            alert("not found");
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using AutoMapper;
 using ParkerFox.Core.Entities;
+using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Infrastructure;
 using ParkerFox.Site.ViewModels;
 

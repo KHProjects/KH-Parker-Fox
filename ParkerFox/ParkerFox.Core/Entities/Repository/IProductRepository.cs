@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ParkerFox.Core.Entities.Repository
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface IProductRepository : IRepository<ParkerFox.Core.Entities.Ecommerce.Product>
     {
-        IEntitySet<Product> GetOnPromotion();
+        IEntitySet<ParkerFox.Core.Entities.Ecommerce.Product> GetOnPromotion();
     }
 }

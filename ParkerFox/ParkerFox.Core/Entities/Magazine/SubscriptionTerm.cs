@@ -8,7 +8,7 @@ namespace ParkerFox.Core.Entities.Magazine
 {
     public class SubscriptionTerm
     {
-        public int virtual SubscriptionTermId { get; set; }
+        public virtual int SubscriptionTermId { get; set; }
         
     }
 }

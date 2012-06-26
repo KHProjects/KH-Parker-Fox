@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NHibernate;
 using ParkerFox.Core.Entities;
+using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
 

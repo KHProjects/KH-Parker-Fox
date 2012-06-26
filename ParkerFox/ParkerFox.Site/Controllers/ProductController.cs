@@ -22,7 +22,7 @@ namespace ParkerFox.Site.Controllers
 
         public void Put(ProductViewModel product)
         {
-
+            string name = product.Name;
         }
     }
 }

@@ -58,6 +58,7 @@ namespace ParkerFox.Infrastructure.Data
             return Fluently.Configure()
             .Database(MsSqlCeConfiguration.Standard
             .ConnectionString(@"Data Source=|DataDirectory|\ParkerFox.sdf")
+            .ShowSql()
             .Driver<NHibernate.Driver.SqlServerCeDriver>()
             .Dialect<NHibernate.Dialect.MsSqlCeDialect>())
             .Mappings(m => m.FluentMappings.AddFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()))

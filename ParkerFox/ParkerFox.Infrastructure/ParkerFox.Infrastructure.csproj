@@ -64,6 +64,8 @@
     <Compile Include="Data\IRepository.cs" />
     <Compile Include="Data\IRequestState.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
+    <Compile Include="Data\Mapping\Ecommerce\OrderItemMapping.cs" />
+    <Compile Include="Data\Mapping\Ecommerce\OrderMapping.cs" />
     <Compile Include="Data\Mapping\ProductMapping.cs" />
     <Compile Include="Data\Mapping\SubscriptionMapping.cs" />
     <Compile Include="Data\Mapping\VisitorMapping.cs" />
@@ -87,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Mapping\notes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

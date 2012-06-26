@@ -1,0 +1,1 @@
+﻿Inverse : http://www.emadashi.com/index.php/2008/08/nhibernate-inverse-attribute/

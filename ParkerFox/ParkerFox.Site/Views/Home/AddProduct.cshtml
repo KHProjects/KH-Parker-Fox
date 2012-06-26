@@ -1,31 +1,49 @@
 ﻿@model ParkerFox.Site.ViewModels.ProductViewModel
 @{
-    ViewBag.Title = "AddProduct";
+    ViewBag.Title = "AddProduct";   
 }
-<script type="text/javascript" src="~/Scripts/jquery-1.7.2.js"></script>
-<script type="text/javascript" src="~/Scripts/knockout-2.1.0.js"></script>
-<script type="text/javascript">
+
+<script type="text/javascript" src="../../Scripts/knockout-2.1.0.debug.js"></script>
+
+<script type="text/javascript">        
+    var viewModel = @(Html.Raw(Json.Encode(Model)));
+
+    function productViewModel(name) {
+        this.name = name;
+    };
 
     //--KNOCKOUT => http://www.sitepoint.com/beginners-guide-to-knockoutjs-part-1/
     $(function () {
-        function productViewModel() {
-            this.name = ko.observable("YO MAMA");            
-        };
+        ko.applyBindings(viewModel);
+        
+        $('#ajaxupdate').click(function () {
 
-        ko.applyBindings(new productViewModel());
+            $.ajax({
+                url : "/api/product",
+                type : "PUT",
+                data : ko.toJSON(viewModel),
+                contentType : 'application/json; charset=utf-8' ,
+                success : function(){
+                    alert('success');
+                },
+                error:function(xhr,status,error){
+                    alert("error "+error);
+                }
+            });
+        });
     });
 </script>
-
-<h2>AddProduct</h2>
 
 @using (Html.BeginForm())
 {
     <dl>
         <dt>@Html.LabelFor(x=>x.Name)</dt>
-        <dd>@Html.TextBoxFor(x => x.Name, new { data_bind = "text: name" })</dd>
+        <dd>@Html.TextBoxFor(x => x.Name, new { data_bind = "value: Name" })</dd>
         <dt>&nbsp;</dt>
         <dd class="commands">
             <input id="saveProductCommand" type="submit" value="Save" />
         </dd>
     </dl>
 }
+
+<input type="button" id="ajaxupdate" value="ajax update" />
