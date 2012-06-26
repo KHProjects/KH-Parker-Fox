@@ -13,10 +13,12 @@ namespace Inheritance
             account.Payment(200);
             account.Withdraw(60);
 
+
+            CurrentAccount myAccount = new ChildAccount();
+            myAccount.Withdraw(5);
+
         }
     }
-
-
 
     public interface IAccount
     {
@@ -57,9 +59,5 @@ namespace Inheritance
             return false;
         }
     }
-
-
-
-
 
 }

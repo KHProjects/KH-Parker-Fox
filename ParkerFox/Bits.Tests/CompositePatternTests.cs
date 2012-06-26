@@ -20,7 +20,7 @@ namespace Bits.Tests
 
             bool isApproved = loanApplication.Process(request);
 
-            Assert.IsFalse(isApproved, "Dean should be lent any money!!!");
+            Assert.IsFalse(isApproved, "Dean shouldn't be lent any money!!!");
         }
     }
 }
