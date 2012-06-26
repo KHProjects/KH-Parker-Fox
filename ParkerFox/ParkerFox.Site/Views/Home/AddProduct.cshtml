@@ -15,9 +15,8 @@
     //--KNOCKOUT => http://www.sitepoint.com/beginners-guide-to-knockoutjs-part-1/
     $(function () {
         ko.applyBindings(viewModel);
-        
-        $('#ajaxupdate').click(function () {
-
+                
+        $('#ajaxupdate').click(function () {            
             $.ajax({
                 url : "/api/product",
                 type : "PUT",
@@ -46,4 +45,4 @@
     </dl>
 }
 
-<input type="button" id="ajaxupdate" value="ajax update" />
+<input type="button" id="ajaxupdate" class="my-action" value="ajax update" />

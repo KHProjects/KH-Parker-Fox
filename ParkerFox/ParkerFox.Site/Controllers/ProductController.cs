@@ -18,8 +18,7 @@ namespace ParkerFox.Site.Controllers
             }
             throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.NotFound) { });
             //throw new HttpResponseException(HttpStatusCode.NotFound);
-        }
-
+        }        
         public void Put(ProductViewModel product)
         {
             string name = product.Name;
