@@ -16,7 +16,7 @@
     $(function () {
         ko.applyBindings(viewModel);
                 
-        $('#ajaxupdate').click(function () {            
+        $('#ajaxupdate').click(function () {
             $.ajax({
                 url : "/api/product",
                 type : "PUT",

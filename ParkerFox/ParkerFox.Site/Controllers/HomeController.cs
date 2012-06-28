@@ -48,5 +48,10 @@ namespace ParkerFox.Site.Controllers
             _unitOfWork.Commit();
             return View();
         }
+
+        public ActionResult CssStyling()
+        {
+            return View();
+        }
     }
 }

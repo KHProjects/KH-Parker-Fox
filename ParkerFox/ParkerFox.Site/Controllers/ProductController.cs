@@ -16,9 +16,9 @@ namespace ParkerFox.Site.Controllers
             {
                 return new ProductViewModel { Name = "product one" };
             }
-            throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.NotFound) { });
-            //throw new HttpResponseException(HttpStatusCode.NotFound);
-        }        
+            throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.NotFound));
+        }
+
         public void Put(ProductViewModel product)
         {
             string name = product.Name;
