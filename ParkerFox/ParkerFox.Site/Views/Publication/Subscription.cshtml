@@ -1,0 +1,16 @@
+﻿@model ParkerFox.Site.ViewModels.Magazine.Subscribe
+@{
+    ViewBag.Title = "Subscription";
+}
+
+@using(Html.BeginForm())
+{
+<dl>
+    <dt>@Html.LabelFor(x => x.Email)</dt>
+    <dd>@Html.TextBoxFor(x => x.Email)</dd>
+    <dt></dt>
+    <dd class="command">
+        <input type="submit" value="Subscribe" />
+    </dd>
+</dl>
+}

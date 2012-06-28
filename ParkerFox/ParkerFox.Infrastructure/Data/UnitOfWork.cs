@@ -9,15 +9,9 @@ using NHibernate;
 namespace ParkerFox.Infrastructure.Data
 {
     public class UnitOfWork : IUnitOfWork
-    {
-        private readonly IActiveSessionManager _activeSessionManager;
+    {        
         private ITransaction _transactionScope;
         private ISession _currentSession;
-
-        public UnitOfWork(IActiveSessionManager activeSessionManager)
-        {
-            _activeSessionManager = activeSessionManager;
-        }
 
         public void Commit()
         {
@@ -27,7 +21,6 @@ namespace ParkerFox.Infrastructure.Data
 
         public void BeginTransaction()
         {
-            //_transactionScope = _activeSessionManager.GetActiveSession().BeginTransaction();
             ISession currentSession = GetCurrentSession();
             _transactionScope = currentSession.BeginTransaction();
         }
@@ -38,13 +31,6 @@ namespace ParkerFox.Infrastructure.Data
             if (_transactionScope == null)
                 BeginTransaction();
             currentSession.SaveOrUpdate(obj);
-        }
-
-        private ISession GetCurrentSession()
-        {
-            if (_currentSession == null)
-                _currentSession = DataConfig.GetSession();
-            return _currentSession;
         }
 
         public EntitySet<T> Query<T>(Expression<Func<T, bool>> expression) where T:class
@@ -58,6 +44,14 @@ namespace ParkerFox.Infrastructure.Data
             ISession session = GetCurrentSession();
 
         
+        }
+
+
+        private ISession GetCurrentSession()
+        {
+            if (_currentSession == null)
+                _currentSession = DataConfig.GetSession();
+            return _currentSession;
         }
     }
 }

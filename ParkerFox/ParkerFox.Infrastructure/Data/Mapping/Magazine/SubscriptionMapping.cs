@@ -7,15 +7,18 @@ using FluentNHibernate;
 using FluentNHibernate.Mapping;
 using ParkerFox.Core.Entities.Magazine;
 
-namespace ParkerFox.Infrastructure.Data.Mapping
+namespace ParkerFox.Infrastructure.Data.Mapping.Magazine
 {
     public class SubscriptionMapping : ClassMap<Subscription>
     {
         public SubscriptionMapping()
         {
-            Id(Reveal.Member<Subscription>("SubscriptionId")).GeneratedBy.Native();
-            Map(Reveal.Member<Subscription>("Name"));
-            Map(Reveal.Member<Subscription>("StartDate"));
+            Id(x => x.SubscriptionId);
+            Map(x => x.StartDate);
+
+            HasMany(x => x.Terms).KeyColumn("SubscriptionId").Not.Inverse().Not.KeyNullable().Cascade.All();
+
+            Table("[Magazine.Subscription]");
         }
     }
 }

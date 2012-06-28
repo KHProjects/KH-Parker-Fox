@@ -43,9 +43,12 @@
   <ItemGroup>
     <Compile Include="Entities\Ecommerce\Order.cs" />
     <Compile Include="Entities\Ecommerce\OrderItem.cs" />
+    <Compile Include="Entities\Magazine\Account.cs" />
+    <Compile Include="Entities\Magazine\Publication.cs" />
     <Compile Include="Entities\Magazine\Subscription.cs" />
     <Compile Include="Entities\Magazine\SubscriptionTerm.cs" />
     <Compile Include="Entities\Ecommerce\Product.cs" />
+    <Compile Include="Entities\Magazine\SubscriptionTermTypes.cs" />
     <Compile Include="Entities\Repository\IEntitySet.cs" />
     <Compile Include="Entities\Repository\IProductRepository.cs" />
     <Compile Include="Entities\Repository\IRepository.cs" />

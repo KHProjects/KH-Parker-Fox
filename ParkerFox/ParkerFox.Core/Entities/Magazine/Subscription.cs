@@ -9,16 +9,8 @@ namespace ParkerFox.Core.Entities.Magazine
 {
     public class Subscription
     {
-        private int SubscriptionId { get; set; }
-        private string Name { get; set; }
-        private DateTime StartDate;
-
-        public Subscription() { }
-
-        public Subscription(string name, DateTime startDate)
-        {
-            Name = name;
-            StartDate = startDate;
-        }
+        public virtual int SubscriptionId { get; set; }
+        public virtual DateTime? StartDate { get; set; }
+        public virtual IList<SubscriptionTerm> Terms { get; set; }
     }
 }

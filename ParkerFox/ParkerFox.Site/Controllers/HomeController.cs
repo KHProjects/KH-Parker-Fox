@@ -44,7 +44,7 @@ namespace ParkerFox.Site.Controllers
             //_unitOfWork.BeginTransaction();
             Product product = Mapper.Map<Product>(productViewModel);
             _products.Add(product);
-
+            
             _unitOfWork.Commit();
             return View();
         }

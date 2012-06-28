@@ -21,7 +21,7 @@ namespace ParkerFox.Infrastructure.Data
         {
             var session = _sessionFactory.OpenSession();
             session.BeginTransaction();
-            return session;            
+            return session;
         }
 
         public static void EnsureStartup()
