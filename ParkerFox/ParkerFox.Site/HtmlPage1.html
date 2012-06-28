@@ -2,8 +2,59 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <script type="text/javascript" src="Scripts/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui-1.8.20.js"></script>
+    <link rel="stylesheet" type="text/css" href="Content/themes/base/jquery-ui.css" />
+    <style>
+    p{color: red}
+    #identity{color:blue}
+    div.other{font-size:larger;color:blue;}
+    .other{color:pink}        
+    #container div{background-color:gray;width:200px;display:inline-block}
+    div.box{border-radius:10px;background-color:blue;width:300px;height:50px}
+</style>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            
+        });
+        $(function () {
+            
+            $('#myLink').click(function () {
+                alert('u click me');
+            });
+
+            $('#container div').mouseover(function () {
+                $(this).css({ "color": "green" });
+            });
+
+            //$('#birthday').datepicker();
+
+        });
+
+    </script>
 </head>
 <body>
+    <p>select by type</p>
+    <p id="identity">select by id</p>
+    <p class="other">select by class</p>
+    <div class="other">select by element class</div>
 
+    <p style="font-size:20px">bad mmmkay</p>
+    <div id="container">
+        <div>left</div>
+        <div>middel</div>
+        <div>right</div>
+    </div>
+
+    <a id="myLink">SOMTHING</a>
+
+    <div class="box">
+        i'm a in box
+    </div>
+
+    <a onclick="alert('fek u')">skdjsjhd</a>
+
+    <input type="text" id="birthday" />
 </body>
 </html>
