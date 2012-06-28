@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Reactive">
@@ -45,15 +48,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandHandlers\ApplyForLoanHandler.cs" />
+    <Compile Include="CommandHandlers\Magazine\CreateNewSubscriptionHandler.cs" />
     <Compile Include="Commands\ApplyForLoan.cs" />
+    <Compile Include="Commands\Magazine\CreateNewSubscription.cs" />
+    <Compile Include="EventHandlers\Magazine\SendWelcomeEmailForNewSubscription.cs" />
+    <Compile Include="Events\Magazine\NewSubscriptionCreated.cs" />
+    <Compile Include="Messaging\ApplicationBus.cs" />
+    <Compile Include="Messaging\MessagingNinjectModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EventHandlers\" />
-    <Folder Include="Events\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParkerFox.Infrastructure\ParkerFox.Infrastructure.csproj">
+      <Project>{f3c0773e-d0c8-45bb-b054-d395f3ee1deb}</Project>
+      <Name>ParkerFox.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

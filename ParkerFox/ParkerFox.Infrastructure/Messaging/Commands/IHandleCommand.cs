@@ -9,6 +9,6 @@ namespace ParkerFox.Infrastructure.Messaging.Commands
     public interface IHandleCommand<TCommand>
     {
         void Handle(TCommand command);
-        TResponse Process<TResponse>(TCommand command);
+        //TResponse Process<TResponse>(TCommand command);
     }
 }

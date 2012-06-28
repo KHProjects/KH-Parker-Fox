@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParkerFox.Infrastructure.Messaging.Events
+namespace ParkerFox.Application.Commands.Magazine
 {
-    public interface IRespondToEvent<in TEvent>
+    public class CreateNewSubscription
     {
-        void Raise(TEvent @event);
+        public string Email { get; set; }
     }
 }

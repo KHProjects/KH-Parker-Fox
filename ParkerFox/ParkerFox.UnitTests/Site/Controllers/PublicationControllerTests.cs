@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Framework;
 
-namespace ParkerFox.Infrastructure.Messaging.Events
+namespace ParkerFox.UnitTests.Site.Controllers
 {
-    public interface IRespondToEvent<in TEvent>
+    [TestFixture]
+    public class PublicationControllerTests
     {
-        void Raise(TEvent @event);
+
     }
 }

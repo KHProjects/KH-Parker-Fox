@@ -76,6 +76,7 @@
     <Compile Include="Data\Web\UnitOfWorkFilter.cs" />
     <Compile Include="IBootStrapTask.cs" />
     <Compile Include="Messaging\Events\IRespondToEvent.cs" />
+    <Compile Include="Messaging\IBus.cs" />
     <Compile Include="Repository\ISubscriptionRepository.cs" />
     <Compile Include="Repository\ProductRepository.cs" />
     <Compile Include="Repository\Repository.cs" />

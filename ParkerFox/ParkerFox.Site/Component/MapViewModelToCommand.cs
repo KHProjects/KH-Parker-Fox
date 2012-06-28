@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using AutoMapper;
+using ParkerFox.Application.Commands.Magazine;
 using ParkerFox.Core.Entities;
 using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Infrastructure;
 using ParkerFox.Site.ViewModels;
+using ParkerFox.Site.ViewModels.Magazine;
 
 namespace ParkerFox.Site.Component
 {
@@ -20,6 +22,7 @@ namespace ParkerFox.Site.Component
         public void Execute()
         {
             Mapper.CreateMap<ProductViewModel, Product>();
+            Mapper.CreateMap<Subscribe, CreateNewSubscription>();
         }
     }
 }
