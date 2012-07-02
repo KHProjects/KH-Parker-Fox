@@ -1,0 +1,4 @@
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\Abstract\Abstract\bin\Debug\Abstract.exe
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\Abstract\Abstract\bin\Debug\Abstract.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\Abstract\Abstract\obj\x86\Debug\Abstract.exe
+C:\Users\Win7ProX86\Documents\Visual Studio 2010\Projects\Abstract\Abstract\obj\x86\Debug\Abstract.pdb
