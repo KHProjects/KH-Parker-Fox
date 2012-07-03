@@ -3,10 +3,12 @@
     ViewBag.Title = "Subscription";
 }
 
+@Html.Action("UserProfile")
+
 @using(Html.BeginForm())
 {
 <dl>
-    <dt>@Html.LabelFor(x => x.Email)</dt>
+    <dt class="mydl">@Html.LabelFor(x => x.Email)</dt>
     <dd>@Html.TextBoxFor(x => x.Email)</dd>
     <dt></dt>
     <dd class="command">
@@ -14,3 +16,4 @@
     </dd>
 </dl>
 }
+

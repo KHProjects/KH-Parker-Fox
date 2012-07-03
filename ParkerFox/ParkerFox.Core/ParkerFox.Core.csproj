@@ -49,12 +49,14 @@
     <Compile Include="Entities\Magazine\SubscriptionTerm.cs" />
     <Compile Include="Entities\Ecommerce\Product.cs" />
     <Compile Include="Entities\Magazine\SubscriptionTermTypes.cs" />
+    <Compile Include="Entities\Magazine\TimePeriod.cs" />
     <Compile Include="Entities\Repository\IEntitySet.cs" />
     <Compile Include="Entities\Repository\IProductRepository.cs" />
     <Compile Include="Entities\Repository\IRepository.cs" />
     <Compile Include="Entities\Repository\IVisitorRepository.cs" />
     <Compile Include="Entities\Visitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

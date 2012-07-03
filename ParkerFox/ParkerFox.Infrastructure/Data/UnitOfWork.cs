@@ -33,17 +33,22 @@ namespace ParkerFox.Infrastructure.Data
             currentSession.SaveOrUpdate(obj);
         }
 
-        public EntitySet<T> Query<T>(Expression<Func<T, bool>> expression) where T:class
+        public EntitySet<T> Query<T>(Expression<Func<T, bool>> expression) where T : class
         {
             ISession session = GetCurrentSession();
             return new EntitySet<T>(session.QueryOver<T>().Where(expression));
         }
 
-        public void CreateQuery(string query)
+        public void CreateQuery<T>(Expression<Func<T, bool>> expression) where T : class
         {
             ISession session = GetCurrentSession();
 
-        
+            session.QueryOver<T>().Where((expression)).Future<T>();
+        }
+
+        public IQueryOver<T> QueryOver<T>() where T : class
+        {
+            return GetCurrentSession().QueryOver<T>();
         }
 
 
