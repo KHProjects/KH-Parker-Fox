@@ -289,6 +289,7 @@
     <None Include="Scripts\jquery-1.7.2.intellisense.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
     </None>
+    <Content Include="Scripts\html5-events.js" />
     <Content Include="Scripts\jquery-1.7.2.js" />
     <Content Include="Scripts\jquery-1.7.2.min.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
@@ -347,6 +348,7 @@
     <Content Include="Views\Home\CssStyling.cshtml" />
     <Content Include="Views\Publication\Subscription.cshtml" />
     <Content Include="Views\Publication\UserProfile.cshtml" />
+    <Content Include="Views\Publication\ChildFrame.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

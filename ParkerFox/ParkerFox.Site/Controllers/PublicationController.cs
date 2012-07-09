@@ -42,5 +42,10 @@ namespace ParkerFox.Site.Controllers
         {
             return PartialView();
         }
+
+        public ActionResult ChildFrame()
+        {
+            return View();
+        }
     }
 }

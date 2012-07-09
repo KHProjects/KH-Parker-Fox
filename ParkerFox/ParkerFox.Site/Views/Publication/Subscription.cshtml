@@ -16,4 +16,17 @@
     </dd>
 </dl>
 }
+<iframe src="/publication/childframe">
+</iframe>
 
+<script type="text/javascript">
+
+    $(function() {
+        $(window).on("message", function (e) {
+            var event = e.originalEvent;
+            alert(event.origin + " : " + event.data);
+            event.source.postMessage("right back at ya", event.origin);
+        });
+    });
+
+</script>

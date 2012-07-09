@@ -41,6 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CQRS\AggregateRootStore.cs" />
+    <Compile Include="CQRS\EventStore.cs" />
+    <Compile Include="CQRS\IAggregateRoot.cs" />
+    <Compile Include="CQRS\IAggregateRootStore.cs" />
+    <Compile Include="CQRS\ICommand.cs" />
+    <Compile Include="CQRS\ICommandBus.cs" />
+    <Compile Include="CQRS\IEvent.cs" />
+    <Compile Include="CQRS\IEventStore.cs" />
+    <Compile Include="CQRS\IHasAggregateRootId.cs" />
+    <Compile Include="CQRS\IMessage.cs" />
+    <Compile Include="CQRS\IMessageHandler.cs" />
+    <Compile Include="CQRS\StoredAggregateRoot.cs" />
+    <Compile Include="CQRS\StoredEvent.cs" />
     <Compile Include="Entities\Ecommerce\Order.cs" />
     <Compile Include="Entities\Ecommerce\OrderItem.cs" />
     <Compile Include="Entities\Magazine\Account.cs" />
