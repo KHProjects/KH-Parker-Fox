@@ -14,10 +14,12 @@ namespace ConsoleApplication1
         {
             //new FuckinWithThreads().Run();
 
-            Asyncronous ascyrony = new Asyncronous();
+            Asyncronous asynchrony = new Asyncronous();
 
-            ascyrony.RunTask();
-
+            //asynchrony.RunPool();
+            //asynchrony.RunEventBased();
+            //asynchrony.RunTask();
+            asynchrony.RunAsync();
             Console.Read();
         }
     }

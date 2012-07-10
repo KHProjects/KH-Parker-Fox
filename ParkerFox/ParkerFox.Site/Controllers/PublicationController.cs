@@ -47,5 +47,10 @@ namespace ParkerFox.Site.Controllers
         {
             return View();
         }
+
+        public ActionResult HTML5()
+        {
+            return View();
+        }
     }
 }

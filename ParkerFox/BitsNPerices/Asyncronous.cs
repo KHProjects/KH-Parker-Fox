@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -26,6 +27,29 @@ namespace BitsNPerices
             _myOtherThread.BeginInvoke(CallBackMethod, null);            
         }
 
+        public void RunPool()
+        {
+            for (int i = 0; i < 5;i++ )
+            {
+                ThreadPool.QueueUserWorkItem(x =>
+                {
+                    Console.WriteLine("car pool in thread:{0}", Thread.CurrentThread.ManagedThreadId);
+                    Thread.Sleep(TimeSpan.FromMilliseconds(500));
+                });
+            }
+        }
+
+        public void RunEventBased()
+        {
+            var webClient = new WebClient();
+            webClient.DownloadStringCompleted += (sender, args) =>
+                {
+                    Console.WriteLine(args.Result);
+                };
+
+            webClient.DownloadStringAsync(new Uri("http://www.google.com"));
+        }
+
         public void RunTask()
         {
             Task task = new Task(() => 
@@ -35,9 +59,11 @@ namespace BitsNPerices
             task.Start();
         }
 
-        public void MyAction()
+        //http://www.codeproject.com/Articles/127291/C-5-0-vNext-New-Asynchronous-Pattern
+        public async Task RunAsync()
         {
-            Console.WriteLine("task");
+            string result = await new WebClient().DownloadStringTaskAsync(new Uri("http://www.google.com"));
+            Console.WriteLine(result);
         }
 
         public void CallBackMethod(IAsyncResult result)
