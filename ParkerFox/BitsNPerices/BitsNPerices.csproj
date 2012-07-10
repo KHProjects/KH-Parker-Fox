@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asyncronous.cs" />
     <Compile Include="Composite.cs" />
     <Compile Include="Dean\AbstractCompositionOverInheritance.cs" />
     <Compile Include="StrategyPattern.cs" />
