@@ -1,0 +1,15 @@
+﻿@model ParkerFox.Site.ViewModels.Store.CatalogViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<dl id="catalog">
+@foreach(var product in Model.Products)
+{
+    <dt></dt>
+    <dd>
+        @product.Name
+        <a class="addToBasketCommand">add to basket</a>
+    </dd>
+}
+</dl>

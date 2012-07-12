@@ -9,6 +9,7 @@ using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Infrastructure;
 using ParkerFox.Site.ViewModels;
 using ParkerFox.Site.ViewModels.Magazine;
+using ParkerFox.Site.ViewModels.Store;
 
 namespace ParkerFox.Site.Component
 {

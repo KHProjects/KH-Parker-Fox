@@ -12,6 +12,7 @@ using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Data.Web;
 using ParkerFox.Infrastructure.Repository;
 using ParkerFox.Site.ViewModels;
+using ParkerFox.Site.ViewModels.Store;
 
 namespace ParkerFox.Site.Controllers
 {

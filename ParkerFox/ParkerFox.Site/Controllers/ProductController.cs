@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using ParkerFox.Site.ViewModels;
+using ParkerFox.Site.ViewModels.Store;
 
 namespace ParkerFox.Site.Controllers
 {

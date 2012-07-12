@@ -1,0 +1,23 @@
+﻿<Window x:Class="BitsAndPieces.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="302" VerticalAlignment="Top" Width="509">
+            <TabItem Header="Asynchrony">
+                <StackPanel>
+                    <Button x:Name="asyncDelegate" Content="Delegates" Click="asyncDelegate_Click"/>
+                    <Button x:Name="asyncThreadPool" Content="Thread Pool" Click="asyncThreadPool_Click"/>
+                    <Button x:Name="asyncEvents" Content="Events" Click="asyncEvents_Click"/>
+                    <Button x:Name="asyncAsync" Content="Async" Click="asyncAsync_Click"/>
+                    <Button x:Name="asyncTask" Content="Task" Click="asyncTask_Click"/>
+                    <Button x:Name="asyncTaskWithAPM" Content="Task for APM" Click="asyncTaskWithAPM_Click"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

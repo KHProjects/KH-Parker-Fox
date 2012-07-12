@@ -204,6 +204,7 @@
     <Compile Include="Component\NinjectDependencyResolver.cs" />
     <Compile Include="Component\NinjectHttpDependencyResolver.cs" />
     <Compile Include="Component\NinjectScope.cs" />
+    <Compile Include="Controllers\CatalogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoanController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -214,7 +215,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ApplyForLoanViewModel.cs" />
     <Compile Include="ViewModels\Magazine\Subscribe.cs" />
-    <Compile Include="ViewModels\ProductViewModel.cs" />
+    <Compile Include="ViewModels\Store\ProductViewModel.cs" />
+    <Compile Include="ViewModels\Store\CatalogViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\ParkerFox.sdf" />
@@ -352,6 +354,7 @@
     <Content Include="Views\Publication\UserProfile.cshtml" />
     <Content Include="Views\Publication\ChildFrame.cshtml" />
     <Content Include="Views\Publication\HTML5.cshtml" />
+    <Content Include="Views\Catalog\Index.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
