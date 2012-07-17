@@ -641,7 +641,8 @@ ul#social li {
     width: 200px
 }
 
-dt, dd
-{
-    display: inline-block;    
-}
+#catalog dt, #catalog dd{ display: inline-block;margin: 0;padding: 0;border: 0;outline: 0}
+
+#catalog{width:450px}
+#catalog dt{background-color: red;width:150px}
+#catalog dd{background-color: blue;width:300px}

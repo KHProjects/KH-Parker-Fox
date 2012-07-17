@@ -6,7 +6,10 @@
 <dl id="catalog">
 @foreach(var product in Model.Products)
 {
-    <dt></dt>
+    <dt>
+        image
+        <div style="width:100px;height:100px;background-color:green"></div>
+    </dt>
     <dd>
         @product.Name
         <a class="addToBasketCommand">add to basket</a>
