@@ -11,6 +11,7 @@ using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Data.Web;
 using ParkerFox.Infrastructure.Repository;
+using ParkerFox.Site.Component;
 using ParkerFox.Site.ViewModels;
 using ParkerFox.Site.ViewModels.Store;
 
@@ -50,6 +51,7 @@ namespace ParkerFox.Site.Controllers
             return View();
         }
 
+        [MyActionFilter]
         public ActionResult CssStyling()
         {
             return View();

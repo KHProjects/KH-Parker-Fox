@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Web.Mvc;
+using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Site.ViewModels;
 using ParkerFox.Site.ViewModels.Store;
@@ -17,6 +18,8 @@ namespace ParkerFox.Site.Controllers
 
         public ActionResult Index()
         {
+            IEntitySet<Product> products = _productRepository.GetOnPromotion();
+
             var catalogViewModel = new CatalogViewModel
                 {
                     Products = new List<ProductViewModel>

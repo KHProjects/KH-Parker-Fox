@@ -199,6 +199,7 @@
   <ItemGroup>
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="Component\MapViewModelToCommand.cs" />
+    <Compile Include="Component\MyActionFilter.cs" />
     <Compile Include="Component\NinjectBindingTask.cs" />
     <Compile Include="Component\NinjectControllerFactory.cs" />
     <Compile Include="Component\NinjectDependencyResolver.cs" />

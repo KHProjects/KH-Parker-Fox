@@ -44,7 +44,7 @@ namespace BitsNPerices
             var webClient = new WebClient();
             webClient.DownloadStringCompleted += (sender, args) =>
                 {
-                    Console.WriteLine(args.Result);
+                    Console.WriteLine(args.Result);                    
                 };
 
             webClient.DownloadStringAsync(new Uri("http://www.google.com"));
@@ -57,11 +57,13 @@ namespace BitsNPerices
                 Console.WriteLine("task with lambda"); 
             });
             task.Start();
+            task.Wait();
         }
 
         //http://www.codeproject.com/Articles/127291/C-5-0-vNext-New-Asynchronous-Pattern
         public async Task RunAsync()
         {
+            string hotmail = await new WebClient().DownloadStringTaskAsync(new Uri("http://www.hotmail.com"));
             string result = await new WebClient().DownloadStringTaskAsync(new Uri("http://www.google.com"));
             Console.WriteLine(result);
         }

@@ -3,6 +3,13 @@
     ViewBag.Title = "Index";
 }
 
+<style>
+    #catalog a.addToBasketCommand
+    {
+        color: red;
+    }
+</style>
+
 <dl id="catalog">
 @foreach(var product in Model.Products)
 {
@@ -16,3 +23,28 @@
     </dd>
 }
 </dl>
+
+<script type="text/javascript">
+    $(function () {
+        $('#catalog a.addToBasketCommand').on("click", addToBasketCommandEventHandler);
+    });
+
+    function addToBasketCommandEventHandler(e) {
+        $.ajax({
+            url: "/api/product",
+            data: { id: 2 },
+            statusCode: {
+                200: onAddedToBasket,
+                404: onErrorAddToBasket
+            }
+        });
+    }
+    
+    function onAddedToBasket(product) {
+        alert('bla '+product.Name);
+    }
+
+    function onErrorAddToBasket() {
+        alert("product not found");
+    }
+</script>

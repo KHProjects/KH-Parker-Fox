@@ -16,7 +16,7 @@ namespace ParkerFox.Infrastructure.Repository
     /// http://www.storminajar.net/2010/08/30/letting-your-unitofwork-repositories-support-multiple-frameworks/
     /// http://codebetter.com/gregyoung/2009/01/16/ddd-the-generic-repository/
     /// </summary>    
-    public class Repository<T>  where T : class
+    public class Repository<T> where T : class
     {        
         private IUnitOfWork _unitOfWork;
 
@@ -34,5 +34,5 @@ namespace ParkerFox.Infrastructure.Repository
         {
             get { return _unitOfWork; }
         }
-    }
+    }    
 }
