@@ -24,13 +24,18 @@ namespace ParkerFox.Infrastructure.Repository
         }
 
         public IEntitySet<Product> GetOnPromotion()
-        {            
-            return Query(p => p.ProductId>0);
+        {
+            return Query(p => p.ProductId > 0);
         }
 
         public IEntitySet<Product> GetInCategory(int categoryId)
         {
-            return Query(p=>p.ProductId>0);
+            return Query(p => p.ProductId > 0);
+        }
+
+        public Product GetById(int productId)
+        {
+            return Query(p => p.ProductId == productId).SingleOrDefault();
         }
     }
 }

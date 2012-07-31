@@ -1,4 +1,5 @@
 CQRS => http://ericfarr.net/ddd-anti-pattern-1-not-accounting-for-commands-and-queries-as-separate-concerns/
+        http://thinkbeforecoding.com/post/2009/11/02/Event-Sourcing-and-CQRS-Lets-use-it
 Application Bus => http://trycatchfail.com/blog/post/The-Application-Bus.aspx
 NHibernate docs => http://www.nhforge.org/doc/nh/en/index.html
 GIT => http://www.sparkfun.com/tutorials/165

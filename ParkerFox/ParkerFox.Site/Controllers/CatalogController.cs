@@ -31,5 +31,10 @@ namespace ParkerFox.Site.Controllers
 
             return View(catalogViewModel);
         }
+
+        public ActionResult Admin()
+        {
+            return View();
+        }
     }
 }

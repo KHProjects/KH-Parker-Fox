@@ -4,6 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using ParkerFox.Core.Entities.Ecommerce;
+using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Site.ViewModels;
 using ParkerFox.Site.ViewModels.Store;
 
@@ -11,11 +13,23 @@ namespace ParkerFox.Site.Controllers
 {
     public class ProductController : ApiController
     {
+        private IProductRepository _productRepository;
+
+        public ProductController(IProductRepository productRepository)
+        {
+            _productRepository = productRepository;
+        }
+
         public ProductViewModel Get(int id)
         {
-            if (id == 1)
+            var product = _productRepository.GetById(id);
+
+            if(product != null)
             {
-                return new ProductViewModel { Name = "product one" };
+                return new ProductViewModel
+                    {
+                        Name = product.Name
+                    };
             }
             throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.NotFound));
         }
@@ -23,6 +37,18 @@ namespace ParkerFox.Site.Controllers
         public void Put(ProductViewModel product)
         {
             string name = product.Name;
+        }
+
+        public void Post(ProductViewModel productViewModel)
+        {
+            Product product = new Product {Name = productViewModel.Name};
+
+            _productRepository.Add(product);
+        }
+
+        public IEnumerable<Product> InCategory(string category)
+        {
+            return new List<Product>();
         }
     }
 }
