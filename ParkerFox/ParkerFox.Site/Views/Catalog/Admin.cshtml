@@ -3,3 +3,44 @@
 @{
     ViewBag.Title = "Admin";
 }
+<script type="text/javascript" src="~/Scripts/handlebars.js"></script>
+<script type="text/ecmascript">
+
+
+    $(function () {
+        var source = $("#productAdminTemplate").html();
+        var template = Handlebars.compile(source);
+
+        $.ajax({
+            url: "/api/product/1",
+            success:function(data){
+                var html = template(data);
+                $("#products").html(html);
+            }
+        });
+        
+        $.ajax({
+            url: "/catalog/listproducts",
+            success: function (data) {
+                $('#viewProduct').html(data);
+            }
+        });
+        
+    });
+
+</script>
+
+
+<div id="products">
+
+</div>
+
+<div id="viewProduct">
+
+</div>
+
+<script id="productAdminTemplate" type="application/x-handlebar-template">
+    <div>
+        {{Name}}
+    </div>
+</script>

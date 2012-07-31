@@ -20,6 +20,13 @@ namespace ParkerFox.Site.Controllers
             _productRepository = productRepository;
         }
 
+        public IEnumerable<Product> GetProducts()
+        {
+            var product = _productRepository.GetOnPromotion();
+            
+            return product.All();                                
+        }
+
         public ProductViewModel Get(int id)
         {
             var product = _productRepository.GetById(id);

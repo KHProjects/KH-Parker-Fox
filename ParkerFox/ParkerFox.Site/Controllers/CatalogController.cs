@@ -36,5 +36,11 @@ namespace ParkerFox.Site.Controllers
         {
             return View();
         }
+
+        public ActionResult ListProducts()
+        {
+            var products = _productRepository.GetOnPromotion();
+            return PartialView("_ProductList", products.All());
+        }
     }
 }
