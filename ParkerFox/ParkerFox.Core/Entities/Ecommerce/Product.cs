@@ -10,5 +10,6 @@ namespace ParkerFox.Core.Entities.Ecommerce
     {
         public int ProductId { get; set; }
         public string Name { get; set; }
+        public float UnitPrice { get; set; }
     }
 }

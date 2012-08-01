@@ -12,6 +12,7 @@ using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Repository;
 using ParkerFox.Site.Component;
+using ParkerFox.Site.Component.MediaTypeFormatters;
 
 namespace ParkerFox.Site
 {
@@ -29,7 +30,7 @@ namespace ParkerFox.Site
             routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = System.Web.Http.RouteParameter.Optional }
+                defaults: new { id = System.Web.Http.RouteParameter.Optional }                
             );
 
             routes.MapRoute(
@@ -52,6 +53,8 @@ namespace ParkerFox.Site
 
             new NinjectBindingTask().Execute(); //TODO: Reflect over assembly to extract all IBootStrapTask implementers
             new MapViewModelToCommand().Execute();
+
+            GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
 
             //HibernatingRhinos.Profiler.Appender.NHibernate.NHibernateProfiler.Initialize();
         }

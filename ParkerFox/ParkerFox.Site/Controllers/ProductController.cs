@@ -20,11 +20,11 @@ namespace ParkerFox.Site.Controllers
             _productRepository = productRepository;
         }
 
-        public IEnumerable<Product> GetProducts()
+        public object Get()
         {
             var product = _productRepository.GetOnPromotion();
-            
-            return product.All();                                
+            //anonymous type so we can name array for handlebars. why can't it just loop over a default collection
+            return new { products = product.All() };
         }
 
         public ProductViewModel Get(int id)

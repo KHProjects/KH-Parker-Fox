@@ -3,44 +3,64 @@
 @{
     ViewBag.Title = "Admin";
 }
+<style>
+    #products table{border:0;padding:0;margin:0;border-spacing:0;border-collapse:collapse;width:100%}
+</style>
+
 <script type="text/javascript" src="~/Scripts/handlebars.js"></script>
 <script type="text/ecmascript">
-
-
     $(function () {
+        setupTableRowStyles();
+        setupEditor();
+        fetchProducts();
+    });
+
+    function fetchProducts() {
+
         var source = $("#productAdminTemplate").html();
         var template = Handlebars.compile(source);
 
         $.ajax({
-            url: "/api/product/1",
-            success:function(data){
+            url: "/api/product/",
+            success: function (data) {
                 var html = template(data);
                 $("#products").html(html);
             }
         });
-        
-        $.ajax({
-            url: "/catalog/listproducts",
-            success: function (data) {
-                $('#viewProduct').html(data);
-            }
+    };
+    
+    function setupTableRowStyles() {
+        $('#products').on('mouseover', 'table tr', function () {
+            $(this).css({ 'background-color': '#c0c0c0' });
+        }).on('mouseout', 'table tr', function () {
+            $(this).css({ 'background-color': '' });
         });
-        
-    });
+    };
 
+    function setupEditor() {
+        $('#products').on('click', 'table tr', function () {
+            alert($(this).attr('data-id'));
+        });
+    };
 </script>
-
 
 <div id="products">
 
 </div>
 
-<div id="viewProduct">
-
-</div>
-
 <script id="productAdminTemplate" type="application/x-handlebar-template">
-    <div>
-        {{Name}}
-    </div>
+    <table>
+        <thead>
+        <tr>
+            <td>Name</td>
+            <td>Unit price</td>
+        </tr>
+        </thead>
+        {{#each products}}
+        <tr data-id="{{ProductId}}">
+            <td>{{Name}}</td>
+            <td>{{UnitPrice}}</td>
+        </tr>
+        {{/each}}
+    </table>
 </script>

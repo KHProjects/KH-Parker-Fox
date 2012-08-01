@@ -1,13 +1,20 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using System.Web;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Bson;
 
 namespace ParkerFox.Site.Component.MediaTypeFormatters
 {
+    /// <summary>
+    /// http://www.strathweb.com/2012/07/bson-binary-json-and-how-your-web-api-can-be-even-faster/
+    /// </summary>
     public class BsonMediaTypeFormatter : MediaTypeFormatter
     {
         private JsonSerializerSettings _jsonSerializerSettings;
@@ -38,7 +45,57 @@ namespace ParkerFox.Site.Component.MediaTypeFormatters
 
         public override bool CanWriteType(Type type)
         {
-            throw new NotImplementedException();
+            if (type == null) throw new ArgumentNullException("type is null");
+            return true;
+        }
+
+        public override Task<object> ReadFromStreamAsync(Type type, Stream stream, HttpContentHeaders contentHeaders, IFormatterLogger formatterLogger)
+        {
+            var taskCompletionSource = new TaskCompletionSource<object>();
+            if (contentHeaders != null && contentHeaders.ContentLength == 0) return null;
+
+            try
+            {
+                BsonReader reader = new BsonReader(stream);
+                if (typeof(IEnumerable).IsAssignableFrom(type)) reader.ReadRootValueAsArray = true;
+
+                using (reader)
+                {
+                    var jsonSerializer = JsonSerializer.Create(_jsonSerializerSettings);
+                    var output = jsonSerializer.Deserialize(reader, type);
+                    if (formatterLogger != null)
+                    {
+                        jsonSerializer.Error += (sender, e) =>
+                        {
+                            Exception exception = e.ErrorContext.Error;
+                            formatterLogger.LogError(e.ErrorContext.Path, exception.Message);
+                            e.ErrorContext.Handled = true;
+                        };
+                    }
+                    taskCompletionSource.SetResult(output);
+                }
+            }
+            catch (Exception ex)
+            {
+                if (formatterLogger == null) throw;
+                formatterLogger.LogError(String.Empty, ex.Message);
+                taskCompletionSource.SetResult(GetDefaultValueForType(type));
+            }
+
+            return taskCompletionSource.Task;
+        }
+
+        public override Task WriteToStreamAsync(Type type, object value, Stream stream, HttpContentHeaders contentHeaders, System.Net.TransportContext transportContext)
+        {
+            var taskCompletionSource = new TaskCompletionSource<object>();
+            using(BsonWriter bsonWriter = new BsonWriter(stream){CloseOutput = false})
+            {
+                JsonSerializer jsonSerializer = JsonSerializer.Create(_jsonSerializerSettings);
+                jsonSerializer.Serialize(bsonWriter, value);
+                bsonWriter.Flush();
+                taskCompletionSource.SetResult(null);
+            }
+            return taskCompletionSource.Task;
         }
 
         private JsonSerializerSettings CreateDefaultSerializerSettings()
