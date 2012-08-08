@@ -9,46 +9,58 @@
 
 <script type="text/javascript" src="~/Scripts/handlebars.js"></script>
 <script type="text/ecmascript">
-    $(function () {
-        setupTableRowStyles();
-        setupEditor();
-        fetchProducts();
-    });
 
-    function fetchProducts() {
-
-        var source = $("#productAdminTemplate").html();
-        var template = Handlebars.compile(source);
-
-        $.ajax({
-            url: "/api/product/",
-            success: function (data) {
-                var html = template(data);
-                $("#products").html(html);
-            }
+    var productServer = (function () {
+        var productApiUrl = '@Url.RouteUrl("DefaultApi", new {httproute="", controller="product"})';
+        
+        $(document).ajaxError(function (event, xhr) {
+            alert(xhr.status + " : " + xhr.statusText);
         });
-    };
-    
-    function setupTableRowStyles() {
-        $('#products').on('mouseover', 'table tr', function () {
-            $(this).css({ 'background-color': '#c0c0c0' });
-        }).on('mouseout', 'table tr', function () {
-            $(this).css({ 'background-color': '' });
-        });
-    };
 
-    function setupEditor() {
-        $('#products').on('click', 'table tr', function () {
-            alert($(this).attr('data-id'));
+        var _getProducts = function () {
+            return $.ajax(productApiUrl);
+        };
+
+        var _someThing = function () { };
+
+        return {
+            getProducts: _getProducts,
+            someOtherMethod : _someThing
+        };
+
+    }());
+
+    (function () {
+
+        var templates = {};
+
+        var compileTemplates = function () {
+            templates.productTable = Handlebars.compile($("#productTable").html());
+        };
+
+        var refreshProducts = function () {
+            productServer.getProducts().done(showAllProducts);
+        };
+
+        var showAllProducts = function (data) {            
+            var output = templates.productTable({ products: data });
+            
+            $('#productTemplateOutput').html(output);
+        };
+
+
+        $(function () {
+            compileTemplates();
+            refreshProducts();
         });
-    };
+    }());
 </script>
 
-<div id="products">
+<div id="productTemplateOutput">
 
 </div>
 
-<script id="productAdminTemplate" type="application/x-handlebar-template">
+<script id="productTable" type="text/html">
     <table>
         <thead>
         <tr>
@@ -57,7 +69,7 @@
         </tr>
         </thead>
         {{#each products}}
-        <tr data-id="{{ProductId}}">
+        <tr data-id={{ProductId}}>
             <td>{{Name}}</td>
             <td>{{UnitPrice}}</td>
         </tr>
