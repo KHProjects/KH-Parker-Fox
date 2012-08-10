@@ -22,7 +22,7 @@ namespace ParkerFox.Application.Messaging
 
         public void Send<TCommand>(TCommand command)
         {
-            var type = typeof (IHandleCommand<>).MakeGenericType(new[] {typeof (TCommand)});
+            var type = typeof(IHandleCommand<>).MakeGenericType(new[] { typeof(TCommand) });
             var handler = _resolutionRoot.TryGet(type) as IHandleCommand<TCommand>;
             if (handler == null)
                 throw new Exception(String.Format("Handler not found for command {0}", command.GetType()));
@@ -31,7 +31,7 @@ namespace ParkerFox.Application.Messaging
 
         public void Publish<TEvent>(TEvent @event)
         {
-            var type = typeof (IRespondToEvent<>).MakeGenericType(new[] {typeof (TEvent)});
+            var type = typeof(IRespondToEvent<>).MakeGenericType(new[] { typeof(TEvent) });
 
             var responders = _resolutionRoot.GetAll(type);
             foreach (var handler in responders.Select(responder => responder as IRespondToEvent<TEvent>))

@@ -207,19 +207,10 @@
     <Compile Include="Component\NinjectDependencyResolver.cs" />
     <Compile Include="Component\NinjectHttpDependencyResolver.cs" />
     <Compile Include="Component\NinjectScope.cs" />
-    <Compile Include="Controllers\CatalogController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LoanController.cs" />
-    <Compile Include="Controllers\ProductController.cs" />
-    <Compile Include="Controllers\PublicationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\ApplyForLoanViewModel.cs" />
-    <Compile Include="ViewModels\Magazine\Subscribe.cs" />
-    <Compile Include="ViewModels\Store\ProductViewModel.cs" />
-    <Compile Include="ViewModels\Store\CatalogViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\ParkerFox.sdf" />
@@ -400,6 +391,18 @@
     <ProjectReference Include="..\ParkerFox.Infrastructure\ParkerFox.Infrastructure.csproj">
       <Project>{f3c0773e-d0c8-45bb-b054-d395f3ee1deb}</Project>
       <Name>ParkerFox.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Site.Controllers\ParkerFox.Site.Controllers.csproj">
+      <Project>{2a0a8985-b96a-40c5-a73b-aba09b9dd35d}</Project>
+      <Name>ParkerFox.Site.Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Site.ViewModels\ParkerFox.Site.ViewModels.csproj">
+      <Project>{05782a8d-d454-4591-b439-3bdf955ea39a}</Project>
+      <Name>ParkerFox.Site.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.WebApi\ParkerFox.WebApi.csproj">
+      <Project>{4c67610a-ef2e-4df2-9d66-b0b546142992}</Project>
+      <Name>ParkerFox.WebApi</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,4 @@
-﻿@model ParkerFox.Site.ViewModels.Store.ProductViewModel
+﻿@model ParkerFox.Site.ViewModels.Ecommerce.ProductViewModel
 
 @{
     ViewBag.Title = "Admin";
@@ -17,15 +17,17 @@
             alert(xhr.status + " : " + xhr.statusText);
         });
 
-        var _getProducts = function () {
+        var _getAll = function () {
             return $.ajax(productApiUrl);
         };
 
-        var _someThing = function () { };
+        var _getById = function (id) {
+            return $.ajax(productApiUrl + '/' + id);
+        };
 
         return {
-            getProducts: _getProducts,
-            someOtherMethod : _someThing
+            getAll: _getAll,
+            getById : _getById
         };
 
     }());
@@ -34,33 +36,46 @@
 
         var templates = {};
 
+        var _init = function () {
+            compileTemplates();
+            $('#productList').on('click', 'table tr', editProduct);
+        };
+
         var compileTemplates = function () {
-            templates.productTable = Handlebars.compile($("#productTable").html());
+            templates.productTable = Handlebars.compile($("#list-products").html());
+            templates.editProduct = Handlebars.compile($('#edit-product').html());
+        };
+
+        var editProduct = function () {
+            productServer.getById($(this).attr('data-id')).done(showProductEditor);
         };
 
         var refreshProducts = function () {
-            productServer.getProducts().done(showAllProducts);
+            productServer.getAll().done(showAllProducts);
         };
 
-        var showAllProducts = function (data) {            
+        var showAllProducts = function (data) {
             var output = templates.productTable({ products: data });
-            
-            $('#productTemplateOutput').html(output);
+            $('#productList').html(output);
         };
 
+        var showProductEditor = function (product) {
+            var output = templates.editProduct(product);
+            $('#productEditor').html(output);
+        };
 
         $(function () {
-            compileTemplates();
+            _init();
             refreshProducts();
         });
     }());
 </script>
 
-<div id="productTemplateOutput">
+<div id="productList"></div>
 
-</div>
+<div id="productEditor"></div>
 
-<script id="productTable" type="text/html">
+<script id="list-products" type="text/html">
     <table>
         <thead>
         <tr>
@@ -75,4 +90,15 @@
         </tr>
         {{/each}}
     </table>
+</script>
+
+<script id="edit-product" type="text/html">
+    <dl>
+        <dt>Name</dt>
+        <dd><input type="text" name="Name" value="{{Name}}" /></dd>
+        <dt>Unit Price</dt>
+        <dd><input type="text" name="UnitPrice" value="{{UnitPrice}}" /></dd>
+        <dt>&nbsp;</dt>
+        <dd><input id="saveCommand" type="button" value="save" /></dd>
+    </dl>
 </script>

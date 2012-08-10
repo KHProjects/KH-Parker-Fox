@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using AutoMapper;
+﻿using AutoMapper;
 using ParkerFox.Application.Commands.Magazine;
-using ParkerFox.Core.Entities;
 using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Infrastructure;
-using ParkerFox.Site.ViewModels;
+using ParkerFox.Site.ViewModels.Ecommerce;
 using ParkerFox.Site.ViewModels.Magazine;
-using ParkerFox.Site.ViewModels.Store;
 
 namespace ParkerFox.Site.Component
 {
