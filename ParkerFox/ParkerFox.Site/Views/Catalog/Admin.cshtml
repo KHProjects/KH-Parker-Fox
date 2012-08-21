@@ -7,9 +7,14 @@
     #products table{border:0;padding:0;margin:0;border-spacing:0;border-collapse:collapse;width:100%}
 </style>
 
+<div id="productList"></div>
+
+<div id="productEditor"></div>
+
 <script type="text/javascript" src="~/Scripts/handlebars.js"></script>
 <script type="text/ecmascript">
 
+    //--this is called a javascript module
     var productServer = (function () {
         var productApiUrl = '@Url.RouteUrl("DefaultApi", new {httproute="", controller="product"})';
         
@@ -38,6 +43,7 @@
 
         var _init = function () {
             compileTemplates();
+            refreshProducts();
             $('#productList').on('click', 'table tr', editProduct);
         };
 
@@ -64,16 +70,12 @@
             $('#productEditor').html(output);
         };
 
+        //--shorthand for $(document.ready).func...
         $(function () {
             _init();
-            refreshProducts();
         });
     }());
 </script>
-
-<div id="productList"></div>
-
-<div id="productEditor"></div>
 
 <script id="list-products" type="text/html">
     <table>

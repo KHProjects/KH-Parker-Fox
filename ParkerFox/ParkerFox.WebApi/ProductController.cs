@@ -33,5 +33,10 @@ namespace ParkerFox.WebApi
         {
             return null;
         }
+
+        public HttpResponseMessage Delete(int id)
+        {
+            return null;
+        }
     }
 }
