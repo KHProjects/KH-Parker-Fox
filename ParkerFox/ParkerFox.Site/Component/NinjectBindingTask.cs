@@ -13,6 +13,7 @@ using ParkerFox.Infrastructure.Repository;
 using Ninject.Web.Common;
 using System.Web.Http;
 using ParkerFox.Infrastructure.Messaging;
+using ParkerFox.Core.Messaging;
 
 namespace ParkerFox.Site.Component
 {

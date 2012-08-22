@@ -5,13 +5,26 @@
 }
 <style>
     #products table{border:0;padding:0;margin:0;border-spacing:0;border-collapse:collapse;width:100%}
+    dl{margin:0;padding:0;border:0;outline:0}
+    dl dt, dl dd{display:inline-block;margin:0;padding:0;border:0;outline:0}
+    #edit-product{width:400px;background-color:grey}
+    #edit-product dt{width:100px;background-color:red}
+    #edit-product dd{width:200px}
 </style>
+
+
+<input type="button" id="callSelfHost" value="call self hosted" />
+<div>
+    <input id="queryText" type="text" />
+    <input id="findCommand" type="button" value="find" />
+</div>
 
 <div id="productList"></div>
 
 <div id="productEditor"></div>
 
 <script type="text/javascript" src="~/Scripts/handlebars.js"></script>
+
 <script type="text/ecmascript">
 
     //--this is called a javascript module
@@ -30,9 +43,32 @@
             return $.ajax(productApiUrl + '/' + id);
         };
 
+        var _find = function (queryText) {
+            var url = productApiUrl + "/find?queryText=" + queryText;
+            //url = productApiUrl + "/find/id";
+            alert(url);
+            return $.ajax(url);
+        };
+
         return {
             getAll: _getAll,
-            getById : _getById
+            getById: _getById,
+            find : _find
+        };
+
+        //--place holder for propa jquery goodness
+        function update() {
+            $.ajax({
+                url: "",
+                data: { id: 1 },
+                contentType: "application/json;charset=utf-8",
+                statusCode: {
+                    200: function (data) {
+                    },
+                    404: function () {
+                    }
+                }
+            });
         };
 
     }());
@@ -45,6 +81,7 @@
             compileTemplates();
             refreshProducts();
             $('#productList').on('click', 'table tr', editProduct);
+            $('#findCommand').on('click', findProduct);
         };
 
         var compileTemplates = function () {
@@ -70,9 +107,27 @@
             $('#productEditor').html(output);
         };
 
+        var findProduct = function () {
+            var queryText = $('#queryText').val();
+            productServer.find(queryText).done(showAllProducts);
+        };
+
         //--shorthand for $(document.ready).func...
         $(function () {
             _init();
+
+            $('#callSelfHost').click(function () {
+
+                $.ajax({
+                    url: "http://localhost:8080/api/product",
+                    success: function (data) {
+                        alert('your mom');
+                    },
+                    error: function () {
+                        alert('errrrrr');
+                    }
+                });
+            });
         });
     }());
 </script>
@@ -95,7 +150,7 @@
 </script>
 
 <script id="edit-product" type="text/html">
-    <dl>
+    <dl id="edit-product">
         <dt>Name</dt>
         <dd><input type="text" name="Name" value="{{Name}}" /></dd>
         <dt>Unit Price</dt>

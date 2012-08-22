@@ -203,10 +203,6 @@
     <Compile Include="Component\MediaTypeFormatters\SyndicationMediaTypeFormatter.cs" />
     <Compile Include="Component\MyActionFilter.cs" />
     <Compile Include="Component\NinjectBindingTask.cs" />
-    <Compile Include="Component\NinjectControllerFactory.cs" />
-    <Compile Include="Component\NinjectDependencyResolver.cs" />
-    <Compile Include="Component\NinjectHttpDependencyResolver.cs" />
-    <Compile Include="Component\NinjectScope.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

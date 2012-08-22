@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Ninject;
 using Ninject.Syntax;
+using ParkerFox.Core.Messaging;
 using ParkerFox.Infrastructure.Messaging;
 using ParkerFox.Infrastructure.Messaging.Commands;
 using ParkerFox.Infrastructure.Messaging.Events;

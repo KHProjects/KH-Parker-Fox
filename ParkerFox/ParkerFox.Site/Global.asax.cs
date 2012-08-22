@@ -30,7 +30,13 @@ namespace ParkerFox.Site
             routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = System.Web.Http.RouteParameter.Optional }                
+                defaults: new { id = System.Web.Http.RouteParameter.Optional }
+            );
+
+            routes.MapHttpRoute(
+                name: "ActionApi",
+                routeTemplate: "api/{controller}/{action}/{id}",
+                defaults: new { action = "Index", id = System.Web.Http.RouteParameter.Optional }
             );
 
             routes.MapRoute(
@@ -55,6 +61,7 @@ namespace ParkerFox.Site
             new MapViewModelToCommand().Execute();
 
             GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
+
 
             //HibernatingRhinos.Profiler.Appender.NHibernate.NHibernateProfiler.Initialize();
         }
