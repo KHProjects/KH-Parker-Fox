@@ -52,19 +52,20 @@ namespace ParkerFox.Infrastructure.Data
 
         private static Configuration BuildConfiguration()
         {
+            var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["main"].ConnectionString;
             //return Fluently.Configure(new Configuration().Configure())
             //    .Mappings(cfg => cfg.FluentMappings.AddFromAssembly(typeof(VisitorMapping).Assembly))
             //    .BuildConfiguration();
             return Fluently.Configure()
             .Database(MsSqlCeConfiguration.Standard
-            .ConnectionString(@"Data Source=|DataDirectory|\ParkerFox.sdf")
+            .ConnectionString(connectionString)
             .ShowSql()
             .Driver<NHibernate.Driver.SqlServerCeDriver>()
             .Dialect<NHibernate.Dialect.MsSqlCeDialect>())
             .Mappings(m => m.FluentMappings.AddFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()))
                 //.ExposeConfiguration(BuildSchema)
-            .ExposeConfiguration(x => x.SetProperty("connection.release_mode", "on_close"))            
+            .ExposeConfiguration(x => x.SetProperty("connection.release_mode", "on_close"))
             .BuildConfiguration();
-        }           
+        }
     }
 }

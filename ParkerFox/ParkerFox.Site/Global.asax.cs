@@ -62,7 +62,6 @@ namespace ParkerFox.Site
 
             GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
 
-
             //HibernatingRhinos.Profiler.Appender.NHibernate.NHibernateProfiler.Initialize();
         }
     }

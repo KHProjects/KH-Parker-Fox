@@ -16,6 +16,9 @@ namespace ParkerFox.Site.Controllers.Ecommerce.Catalog
 
         public ActionResult Admin()
         {
+
+
+
             return View();
         }
     }

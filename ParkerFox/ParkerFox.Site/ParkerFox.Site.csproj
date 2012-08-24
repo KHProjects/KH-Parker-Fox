@@ -68,15 +68,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="IronRuby">
-      <HintPath>..\packages\IronRuby.1.1.3\Lib\IronRuby.dll</HintPath>
-    </Reference>
-    <Reference Include="IronRuby.Libraries">
-      <HintPath>..\packages\IronRuby.1.1.3\Lib\IronRuby.Libraries.dll</HintPath>
-    </Reference>
-    <Reference Include="IronRuby.Libraries.Yaml">
-      <HintPath>..\packages\IronRuby.1.1.3\Lib\IronRuby.Libraries.Yaml.dll</HintPath>
-    </Reference>
     <Reference Include="Jurassic">
       <HintPath>..\packages\Jurassic.2.1.1\lib\Jurassic.dll</HintPath>
     </Reference>
@@ -172,7 +163,7 @@
     </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -203,9 +194,12 @@
     <Compile Include="Component\MediaTypeFormatters\SyndicationMediaTypeFormatter.cs" />
     <Compile Include="Component\MyActionFilter.cs" />
     <Compile Include="Component\NinjectBindingTask.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Beer.cs" />
+    <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -291,10 +285,15 @@
     <Content Include="Scripts\jquery-1.7.2.min.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
     </Content>
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.min.js">
       <DependentUpon>jquery-ui-1.8.20.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\jquery-ui-1.8.23.js" />
+    <Content Include="Scripts\jquery-ui-1.8.23.min.js" />
     <Content Include="Scripts\jquery.mobile-1.1.0.js" />
     <Content Include="Scripts\jquery.mobile-1.1.0.min.js">
       <DependentUpon>jquery.mobile-1.1.0.js</DependentUpon>
@@ -370,9 +369,7 @@
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\msvcr90.dll" />
     <None Include="_bin_deployableAssemblies\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

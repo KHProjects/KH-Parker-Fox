@@ -117,14 +117,15 @@
             _init();
 
             $('#callSelfHost').click(function () {
-
                 $.ajax({
-                    url: "http://localhost:8080/api/product",
+                    url: "http://localhost:8181/api/product",
+                    type : "GET",
                     success: function (data) {
                         alert('your mom');
                     },
-                    error: function () {
-                        alert('errrrrr');
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert(xhr.status);
+                        alert(thrownError);
                     }
                 });
             });
