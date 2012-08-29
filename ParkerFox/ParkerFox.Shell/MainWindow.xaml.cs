@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -55,6 +56,11 @@ namespace ParkerFox.Shell
         {
             //await Task.Delay(5000);
             return new List<Order> { new Order { Title = "order one" }, new Order { Title = "Order Two" } };
+        }
+
+        public async Task<Order> DoSumShit()
+        {
+            return new Order();
         }
     }
 }
