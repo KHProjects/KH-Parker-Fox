@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CartServices.cs" />
     <Compile Include="CommandHandlers\ApplyForLoanHandler.cs" />
     <Compile Include="CommandHandlers\Magazine\CreateNewSubscriptionHandler.cs" />
     <Compile Include="Commands\ApplyForLoan.cs" />
@@ -55,7 +56,12 @@
     <Compile Include="Events\Magazine\NewSubscriptionCreated.cs" />
     <Compile Include="Messaging\ApplicationBus.cs" />
     <Compile Include="Messaging\MessagingNinjectModule.cs" />
+    <Compile Include="ModuleBootstrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\BbcWorldNewsProvider.cs" />
+    <Compile Include="Providers\DiggStoreProvider.cs" />
+    <Compile Include="Providers\IStoryProvider.cs" />
+    <Compile Include="Providers\StoryService.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

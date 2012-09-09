@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,9 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ecommerce\Catalog\BasketController.cs" />
     <Compile Include="Ecommerce\Catalog\CatalogController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Publication\SubscribeController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParkerFox.Application\ParkerFox.Application.csproj">
+      <Project>{13b42e01-21e9-4ca1-8eec-a3c32d3935dc}</Project>
+      <Name>ParkerFox.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Core\ParkerFox.Core.csproj">
+      <Project>{f7198e49-d059-41e4-a565-e3da758a74ac}</Project>
+      <Name>ParkerFox.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Site.ViewModels\ParkerFox.Site.ViewModels.csproj">
+      <Project>{05782a8d-d454-4591-b439-3bdf955ea39a}</Project>
+      <Name>ParkerFox.Site.ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

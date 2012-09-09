@@ -57,6 +57,7 @@
   <ItemGroup>
     <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Repository\" />
+    <Folder Include="Site\Controllers\Ecommerce\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationServices\ICartServices.cs" />
     <Compile Include="CQRS\AggregateRootStore.cs" />
     <Compile Include="CQRS\EventStore.cs" />
     <Compile Include="CQRS\IAggregateRoot.cs" />
@@ -54,6 +55,8 @@
     <Compile Include="CQRS\IMessageHandler.cs" />
     <Compile Include="CQRS\StoredAggregateRoot.cs" />
     <Compile Include="CQRS\StoredEvent.cs" />
+    <Compile Include="DataTransferObjects\Providers\Story.cs" />
+    <Compile Include="Entities\Ecommerce\CartItem.cs" />
     <Compile Include="Entities\Ecommerce\Order.cs" />
     <Compile Include="Entities\Ecommerce\OrderItem.cs" />
     <Compile Include="Entities\Magazine\Account.cs" />
@@ -74,6 +77,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Providers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

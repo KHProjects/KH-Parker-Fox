@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ecommerce\BasketViewModel.cs" />
     <Compile Include="Ecommerce\CatalogViewModel.cs" />
     <Compile Include="Ecommerce\ProductViewModel.cs" />
     <Compile Include="Magazine\Subscribe.cs" />

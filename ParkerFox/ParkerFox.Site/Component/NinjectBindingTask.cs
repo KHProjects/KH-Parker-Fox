@@ -15,6 +15,8 @@ using System.Web.Http;
 using ParkerFox.Infrastructure.Messaging;
 using ParkerFox.Core.Messaging;
 using ParkerFox.Infrastructure.Web;
+using ParkerFox.Core.ApplicationServices;
+using ParkerFox.Application;
 
 namespace ParkerFox.Site.Component
 {
@@ -37,7 +39,7 @@ namespace ParkerFox.Site.Component
             kernel.Bind<IActiveSessionManager>().To<ActiveSessionManager>();
             kernel.Bind<IUnitOfWork>().To<UnitOfWork>().InRequestScope();
             kernel.Bind<IBus>().To<ApplicationBus>();
-
+            //kernel.Bind<ICartServices>().To<CartServices>();
             kernel.Load(Assembly.Load("ParkerFox.Application"));
 
             //below is how you would just supply ninject to controller injection

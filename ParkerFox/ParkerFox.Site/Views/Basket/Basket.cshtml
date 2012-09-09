@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ParkerFox.Site.ViewModels.Ecommerce.BasketViewModel>
+
+<table id="basket">
+    @foreach(var item in Model)
+    {
+        <tr data-id="@item.ProductId">
+            <td>@item.Description</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="quantity" data-value="@item.Quantity">
+                @if(ViewBag.ProductId==item.ProductId)
+                {
+                    using(Html.BeginForm("Update", "Basket"))
+                    {
+                        @Html.Hidden("ProductId", item.ProductId);
+                        @Html.TextBox("Quantity", item.Quantity, new { @class = "quantity-input" });
+                        <input id="saveCommand" type="submit" value="save"/>
+                    }
+                    using(Html.BeginForm("Delete", "Basket"))
+                    {
+                        @Html.Hidden("ProductId", item.ProductId);
+                        <input id="deleteCommand" type="submit" value="delete"/>
+                    }
+                }else
+                {
+                    @item.Quantity
+                }
+            </td>
+            <td class="edit">
+                <a href="@Url.Action("Index", "Basket", new{productId=@item.ProductId})">
+                    <img src="/Content/images/edit.png" />
+                </a>
+            </td>
+        </tr>
+    }
+</table>

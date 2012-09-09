@@ -206,10 +206,13 @@
     <Content Include="App_Data\ParkerFox.sdf" />
     <Content Include="Content\images\ajax-loader.gif" />
     <Content Include="Content\images\ajax-loader.png" />
+    <Content Include="Content\images\cross.png" />
+    <Content Include="Content\images\edit.png" />
     <Content Include="Content\images\icons-18-black.png" />
     <Content Include="Content\images\icons-18-white.png" />
     <Content Include="Content\images\icons-36-black.png" />
     <Content Include="Content\images\icons-36-white.png" />
+    <Content Include="Content\images\save.png" />
     <Content Include="Content\jquery.mobile-1.1.0.css" />
     <Content Include="Content\jquery.mobile-1.1.0.min.css" />
     <Content Include="Content\jquery.mobile.structure-1.1.0.css" />
@@ -353,6 +356,8 @@
     <Content Include="Views\Catalog\_ProductList.cshtml" />
     <Content Include="Views\Subscribe\Index.cshtml" />
     <Content Include="Views\Subscribe\StepOne.cshtml" />
+    <Content Include="Views\Basket\Index.cshtml" />
+    <Content Include="Views\Basket\Basket.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
