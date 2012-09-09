@@ -40,6 +40,7 @@
     <Reference Include="System.Reactive">
       <HintPath>..\packages\Rx-Main.1.0.11226\lib\Net4\System.Reactive.dll</HintPath>
     </Reference>
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -62,6 +63,8 @@
     <Compile Include="Providers\DiggStoreProvider.cs" />
     <Compile Include="Providers\IStoryProvider.cs" />
     <Compile Include="Providers\StoryService.cs" />
+    <Compile Include="Services\Contracts\INewOrderProcessingService.cs" />
+    <Compile Include="Services\Implementations\NewOrderProcessingService.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

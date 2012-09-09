@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -40,6 +41,11 @@ namespace ParkerFox.Shell
             saveCommand.IsEnabled = true;
 
             DataContext = orders;
+        }
+
+        private async void test_Click_1(object sender, RoutedEventArgs e)
+        {
+            string data = await new WebClient().DownloadStringTaskAsync("http://localhost:8181/api/product");
         }
     }
 
