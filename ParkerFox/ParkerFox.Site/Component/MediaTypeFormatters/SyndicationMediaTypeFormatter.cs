@@ -26,13 +26,13 @@ namespace ParkerFox.Site.Component.MediaTypeFormatters
             return type == typeof(Product);
         }
 
-        public override Task WriteToStreamAsync(Type type, object value, Stream stream, HttpContentHeaders contentHeaders, System.Net.TransportContext transportContext)
-        {
-            return Task.Factory.StartNew(() =>
-            {
-                BuildSyndicationFeed(value, stream, contentHeaders.ContentType.MediaType);
-            });
-        }
+        //public override Task WriteToStreamAsync(Type type, object value, Stream stream, HttpContentHeaders contentHeaders, System.Net.TransportContext transportContext)
+        //{
+        //    return Task.Factory.StartNew(() =>
+        //    {
+        //        BuildSyndicationFeed(value, stream, contentHeaders.ContentType.MediaType);
+        //    });
+        //}
 
         public override bool CanReadType(Type type)
         {

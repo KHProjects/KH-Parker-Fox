@@ -15,7 +15,7 @@ namespace ParkerFox.Infrastructure.Data.Mapping.Magazine
             Id(x => x.SubscriptionTermId);
             //Map(x => x.SubscriptionId);
             Map(x => x.StartDate);
-            Map(x => x.Type).CustomType<SubscriptionTermTypes>().Column("SubscriptionTermTypeId");
+            Map(x => x.Type).CustomType<SubscriptionPaymentTypes>().Column("SubscriptionTermTypeId");
             Table("[Magazine.SubscriptionTerm]");
         }
     }

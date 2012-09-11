@@ -49,14 +49,13 @@ namespace ParkerFox.Site.Component.MediaTypeFormatters
             return true;
         }
 
-        public override Task<object> ReadFromStreamAsync(Type type, Stream stream, HttpContentHeaders contentHeaders, IFormatterLogger formatterLogger)
+        public override Task<object> ReadFromStreamAsync(Type type, Stream readStream, System.Net.Http.HttpContent content, IFormatterLogger formatterLogger)
         {
             var taskCompletionSource = new TaskCompletionSource<object>();
-            if (contentHeaders != null && contentHeaders.ContentLength == 0) return null;
 
             try
             {
-                BsonReader reader = new BsonReader(stream);
+                BsonReader reader = new BsonReader(readStream);
                 if (typeof(IEnumerable).IsAssignableFrom(type)) reader.ReadRootValueAsArray = true;
 
                 using (reader)
@@ -85,10 +84,10 @@ namespace ParkerFox.Site.Component.MediaTypeFormatters
             return taskCompletionSource.Task;
         }
 
-        public override Task WriteToStreamAsync(Type type, object value, Stream stream, HttpContentHeaders contentHeaders, System.Net.TransportContext transportContext)
+        public override Task WriteToStreamAsync(Type type, object value, Stream writeStream, System.Net.Http.HttpContent content, System.Net.TransportContext transportContext)
         {
             var taskCompletionSource = new TaskCompletionSource<object>();
-            using(BsonWriter bsonWriter = new BsonWriter(stream){CloseOutput = false})
+            using (BsonWriter bsonWriter = new BsonWriter(writeStream) { CloseOutput = false })
             {
                 JsonSerializer jsonSerializer = JsonSerializer.Create(_jsonSerializerSettings);
                 jsonSerializer.Serialize(bsonWriter, value);
