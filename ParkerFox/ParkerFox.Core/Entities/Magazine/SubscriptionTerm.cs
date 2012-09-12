@@ -14,7 +14,7 @@ namespace ParkerFox.Core.Entities.Magazine
         public virtual SubscriptionPaymentTypes Type { get; set; }
         public virtual TimePeriod Term { get; set; }
 
-        public DateTime? GetEndDate()
+        public virtual DateTime? GetEndDate()
         {
             if (StartDate == null)
                 return StartDate;

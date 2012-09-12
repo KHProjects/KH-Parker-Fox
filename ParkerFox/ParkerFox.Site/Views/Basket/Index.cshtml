@@ -92,11 +92,11 @@
 
         //start
         $(function() {
-            //$('#basket tr').hover(enterEditState, leaveEditState);
+            $('#basket tr').hover(enterEditState, leaveEditState);
             $(document).on("click", "#basket td.quantity a.saveCommand", saveQuantityClickHandler);
             $(document).on("click", "#basket td.quantity a.deleteCommand", deleteItemClickHandler);
             $(document).on("click", "#basket td.quantity input", function () { $(this).select(); });
-            //$('#basket td.edit').remove(); //if JS enabled then we'll remove the manual update column
+            $('#basket td.edit').remove(); //if JS enabled then we'll remove the manual update column
         });
     }());
 </script>

@@ -4,10 +4,10 @@ namespace ParkerFox.Core.Entities.Magazine
 {
     public class TimePeriod
     {
-        public TimePeriodIntervals Interval { get; set; }
-        public int Quantity { get; set; }
+        public virtual TimePeriodIntervals Interval { get; set; }
+        public virtual int Quantity { get; set; }
 
-        public DateTime GetExtent(DateTime startDate)
+        public virtual DateTime GetExtent(DateTime startDate)
         {
             switch(Interval)
             {
