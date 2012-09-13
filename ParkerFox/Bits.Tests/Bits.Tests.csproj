@@ -57,8 +57,9 @@
   <ItemGroup>
     <Compile Include="AsycronousTrsts.cs" />
     <Compile Include="CompositePatternTests.cs" />
+    <Compile Include="Delegates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestFixture.cs" />
+    <Compile Include="TestFixture_2.cs" />
     <Compile Include="UnitTesting.cs" />
   </ItemGroup>
   <ItemGroup>
