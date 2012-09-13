@@ -13,19 +13,15 @@ namespace Bits.Tests
     public class Delegates
     {
         private delegate void DelegateDefinition(int parameterOne);
+        private delegate string MyOtherDelegate(int p);
 
         [TestMethod]
         public void Basics()
         {
             DelegateDefinition one = new DelegateDefinition(SomeArbitraryMethod);
-            one(10);
-
-            DelegateDefinition two = SomeArbitraryMethod;
-            two(20);
-
-            DelegateDefinition staticMethod = Stat
+            one += SomeOtherArbitraryMethod;
+            one(1000);           
         }
-
 
         [TestMethod]
         public void PassDelegate()
@@ -46,8 +42,11 @@ namespace Bits.Tests
         [TestMethod]
         public void BuiltInDelegates()
         {
-            Action<int> action = SomeArbitraryMethod;
+            //takes a parameter, returns void
+            Action<int> action = SomeArbitraryMethod;            
+            //takes 0 or more params and returns the final generic type parameter
             Func<string, string> func = FunctionOne;
+            //returns a bool and accepts the only type parameter 
             Predicate<string> predicate = SomeCondition;
 
             action(1234);
@@ -58,15 +57,23 @@ namespace Bits.Tests
         [TestMethod]
         public void Anonymous()
         {
-            DelegatesLamda.MethodWithOneParameter methodWithOneParameter = x => Debug.WriteLine("called with {0}", x);
-            DelegatesLamda.FunctionWithOneParameter functionWithOneParameter = input =>
-                {
-                    Debug.WriteLine("you call this method with {0}", input);
-                    return "well done";
-                };
+            Action<int> dele = delegate(int p) { Debug.WriteLine("Your passed {0}", p); };
 
-            Action<DateTime> anonymousAction = (dateTime) => { };
-            Func<string, string> anonymousFunction = (input) => { return String.Format("anonymous function with input: {0}", input); };
+            Action<int> takeAnIntDontReturnAnything = 
+                (param) => Debug.WriteLine("bla bla");
+
+
+            List<int> inList = new List<int>();
+            
+            //DelegatesLamda.MethodWithOneParameter methodWithOneParameter = x => Debug.WriteLine("called with {0}", x);
+            //DelegatesLamda.FunctionWithOneParameter functionWithOneParameter = input =>
+            //    {
+            //        Debug.WriteLine("you call this method with {0}", input);
+            //        return "well done";
+            //    };
+
+            //Action<DateTime> anonymousAction = (dateTime) => { };
+            //Func<string, string> anonymousFunction = (input) => { return String.Format("anonymous function with input: {0}", input); };
         }
 
         private void SomeArbitraryMethod(int param)
