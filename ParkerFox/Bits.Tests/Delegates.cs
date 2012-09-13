@@ -42,7 +42,7 @@ namespace Bits.Tests
         [TestMethod]
         public void BuiltInDelegates()
         {
-            //takes a parameter, returns void
+            //takes a parameter, returns void         delegate void Action<T1>(T1 parameter1);
             Action<int> action = SomeArbitraryMethod;            
             //takes 0 or more params and returns the final generic type parameter
             Func<string, string> func = FunctionOne;
@@ -55,25 +55,30 @@ namespace Bits.Tests
         }
 
         [TestMethod]
-        public void Anonymous()
+        public void AnonymousAndLambda()
         {
-            Action<int> dele = delegate(int p) { Debug.WriteLine("Your passed {0}", p); };
+            Action<int> beforeLambda = delegate(int p) { Debug.WriteLine("Your passed {0}", p); };
+            Action<int> withLambda = param => Debug.WriteLine("bla bla");
 
-            Action<int> takeAnIntDontReturnAnything = 
-                (param) => Debug.WriteLine("bla bla");
+            Func<string> lambdaNoPars = () => "this is auto return value";
 
+            Func<int, int, string> complexMethod = (x, y) =>
+                {
+                    string result = String.Format("{0} X {1} = {2}", x, y, x*y);
+                    return result;
+                };
+        }
 
-            List<int> inList = new List<int>();
-            
-            //DelegatesLamda.MethodWithOneParameter methodWithOneParameter = x => Debug.WriteLine("called with {0}", x);
-            //DelegatesLamda.FunctionWithOneParameter functionWithOneParameter = input =>
-            //    {
-            //        Debug.WriteLine("you call this method with {0}", input);
-            //        return "well done";
-            //    };
+        [TestMethod]
+        public void SomeExamples()
+        {
+            new List<int>().Sort((x, y) => x.CompareTo(y));
 
-            //Action<DateTime> anonymousAction = (dateTime) => { };
-            //Func<string, string> anonymousFunction = (input) => { return String.Format("anonymous function with input: {0}", input); };
+            new Task(()=>
+                {
+                    string message = "this is an Action<T> delegate";
+
+                }).Start();
         }
 
         private void SomeArbitraryMethod(int param)
