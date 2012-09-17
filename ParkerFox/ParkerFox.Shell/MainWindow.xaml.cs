@@ -33,7 +33,7 @@ namespace ParkerFox.Shell
             incomingOrderObserver.NewOrder += async (sender, ojbect) =>
             {
                 MessageBox.Show("YOUR MOM");
-            };
+            };            
         }
 
         public async void saveCommand_Click(object sender, RoutedEventArgs e)
@@ -80,7 +80,7 @@ namespace ParkerFox.Shell
         {
             _newOrderProcessingServiceClient = new NewOrderProcessingServiceClient();
             _cancellationToken = new CancellationToken();
-            Run();
+            //Run();
         }
 
         public void RaiseEvent(IEnumerable<Order> orders)

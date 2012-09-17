@@ -60,8 +60,8 @@ namespace ParkerFox.Infrastructure.Data
             .Database(MsSqlCeConfiguration.Standard
             .ConnectionString(connectionString)
             .ShowSql()
-            .Driver<NHibernate.Driver.SqlServerCeDriver>()
-            .Dialect<NHibernate.Dialect.MsSqlCeDialect>())
+            //.Driver<NHibernate.Driver.SqlServerCeDriver>()
+            //.Dialect<NHibernate.Dialect.MsSqlCeDialect>())
             .Mappings(m => m.FluentMappings.AddFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()))
                 //.ExposeConfiguration(BuildSchema)
             .ExposeConfiguration(x => x.SetProperty("connection.release_mode", "on_close"))
