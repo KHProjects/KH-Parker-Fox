@@ -11,6 +11,7 @@ namespace ParkerFox.Application.Services.Contracts
     [ServiceContract]
     public interface INewOrderProcessingService
     {
+        [OperationContract]
         IEnumerable<Order> GetOrders();
     }
 }

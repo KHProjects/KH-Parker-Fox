@@ -1,4 +1,5 @@
-﻿using ParkerFox.Core.Entities.Ecommerce;
+﻿using System.Diagnostics;
+using ParkerFox.Core.Entities.Ecommerce;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ParkerFox.Shell.ApplicationServices;
 
 namespace ParkerFox.Shell
 {
@@ -58,26 +60,50 @@ namespace ParkerFox.Shell
 
             string data = await new WebClient().DownloadStringTaskAsync("http://localhost:8181/api/product");
         }
+
+        private async void getOrdersCommand_Click(object sender, RoutedEventArgs e)
+        {
+            var orders = await incomingOrderObserver.GetOrders();
+
+            MessageBox.Show(String.Format("We have {0} orders", orders.Count()));
+        }
     }
 
     public class IncomingOrderObserver
     {
-        public EventHandler<Order> NewOrder;
+        private ApplicationServices.NewOrderProcessingServiceClient _newOrderProcessingServiceClient;
+        private CancellationToken _cancellationToken;
 
-        public void RaiseEvent()
+        public EventHandler<IEnumerable<Order>> NewOrder;
+
+        public IncomingOrderObserver()
         {
-            NewOrder(this, new Order());
+            _newOrderProcessingServiceClient = new NewOrderProcessingServiceClient();
+            _cancellationToken = new CancellationToken();
+            Run();
+        }
+
+        public void RaiseEvent(IEnumerable<Order> orders)
+        {
+            NewOrder(this, orders);
         }
 
         public async Task<IEnumerable<Order>> GetOrders()
         {
-            //await Task.Delay(5000);
-            return new List<Order> { new Order { Title = "order one" }, new Order { Title = "Order Two" } };
+            return await _newOrderProcessingServiceClient.GetOrdersAsync();
         }
 
-        public async Task<Order> DoSumShit()
+        private async void Run()
         {
-            return new Order();
+            while(true)
+            {
+                var orders = await _newOrderProcessingServiceClient.GetOrdersAsync();
+
+                if (orders.Any())
+                    RaiseEvent(orders);
+
+                await Task.Delay(5000, _cancellationToken);
+            }
         }
     }
 }

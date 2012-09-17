@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Service="ParkerFox.Application.Services.Implementations.NewOrderProcessingService" %>
+﻿<%@ ServiceHost Service="ParkerFox.Application.Services.Implementations.NewOrderProcessingService" Factory="Ninject.Extensions.Wcf.NinjectServiceHostFactory" %>

@@ -68,6 +68,7 @@
     <Compile Include="Entities\Magazine\SubscriptionPaymentTypes.cs" />
     <Compile Include="Entities\Magazine\TimePeriod.cs" />
     <Compile Include="Entities\Repository\IEntitySet.cs" />
+    <Compile Include="Entities\Repository\IOrderRepository.cs" />
     <Compile Include="Entities\Repository\IProductRepository.cs" />
     <Compile Include="Entities\Repository\IRepository.cs" />
     <Compile Include="Entities\Repository\IVisitorRepository.cs" />

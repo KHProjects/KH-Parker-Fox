@@ -18,6 +18,6 @@
             </ListView.View>
         </ListView>
         <Button Name="saveCommand" Content="Save" Click="saveCommand_Click" />
-        <Button Name="test" Content="test" Click="test_Click_1"/>
+        <Button Name="getOrdersCommand" Content="Get Orders" Click="getOrdersCommand_Click"/>
     </StackPanel>
 </Window>

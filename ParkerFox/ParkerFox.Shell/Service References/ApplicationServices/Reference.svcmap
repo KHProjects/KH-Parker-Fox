@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2303d0d6-125d-402e-93c5-8c5bdbb4b775" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4055/NewOrderProcessingService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NewOrderProcessingService.wsdl" MetadataType="Wsdl" ID="6817102f-3db9-4ce6-8822-0e571491c6d0" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?wsdl" />
+    <MetadataFile FileName="NewOrderProcessingService.xsd" MetadataType="Schema" ID="0188baf7-408a-406c-adf9-720c73046dfc" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?xsd=xsd0" />
+    <MetadataFile FileName="NewOrderProcessingService.disco" MetadataType="Disco" ID="d8402cef-52e8-4cfb-9959-2ba99ceae835" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?disco" />
+    <MetadataFile FileName="NewOrderProcessingService1.xsd" MetadataType="Schema" ID="5320f7d0-48c4-4965-90af-534265a5544b" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?xsd=xsd1" />
+    <MetadataFile FileName="NewOrderProcessingService2.xsd" MetadataType="Schema" ID="67008a8a-0f94-4fef-8dc3-92b8e99229b5" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -56,6 +56,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackOffice", "BackOffice", "{ED543445-AD4B-42C2-91EC-1AAC6C162F01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkerFox.Shell", "ParkerFox.Shell\ParkerFox.Shell.csproj", "{DDF341B2-965F-496B-9D03-2ADB55177257}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3DB7D438-EE7C-4B72-BB5C-C3E143213D08} = {3DB7D438-EE7C-4B72-BB5C-C3E143213D08}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkerFox.WebApi.Host", "ParkerFox.WebApi.Host\ParkerFox.WebApi.Host.csproj", "{D87675FC-0808-433A-817A-1B0D1DFD59AA}"
 EndProject
