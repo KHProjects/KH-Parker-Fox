@@ -28,7 +28,7 @@ namespace ParkerFox.Infrastructure.Repository
         {
             using (ISession session = DataConfig.GetSession())
             {
-                return session.QueryOver<Visitor>().Take(limit).List();                
+                return session.QueryOver<Visitor>().Take(limit).List();
             }
         }
     }

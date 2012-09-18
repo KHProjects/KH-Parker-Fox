@@ -2,7 +2,7 @@
 using System.ServiceModel.Channels;
 using System.ServiceModel.Dispatcher;
 
-namespace ParkerFox.Infrastructure.Data.NHibernate
+namespace ParkerFox.Infrastructure.Data.WcfNHibernate
 {
     public class DispatchMessageInspector : IDispatchMessageInspector
     {

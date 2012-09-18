@@ -1,3 +1,5 @@
+using ParkerFox.Infrastructure.Data;
+
 [assembly: WebActivator.PreApplicationStartMethod(typeof(ParkerFox.Services.Host.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(ParkerFox.Services.Host.App_Start.NinjectWebCommon), "Stop")]
 
@@ -24,6 +26,8 @@ namespace ParkerFox.Services.Host.App_Start
             DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
             DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
             bootstrapper.Initialize(CreateKernel);
+
+            DataConfig.EnsureStartup();
         }
         
         /// <summary>
