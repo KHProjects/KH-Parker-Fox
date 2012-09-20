@@ -1,22 +1,12 @@
-﻿using System.Diagnostics;
-using ParkerFox.Core.Entities.Ecommerce;
+﻿using ParkerFox.Core.Entities.Ecommerce;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using ParkerFox.Shell.ApplicationServices;
 
 namespace ParkerFox.Shell
@@ -30,8 +20,9 @@ namespace ParkerFox.Shell
             InitializeComponent();
             incomingOrderObserver = new IncomingOrderObserver();
 
-            incomingOrderObserver.NewOrder += async (sender, ojbect) =>
+            incomingOrderObserver.NewOrder += async (sender, orders) =>
             {
+                
                 MessageBox.Show("YOUR MOM");
             };            
         }
@@ -67,6 +58,11 @@ namespace ParkerFox.Shell
 
             MessageBox.Show(String.Format("We have {0} orders", orders.Count()));
         }
+
+        private void BindOrder(IEnumerable<Order> orders)
+        {
+            
+        }
     }
 
     public class IncomingOrderObserver
@@ -80,17 +76,21 @@ namespace ParkerFox.Shell
         {
             _newOrderProcessingServiceClient = new NewOrderProcessingServiceClient();
             _cancellationToken = new CancellationToken();
-            //Run();
-        }
-
-        public void RaiseEvent(IEnumerable<Order> orders)
-        {
-            NewOrder(this, orders);
         }
 
         public async Task<IEnumerable<Order>> GetOrders()
         {
             return await _newOrderProcessingServiceClient.GetOrdersAsync();
+        }
+
+        public void Start()
+        {
+            Run();
+        }
+
+        public void Stop()
+        {
+            
         }
 
         private async void Run()
@@ -104,6 +104,11 @@ namespace ParkerFox.Shell
 
                 await Task.Delay(5000, _cancellationToken);
             }
+        }
+
+        private void RaiseEvent(IEnumerable<Order> orders)
+        {
+            NewOrder(this, orders);
         }
     }
 }

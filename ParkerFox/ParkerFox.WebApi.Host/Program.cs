@@ -45,16 +45,8 @@ namespace ParkerFox.WebApi.Host
         {
             IKernel kernel = new StandardKernel();
 
-            //kernel.Bind<IVisitorRepository>().To<VisitorRepository>();
-            kernel.Bind<IProductRepository>().To<ProductRepository>();
-            //kernel.Bind<ISubscriptionRepository>().To<SubscriptionRepository>();
-
-            //kernel.Bind<IRequestState>().To<AspRequestState>();
-            //kernel.Bind<IActiveSessionManager>().To<ActiveSessionManager>();
-            kernel.Bind<IUnitOfWork>().To<UnitOfWork>();
-            kernel.Bind<IBus>().To<ApplicationBus>();
-
-            //kernel.Load(Assembly.Load("ParkerFox.Application"));
+            kernel.Load("ParkerFox.Infrastructure.dll");
+            kernel.Load("ParkerFox.Application.dll");
 
             //below is how you would just supply ninject to controller injection
             //ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory(kernel));

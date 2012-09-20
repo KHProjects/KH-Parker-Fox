@@ -72,5 +72,10 @@ namespace ParkerFox.Site.Controllers.Ecommerce.Catalog
             _cartServices.RemoveItem(basketViewModel.ProductId);
             return View("Index");
         }
+
+        public ActionResult Checkout()
+        {
+            return View();
+        }
     }
 }

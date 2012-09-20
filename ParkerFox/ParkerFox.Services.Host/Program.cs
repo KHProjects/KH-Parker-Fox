@@ -4,6 +4,7 @@ using System.Linq;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
+using ParkerFox.Application.Services.Implementations;
 
 namespace ParkerFox.Services.Host
 {
@@ -11,9 +12,12 @@ namespace ParkerFox.Services.Host
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Server listening...");
-            Console.ReadLine();
+            using (ServiceHost serviceHost = new ServiceHost(typeof(NewOrderProcessingService)))
+            {
+                serviceHost.Open();
+                Console.WriteLine("Server listening...");
+                Console.ReadLine();
+            }
         }
     }
 }

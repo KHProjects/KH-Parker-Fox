@@ -91,6 +91,16 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParkerFox.Application\ParkerFox.Application.csproj">
+      <Project>{13b42e01-21e9-4ca1-8eec-a3c32d3935dc}</Project>
+      <Name>ParkerFox.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Core\ParkerFox.Core.csproj">
+      <Project>{f7198e49-d059-41e4-a565-e3da758a74ac}</Project>
+      <Name>ParkerFox.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

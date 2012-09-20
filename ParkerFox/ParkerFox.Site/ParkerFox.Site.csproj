@@ -168,7 +168,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="Component\MapViewModelToCommand.cs" />
     <Compile Include="Component\MediaTypeFormatters\BsonMediaTypeFormatter.cs" />
     <Compile Include="Component\MediaTypeFormatters\SyndicationMediaTypeFormatter.cs" />
@@ -185,6 +184,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\ParkerFox.sdf" />
+    <Content Include="Content\ecommerce.css" />
     <Content Include="Content\images\ajax-loader.gif" />
     <Content Include="Content\images\ajax-loader.png" />
     <Content Include="Content\images\cross.png" />
@@ -264,6 +264,7 @@
     <Content Include="HtmlPage1.html" />
     <Content Include="App_Readme\Handlebarsjs_README.md" />
     <Content Include="App_Readme\Handlebarsjs_LICENSE" />
+    <Content Include="Views\Basket\Checkout.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -283,6 +284,7 @@
     <None Include="Scripts\jquery-1.7.2.intellisense.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
     </None>
+    <Content Include="Scripts\Ecommerce\basket.js" />
     <Content Include="Scripts\gl-utils.js" />
     <Content Include="Scripts\handlebars.js" />
     <Content Include="Scripts\handlebars.runtime.js" />
@@ -436,4 +438,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy $(projectDir)app_data\ParkerFox.sdf $(solutionDir)ParkerFox.Services.Site\App_data /Y /C</PostBuildEvent>
+  </PropertyGroup>
 </Project>

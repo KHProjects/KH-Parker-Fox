@@ -62,9 +62,17 @@
     });
 
     function addToBasketCommandEventHandler(e) {
+        var basketItem = {
+            ProductId: 2,
+            Quantity : 1
+        };
+
         $.ajax({
-            url: "/api/product",
-            data: { id: 2 },
+            type: "POST",
+            url: "http://localhost:8181/api/basket/",
+            data: basketItem,
+            //dataType : "json",
+            //contentType: "application/json; charset=utf-8",
             statusCode: {
                 200: onAddedToBasket,
                 404: onErrorAddToBasket

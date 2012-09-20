@@ -56,13 +56,18 @@ namespace ParkerFox.Site
             BundleTable.Bundles.RegisterTemplateBundles();
 
             DataConfig.EnsureStartup();
-
-            new NinjectBindingTask().Execute(); //TODO: Reflect over assembly to extract all IBootStrapTask implementers
+            
             new MapViewModelToCommand().Execute();
+            new NinjectBindingTask().Execute();
 
-            GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
+            //GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
 
             //HibernatingRhinos.Profiler.Appender.NHibernate.NHibernateProfiler.Initialize();
+        }
+
+        protected void Session_Start()
+        {
+            string test = "your mom";
         }
     }
 }

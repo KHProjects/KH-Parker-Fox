@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ecommerce\BasketController.cs" />
     <Compile Include="Ecommerce\CustomerController.cs" />
+    <Compile Include="Ecommerce\Dto\BasketItem.cs" />
     <Compile Include="Ecommerce\ProductController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -70,6 +70,7 @@
     <Compile Include="Entities\Ecommerce\Product.cs" />
     <Compile Include="Entities\Magazine\SubscriptionPaymentTypes.cs" />
     <Compile Include="Entities\Magazine\TimePeriod.cs" />
+    <Compile Include="Entities\Repository\ICartItemRepository.cs" />
     <Compile Include="Entities\Repository\IEntitySet.cs" />
     <Compile Include="Entities\Repository\IOrderRepository.cs" />
     <Compile Include="Entities\Repository\IProductRepository.cs" />

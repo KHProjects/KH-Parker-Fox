@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2303d0d6-125d-402e-93c5-8c5bdbb4b775" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="65991df2-2495-40b2-a711-cebafb8a0561" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,14 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:4055/NewOrderProcessingService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:12102/NewOrderProcessingService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="NewOrderProcessingService.wsdl" MetadataType="Wsdl" ID="6817102f-3db9-4ce6-8822-0e571491c6d0" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?wsdl" />
-    <MetadataFile FileName="NewOrderProcessingService.xsd" MetadataType="Schema" ID="0188baf7-408a-406c-adf9-720c73046dfc" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?xsd=xsd0" />
-    <MetadataFile FileName="NewOrderProcessingService.disco" MetadataType="Disco" ID="d8402cef-52e8-4cfb-9959-2ba99ceae835" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?disco" />
-    <MetadataFile FileName="NewOrderProcessingService1.xsd" MetadataType="Schema" ID="5320f7d0-48c4-4965-90af-534265a5544b" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?xsd=xsd1" />
-    <MetadataFile FileName="NewOrderProcessingService2.xsd" MetadataType="Schema" ID="67008a8a-0f94-4fef-8dc3-92b8e99229b5" SourceId="1" SourceUrl="http://localhost:4055/NewOrderProcessingService.svc?xsd=xsd2" />
+    <MetadataFile FileName="NewOrderProcessingService.xsd" MetadataType="Schema" ID="2db2f91a-3526-42de-81b9-a33b38f8d450" SourceId="1" SourceUrl="http://localhost:12102/NewOrderProcessingService.svc?xsd=xsd2" />
+    <MetadataFile FileName="NewOrderProcessingService.disco" MetadataType="Disco" ID="4e159824-7ee9-4cf0-8559-bc245c6abadb" SourceId="1" SourceUrl="http://localhost:12102/NewOrderProcessingService.svc?disco" />
+    <MetadataFile FileName="NewOrderProcessingService1.xsd" MetadataType="Schema" ID="1c72aed4-493d-4d8e-b583-cce16903d15e" SourceId="1" SourceUrl="http://localhost:12102/NewOrderProcessingService.svc?xsd=xsd0" />
+    <MetadataFile FileName="NewOrderProcessingService.wsdl" MetadataType="Wsdl" ID="75dc6787-a62c-46d9-855e-7823670c24be" SourceId="1" SourceUrl="http://localhost:12102/NewOrderProcessingService.svc?wsdl" />
+    <MetadataFile FileName="NewOrderProcessingService2.xsd" MetadataType="Schema" ID="1ece2be8-403e-44fc-9197-754b5321758b" SourceId="1" SourceUrl="http://localhost:12102/NewOrderProcessingService.svc?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
