@@ -2,100 +2,28 @@
 @{
     ViewBag.Title = "Index";
 }
-<script type="text/javascript" src="~/Scripts/handlebars.js"></script>
 <style>
-    #catalog
-    {
-        width: 300px;
-    }
-    #catalog a.addToBasketCommand
-    {
-        color: red;
-    }
-    #catalog dt
-    {
-        float: left;
-        clear:right;
-    }
-    #catalog dd
-    {
-        float:right;
-        clear:left;
-        vertical-align:top;
-    }
+    #catalog{width: 300px;}
+    #catalog a.addToBasketCommand{color: red;}
+    #catalog dt{float: left;clear:right;}
+    #catalog dd{float:right;clear:left;vertical-align:top;}
 </style>
-
-<div id="templateDisplay">
-    <h2><p></p></h2>
-
-</div>
 
 <dl id="catalog">
 @foreach(var product in Model.Products)
 {
     <dt>
-        <div style="width:50px;height:50px;color:red">image</div>
+        <div>image</div>
     </dt>
     <dd>
         @product.Name
-        <a class="addToBasketCommand">add to basket</a>
+        <a class="addToBasketCommand" data-id="@product.ProductId">add to basket</a>
     </dd>
 }
 </dl>
-
+<script type="text/javascript" src="~/Scripts/Ecommerce/catalog.js"></script>
 <script type="text/javascript">
     $(function () {
-        $('#catalog a.addToBasketCommand').on("click", addToBasketCommandEventHandler);
-
-        var source = $("#templateOne").html();
-        var template = Handlebars.compile(source);
-        var context = {
-            title: "tee hee its a title",
-            people : [
-                { firstName: "dean", lastName: "havelock" },
-                { firstName: "sebastian", lastName: "kent" },
-                { firstName: "gertrude", lastName: "humpledink" }
-            ]
-        };
-        var html = template(context);
-        $("#templateDisplay").html(html);
+        new Basket('@Request.AnonymousID', 'http://localhost:8181/api/basket/');
     });
-
-    function addToBasketCommandEventHandler(e) {
-        var basketItem = {
-            ProductId: 2,
-            Quantity : 1
-        };
-
-        $.ajax({
-            type: "POST",
-            url: "http://localhost:8181/api/basket/",
-            data: basketItem,
-            //dataType : "json",
-            //contentType: "application/json; charset=utf-8",
-            statusCode: {
-                200: onAddedToBasket,
-                404: onErrorAddToBasket
-            }
-        });
-    }
-    
-    function onAddedToBasket(product) {
-        alert('bla '+product.Name);
-    }
-
-    function onErrorAddToBasket() {
-        alert("product not found");
-    }
-</script>
-
-<script id="templateOne" type="text/x-handlebars-template">
-    <div class="item">
-        <h1>{{title}}</h1>
-        <ul>
-        {{#each people}}
-            <li>{{firstName}}, {{lastName}}</li>
-        {{/each}}
-        </ul>
-    </div>
 </script>

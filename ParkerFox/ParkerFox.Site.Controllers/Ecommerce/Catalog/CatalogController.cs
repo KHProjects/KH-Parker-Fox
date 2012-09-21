@@ -1,10 +1,6 @@
 ﻿using ParkerFox.Core.Entities.Repository;
 using ParkerFox.Site.ViewModels.Ecommerce;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.Mvc;
 
 namespace ParkerFox.Site.Controllers.Ecommerce.Catalog
@@ -26,6 +22,7 @@ namespace ParkerFox.Site.Controllers.Ecommerce.Catalog
                 {
                     Products = products.All().Select(x => new ProductViewModel
                         {
+                            ProductId = x.ProductId,
                             Name = x.Name
                         }).ToList()
                 };
@@ -35,9 +32,6 @@ namespace ParkerFox.Site.Controllers.Ecommerce.Catalog
 
         public ActionResult Admin()
         {
-
-
-
             return View();
         }
     }

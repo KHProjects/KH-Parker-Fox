@@ -5,11 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ParkerFox.Core.Entities.Ecommerce;
+using ParkerFox.Core.Entities.Repository;
 
 namespace ParkerFox.Application
 {
     public sealed class CartServices : ICartServices
     {
+        private readonly ICartItemRepository _cartItemRepository;
         private static List<CartItem> _cartItems = new List<CartItem>
             {
                 new CartItem {Product = new Product {ProductId = 1, Name = "Product one"}, Quantity = 1},

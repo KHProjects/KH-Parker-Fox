@@ -21,19 +21,14 @@ namespace ParkerFox.WebApi.Ecommerce
             _cartServices = cartServices;
         }
 
-        public HttpResponseMessage Post(BasketItem basketItem)
+        public HttpResponseMessage Post(CartItem cartItem)
         {
-            CartItem cartItem = new CartItem
-                {Product = new Product {ProductId = basketItem.ProductId}, Quantity = basketItem.Quantity};
-
             _cartServices.AddItem(cartItem);
             return new HttpResponseMessage(HttpStatusCode.OK);
         }
 
         public HttpResponseMessage Put(int productId, BasketItem basketItem)
         {
-
-
             return new HttpResponseMessage(HttpStatusCode.OK);
         }
     }

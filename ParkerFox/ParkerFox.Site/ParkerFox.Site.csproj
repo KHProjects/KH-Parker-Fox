@@ -264,6 +264,7 @@
     <Content Include="HtmlPage1.html" />
     <Content Include="App_Readme\Handlebarsjs_README.md" />
     <Content Include="App_Readme\Handlebarsjs_LICENSE" />
+    <Content Include="Scripts\Ecommerce\catalog.js" />
     <Content Include="Views\Basket\Checkout.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
