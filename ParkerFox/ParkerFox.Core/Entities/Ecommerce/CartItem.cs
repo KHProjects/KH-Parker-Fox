@@ -8,8 +8,9 @@ namespace ParkerFox.Core.Entities.Ecommerce
 {
     public class CartItem
     {
-        public string Identifier { get; set; }
-        public Product Product { get; set; }
-        public int Quantity { get; set; }
+        public virtual string Identifier { get; set; }
+        public virtual int ProductId { get; set; }
+        public virtual Product Product { get; set; }
+        public virtual int Quantity { get; set; }
     }
 }

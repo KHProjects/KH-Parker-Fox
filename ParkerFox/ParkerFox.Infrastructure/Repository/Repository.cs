@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using ParkerFox.Infrastructure.Data;
+using System;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-using NHibernate;
-using ParkerFox.Core.Entities.Repository;
-using ParkerFox.Infrastructure.Data;
 
 namespace ParkerFox.Infrastructure.Repository
 {
@@ -20,9 +13,14 @@ namespace ParkerFox.Infrastructure.Repository
     {        
         private IUnitOfWork _unitOfWork;
 
-        public Repository(IUnitOfWork unitOfWork)
+        protected Repository(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
+        }
+
+        public void Add(T entity)
+        {
+            _unitOfWork.SaveOrUpdate(entity);
         }
 
         protected EntitySet<T> Query(Expression<Func<T, bool>> expression)

@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using ParkerFox.Core.ApplicationServices;
+using ParkerFox.Core.Entities.Ecommerce;
+using ParkerFox.WebApi.Ecommerce.Dto;
 using System.Net;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.Http;
-using ParkerFox.Core.ApplicationServices;
-using ParkerFox.WebApi.Ecommerce.Dto;
-using ParkerFox.Core.Entities.Ecommerce;
 
 namespace ParkerFox.WebApi.Ecommerce
 {

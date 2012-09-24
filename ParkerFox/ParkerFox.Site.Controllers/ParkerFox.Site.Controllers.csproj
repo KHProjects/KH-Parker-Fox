@@ -55,6 +55,10 @@
       <Project>{f7198e49-d059-41e4-a565-e3da758a74ac}</Project>
       <Name>ParkerFox.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ParkerFox.Infrastructure\ParkerFox.Infrastructure.csproj">
+      <Project>{f3c0773e-d0c8-45bb-b054-d395f3ee1deb}</Project>
+      <Name>ParkerFox.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ParkerFox.Site.ViewModels\ParkerFox.Site.ViewModels.csproj">
       <Project>{05782a8d-d454-4591-b439-3bdf955ea39a}</Project>
       <Name>ParkerFox.Site.ViewModels</Name>

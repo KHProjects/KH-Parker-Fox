@@ -81,16 +81,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\NinjectWebCommon.cs" />
-    <Compile Include="Data\ActiveSessionManager.cs" />
     <Compile Include="Data\AspRequestState.cs" />
-    <Compile Include="Data\DataConfig.cs" />
     <Compile Include="Data\EntitySet.cs" />
     <Compile Include="Data\IActiveSessionManager.cs" />
     <Compile Include="Data\IPagedList.cs" />
     <Compile Include="Data\IRepository.cs" />
     <Compile Include="Data\IRequestState.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
+    <Compile Include="Data\Mapping\Ecommerce\CartItemMapping.cs" />
     <Compile Include="Data\Mapping\Ecommerce\OrderItemMapping.cs" />
     <Compile Include="Data\Mapping\Ecommerce\OrderMapping.cs" />
     <Compile Include="Data\Mapping\Magazine\SubscriptionTermMapping.cs" />
@@ -101,11 +99,12 @@
     <Compile Include="Data\WcfNHibernate\DispatchMessageInspector.cs" />
     <Compile Include="Data\WcfNHibernate\SessionManager.cs" />
     <Compile Include="Data\PagedList.cs" />
-    <Compile Include="Data\UnitOfWork.cs" />
+    <Compile Include="Data\UnitOfWorkNhibernate.cs" />
     <Compile Include="Data\Web\UnitOfWorkFilter.cs" />
     <Compile Include="IBootStrapTask.cs" />
     <Compile Include="InfrastructureModule.cs" />
     <Compile Include="Messaging\Events\IRespondToEvent.cs" />
+    <Compile Include="Repository\Ecommerce\CartItemRepository.cs" />
     <Compile Include="Repository\Ecommerce\OrderRepository.cs" />
     <Compile Include="Repository\ISubscriptionRepository.cs" />
     <Compile Include="Repository\ProductRepository.cs" />

@@ -1,4 +1,5 @@
 ﻿using ParkerFox.Core.Entities.Repository;
+using ParkerFox.Infrastructure.Data;
 using ParkerFox.Site.ViewModels.Ecommerce;
 using System.Linq;
 using System.Web.Mvc;

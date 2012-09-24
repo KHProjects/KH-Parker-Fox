@@ -13,23 +13,15 @@ namespace ParkerFox.Infrastructure.Repository
 {
     public sealed class VisitorRepository : IVisitorRepository
     {
+
         public void Save(Visitor visitor)
         {
-            using (ISession session = DataConfig.GetSession())
-            {
-                session.BeginTransaction();
-                session.SaveOrUpdate(visitor);
-                session.Transaction.Commit();
-            }            
+            throw new NotImplementedException();
         }
-
 
         public IList<Visitor> GetRecent(int limit)
         {
-            using (ISession session = DataConfig.GetSession())
-            {
-                return session.QueryOver<Visitor>().Take(limit).List();
-            }
+            throw new NotImplementedException();
         }
     }
 }

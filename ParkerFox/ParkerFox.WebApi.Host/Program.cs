@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlServerCe;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
@@ -21,13 +22,13 @@ namespace ParkerFox.WebApi.Host
     {        
         static void Main(string[] args)
         {
+            
+
             var configuration = new HttpSelfHostConfiguration("http://localhost:8181");
 
             configuration.Routes.MapHttpRoute("Default", "api/{controller}/{id}", new { id = RouteParameter.Optional });
 
             SetupNinject(configuration);
-
-            DataConfig.EnsureStartup();
 
             //--Bug with controller locating http://forums.asp.net/post/4848156.aspx
 

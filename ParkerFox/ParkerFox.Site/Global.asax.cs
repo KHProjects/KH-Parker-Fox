@@ -55,8 +55,6 @@ namespace ParkerFox.Site
 
             BundleTable.Bundles.RegisterTemplateBundles();
 
-            DataConfig.EnsureStartup();
-            
             new MapViewModelToCommand().Execute();
             new NinjectBindingTask().Execute();
 
