@@ -42,6 +42,7 @@
     <Compile Include="Ecommerce\BasketViewModel.cs" />
     <Compile Include="Ecommerce\CatalogViewModel.cs" />
     <Compile Include="Ecommerce\ProductViewModel.cs" />
+    <Compile Include="Ecommerce\RegisterViewModel.cs" />
     <Compile Include="Magazine\Subscribe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

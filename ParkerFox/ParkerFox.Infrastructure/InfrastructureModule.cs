@@ -22,7 +22,7 @@ namespace ParkerFox.Infrastructure
             Bind<IProductRepository>().To<ProductRepository>();
             Bind<ISubscriptionRepository>().To<SubscriptionRepository>();
             Bind<ICartItemRepository>().To<CartItemRepository>();
-
+            Bind<ICustomerRepository>().To<CustomerRepository>();
             Bind<ISessionFactory>().ToMethod(_ =>
                 {
                     var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["main"].ConnectionString;
