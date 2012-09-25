@@ -8,6 +8,7 @@ namespace ParkerFox.Site.ViewModels.Ecommerce
 {
     public class CatalogViewModel
     {
+        public string CurrentCategory { get; set; }
         public IEnumerable<ProductViewModel> Products { get; set; }
     }
 }
