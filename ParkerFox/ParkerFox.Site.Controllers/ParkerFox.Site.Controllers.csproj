@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Ecommerce\Catalog\BasketController.cs" />
     <Compile Include="Ecommerce\Catalog\CatalogController.cs" />
+    <Compile Include="Ecommerce\RegisterController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Publication\SubscribeController.cs" />
   </ItemGroup>

@@ -1,0 +1,19 @@
+﻿@model ParkerFox.Site.ViewModels.Ecommerce.RegisterViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+@using(Html.BeginForm())
+{
+<dl>
+    <dt>@Html.LabelFor(x=>x.Email)</dt>
+    <dd>@Html.TextBoxFor(x=>x.Email)</dd>
+    <dt>@Html.LabelFor(x=>x.Password)</dt>
+    <dd>@Html.PasswordFor(x=>x.Password)</dd>
+    <dt>@Html.LabelFor(x=>x.ConfirmPassword)</dt>
+    <dd>@Html.PasswordFor(x=>x.ConfirmPassword)</dd>
+    <dd class="full">
+        <input type="submit" value="register"/>
+    </dd>
+</dl>
+}

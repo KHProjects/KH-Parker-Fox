@@ -89,6 +89,7 @@
     <Compile Include="Data\IRequestState.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
     <Compile Include="Data\Mapping\Ecommerce\CartItemMapping.cs" />
+    <Compile Include="Data\Mapping\Ecommerce\CustomerMapping.cs" />
     <Compile Include="Data\Mapping\Ecommerce\OrderItemMapping.cs" />
     <Compile Include="Data\Mapping\Ecommerce\OrderMapping.cs" />
     <Compile Include="Data\Mapping\Magazine\SubscriptionTermMapping.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="InfrastructureModule.cs" />
     <Compile Include="Messaging\Events\IRespondToEvent.cs" />
     <Compile Include="Repository\Ecommerce\CartItemRepository.cs" />
+    <Compile Include="Repository\Ecommerce\CustomerRepository.cs" />
     <Compile Include="Repository\Ecommerce\OrderRepository.cs" />
     <Compile Include="Repository\ISubscriptionRepository.cs" />
     <Compile Include="Repository\ProductRepository.cs" />
@@ -118,6 +120,7 @@
     <Compile Include="Web\NinjectDependencyResolver.cs" />
     <Compile Include="Web\NinjectHttpDependencyResolver.cs" />
     <Compile Include="Web\NinjectScope.cs" />
+    <Compile Include="Web\UnitOfWorkAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ParkerFox.Core\ParkerFox.Core.csproj">

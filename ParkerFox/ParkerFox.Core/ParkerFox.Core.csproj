@@ -60,6 +60,7 @@
     <Compile Include="CQRS\StoredEvent.cs" />
     <Compile Include="DataTransferObjects\Providers\Story.cs" />
     <Compile Include="Entities\Ecommerce\CartItem.cs" />
+    <Compile Include="Entities\Ecommerce\Customer.cs" />
     <Compile Include="Entities\Ecommerce\Order.cs" />
     <Compile Include="Entities\Ecommerce\OrderItem.cs" />
     <Compile Include="Entities\Magazine\Account.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Entities\Magazine\SubscriptionPaymentTypes.cs" />
     <Compile Include="Entities\Magazine\TimePeriod.cs" />
     <Compile Include="Entities\Repository\ICartItemRepository.cs" />
+    <Compile Include="Entities\Repository\ICustomerRepository.cs" />
     <Compile Include="Entities\Repository\IEntitySet.cs" />
     <Compile Include="Entities\Repository\IOrderRepository.cs" />
     <Compile Include="Entities\Repository\IProductRepository.cs" />
