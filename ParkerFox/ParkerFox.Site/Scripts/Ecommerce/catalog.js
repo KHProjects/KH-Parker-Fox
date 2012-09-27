@@ -2,6 +2,7 @@
     var _visitorId = visitorId;
     var _apiUrl = apiUrl;
     $('#catalog a.addToBasketCommand').on("click", addToBasketCommandEventHandler);
+    
     function addToBasketCommandEventHandler(e) {
         var cartItem = {
             Product: {

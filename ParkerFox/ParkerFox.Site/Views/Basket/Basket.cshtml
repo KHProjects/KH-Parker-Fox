@@ -13,7 +13,8 @@
                     using(Html.BeginForm("Update", "Basket"))
                     {
                         @Html.Hidden("ProductId", item.ProductId);
-                        @Html.TextBox("Quantity", item.Quantity, new { @class = "quantity-input" });
+                        @Html.TextBox("Quantity", item.Quantity, new { @class = "quantity-input", data_stuff="1" });
+                        <input name="quantity" value="1" class="quantity-input" data-stuff="1" style="display:none" />
                         <input id="saveCommand" type="submit" value="save"/>
                     }
                     using(Html.BeginForm("Delete", "Basket"))
