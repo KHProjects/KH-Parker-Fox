@@ -22,8 +22,6 @@ namespace ParkerFox.WebApi.Host
     {        
         static void Main(string[] args)
         {
-            
-
             var configuration = new HttpSelfHostConfiguration("http://localhost:8181");
 
             configuration.Routes.MapHttpRoute("Default", "api/{controller}/{id}", new { id = RouteParameter.Optional });
