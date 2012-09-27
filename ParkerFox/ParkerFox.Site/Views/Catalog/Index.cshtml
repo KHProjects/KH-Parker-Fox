@@ -9,8 +9,9 @@
     #catalog dd{float:right;clear:left;vertical-align:top;}
 </style>
 
+
 <dl id="catalog">
-@foreach(var product in Model.Products)
+    @foreach(var product in Model.Products)
 {
     <dt>
         <div>image</div>
@@ -21,9 +22,11 @@
     </dd>
 }
 </dl>
+<input type="text" data-bind="{text:FirstName}"/>
 <script type="text/javascript" src="~/Scripts/Ecommerce/catalog.js"></script>
 <script type="text/javascript">
     $(function () {
         new Basket('@Request.AnonymousID', 'http://localhost:8181/api/basket/');
     });
 </script>
+
