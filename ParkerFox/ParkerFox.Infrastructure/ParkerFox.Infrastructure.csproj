@@ -92,9 +92,9 @@
     <Compile Include="Data\Mapping\Ecommerce\CustomerMapping.cs" />
     <Compile Include="Data\Mapping\Ecommerce\OrderItemMapping.cs" />
     <Compile Include="Data\Mapping\Ecommerce\OrderMapping.cs" />
-    <Compile Include="Data\Mapping\Magazine\SubscriptionTermMapping.cs" />
+    <Compile Include="Data\Mapping\Publication\SubscriptionTermMapping.cs" />
     <Compile Include="Data\Mapping\Ecommerce\ProductMapping.cs" />
-    <Compile Include="Data\Mapping\Magazine\SubscriptionMapping.cs" />
+    <Compile Include="Data\Mapping\Publication\SubscriptionMapping.cs" />
     <Compile Include="Data\Mapping\VisitorMapping.cs" />
     <Compile Include="Data\WcfNHibernate\SessionBehaviourExtension.cs" />
     <Compile Include="Data\WcfNHibernate\DispatchMessageInspector.cs" />
@@ -108,10 +108,9 @@
     <Compile Include="Repository\Ecommerce\CartItemRepository.cs" />
     <Compile Include="Repository\Ecommerce\CustomerRepository.cs" />
     <Compile Include="Repository\Ecommerce\OrderRepository.cs" />
-    <Compile Include="Repository\ISubscriptionRepository.cs" />
     <Compile Include="Repository\ProductRepository.cs" />
+    <Compile Include="Repository\Publication\SubscriptionRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
-    <Compile Include="Repository\SubscriptionRepository.cs" />
     <Compile Include="Repository\VisitorRepository.cs" />
     <Compile Include="Messaging\Commands\IHandleCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

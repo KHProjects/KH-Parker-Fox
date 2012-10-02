@@ -31,27 +31,13 @@
             </div>
         </section>
         <section class="content-wrapper main-content clear-fix">
-            <h3>We suggest the following steps:</h3>
-            <ol class="round">
-                <li class="one">
-                    <h5>one</h5>
-                    
-                </li>
-                <li class="two">
-                    <h5>two</h5>
-                    
-                </li>
-                <li class="three">
-                    <h5>three</h5>
-                </li>
-            </ol>
-
             <section class="features">
                 <section class="feature">
                     <img src="@Url.Content("~/Images/aspNetHome.png")" alt="ASP.NET Home" />
                     <h3>Home of ASP.NET</h3>
                     <p>
-                        
+                        @Html.ActionLink("Publication", "Index", "Home", new { area = "Publication" }, null)
+                        @Html.ActionLink("Subscribe", "Index", "Subscribe", new {area="Publication"}, null)
                     </p>
                 </section>
                 <section class="feature">

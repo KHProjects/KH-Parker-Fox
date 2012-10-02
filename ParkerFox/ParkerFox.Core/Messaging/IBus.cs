@@ -9,6 +9,7 @@ namespace ParkerFox.Core.Messaging
     public interface IBus
     {
         void Send<TCommand>(TCommand command);
+        TResponse Send<TCommand, TResponse>(TCommand command);
         void Publish<TEvent>(TEvent @event);
     }
 }

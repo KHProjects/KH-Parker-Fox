@@ -1,0 +1,14 @@
+﻿@model ParkerFox.Site.ViewModels.Publication.Subscribe
+@{
+    ViewBag.Title = "Index";
+}
+
+@using(Html.BeginForm())
+{
+    <dl>
+        <dt>@Html.LabelFor(x => x.Email)</dt>
+        <dd>@Html.TextBoxFor(x => x.Email)</dd>
+        <dt>&nbsp;</dt>
+        <dd><input type="submit"/></dd>
+    </dl>
+}

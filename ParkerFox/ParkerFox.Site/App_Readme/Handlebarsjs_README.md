@@ -18,8 +18,6 @@ Please read details how to precompile your Handlebars templates at http://handle
 
 ## Original Documentation text from https://raw.github.com/wycats/handlebars.js/master/README.markdown
 
-[![Build Status](https://secure.travis-ci.org/wycats/handlebars.js.png)](http://travis-ci.org/wycats/handlebars.js)
-
 Handlebars.js
 =============
 
@@ -303,6 +301,7 @@ template(context, {helpers: helpers, partials: partials, data: data})
 Known Issues
 ------------
 * Handlebars.js can be cryptic when there's an error while rendering.
+* Using a variable, helper, or partial named `class` causes errors in IE browsers. (Instead, use `className`)
 
 Handlebars in the Wild
 -----------------

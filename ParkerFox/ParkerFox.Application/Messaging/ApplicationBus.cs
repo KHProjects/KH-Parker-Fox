@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Ninject;
+﻿using Ninject;
 using Ninject.Syntax;
 using ParkerFox.Core.Messaging;
-using ParkerFox.Infrastructure.Messaging;
 using ParkerFox.Infrastructure.Messaging.Commands;
 using ParkerFox.Infrastructure.Messaging.Events;
+using System;
+using System.Linq;
 
 namespace ParkerFox.Application.Messaging
 {
@@ -30,6 +26,13 @@ namespace ParkerFox.Application.Messaging
             handler.Handle(command);
         }
 
+        public TResponse Send<TCommand, TResponse>(TCommand command)
+        {
+            var type = typeof(IHandleCommand<,>).MakeGenericType(new[] { typeof(TCommand), typeof(TResponse) });
+            var handler = _resolutionRoot.TryGet(type) as IHandleCommand<TCommand, TResponse>;
+            return handler.Handle(command);
+        }
+
         public void Publish<TEvent>(TEvent @event)
         {
             var type = typeof(IRespondToEvent<>).MakeGenericType(new[] { typeof(TEvent) });
@@ -40,5 +43,7 @@ namespace ParkerFox.Application.Messaging
                 handler.Raise(@event);
             }
         }
+
+       
     }
 }

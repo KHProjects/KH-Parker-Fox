@@ -50,10 +50,11 @@
   <ItemGroup>
     <Compile Include="CartServices.cs" />
     <Compile Include="CommandHandlers\ApplyForLoanHandler.cs" />
-    <Compile Include="CommandHandlers\Magazine\CreateNewSubscriptionHandler.cs" />
+    <Compile Include="CommandHandlers\Publication\CreateNewSubscriptionHandler.cs" />
+    <Compile Include="CommandResponses\Publication\CreateNewSubscriptionResponse.cs" />
     <Compile Include="Commands\ApplyForLoan.cs" />
-    <Compile Include="Commands\Magazine\CreateNewSubscription.cs" />
-    <Compile Include="EventHandlers\Magazine\SendWelcomeEmailForNewSubscription.cs" />
+    <Compile Include="Commands\Publication\CreateNewSubscription.cs" />
+    <Compile Include="EventHandlers\Publication\SendWelcomeEmailForNewSubscription.cs" />
     <Compile Include="Events\Magazine\NewSubscriptionCreated.cs" />
     <Compile Include="Messaging\ApplicationBus.cs" />
     <Compile Include="Messaging\MessagingNinjectModule.cs" />

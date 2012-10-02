@@ -4,9 +4,11 @@ using NHibernate;
 using Ninject.Modules;
 using Ninject.Web.Common;
 using ParkerFox.Core.Entities.Repository;
+using ParkerFox.Core.Entities.Repository.Publication;
 using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Repository;
 using ParkerFox.Infrastructure.Repository.Ecommerce;
+using ParkerFox.Infrastructure.Repository.Publication;
 
 namespace ParkerFox.Infrastructure
 {

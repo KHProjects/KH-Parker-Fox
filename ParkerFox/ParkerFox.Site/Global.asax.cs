@@ -1,18 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
+﻿using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using Ninject;
-using ParkerFox.Core.Entities.Repository;
-using ParkerFox.Infrastructure.Data;
-using ParkerFox.Infrastructure.Repository;
 using ParkerFox.Site.Component;
-using ParkerFox.Site.Component.MediaTypeFormatters;
 
 namespace ParkerFox.Site
 {
@@ -42,7 +32,8 @@ namespace ParkerFox.Site
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
+                namespaces:new string[] { "ParkerFox.Site.Controllers.Main" }
             );
         }
 
@@ -54,9 +45,11 @@ namespace ParkerFox.Site
             RegisterRoutes(RouteTable.Routes);
 
             BundleTable.Bundles.RegisterTemplateBundles();
-
+            
             new MapViewModelToCommand().Execute();
             new NinjectBindingTask().Execute();
+
+
 
             //GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
 
