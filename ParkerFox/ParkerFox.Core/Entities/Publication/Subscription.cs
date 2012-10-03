@@ -9,11 +9,11 @@ namespace ParkerFox.Core.Entities.Publication
         public virtual DateTime? StartDate { get; set; }
         public virtual IList<SubscriptionTerm> Terms { get; set; }
 
-        public virtual DateTime? GetExpirationDate()
-        {
-            DateTime? expirationDate = null;
+        //public virtual DateTime? GetExpirationDate()
+        //{
+        //    DateTime? expirationDate = null;
 
-            return expirationDate;
-        }
+        //    return expirationDate;
+        //}
     }
 }

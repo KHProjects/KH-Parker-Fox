@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ecommerce\Catalog\BasketController.cs" />
-    <Compile Include="Ecommerce\Catalog\CatalogController.cs" />
+    <Compile Include="Ecommerce\BasketController.cs" />
+    <Compile Include="Ecommerce\CatalogController.cs" />
     <Compile Include="Ecommerce\RegisterController.cs" />
     <Compile Include="Main\HomeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

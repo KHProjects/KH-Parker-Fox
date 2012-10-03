@@ -15,7 +15,7 @@ namespace ParkerFox.Infrastructure.Web
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             _unitOfWork = DependencyResolver.Current.GetService<IUnitOfWork>();
-            _unitOfWork.BeginTransaction();
+            //_unitOfWork.BeginTransaction();
             base.OnActionExecuting(filterContext);
         }
 

@@ -21,21 +21,3 @@
 </dl>
 }
 
-<script type="text/javascript">
-    $(function() {
-        var viewModel = {
-            FirstName: "Sebastian",
-            Surname: "Kent",
-            Email: "sabkent@hotmail.com",
-            termsAccepted : false,
-            isValid: function () {
-                return this.termsAccepted;
-            },
-            acceptTerms: function () {
-                this.termsAccepted = true;
-                alert('hahahah');
-            }
-        };
-        ko.applyBindings(viewModel);
-    });
-</script>

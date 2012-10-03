@@ -22,15 +22,18 @@ namespace ParkerFox.Application.CommandHandlers.Publication
 
         public CreateNewSubscriptionResponse Handle(CreateNewSubscription command)
         {
-            Subscription subscription = new Subscription();
-            subscription.Terms = new List<SubscriptionTerm>
-                                     {
-                                         new SubscriptionTerm
-                                         {
-                                             SubscriptionTermId = 1, 
-                                             StartDate = DateTime.Now
-                                         }
-                                     };
+            var subscription = new Subscription
+            {
+                StartDate = DateTime.Now,
+                Terms = new List<SubscriptionTerm>
+                {
+                    new SubscriptionTerm
+                    {
+                        //SubscriptionTermId = 1,
+                        StartDate = DateTime.Now
+                    }
+                }
+            };
 
             _subscriptionRepository.Add(subscription);
 

@@ -8,12 +8,12 @@ namespace ParkerFox.Infrastructure.Data.Mapping.Magazine
     {
         public SubscriptionTermMapping()
         {
-            Id(x => x.SubscriptionTermId);
+            Id(x => x.SubscriptionTermId).GeneratedBy.Identity();
             //Map(x => x.SubscriptionId);
             Map(x => x.StartDate);
            // HasOne(x => x.Subscription).ForeignKey("SubscriptionId");
 
-            //References<Subscription>(x => x.Subscription).Column("SubscriptionId");
+            References(x => x.Subscription).Column("SubscriptionId");//.Cascade.All();
            // Map(x => x.Type).CustomType<SubscriptionPaymentTypes>().Column("SubscriptionTermTypeId");
             Table("[Magazine.SubscriptionTerm]");
         }

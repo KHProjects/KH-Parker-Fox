@@ -4,7 +4,7 @@ using ParkerFox.Site.ViewModels.Ecommerce;
 using System.Linq;
 using System.Web.Mvc;
 
-namespace ParkerFox.Site.Controllers.Ecommerce.Catalog
+namespace ParkerFox.Site.Controllers.Ecommerce
 {
     public class CatalogController : Controller
     {

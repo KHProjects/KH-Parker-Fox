@@ -4,7 +4,7 @@ using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Site.ViewModels.Ecommerce;
 using ParkerFox.Core.ApplicationServices;
 
-namespace ParkerFox.Site.Controllers.Ecommerce.Catalog
+namespace ParkerFox.Site.Controllers.Ecommerce
 {
     public class BasketController : Controller
     {

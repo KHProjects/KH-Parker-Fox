@@ -3,12 +3,36 @@
     ViewBag.Title = "Index";
 }
 
+@Scripts.Render("~/bundles/core")
+<script src="~/Scripts/knockout-2.1.0.js"></script>
 @using(Html.BeginForm())
 {
     <dl>
         <dt>@Html.LabelFor(x => x.Email)</dt>
-        <dd>@Html.TextBoxFor(x => x.Email)</dd>
+        <dd>@Html.TextBoxFor(x => x.Email, new { data_bind = "value:FirstName" })</dd>
         <dt>&nbsp;</dt>
-        <dd><input type="submit"/></dd>
+        <dd class="full">
+            <input type="submit" value="register"/>
+            <input type="button" value="click me" data-bind="enable:isValid()"/>
+        </dd>
     </dl>
 }
+
+<script type="text/javascript">
+    $(function() {
+        var viewModel = {
+            FirstName: "Sebastian",
+            Surname: "Kent",
+            Email: "sabkent@hotmail.com",
+            termsAccepted : false,
+            isValid: function () {
+                return this.termsAccepted;
+            },
+            acceptTerms: function () {
+                this.termsAccepted = true;
+                alert('hahahah');
+            }
+        };
+        ko.applyBindings(viewModel);
+    });
+</script>

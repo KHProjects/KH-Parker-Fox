@@ -19,6 +19,8 @@ namespace ParkerFox.Site.Controllers.Publication
 
         public async Task<ActionResult> Index()
         {
+
+
             return View();
         }
 

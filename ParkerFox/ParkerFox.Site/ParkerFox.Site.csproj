@@ -49,6 +49,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\AjaxMin.4.66.4633.35991\lib\net40\AjaxMin.dll</HintPath>
     </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="AutoMapper, Version=2.2.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\AutoMapper.2.2.0\lib\net40\AutoMapper.dll</HintPath>
@@ -135,8 +138,9 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Optimization">
-      <HintPath>..\packages\Microsoft.Web.Optimization.1.0.0-beta\lib\net40\System.Web.Optimization.dll</HintPath>
+    <Reference Include="System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -167,8 +171,13 @@
     <Reference Include="WebActivator">
       <HintPath>..\packages\WebActivator.1.5.1\lib\net40\WebActivator.dll</HintPath>
     </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="Areas\Ecommerce\EcommerceAreaRegistration.cs" />
     <Compile Include="Areas\Publication\PublicationAreaRegistration.cs" />
     <Compile Include="Component\MapViewModelToCommand.cs" />
     <Compile Include="Component\MediaTypeFormatters\BsonMediaTypeFormatter.cs" />
@@ -266,10 +275,11 @@
     <Content Include="Scripts\Ecommerce\catalog.js" />
     <Content Include="App_Readme\Handlebarsjs_README.md" />
     <Content Include="App_Readme\Handlebarsjs_LICENSE" />
+    <Content Include="Areas\Ecommerce\Views\Web.config" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
-    <Content Include="Views\Basket\Checkout.cshtml" />
+    <Content Include="Areas\Ecommerce\Views\Basket\Checkout.cshtml" />
     <Content Include="Views\Register\Index.cshtml" />
     <Content Include="Areas\Publication\Views\Web.config" />
     <Content Include="Areas\Publication\Views\Home\Index.cshtml" />
@@ -360,21 +370,19 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\AddProduct.cshtml" />
     <Content Include="Views\Home\CssStyling.cshtml" />
-    <Content Include="Views\Publication\Subscription.cshtml" />
-    <Content Include="Views\Publication\UserProfile.cshtml" />
-    <Content Include="Views\Publication\ChildFrame.cshtml" />
-    <Content Include="Views\Publication\HTML5.cshtml" />
-    <Content Include="Views\Catalog\Index.cshtml" />
-    <Content Include="Views\Catalog\Admin.cshtml" />
-    <Content Include="Views\Catalog\_ProductList.cshtml" />
-    <Content Include="Views\Subscribe\Index.cshtml" />
-    <Content Include="Views\Subscribe\StepOne.cshtml" />
-    <Content Include="Views\Basket\Index.cshtml" />
-    <Content Include="Views\Basket\Basket.cshtml" />
+    <Content Include="Views\Home\HTML5.cshtml" />
+    <Content Include="Areas\Ecommerce\Views\Catalog\Index.cshtml" />
+    <Content Include="Areas\Ecommerce\Views\Catalog\Admin.cshtml" />
+    <Content Include="Areas\Ecommerce\Views\Catalog\_ProductList.cshtml" />
+    <Content Include="Areas\Ecommerce\Views\Basket\Index.cshtml" />
+    <Content Include="Areas\Ecommerce\Views\Basket\Basket.cshtml" />
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <None Include="_bin_deployableAssemblies\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\Ecommerce\Controllers\" />
+    <Folder Include="Areas\Ecommerce\Models\" />
+    <Folder Include="Areas\Ecommerce\Views\Shared\" />
     <Folder Include="Areas\Publication\Controllers\" />
     <Folder Include="Areas\Publication\Models\" />
     <Folder Include="Areas\Publication\Views\Shared\" />
@@ -407,9 +415,6 @@
       <Project>{4c67610a-ef2e-4df2-9d66-b0b546142992}</Project>
       <Name>ParkerFox.WebApi</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Loan\Apply.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.less.css" />

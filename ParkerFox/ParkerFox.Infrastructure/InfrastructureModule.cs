@@ -9,6 +9,7 @@ using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Repository;
 using ParkerFox.Infrastructure.Repository.Ecommerce;
 using ParkerFox.Infrastructure.Repository.Publication;
+using System.Diagnostics;
 
 namespace ParkerFox.Infrastructure
 {
@@ -17,7 +18,7 @@ namespace ParkerFox.Infrastructure
         public override void Load()
         {
             Bind<IRequestState>().To<AspRequestState>();
-            
+
             Bind<IUnitOfWork>().To<UnitOfWorkNhibernate>().InRequestScope();
             Bind<IOrderRepository>().To<OrderRepository>();
             Bind<IVisitorRepository>().To<VisitorRepository>();
@@ -25,24 +26,13 @@ namespace ParkerFox.Infrastructure
             Bind<ISubscriptionRepository>().To<SubscriptionRepository>();
             Bind<ICartItemRepository>().To<CartItemRepository>();
             Bind<ICustomerRepository>().To<CustomerRepository>();
+
             Bind<ISessionFactory>().ToMethod(_ =>
                 {
                     var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["main"].ConnectionString;
 
-                    //var assembly = Assembly.GetExecutingAssembly();
-                    //string currentPath = assembly.Location;
-                    //string name = assembly.GetName().Name;
-                    //string debugPath = String.Format("{0}\\bin\\Debug\\{0}.exe", name);
-                    //string releasePath = String.Format("{0}\\bin\\Release\\{0}.exe", name);
-
-                    //currentPath = currentPath.Replace(debugPath, "");
-                    //currentPath = currentPath.Replace(releasePath, "");
-
-                    //currentPath += "ParkerFox.Site\\App_data\\ParkerFox.sdf";
-
-                    //connectionString = String.Format("Data Source={0}", currentPath);
-
                     return Fluently.Configure()
+                    //.ExposeConfiguration(x => x.SetInterceptor(new QueryInterceptor()))
                     .Database(MsSqlCeConfiguration.Standard
                     .ConnectionString(connectionString)
                     .ShowSql()
@@ -52,6 +42,15 @@ namespace ParkerFox.Infrastructure
                     .ExposeConfiguration(x => x.SetProperty("connection.release_mode", "on_close"))
                     .BuildConfiguration().BuildSessionFactory();
                 }).InRequestScope();
+        }
+    }
+
+    public class QueryInterceptor : EmptyInterceptor
+    {
+        public override NHibernate.SqlCommand.SqlString OnPrepareStatement(NHibernate.SqlCommand.SqlString sql)
+        {
+            Debug.WriteLine(sql.ToString());
+            return base.OnPrepareStatement(sql);
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using ParkerFox.Site.Component;
+using ParkerFox.Site.App_Start;
 
 namespace ParkerFox.Site
 {
@@ -44,7 +45,7 @@ namespace ParkerFox.Site
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
 
-            BundleTable.Bundles.RegisterTemplateBundles();
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
             
             new MapViewModelToCommand().Execute();
             new NinjectBindingTask().Execute();
