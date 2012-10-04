@@ -14,7 +14,7 @@ namespace ParkerFox.UnitTests.Core.Entities.Magazine
         {
             SystemTime.Now = () => new DateTime(2012, 12, 21);
 
-            var subscription = new Subscription();
+            //var subscription = new Subscription();
 
             //subscription.Terms = new List<SubscriptionTerm>
             //    {

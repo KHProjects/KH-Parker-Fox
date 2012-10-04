@@ -50,8 +50,6 @@ namespace ParkerFox.Site
             new MapViewModelToCommand().Execute();
             new NinjectBindingTask().Execute();
 
-
-
             //GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
 
             //HibernatingRhinos.Profiler.Appender.NHibernate.NHibernateProfiler.Initialize();

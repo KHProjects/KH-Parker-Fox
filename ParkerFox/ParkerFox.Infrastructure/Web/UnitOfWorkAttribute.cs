@@ -15,13 +15,12 @@ namespace ParkerFox.Infrastructure.Web
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             _unitOfWork = DependencyResolver.Current.GetService<IUnitOfWork>();
-            //_unitOfWork.BeginTransaction();
             base.OnActionExecuting(filterContext);
         }
 
         public override void OnActionExecuted(ActionExecutedContext filterContext)
         {
-            if(filterContext.Exception==null)
+            if (filterContext.Exception == null)
                 _unitOfWork.Commit();
             //TODO: uof.rollback();
             base.OnActionExecuted(filterContext);

@@ -8,13 +8,17 @@ namespace ParkerFox.Infrastructure.Data.Mapping.Magazine
     {
         public SubscriptionTermMapping()
         {
-            Id(x => x.SubscriptionTermId).GeneratedBy.Identity();
-            //Map(x => x.SubscriptionId);
+            Id(x => x.SubscriptionTermId);
             Map(x => x.StartDate);
-           // HasOne(x => x.Subscription).ForeignKey("SubscriptionId");
+            Map(x => x.PaymentType).CustomType<int>().Column("SubscriptionPaymentTypeId");
 
-            References(x => x.Subscription).Column("SubscriptionId");//.Cascade.All();
-           // Map(x => x.Type).CustomType<SubscriptionPaymentTypes>().Column("SubscriptionTermTypeId");
+            Component(x => x.Term, time =>
+                {
+                    time.Map(x => x.Quantity).Column("TimePeriodQuantity");
+                    time.Map(x => x.Interval).CustomType<int>().Column("TimePeriodUnit");
+                });
+
+            References(x => x.Subscription).Column("SubscriptionId");
             Table("[Magazine.SubscriptionTerm]");
         }
     }

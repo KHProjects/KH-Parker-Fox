@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using NHibernate;
+using NHibernate.Criterion;
 using ParkerFox.Core.Entities.Repository;
 
 namespace ParkerFox.Infrastructure.Data
@@ -30,6 +32,12 @@ namespace ParkerFox.Infrastructure.Data
         public T SingleOrDefault()
         {
             return _source.SingleOrDefault();
+        }
+
+        public EntitySet<T> Include(Expression<Func<T, object>> include)
+        {
+            
+            return this;
         }
     }
 }

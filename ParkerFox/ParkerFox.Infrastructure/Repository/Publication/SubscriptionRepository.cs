@@ -1,4 +1,5 @@
-﻿using ParkerFox.Core.Entities.Publication;
+﻿using System.Linq;
+using ParkerFox.Core.Entities.Publication;
 using ParkerFox.Core.Entities.Repository.Publication;
 
 using ParkerFox.Infrastructure.Data;
@@ -11,6 +12,11 @@ namespace ParkerFox.Infrastructure.Repository.Publication
             : base(unitOfWork)
         {
             
+        }
+
+        public Subscription GetByUserId(int userId)
+        {
+            return Query(x => x.SubscriptionId > 0).Page(0, 1).FirstOrDefault();
         }
     }
 }

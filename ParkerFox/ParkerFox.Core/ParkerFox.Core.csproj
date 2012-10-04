@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationServices\ICartServices.cs" />
+    <Compile Include="ApplicationServices\Publication\ISubscriptionServices.cs" />
     <Compile Include="CQRS\AggregateRootStore.cs" />
     <Compile Include="CQRS\EventStore.cs" />
     <Compile Include="CQRS\IAggregateRoot.cs" />

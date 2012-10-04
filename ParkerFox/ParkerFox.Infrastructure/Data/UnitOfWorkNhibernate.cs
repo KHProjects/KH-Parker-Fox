@@ -2,6 +2,7 @@
 using System;
 using System.Linq.Expressions;
 
+
 namespace ParkerFox.Infrastructure.Data
 {
     public class UnitOfWorkNhibernate : IUnitOfWork
@@ -41,11 +42,19 @@ namespace ParkerFox.Infrastructure.Data
             return new EntitySet<T>(session.QueryOver<T>().Where(expression));
         }
 
-        public void CreateQuery<T>(Expression<Func<T, bool>> expression) where T : class
+        public EntitySet<T> Query<T>(Expression<Func<T, bool>> expression, Expression<Func<T, object>> include) where T : class
         {
             ISession session = GetCurrentSession();
 
-            session.QueryOver<T>().Where((expression)).Future<T>();
+            return new EntitySet<T>(session.QueryOver<T>().Where(expression).Fetch(include).Eager);
+        }
+
+        public IQueryOver<T> CreateQuery<T>(Expression<Func<T, bool>> expression) where T : class
+        {
+            ISession session = GetCurrentSession();
+
+            
+            return session.QueryOver<T>().Where(expression);
         }
 
         public IQueryOver<T> QueryOver<T>() where T : class
