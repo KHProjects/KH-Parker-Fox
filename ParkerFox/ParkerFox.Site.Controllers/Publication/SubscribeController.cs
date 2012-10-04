@@ -42,5 +42,10 @@ namespace ParkerFox.Site.Controllers.Publication
         {
             return PartialView();
         }
+        public void AjaxSubscribe(Subscribe subscribe)
+        {
+            int i = 0;
+        }
+
     }
 }

@@ -5,34 +5,46 @@
 
 @Scripts.Render("~/bundles/core")
 <script src="~/Scripts/knockout-2.1.0.js"></script>
+
 @using(Html.BeginForm())
 {
     <dl>
-        <dt>@Html.LabelFor(x => x.Email)</dt>
-        <dd>@Html.TextBoxFor(x => x.Email, new { data_bind = "value:FirstName" })</dd>
+        <dt>@Html.LabelFor(x => x.FirstName)</dt>
+        <dd>@Html.TextBoxFor(x => x.FirstName, new { data_bind = "value:FirstName" })</dd>
+        <dt>&nbsp;</dt>
+        <dt>@Html.LabelFor(x => x.Surname)</dt>
+        <dd>@Html.TextBoxFor(x => x.Surname, new { data_bind = "value:Surname" })</dd>
         <dt>&nbsp;</dt>
         <dd class="full">
             <input type="submit" value="register"/>
             <input type="button" value="click me" data-bind="enable:isValid()"/>
         </dd>
     </dl>
+    
+    
 }
+<input type="button" value="test" id="test"/>
+<input type="button" id="doAjax" value="ajax" />
 
 <script type="text/javascript">
-    $(function() {
+    
+    $(function () {
         var viewModel = {
             FirstName: "Sebastian",
-            Surname: "Kent",
-            Email: "sabkent@hotmail.com",
-            termsAccepted : false,
-            isValid: function () {
-                return this.termsAccepted;
-            },
-            acceptTerms: function () {
-                this.termsAccepted = true;
-                alert('hahahah');
-            }
+            Surname: "Kent"
         };
         ko.applyBindings(viewModel);
+        //$("#doAjax").click(function(){alert('fek');});
+        $("#test").click(function () { alert('fek'); });
+        //$('#doAjax').on("click", myFunction);
     });
+    
+    function myFunction() {
+        alert('func');
+        // $.ajax({
+        //    url: "Publication/Subscribe/AjaxSubscribe",
+        //    type: "POST",
+        //    data: viewModel
+        //});
+    };
 </script>
