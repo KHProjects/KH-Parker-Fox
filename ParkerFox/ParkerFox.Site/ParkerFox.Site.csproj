@@ -273,8 +273,6 @@
     <Content Include="Global.asax" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Scripts\Ecommerce\catalog.js" />
-    <Content Include="App_Readme\Handlebarsjs_README.md" />
-    <Content Include="App_Readme\Handlebarsjs_LICENSE" />
     <Content Include="Areas\Ecommerce\Views\Web.config" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />

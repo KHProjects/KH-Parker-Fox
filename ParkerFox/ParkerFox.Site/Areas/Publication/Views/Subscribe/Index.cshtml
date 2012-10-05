@@ -17,34 +17,27 @@
         <dt>&nbsp;</dt>
         <dd class="full">
             <input type="submit" value="register"/>
-            <input type="button" value="click me" data-bind="enable:isValid()"/>
+            <input type="button" value="click me" />
         </dd>
     </dl>
-    
-    
 }
-<input type="button" value="test" id="test"/>
 <input type="button" id="doAjax" value="ajax" />
 
 <script type="text/javascript">
-    
+    var viewModel = {
+        FirstName: "Sebastian",
+        Surname: "Kent"
+    };
     $(function () {
-        var viewModel = {
-            FirstName: "Sebastian",
-            Surname: "Kent"
-        };
         ko.applyBindings(viewModel);
-        //$("#doAjax").click(function(){alert('fek');});
-        $("#test").click(function () { alert('fek'); });
-        //$('#doAjax').on("click", myFunction);
+        $('#doAjax').on("click", myFunction);
     });
     
     function myFunction() {
-        alert('func');
-        // $.ajax({
-        //    url: "Publication/Subscribe/AjaxSubscribe",
-        //    type: "POST",
-        //    data: viewModel
-        //});
+         $.ajax({
+            url: "Subscribe/AjaxSubscribe",
+            type: "POST",
+            data: viewModel
+        });
     };
 </script>

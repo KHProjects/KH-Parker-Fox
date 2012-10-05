@@ -20,6 +20,7 @@ namespace ParkerFox.Site.Controllers.Publication
             _subscriptionServices = subscriptionServices;
         }
 
+        [UnitOfWork]
         public async Task<ActionResult> Index()
         {
             var subscription = _subscriptionServices.GetCurrent();

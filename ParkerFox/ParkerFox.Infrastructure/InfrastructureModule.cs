@@ -9,7 +9,10 @@ using ParkerFox.Infrastructure.Data;
 using ParkerFox.Infrastructure.Repository;
 using ParkerFox.Infrastructure.Repository.Ecommerce;
 using ParkerFox.Infrastructure.Repository.Publication;
+using System.Configuration;
 using System.Diagnostics;
+using System.Web.Mvc;
+using ParkerFox.Infrastructure.Web;
 
 namespace ParkerFox.Infrastructure
 {
@@ -19,7 +22,12 @@ namespace ParkerFox.Infrastructure
         {
             Bind<IRequestState>().To<AspRequestState>();
 
-            Bind<IUnitOfWork>().To<UnitOfWorkNhibernate>().InRequestScope();
+            if(string.Equals(ConfigurationManager.AppSettings["ORM"], "NH"))
+                BindNHibernate();
+            else
+                BindEntityFramework();
+
+            Bind<IUnitOfWork>().To<UnitOfWorkNhibernate>();
             Bind<IOrderRepository>().To<OrderRepository>();
             Bind<IVisitorRepository>().To<VisitorRepository>();
             Bind<IProductRepository>().To<ProductRepository>();
@@ -42,6 +50,16 @@ namespace ParkerFox.Infrastructure
                     .ExposeConfiguration(x => x.SetProperty("connection.release_mode", "on_close"))
                     .BuildConfiguration().BuildSessionFactory();
                 }).InRequestScope();
+        }
+
+        private void BindNHibernate()
+        {
+            
+        }
+
+        private void BindEntityFramework()
+        {
+            
         }
     }
 

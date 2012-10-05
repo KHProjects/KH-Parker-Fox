@@ -116,6 +116,7 @@
     <Compile Include="Data\Web\UnitOfWorkFilter.cs" />
     <Compile Include="IBootStrapTask.cs" />
     <Compile Include="InfrastructureModule.cs" />
+    <Compile Include="IoC\CustomPropertyInjectionHeuristic.cs" />
     <Compile Include="Messaging\Events\IRespondToEvent.cs" />
     <Compile Include="Repository\Ecommerce\CartItemRepository.cs" />
     <Compile Include="Repository\Ecommerce\CustomerRepository.cs" />

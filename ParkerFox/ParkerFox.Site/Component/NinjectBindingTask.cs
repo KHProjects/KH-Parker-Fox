@@ -1,5 +1,7 @@
 ﻿using Ninject;
+using Ninject.Selection.Heuristics;
 using ParkerFox.Infrastructure;
+using ParkerFox.Infrastructure.IoC;
 using ParkerFox.Infrastructure.Web;
 using System.Web.Http;
 
@@ -15,6 +17,8 @@ namespace ParkerFox.Site.Component
         public void Execute()
         {
             IKernel kernel = new StandardKernel();
+
+            kernel.Components.Add<IInjectionHeuristic, CustomPropertyInjectionHeuristic>();
 
             kernel.Load("ParkerFox.Infrastructure.dll");
             kernel.Load("ParkerFox.Application.dll");
