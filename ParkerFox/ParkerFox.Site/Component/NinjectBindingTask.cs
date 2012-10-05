@@ -18,6 +18,8 @@ namespace ParkerFox.Site.Component
         {
             IKernel kernel = new StandardKernel();
 
+            //var kernel = new StandardKernel(new NinjectSettings() { LoadExtensions = false }, new Ninject.Extensions.Interception.DynamicProxyModule());
+            
             kernel.Components.Add<IInjectionHeuristic, CustomPropertyInjectionHeuristic>();
 
             kernel.Load("ParkerFox.Infrastructure.dll");

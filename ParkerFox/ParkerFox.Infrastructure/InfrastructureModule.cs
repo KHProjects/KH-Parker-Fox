@@ -13,6 +13,9 @@ using System.Configuration;
 using System.Diagnostics;
 using System.Web.Mvc;
 using ParkerFox.Infrastructure.Web;
+using Ninject.Extensions.Interception.Attributes;
+using Ninject.Extensions.Interception;
+using Ninject.Extensions.Interception.Request;
 
 namespace ParkerFox.Infrastructure
 {
@@ -34,7 +37,7 @@ namespace ParkerFox.Infrastructure
             Bind<ISubscriptionRepository>().To<SubscriptionRepository>();
             Bind<ICartItemRepository>().To<CartItemRepository>();
             Bind<ICustomerRepository>().To<CustomerRepository>();
-
+            
             Bind<ISessionFactory>().ToMethod(_ =>
                 {
                     var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["main"].ConnectionString;

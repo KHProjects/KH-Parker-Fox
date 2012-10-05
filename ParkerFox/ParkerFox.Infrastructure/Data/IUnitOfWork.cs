@@ -13,6 +13,7 @@ namespace ParkerFox.Infrastructure.Data
         void SaveOrUpdate(object obj);
 
         void Commit();
+        void RollBack();
 
         void BeginTransaction();
     }

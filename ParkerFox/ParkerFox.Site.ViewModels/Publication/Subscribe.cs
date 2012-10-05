@@ -11,5 +11,6 @@ namespace ParkerFox.Site.ViewModels.Publication
         public string FirstName { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
+        public SubscriptionTerms Terms { get; set; }
     }
 }

@@ -60,6 +60,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Cassette.2.0.0\lib\net40-client\Cassette.dll</HintPath>
     </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\Castle.Core.3.0.0.4001\lib\net35\Castle.Core.dll</HintPath>
+    </Reference>
     <Reference Include="dotless.Core, Version=1.3.1.0, Culture=neutral, PublicKeyToken=96b446c9e63eae34, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\dotless.1.3.1.0\lib\dotless.Core.dll</HintPath>
@@ -87,6 +90,13 @@
     </Reference>
     <Reference Include="Ninject">
       <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Interception, Version=3.0.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Ninject.Extensions.Interception.3.0.0.8\lib\net45-full\Ninject.Extensions.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Interception.DynamicProxy">
+      <HintPath>..\packages\Ninject.Extensions.Interception.DynamicProxy.3.0.0.8\lib\net45-full\Ninject.Extensions.Interception.DynamicProxy.dll</HintPath>
     </Reference>
     <Reference Include="Ninject.Web.Common">
       <HintPath>..\packages\Ninject.Web.Common.3.0.0.7\lib\net45-full\Ninject.Web.Common.dll</HintPath>
@@ -182,7 +192,6 @@
     <Compile Include="Component\MapViewModelToCommand.cs" />
     <Compile Include="Component\MediaTypeFormatters\BsonMediaTypeFormatter.cs" />
     <Compile Include="Component\MediaTypeFormatters\SyndicationMediaTypeFormatter.cs" />
-    <Compile Include="Component\MyActionFilter.cs" />
     <Compile Include="Component\NinjectBindingTask.cs" />
     <Compile Include="Component\PerControllerConfiguration.cs" />
     <Compile Include="Global.asax.cs">

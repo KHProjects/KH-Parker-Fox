@@ -7,6 +7,9 @@ using System.Reflection;
 
 namespace ParkerFox.Infrastructure.IoC
 {
+    /// <summary>
+    /// http://jarrettmeyer.com/blog/2012/05/18/ninject-30-property-injection-without-inject-attribute
+    /// </summary>
     public class CustomPropertyInjectionHeuristic : NinjectComponent, IInjectionHeuristic
     {
         private readonly IKernel kernel;

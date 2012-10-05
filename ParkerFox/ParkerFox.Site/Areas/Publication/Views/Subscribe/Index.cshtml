@@ -14,6 +14,8 @@
         <dt>&nbsp;</dt>
         <dt>@Html.LabelFor(x => x.Surname)</dt>
         <dd>@Html.TextBoxFor(x => x.Surname, new { data_bind = "value:Surname" })</dd>
+
+
         <dt>&nbsp;</dt>
         <dd class="full">
             <input type="submit" value="register"/>
@@ -30,6 +32,7 @@
     };
     $(function () {
         ko.applyBindings(viewModel);
+        
         $('#doAjax').on("click", myFunction);
     });
     

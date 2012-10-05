@@ -68,5 +68,10 @@ namespace ParkerFox.Infrastructure.Data
                 _currentSession = _sessionFactory.OpenSession();
             return _currentSession;
         }
+
+        public void RollBack()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

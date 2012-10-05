@@ -2,6 +2,7 @@
 using ParkerFox.Application.Commands.Publication;
 using ParkerFox.Core.ApplicationServices.Publication;
 using ParkerFox.Core.Messaging;
+using ParkerFox.Infrastructure.IoC;
 using ParkerFox.Infrastructure.Web;
 using ParkerFox.Site.ViewModels.Publication;
 using System.Threading.Tasks;
@@ -20,7 +21,6 @@ namespace ParkerFox.Site.Controllers.Publication
             _subscriptionServices = subscriptionServices;
         }
 
-        [UnitOfWork]
         public async Task<ActionResult> Index()
         {
             var subscription = _subscriptionServices.GetCurrent();

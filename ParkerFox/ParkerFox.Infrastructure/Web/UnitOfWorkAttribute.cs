@@ -5,13 +5,15 @@ namespace ParkerFox.Infrastructure.Web
 {
     public class UnitOfWorkAttribute : ActionFilterAttribute
     {
-        public IUnitOfWork UnitOfWork { get; set; }
+        public IUnitOfWork UnitOfWork { get; set; } //--this is ninjected ref:CustomPropertyInjectionHeuristic
 
         public override void OnActionExecuted(ActionExecutedContext filterContext)
         {
             if (filterContext.Exception == null)
                 UnitOfWork.Commit();
-            //TODO: uof.rollback();
+            else
+                UnitOfWork.RollBack();
+
             base.OnActionExecuted(filterContext);
         }
     }
