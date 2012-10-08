@@ -14,12 +14,9 @@
         <dt>&nbsp;</dt>
         <dt>@Html.LabelFor(x => x.Surname)</dt>
         <dd>@Html.TextBoxFor(x => x.Surname, new { data_bind = "value:Surname" })</dd>
-
-
         <dt>&nbsp;</dt>
         <dd class="full">
-            <input type="submit" value="register"/>
-            <input type="button" value="click me" />
+            <input id="registerCommand" type="submit" value="register" />
         </dd>
     </dl>
 }

@@ -1,4 +1,5 @@
-﻿//this is a self calling function, the vars at the stop are scoped within this function, so no name clashes
+﻿
+//this is a self calling function, the vars at the stop are scoped within this function, so no name clashes
 (function () {
     var textInputField = $('<input type="text" class="quantity-input" />');
     var saveCommand = $('<a class="saveCommand"><img alt="update" src="/content/images/save.png" /></a>');
