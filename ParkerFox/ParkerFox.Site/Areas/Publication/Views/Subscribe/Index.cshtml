@@ -37,10 +37,29 @@
     });
     
     function myFunction() {
-         $.ajax({
-            url: "Subscribe/AjaxSubscribe",
-            type: "POST",
-            data: viewModel
+         //$.ajax({
+         //   url: "Subscribe/AjaxSubscribe",
+         //   type: "POST",
+         //   data: viewModel,
+         //   contentType: "application/xml"
+        //});
+        
+        var myCall = $.ajax("Subscribe/ajax");
+         
+        myCall.done(function (data) {
+            alert('blblblbl:' + data.FirstName);
         });
+        myCall.done(function() { alert('more more more'); });
+        myCall.always(function () { alert('llama'); });
+
+        myCall.resolve();
+        
+
+         //$.ajax("Subscribe/ajax", {
+         //    success: function(anything) {
+         //        alert(anything.FirstName);
+         //    }
+         //});
+        
     };
 </script>
