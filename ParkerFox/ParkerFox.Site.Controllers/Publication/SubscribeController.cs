@@ -39,6 +39,11 @@ namespace ParkerFox.Site.Controllers.Publication
             return View();
         }
 
+        public JsonResult Ajax()
+        {
+            return Json(new {FirstName = "seb"}, JsonRequestBehavior.AllowGet);
+        }
+
         public ActionResult StepOne()
         {
             return PartialView();
