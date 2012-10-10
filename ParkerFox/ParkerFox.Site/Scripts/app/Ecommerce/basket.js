@@ -1,5 +1,6 @@
-﻿//this is a self calling function, the vars at the stop are scoped within this function, so no name clashes
-(function () {
+﻿define('basket',[],
+//this is a self calling function, the vars at the stop are scoped within this function, so no name clashes
+function () {
     var textInputField = $('<input type="text" class="quantity-input" />');
     var saveCommand = $('<a class="saveCommand"><img alt="update" src="/content/images/save.png" /></a>');
     var deleteCommand = $('<a class="deleteCommand"><img alt="delete" src="/content/images/cross.png" /></a>');
@@ -78,4 +79,4 @@
         //$(document).on("click", "#basket td.quantity input", function () { $(this).select(); });
         $('#basket td.edit').remove(); //if JS enabled then we'll remove the manual update column
     });
-}());
+});

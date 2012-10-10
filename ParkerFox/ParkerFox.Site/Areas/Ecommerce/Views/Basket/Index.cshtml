@@ -2,9 +2,12 @@
     ViewBag.Title = "Index";
 }
 <link rel="stylesheet" type="text/css" href="~/content/ecommerce.css" />
+@Scripts.Render("~/bundles/core", "~/Scripts/lib/require.js", "~/bundles/ecommerce")
 
 <div id="basketContainer" style="width:800px;margin: 0 auto">
     @Html.Action("Basket")
 </div>
 
-<script type="text/javascript" src="~/Scripts/Ecommerce/basket.js"></script>
+<script type="text/javascript">
+    require(["basket"]);
+</script>

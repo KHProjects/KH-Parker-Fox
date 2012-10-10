@@ -2,7 +2,7 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/AnalysisEnabled/@EntryValue">SOLUTION</s:String>
 	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=000B28498A6A43F0AB8478DA4930EC4B/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=000B28498A6A43F0AB8478DA4930EC4B/Name/@EntryValue">Session</s:String>
-	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=000B28498A6A43F0AB8478DA4930EC4B/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:Bits.Tests.MultiThreadedAwaitsTasks" type="MsTestTestClassElement" TypeName="Bits.Tests.MultiThreadedAwaitsTasks" Project="8824270F-41DF-438F-991B-8CE15C43EC69" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:Bits.Tests.MultiThreadedAwaitsTasks.MultiThreadedUsingDelegates" ParentId="MsTest:Bits.Tests.MultiThreadedAwaitsTasks" type="MsTestTestMethodElement" MethodName="MultiThreadedUsingDelegates" TypeName="Bits.Tests.MultiThreadedAwaitsTasks" Project="8824270F-41DF-438F-991B-8CE15C43EC69" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:Bits.Tests.MultiThreadedAwaitsTasks.MultiThreadedWithTask" ParentId="MsTest:Bits.Tests.MultiThreadedAwaitsTasks" type="MsTestTestMethodElement" MethodName="MultiThreadedWithTask" TypeName="Bits.Tests.MultiThreadedAwaitsTasks" Project="8824270F-41DF-438F-991B-8CE15C43EC69" /&gt;&lt;/Elements&gt;&lt;/Session&gt;</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=000B28498A6A43F0AB8478DA4930EC4B/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements /&gt;&lt;/Session&gt;</s:String>
 	
 	
 	</wpf:ResourceDictionary>

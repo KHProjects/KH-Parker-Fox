@@ -3,9 +3,13 @@
     ViewBag.Title = "Index";
 }
 
-@Scripts.Render("~/bundles/core")
-<script src="~/Scripts/knockout-2.1.0.js"></script>
+@Scripts.Render("~/bundles/core", "~/Scripts/lib/require.js", "~/bundles/ecommerce")
 
+<script type="text/javascript">
+    require(["MyModule"], function (myModule) {
+        myModule.greet();
+    });
+</script>
 @using(Html.BeginForm())
 {
     <dl>
@@ -14,12 +18,9 @@
         <dt>&nbsp;</dt>
         <dt>@Html.LabelFor(x => x.Surname)</dt>
         <dd>@Html.TextBoxFor(x => x.Surname, new { data_bind = "value:Surname" })</dd>
-
-
         <dt>&nbsp;</dt>
         <dd class="full">
-            <input type="submit" value="register"/>
-            <input type="button" value="click me" />
+            <input id="registerCommand" type="submit" value="register" />
         </dd>
     </dl>
 }

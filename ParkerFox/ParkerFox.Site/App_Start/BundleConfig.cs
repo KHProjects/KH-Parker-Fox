@@ -15,8 +15,12 @@ namespace ParkerFox.Site.App_Start
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/core")
-                .Include("~/Scripts/jquery-{version}.js")
-                .Include("~/Scripts/jquery-ui-{version}.js"));
+                /*.Include("~/Scripts/lib/require.js")*/
+                .Include("~/Scripts/lib/jquery-{version}.js")
+                .Include("~/Scripts/lib/jquery-ui-{version}.js")
+                .Include("~/Scripts/lib/knockout-{version}.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/ecommerce").IncludeDirectory("~/Scripts/app/ecommerce", "*.js"));
 
             bundles.Add(
                 new Bundle("~/content/less-css", new LessBundleTransform(), new CssMinify()).Include(

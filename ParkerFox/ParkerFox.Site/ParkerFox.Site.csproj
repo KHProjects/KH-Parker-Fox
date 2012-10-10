@@ -281,12 +281,23 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="HtmlPage1.html" />
-    <Content Include="Scripts\Ecommerce\catalog.js" />
+    <Content Include="Require.JS - LICENSE.txt" />
+    <Content Include="Scripts\app\bootstrapper.js" />
+    <Content Include="Scripts\app\Ecommerce\catalog.js" />
     <Content Include="Areas\Ecommerce\Views\Web.config" />
-    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.8.2.js" />
-    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <None Include="Scripts\lib\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\app\Ecommerce\RequireTest.js" />
+    <Content Include="Scripts\app\main.js" />
+    <Content Include="Scripts\lib\cs.js" />
+    <Content Include="Scripts\lib\domReady.js" />
+    <Content Include="Scripts\lib\i18n.js" />
+    <Content Include="Scripts\lib\jquery-1.8.2.js" />
+    <Content Include="Scripts\lib\jquery-1.8.2.min.js" />
     <Content Include="Areas\Ecommerce\Views\Basket\Checkout.cshtml" />
+    <Content Include="Scripts\lib\r.js" />
+    <Content Include="Scripts\lib\require.js" />
+    <Content Include="Scripts\lib\require.min.js" />
+    <Content Include="Scripts\lib\text.js" />
     <Content Include="Views\Register\Index.cshtml" />
     <Content Include="Areas\Publication\Views\Web.config" />
     <Content Include="Areas\Publication\Views\Home\Index.cshtml" />
@@ -307,45 +318,21 @@
     <None Include="_bin_deployableAssemblies\amd64\sqlceca40.dll" />
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\README_ENU.txt" />
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\msvcr90.dll" />
-    <None Include="Scripts\jquery-1.7.2.intellisense.js">
-      <DependentUpon>jquery-1.7.2.js</DependentUpon>
-    </None>
-    <Content Include="Scripts\Ecommerce\basket.js" />
+    <Content Include="Scripts\app\Ecommerce\basket.js" />
     <Content Include="Scripts\gl-utils.js" />
-    <Content Include="Scripts\handlebars.js" />
-    <Content Include="Scripts\handlebars.runtime.js" />
+    <Content Include="Scripts\lib\handlebars.js" />
+    <Content Include="Scripts\lib\handlebars.runtime.js" />
     <Content Include="Scripts\html5-events.js" />
-    <Content Include="Scripts\jquery-1.7.2.js" />
-    <Content Include="Scripts\jquery-1.7.2.min.js">
-      <DependentUpon>jquery-1.7.2.js</DependentUpon>
-    </Content>
-    <Content Include="Scripts\jquery-1.8.1.js" />
-    <Content Include="Scripts\jquery-ui-1.8.20.js" />
-    <Content Include="Scripts\jquery-ui-1.8.20.min.js">
-      <DependentUpon>jquery-ui-1.8.20.js</DependentUpon>
-    </Content>
-    <Content Include="Scripts\jquery-ui-1.8.23.js" />
-    <Content Include="Scripts\jquery-ui-1.8.23.min.js" />
-    <Content Include="Scripts\jquery.mobile-1.1.0.js" />
-    <Content Include="Scripts\jquery.mobile-1.1.0.min.js">
-      <DependentUpon>jquery.mobile-1.1.0.js</DependentUpon>
-    </Content>
-    <Content Include="Scripts\jquery.mobile-1.1.1.js" />
-    <Content Include="Scripts\jquery.mobile-1.1.1.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js">
+    <Content Include="Scripts\lib\jquery-ui-1.8.23.js" />
+    <Content Include="Scripts\lib\jquery.mobile-1.1.1.js" />
+    <Content Include="Scripts\lib\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\lib\jquery.validate.js" />
+    <Content Include="Scripts\lib\jquery.validate.min.js">
       <DependentUpon>jquery.validate.js</DependentUpon>
     </Content>
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\knockout-2.1.0.debug.js" />
-    <Content Include="Scripts\knockout-2.1.0.js" />
-    <Content Include="Scripts\modernizr-2.5.3.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\require.js" />
+    <Content Include="Scripts\lib\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\lib\knockout-2.1.0.js" />
+    <Content Include="Scripts\lib\modernizr-2.6.2.js" />
     <Content Include="Scripts\web-gl.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
