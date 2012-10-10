@@ -3,9 +3,13 @@
     ViewBag.Title = "Index";
 }
 
-@Scripts.Render("~/bundles/core")
-<script src="~/Scripts/knockout-2.1.0.js"></script>
+@Scripts.Render("~/bundles/core", "~/Scripts/lib/require.js", "~/bundles/ecommerce")
 
+<script type="text/javascript">
+    require(["MyModule"], function (myModule) {
+        myModule.greet();
+    });
+</script>
 @using(Html.BeginForm())
 {
     <dl>
