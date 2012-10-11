@@ -286,6 +286,7 @@
     <Content Include="Scripts\app\Ecommerce\catalog.js" />
     <Content Include="Areas\Ecommerce\Views\Web.config" />
     <None Include="Scripts\lib\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\app\Ecommerce\MyOtherModule.js" />
     <Content Include="Scripts\app\Ecommerce\RequireTest.js" />
     <Content Include="Scripts\app\main.js" />
     <Content Include="Scripts\lib\cs.js" />
