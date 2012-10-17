@@ -1,0 +1,9 @@
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\bin\Debug\LearnEntityFramework.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\bin\Debug\LearnEntityFramework.pdb
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\obj\Debug\LearnEntityFramework.csprojResolveAssemblyReference.cache
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\obj\Debug\LearnEntityFramework.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\obj\Debug\LearnEntityFramework.pdb
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\bin\Debug\Database1.sdf
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\DH\LearnEntityFramework\LearnEntityFramework\bin\Debug\LearnEntityFramework.dll.config
