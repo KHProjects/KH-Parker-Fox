@@ -48,6 +48,8 @@
     <Compile Include="Ecommerce\Dto\BasketItem.cs" />
     <Compile Include="Ecommerce\ProductController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publication\Dto\SubscriptionInfo.cs" />
+    <Compile Include="Publication\SubscriptionController.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ParkerFox.Core\ParkerFox.Core.csproj">

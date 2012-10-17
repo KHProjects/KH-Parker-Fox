@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/lib/jquery-1.8.2.js"></script>
+<script src="~/Scripts/lib/knockout-2.1.0.js"></script>
+
+<div data-bind="template: {name:'term-template', data:viewModel}"></div>
+
+<script id="term-template" type="text/html">
+    <h3 data-bind="text:startDate"></h3>
+</script>
+<script type="text/javascript">
+    var viewModel = {
+        startDate : ko.observable("5th Nov 12")
+    };
+    ko.applyBindings(viewModel);
+</script>

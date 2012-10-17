@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/Modules.js"></script>
+<script src="~/Scripts/ObjectOrientation.js"></script>
+
+<div>
+    <input id="createObject" type="button" value="Create an object" />
+    <input id="objectContext" type="button" value="Object context" />
+</div>
+
+<div>
+    <input id="callRevealingModule" type="button" value="call revealing module" />
+    <input id="callRevealingSingleton" type="button" value="call revealing singleton" />
+</div>
+
+<!-- Object Oriented Javascript -->
+<script type="text/javascript">
+    $(function () {
+        $('#createObject').click(createObject);
+        $('#objectContext').click(objectContext);
+    });
+
+    function createObject() {
+        var myClass = new ClassOne();
+        myClass.LookMaAProperty = "shit head";
+        myClass.MethodAdded();
+
+        var otherClass = new ClassTwo("bla bla fish paste");
+        otherClass.SomeMethod();
+    };
+
+    /* 
+    An object is created for every function call, this is also known as the Activation Object. This object can be referenced in a function using the call property.
+    */
+    function objectContext() {
+        someFunctionToBeCalled("one");
+        someFunctionToBeCalled("one", "two", 3);
+    };
+    
+    function someFunctionToBeCalled(argOne) {
+        console.log("someFunctionToBeCalled was called with " + arguments.length + " arguments");
+    };
+</script>
+
+<!-- Patterns -->
+<script type="text/javascript">
+    $(function() {
+        $('#callRevealingModule').click(callRevealingModule);
+        $('#callRevealingSingleton').on("click", callRevealingSingleton);
+    });
+
+    function callRevealingModule() {
+        var myModule = new revealingModule("your mama is llama lover");
+        myModule.CallMeMaybe();
+    };
+    
+    function callRevealingSingleton() {
+        revealingModuleSingleton.Method();
+    };
+</script>

@@ -281,14 +281,17 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="HtmlPage1.html" />
-    <Content Include="Require.JS - LICENSE.txt" />
     <Content Include="Scripts\app\bootstrapper.js" />
     <Content Include="Scripts\app\Ecommerce\catalog.js" />
     <Content Include="Areas\Ecommerce\Views\Web.config" />
+    <Content Include="Areas\Publication\Views\Subscription\Index.cshtml" />
+    <Content Include="Areas\Publication\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Publication\Views\_ViewStart.cshtml" />
     <None Include="Scripts\lib\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\app\Ecommerce\MyOtherModule.js" />
     <Content Include="Scripts\app\Ecommerce\RequireTest.js" />
     <Content Include="Scripts\app\main.js" />
+    <Content Include="Scripts\app\Publication\Subscription.js" />
     <Content Include="Scripts\lib\cs.js" />
     <Content Include="Scripts\lib\domReady.js" />
     <Content Include="Scripts\lib\i18n.js" />
@@ -296,6 +299,7 @@
     <Content Include="Scripts\lib\jquery-1.8.2.min.js" />
     <Content Include="Areas\Ecommerce\Views\Basket\Checkout.cshtml" />
     <Content Include="Scripts\lib\r.js" />
+    <Content Include="Scripts\lib\require-jquery.js" />
     <Content Include="Scripts\lib\require.js" />
     <Content Include="Scripts\lib\require.min.js" />
     <Content Include="Scripts\lib\text.js" />
@@ -378,9 +382,6 @@
     <Folder Include="Areas\Ecommerce\Controllers\" />
     <Folder Include="Areas\Ecommerce\Models\" />
     <Folder Include="Areas\Ecommerce\Views\Shared\" />
-    <Folder Include="Areas\Publication\Controllers\" />
-    <Folder Include="Areas\Publication\Models\" />
-    <Folder Include="Areas\Publication\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -450,6 +451,7 @@
   </ProjectExtensions>
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy $(projectDir)app_data\ParkerFox.sdf $(solutionDir)ParkerFox.Services.Site\App_data /Y /C</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>

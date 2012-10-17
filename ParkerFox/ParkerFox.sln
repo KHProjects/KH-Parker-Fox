@@ -34,6 +34,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkerFox.IntegrationTests"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Notes", "0 - Notes", "{E0A5CA0F-121D-40CD-BBB6-E5208CD97067}"
 	ProjectSection(SolutionItems) = preProject
+		Javascript.txt = Javascript.txt
 		Links.txt = Links.txt
 		Principals and Practices.txt = Principals and Practices.txt
 		Testing.txt = Testing.txt
@@ -67,6 +68,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkerFox.Services.Host", "ParkerFox.Services.Host\ParkerFox.Services.Host.csproj", "{658DA642-B30B-46C8-B70A-D7C32E890547}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkerFox.Services.Site", "ParkerFox.Services.Site\ParkerFox.Services.Site.csproj", "{8224D41A-565E-4FEF-9D15-4B6E71E0E378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{04B7132B-2029-4F71-859E-789E20A72641}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,6 +149,10 @@ Global
 		{8224D41A-565E-4FEF-9D15-4B6E71E0E378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8224D41A-565E-4FEF-9D15-4B6E71E0E378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8224D41A-565E-4FEF-9D15-4B6E71E0E378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B7132B-2029-4F71-859E-789E20A72641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B7132B-2029-4F71-859E-789E20A72641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B7132B-2029-4F71-859E-789E20A72641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B7132B-2029-4F71-859E-789E20A72641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +174,7 @@ Global
 		{2945FBEA-76FD-4812-A747-B623DE115901} = {C204F751-82BC-478D-BA8F-EEE8FB27577B}
 		{BBAB4F12-9408-44C4-8860-38B9CE13EA3F} = {C204F751-82BC-478D-BA8F-EEE8FB27577B}
 		{FFE2E0AC-09DE-43F1-A62D-28A227F32C65} = {C204F751-82BC-478D-BA8F-EEE8FB27577B}
+		{04B7132B-2029-4F71-859E-789E20A72641} = {C204F751-82BC-478D-BA8F-EEE8FB27577B}
 		{0424FAB1-BE0F-4E72-B0B3-04A0848E171C} = {49123BC9-8DCA-4071-B0B2-E908674CEFA4}
 		{5B2ED4EE-EDAC-46BE-B473-AD2C4743A613} = {49123BC9-8DCA-4071-B0B2-E908674CEFA4}
 		{DDF341B2-965F-496B-9D03-2ADB55177257} = {ED543445-AD4B-42C2-91EC-1AAC6C162F01}
