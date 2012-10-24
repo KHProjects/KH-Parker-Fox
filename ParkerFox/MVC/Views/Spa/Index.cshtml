@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<input id="simpleCommand" type="button" value="Simple request" />
+<input id="getCustomersCommand" type="button" value="get customers" />
+<input id="getCustomerById" type="button" value="get customer by id"/>
+<input id="publishEvent" type="button" value="publish event" />
+<div id="display"></div>
+
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/amplify.min.js"></script>
+
+<!-- 
+    Request abstraction: 
+    client code doesn't know you going to a web api service 
+    it just knows it can ask amplify to execute 'getCustomers' and have array of customers returned 
+-->
+<script>
+
+    amplify.request.define("simples", function(options) {
+        return { valueOne: "bob" };
+    });
+
+    amplify.request.define("getCustomers", "ajax", {
+        url: "/api/WebApi/",
+        dataType: "json",
+        type: "GET"
+    });
+
+    amplify.request.define("getCustomer", "ajax", {
+        url: "/api/webapi/{id}",
+        dataType: "json",
+        type : "GET"
+    });
+    
+    function simpleRequest(response) {
+        console.log(arguments.length);
+        alert(response);
+    };
+    
+    function getCustomers() {
+        amplify.request("getCustomers", {}, function (customers) {
+            var display = $("#display");
+            display.empty();
+            var nameList = $('<div/>');
+            $.each(customers, function (someThing, customer) {
+                $('<div/>').html(customer.FirstName).appendTo(nameList);
+            });
+            nameList.appendTo(display);
+        });
+    };
+    
+    function getCustomer() {
+        amplify.request({
+            resourceId: "getCustomer",
+            data: { id: 12 },
+            success: function(customer) {
+                var display = $("#display");
+                display.empty();
+                alert(customer);
+                $('<div/>').html(customer.FirstName).appendTo(display);
+            }
+        });
+    };
+
+    $(function () {
+        $('#simpleCommand').on("click", simpleRequest);
+        $("#getCustomersCommand").on("click", getCustomers);
+        $("#getCustomerById").on("click", getCustomer);
+    });
+</script>
+
+<!-- eventing -->
+<script>
+    amplify.subscribe("app.eventOne", function (eventArgs) {
+        alert('event one fired\nV1:' + eventArgs.eventValueOne);
+    });
+
+    $(function() {
+        $("#publishEvent").on("click", function() {
+            amplify.publish("app.eventOne", {
+                eventValueOne: "llama",
+                eventValueTwo: "lemon",
+                eventValueThree: "lollipop"
+            });
+        });
+    });
+</script>
