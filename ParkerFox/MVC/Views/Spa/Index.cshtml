@@ -19,7 +19,7 @@
 <script>
 
     amplify.request.define("simples", function(options) {
-        return { valueOne: "bob" };
+        options.success({ valueOne: "hello" });
     });
 
     amplify.request.define("getCustomers", "ajax", {
@@ -35,8 +35,13 @@
     });
     
     function simpleRequest(response) {
-        console.log(arguments.length);
-        alert(response);
+
+        amplify.request({
+            resourceId: "simples",
+            success: function (rtnValue) {
+                alert('success');
+            }
+        });
     };
     
     function getCustomers() {
