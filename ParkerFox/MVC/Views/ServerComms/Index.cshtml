@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/jquery.signalR-0.5.3.min.js"></script>
+<script src="/signalr/hubs"></script>
+
+<input id="serverMessage" type="button" value="Get server to send message" />
+
+<script>
+    $(function() {
+        var signalRHub = $.connection.signalRHub;
+
+        signalRHub.messageFromServer = function(data) {
+            alert(data.FirstName);
+        };
+        
+        $.connection.hub.start();
+    });
+
+    $(function() {
+        $('#serverMessage').on("click", function() {
+            $.ajax({ url: "/ServerComms/SendBackMessage" });
+        });
+    });
+</script>

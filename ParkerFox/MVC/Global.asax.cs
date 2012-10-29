@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MVC.Components;
+using SignalR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -19,6 +21,14 @@ namespace MVC
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            ConfigureSignalR();
+        }
+
+        private void ConfigureSignalR()
+        {
+            GlobalHost.DependencyResolver.Register(typeof (IConnectionIdGenerator),
+                                                   () => new AuthenticationIdGenerator());
         }
     }
 }
