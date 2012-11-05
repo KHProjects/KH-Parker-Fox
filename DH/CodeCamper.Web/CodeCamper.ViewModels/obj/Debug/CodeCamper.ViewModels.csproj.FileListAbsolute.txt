@@ -1,0 +1,5 @@
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.ViewModels\bin\Debug\CodeCamper.ViewModels.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.ViewModels\bin\Debug\CodeCamper.ViewModels.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.ViewModels\obj\Debug\CodeCamper.ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.ViewModels\obj\Debug\CodeCamper.ViewModels.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.ViewModels\obj\Debug\CodeCamper.ViewModels.pdb

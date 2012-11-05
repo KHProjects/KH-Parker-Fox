@@ -1,0 +1,7 @@
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data.Contracts\obj\Debug\CodeCamper.Data.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data.Contracts\bin\Debug\CodeCamper.Data.Contracts.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data.Contracts\bin\Debug\CodeCamper.Data.Contracts.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data.Contracts\bin\Debug\CodeCamper.Model.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data.Contracts\bin\Debug\CodeCamper.Model.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data.Contracts\obj\Debug\CodeCamper.Data.Contracts.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data.Contracts\obj\Debug\CodeCamper.Data.Contracts.pdb

@@ -1,0 +1,105 @@
+﻿@model CodeCamper.ViewModels.Person.RegisterViewModel
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/knockout-2.2.0.js"></script>
+
+
+
+
+<script>
+
+    var RegisterViewModel = {
+        FirstName: ko.observable(""),
+        LastName: ko.observable("havelock")
+    };
+
+    
+
+
+
+    $(function () {
+
+        $("#MyButton").click(function () {
+            //alert("hello");
+            var url = "/api/apiperson"
+        
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: { FirstName: "dean", LastName: "havelock" },
+                success: function () { },
+                error: function () { }
+            });
+        
+        });
+
+
+
+
+        ko.applyBindings(RegisterViewModel);
+
+        //ko.observable(RegisterViewModel);
+
+    });
+    
+</script>
+
+<input type="text" data-bind="value:FirstName" />
+
+<h2>Register</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>RegisterPersonViewModel</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FirstName)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.FirstName, new { data_bind="value:FirstName" })
+            @Html.ValidationMessageFor(model => model.FirstName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastName)
+            @Html.ValidationMessageFor(model => model.LastName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateOfBirth)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateOfBirth)
+            @Html.ValidationMessageFor(model => model.DateOfBirth)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RememberMe)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RememberMe)
+            @Html.ValidationMessageFor(model => model.RememberMe)
+        </div>
+
+        <p>
+            <input type="submit" id="MyButton" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

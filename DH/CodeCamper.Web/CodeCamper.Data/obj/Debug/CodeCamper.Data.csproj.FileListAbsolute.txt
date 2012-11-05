@@ -1,0 +1,12 @@
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\obj\Debug\CodeCamper.Data.csprojResolveAssemblyReference.cache
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Data.dll.config
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Data.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Data.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Data.Contracts.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Model.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\EntityFramework.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Data.Contracts.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Model.pdb
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\bin\Debug\EntityFramework.xml
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\obj\Debug\CodeCamper.Data.dll
+C:\Users\Win7ProX86\Documents\Visual Studio 11\Projects\CodeCamper.Web\CodeCamper.Data\obj\Debug\CodeCamper.Data.pdb
