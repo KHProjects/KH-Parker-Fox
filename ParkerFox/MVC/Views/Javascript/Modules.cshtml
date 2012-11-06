@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Modules";
+}
+<script data-main="/scripts/app/main" src="~/Scripts/require.js"></script>
+
+<script type="text/javascript">
+    require(['ModuleOne'], function(moduleOne) {
+        moduleOne.methodOne();
+    });
+</script>
+

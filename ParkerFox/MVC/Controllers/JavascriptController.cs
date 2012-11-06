@@ -16,5 +16,10 @@ namespace MVC.Controllers
             return View();
         }
 
+        public ActionResult Modules()
+        {
+            return View();
+        }
+
     }
 }

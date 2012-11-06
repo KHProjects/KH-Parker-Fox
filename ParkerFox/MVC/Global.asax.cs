@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using System.Web.Security;
 
 namespace MVC
 {
@@ -23,6 +24,31 @@ namespace MVC
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
             ConfigureSignalR();
+
+
+        }
+
+        public void Session_Start()
+        {
+            if (!HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                FormsAuthenticationTicket formsAuthenticationTicket = new FormsAuthenticationTicket(1, "username",
+                                                                                                    DateTime.Now,
+                                                                                                    DateTime.Now.
+                                                                                                        AddYears(10),
+                                                                                                    true,
+                                                                                                    Guid.NewGuid().
+                                                                                                        ToString());
+
+                string cookieData = FormsAuthentication.Encrypt(formsAuthenticationTicket);
+                HttpCookie cookie = new HttpCookie(FormsAuthentication.FormsCookieName, cookieData)
+                    {
+                        HttpOnly = true,
+                        Expires = formsAuthenticationTicket.Expiration
+                    };
+
+                HttpContext.Current.Response.Cookies.Add(cookie);
+            }
         }
 
         private void ConfigureSignalR()

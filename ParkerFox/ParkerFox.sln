@@ -34,6 +34,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkerFox.IntegrationTests"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Notes", "0 - Notes", "{E0A5CA0F-121D-40CD-BBB6-E5208CD97067}"
 	ProjectSection(SolutionItems) = preProject
+		DDD.links.txt = DDD.links.txt
 		Javascript.txt = Javascript.txt
 		Links.txt = Links.txt
 		Principals and Practices.txt = Principals and Practices.txt
