@@ -4,8 +4,12 @@
 <script data-main="/scripts/app/main" src="~/Scripts/require.js"></script>
 
 <script type="text/javascript">
-    require(['ModuleOne'], function(moduleOne) {
-        moduleOne.methodOne();
+    //require(['ModuleOne', 'jquery'], function (moduleOne, jquery) {
+    //    //moduleOne.methodOne();
+    //    alert(jquery);
+    //});
+
+    require(['ModuleTwo', 'knockout'], function (moduleTwo) {
+        moduleTwo.methodOne();
     });
 </script>
-

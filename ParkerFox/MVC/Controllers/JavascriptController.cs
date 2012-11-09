@@ -21,5 +21,9 @@ namespace MVC.Controllers
             return View();
         }
 
+        public ActionResult Testing()
+        {
+            return View();
+        }
     }
 }

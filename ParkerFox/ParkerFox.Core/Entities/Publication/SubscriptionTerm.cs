@@ -4,18 +4,39 @@ namespace ParkerFox.Core.Entities.Publication
 {
     public class SubscriptionTerm
     {
-        public virtual int SubscriptionTermId { get; protected set; }
-        public virtual DateTime? StartDate { get; protected set; }
+        [Obsolete("Just for NHibernate")]
+        protected SubscriptionTerm(){}
+        public SubscriptionTerm(SubscriptionPaymentTypes paymentType, TimePeriod period)
+        {
+            _paymentType = paymentType;
+            _period = period;
+        }
+
         public virtual Subscription Subscription { get; internal protected set; }
-        public virtual SubscriptionPaymentTypes PaymentType { get; set; }
-        public virtual TimePeriod Term { get; set; }
 
-        //public virtual DateTime? GetEndDate()
-        //{
-        //    if (StartDate == null)
-        //        return StartDate;
+        private int _subscriptionTermId;
+        private DateTime? _startDate;
+        private SubscriptionPaymentTypes _paymentType;
+        private TimePeriod _period;
 
-        //    return null;
-        //}
+        public virtual DateTime? GetEndDate()
+        {
+            return _period.GetExtent(_startDate.Value);
+        }
+
+        public virtual void Activate()
+        {
+            _startDate = DateTime.Now;
+        }
+
+        public virtual bool IsActive()
+        {
+            if (_startDate.HasValue)
+            {
+                DateTime extend = _period.GetExtent(_startDate.Value);
+                return extend > SystemTime.Now();
+            }
+            return false;
+        }
     }
 }

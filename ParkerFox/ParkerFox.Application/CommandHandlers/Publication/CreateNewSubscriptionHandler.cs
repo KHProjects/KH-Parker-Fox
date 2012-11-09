@@ -26,15 +26,15 @@ namespace ParkerFox.Application.CommandHandlers.Publication
             {
             };
 
-            subscription.AddTerm(new SubscriptionTerm
-            {
-               PaymentType = SubscriptionPaymentTypes.UpFront,
-               Term =  new TimePeriod
-               {
-                   Quantity = 12,
-                   Interval = TimePeriodIntervals.Months
-               }
-            });
+            //subscription.AddTerm(new SubscriptionTerm
+            //{
+            //   PaymentType = SubscriptionPaymentTypes.UpFront,
+            //   Term =  new TimePeriod
+            //   {
+            //       Quantity = 12,
+            //       Interval = TimePeriodIntervals.Months
+            //   }
+            //});
 
             _subscriptionRepository.Add(subscription);
 

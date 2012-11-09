@@ -4,21 +4,29 @@ namespace ParkerFox.Core.Entities.Publication
 {
     public class TimePeriod
     {
-        public virtual TimePeriodIntervals Interval { get; set; }
-        public virtual int Quantity { get; set; }
+        [Obsolete("only for NHibernate")]
+        protected TimePeriod(){}
+        public TimePeriod(TimePeriodIntervals interval, int quantity)
+        {
+            _interval = interval;
+            _quantity = quantity;
+        }
 
-        //public virtual DateTime GetExtent(DateTime startDate)
-        //{
-        //    switch(Interval)
-        //    {
-        //        case TimePeriodIntervals.Days:
-        //            return startDate.AddDays(Quantity);
-        //        case TimePeriodIntervals.Months:
-        //            return startDate.AddMonths(Quantity);
-        //        case TimePeriodIntervals.Years:
-        //            return startDate.AddYears(Quantity);
-        //    }
-        //    return startDate;
-        //}
+        private TimePeriodIntervals _interval;
+        private int _quantity;
+
+        public virtual DateTime GetExtent(DateTime startDate)
+        {
+            switch (_interval)
+            {
+                case TimePeriodIntervals.Days:
+                    return startDate.AddDays(_quantity);
+                case TimePeriodIntervals.Months:
+                    return startDate.AddMonths(_quantity);
+                case TimePeriodIntervals.Years:
+                    return startDate.AddYears(_quantity);
+            }
+            return startDate;
+        }
     }
 }

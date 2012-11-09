@@ -30,7 +30,7 @@ namespace ParkerFox.Infrastructure
             else
                 BindEntityFramework();
 
-            Bind<IUnitOfWork>().To<UnitOfWorkNhibernate>();
+            Bind<IUnitOfWork>().To<UnitOfWorkNhibernate>().InRequestScope();
             Bind<IOrderRepository>().To<OrderRepository>();
             Bind<IVisitorRepository>().To<VisitorRepository>();
             Bind<IProductRepository>().To<ProductRepository>();

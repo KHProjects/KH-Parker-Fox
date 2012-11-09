@@ -1,4 +1,8 @@
-﻿(function() {
+﻿(function () {
+
+    
+
+
     var root = this;
 
     define3rdPartyModules();

@@ -291,6 +291,7 @@
     <Content Include="Scripts\app\Ecommerce\MyOtherModule.js" />
     <Content Include="Scripts\app\Ecommerce\RequireTest.js" />
     <Content Include="Scripts\app\main.js" />
+    <Content Include="Scripts\app\Publication\Subscribe.js" />
     <Content Include="Scripts\app\Publication\Subscription.js" />
     <Content Include="Scripts\lib\cs.js" />
     <Content Include="Scripts\lib\domReady.js" />

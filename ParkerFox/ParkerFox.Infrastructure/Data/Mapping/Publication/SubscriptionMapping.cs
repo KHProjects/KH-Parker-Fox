@@ -12,8 +12,6 @@ namespace ParkerFox.Infrastructure.Data.Mapping.Publication
             Map(x => x.StartDate);
 
             HasMany(x => x.Terms).Inverse().Cascade.All();
-
-            Table("[Magazine.Subscription]");
         }
     }
 }

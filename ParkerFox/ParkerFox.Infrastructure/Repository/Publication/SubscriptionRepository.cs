@@ -11,7 +11,6 @@ namespace ParkerFox.Infrastructure.Repository.Publication
         public SubscriptionRepository(IUnitOfWork unitOfWork)
             : base(unitOfWork)
         {
-            
         }
 
         public Subscription GetByUserId(int userId)

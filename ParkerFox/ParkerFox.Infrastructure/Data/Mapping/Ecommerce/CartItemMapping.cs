@@ -1,4 +1,5 @@
-﻿using FluentNHibernate.Mapping;
+﻿using FluentNHibernate;
+using FluentNHibernate.Mapping;
 using ParkerFox.Core.Entities.Ecommerce;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ namespace ParkerFox.Infrastructure.Data.Mapping.Ecommerce
             Id(x => x.Identifier);
             Map(x => x.ProductId);
             Map(x => x.Quantity);
+            Map(Reveal.Member<CartItem>("_Test")).Column("Test");
         }
     }
 }

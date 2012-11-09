@@ -1,8 +1,8 @@
-﻿define('ModuleTwo', ['ModuleOne'], function (moduleOne) {
+﻿define(['ModuleOne'], function (moduleOne) {
     var _moduleOne = moduleOne;
 
     function moduleTwoMethodOne() {
-        console.log("module two method one");
+        console.log("module two method one bla");
         _moduleOne.methodOne();
     };
 
