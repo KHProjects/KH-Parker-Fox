@@ -1,0 +1,5 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Contract\bin\Debug\PharmaNet.Fulfillment.Contract.dll.config
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Contract\bin\Debug\PharmaNet.Fulfillment.Contract.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Contract\bin\Debug\PharmaNet.Fulfillment.Contract.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Contract\obj\Debug\PharmaNet.Fulfillment.Contract.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Contract\obj\Debug\PharmaNet.Fulfillment.Contract.pdb

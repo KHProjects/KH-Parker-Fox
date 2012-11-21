@@ -1,0 +1,10 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\obj\x86\Debug\PharmaNet.Fulfillment.Consumer.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\bin\Debug\PharmaNet.Fulfillment.Consumer.exe.config
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\bin\Debug\PharmaNet.Fulfillment.Consumer.exe
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\bin\Debug\PharmaNet.Fulfillment.Consumer.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\bin\Debug\PharmaNet.Fulfillment.Contract.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\bin\Debug\PharmaNet.Infrastructure.Service.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\bin\Debug\PharmaNet.Fulfillment.Contract.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\bin\Debug\PharmaNet.Infrastructure.Service.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\obj\x86\Debug\PharmaNet.Fulfillment.Consumer.exe
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Consumer\obj\x86\Debug\PharmaNet.Fulfillment.Consumer.pdb

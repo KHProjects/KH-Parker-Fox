@@ -1,0 +1,4 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Domain\bin\Debug\PharmaNet.Sales.Domain.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Domain\bin\Debug\PharmaNet.Sales.Domain.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Domain\obj\Debug\PharmaNet.Sales.Domain.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Domain\obj\Debug\PharmaNet.Sales.Domain.pdb

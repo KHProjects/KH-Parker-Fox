@@ -1,0 +1,10 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\bin\Debug\PharmaNet.Infrastructure.SQL.dll.config
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\bin\Debug\PharmaNet.Infrastructure.SQL.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\bin\Debug\PharmaNet.Infrastructure.SQL.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\bin\Debug\EntityFramework.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\bin\Debug\PharmaNet.Infrastructure.Repository.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\bin\Debug\PharmaNet.Infrastructure.Repository.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\bin\Debug\EntityFramework.xml
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\obj\Debug\PharmaNet.Infrastructure.SQL.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\obj\Debug\PharmaNet.Infrastructure.SQL.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.SQL\obj\Debug\PharmaNet.Infrastructure.SQL.pdb

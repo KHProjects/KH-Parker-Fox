@@ -1,0 +1,4 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Domain\bin\Debug\PharmaNet.Performance.Domain.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Domain\bin\Debug\PharmaNet.Performance.Domain.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Domain\obj\Debug\PharmaNet.Performance.Domain.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Domain\obj\Debug\PharmaNet.Performance.Domain.pdb

@@ -1,0 +1,14 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\obj\Debug\PharmaNet.Fulfillment.SQL.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Fulfillment.SQL.dll.config
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Fulfillment.SQL.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Fulfillment.SQL.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\EntityFramework.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Fulfillment.Domain.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Infrastructure.Repository.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Infrastructure.SQL.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Infrastructure.Repository.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Infrastructure.SQL.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\PharmaNet.Fulfillment.Domain.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\bin\Debug\EntityFramework.xml
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\obj\Debug\PharmaNet.Fulfillment.SQL.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.SQL\obj\Debug\PharmaNet.Fulfillment.SQL.pdb

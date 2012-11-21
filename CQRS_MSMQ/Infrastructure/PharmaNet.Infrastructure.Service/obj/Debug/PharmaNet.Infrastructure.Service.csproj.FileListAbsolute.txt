@@ -1,0 +1,4 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Service\bin\Debug\PharmaNet.Infrastructure.Service.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Service\bin\Debug\PharmaNet.Infrastructure.Service.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Service\obj\Debug\PharmaNet.Infrastructure.Service.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Service\obj\Debug\PharmaNet.Infrastructure.Service.pdb

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4FC5E7D7-825D-4ACE-8846-BFD016A39B42}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PharmaNet.Fulfillment.Handler</RootNamespace>
+    <AssemblyName>PharmaNet.Fulfillment.Handler</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\CQRS_MSMQ\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="PharmaNet.Infrastructure.Messaging, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Infrastructure\PharmaNet.Infrastructure.Messaging\bin\Debug\PharmaNet.Infrastructure.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="PharmaNet.Infrastructure.Repository">
+      <HintPath>..\..\Infrastructure\PharmaNet.Infrastructure.Repository\bin\Debug\PharmaNet.Infrastructure.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="PharmaNet.Infrastructure.SQL">
+      <HintPath>..\..\Infrastructure\PharmaNet.Infrastructure.SQL\obj\Debug\PharmaNet.Infrastructure.SQL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PlaceOrderHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PharmaNet.Fulfillment.Application\PharmaNet.Fulfillment.Application.csproj">
+      <Project>{feb932f4-3e7d-49c3-a434-e96515dc4236}</Project>
+      <Name>PharmaNet.Fulfillment.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PharmaNet.Fulfillment.Domain\PharmaNet.Fulfillment.Domain.csproj">
+      <Project>{7e112ea0-15b1-426b-8bbc-fadf5234278b}</Project>
+      <Name>PharmaNet.Fulfillment.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PharmaNet.Fulfillment.Messages\PharmaNet.Fulfillment.Messages.csproj">
+      <Project>{1CD80D18-92D9-4395-9FAA-440D70D571AE}</Project>
+      <Name>PharmaNet.Fulfillment.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PharmaNet.Fulfillment.SQL\PharmaNet.Fulfillment.SQL.csproj">
+      <Project>{1d31bb1f-1b2b-4e40-b9e5-548d0fa3cb7a}</Project>
+      <Name>PharmaNet.Fulfillment.SQL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

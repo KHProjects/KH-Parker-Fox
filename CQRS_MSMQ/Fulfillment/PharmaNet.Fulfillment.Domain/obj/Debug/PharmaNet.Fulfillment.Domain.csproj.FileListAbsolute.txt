@@ -1,0 +1,7 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\PharmaNet.Fulfillment.Domain.dll.config
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\PharmaNet.Fulfillment.Domain.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\PharmaNet.Fulfillment.Domain.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\EntityFramework.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\EntityFramework.xml
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\obj\Debug\PharmaNet.Fulfillment.Domain.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\obj\Debug\PharmaNet.Fulfillment.Domain.pdb

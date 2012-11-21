@@ -1,0 +1,5 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Presentation\bin\PharmaNet.Rebates.Presentation.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Presentation\bin\PharmaNet.Rebates.Presentation.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Presentation\obj\Debug\PharmaNet.Rebates.Presentation.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Presentation\obj\Debug\PharmaNet.Rebates.Presentation.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Presentation\obj\Debug\PharmaNet.Rebates.Presentation.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Messages\bin\Debug\PharmaNet.Fulfillment.Messages.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Messages\bin\Debug\PharmaNet.Fulfillment.Messages.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Messages\obj\Debug\PharmaNet.Fulfillment.Messages.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Messages\obj\Debug\PharmaNet.Fulfillment.Messages.pdb

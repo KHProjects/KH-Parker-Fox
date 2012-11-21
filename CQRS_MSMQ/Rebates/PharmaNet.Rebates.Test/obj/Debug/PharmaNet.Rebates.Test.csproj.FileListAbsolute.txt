@@ -1,0 +1,4 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Test\bin\Debug\PharmaNet.Rebates.Test.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Test\bin\Debug\PharmaNet.Rebates.Test.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Test\obj\Debug\PharmaNet.Rebates.Test.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Test\obj\Debug\PharmaNet.Rebates.Test.pdb

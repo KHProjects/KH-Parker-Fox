@@ -1,0 +1,7 @@
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Application\bin\Debug\PharmaNet.Performance.Application.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Application\bin\Debug\PharmaNet.Performance.Application.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Application\bin\Debug\PharmaNet.Performance.Domain.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Application\bin\Debug\PharmaNet.Performance.Domain.pdb
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Application\obj\Debug\PharmaNet.Performance.Application.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Application\obj\Debug\PharmaNet.Performance.Application.dll
+C:\Projects\Sandbox\CQRS_MSMQ\Performance\PharmaNet.Performance.Application\obj\Debug\PharmaNet.Performance.Application.pdb
