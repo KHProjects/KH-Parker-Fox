@@ -2,3 +2,7 @@ C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Test\bin\Debug\PharmaNet.Sal
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Test\bin\Debug\PharmaNet.Sales.Test.pdb
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Test\obj\Debug\PharmaNet.Sales.Test.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Test\obj\Debug\PharmaNet.Sales.Test.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Test\bin\Debug\PharmaNet.Sales.Test.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Test\bin\Debug\PharmaNet.Sales.Test.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Test\obj\Debug\PharmaNet.Sales.Test.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Test\obj\Debug\PharmaNet.Sales.Test.pdb

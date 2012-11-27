@@ -36,9 +36,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PharmaNet.Infrastructure.Service, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\Infrastructure\PharmaNet.Infrastructure.Service\bin\Debug\PharmaNet.Infrastructure.Service.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -56,6 +53,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\PharmaNet.Infrastructure.Service\PharmaNet.Infrastructure.Service.csproj">
+      <Project>{b8db7821-1efa-48d9-8be5-702aabd856ab}</Project>
+      <Name>PharmaNet.Infrastructure.Service</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PharmaNet.Fulfillment.Contract\PharmaNet.Fulfillment.Contract.csproj">
       <Project>{0A0D84B5-B543-4765-81FB-7751A7845430}</Project>
       <Name>PharmaNet.Fulfillment.Contract</Name>

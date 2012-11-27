@@ -39,9 +39,6 @@
     <Reference Include="PharmaNet.Infrastructure.Repository">
       <HintPath>..\..\Infrastructure\PharmaNet.Infrastructure.Repository\bin\Debug\PharmaNet.Infrastructure.Repository.dll</HintPath>
     </Reference>
-    <Reference Include="PharmaNet.Infrastructure.SQL">
-      <HintPath>..\..\Infrastructure\PharmaNet.Infrastructure.SQL\obj\Debug\PharmaNet.Infrastructure.SQL.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -61,6 +58,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\PharmaNet.Infrastructure.SQL\PharmaNet.Infrastructure.SQL.csproj">
+      <Project>{88d88c4e-e370-4ef4-94cb-6d61b9b96a67}</Project>
+      <Name>PharmaNet.Infrastructure.SQL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PharmaNet.Sales.Domain\PharmaNet.Sales.Domain.csproj">
       <Project>{A8EFE357-E6F1-4357-8C99-0400618C874E}</Project>
       <Name>PharmaNet.Sales.Domain</Name>

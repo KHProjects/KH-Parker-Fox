@@ -2,3 +2,7 @@ C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Presentation\bin\Debug\Pharm
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Presentation\bin\Debug\PharmaNet.Sales.Presentation.pdb
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Presentation\obj\Debug\PharmaNet.Sales.Presentation.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Presentation\obj\Debug\PharmaNet.Sales.Presentation.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Presentation\bin\Debug\PharmaNet.Sales.Presentation.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Presentation\bin\Debug\PharmaNet.Sales.Presentation.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Presentation\obj\Debug\PharmaNet.Sales.Presentation.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Presentation\obj\Debug\PharmaNet.Sales.Presentation.pdb

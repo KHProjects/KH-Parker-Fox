@@ -11,3 +11,16 @@ C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\Pharma
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\obj\Debug\PharmaNet.Sales.Application.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\obj\Debug\PharmaNet.Sales.Application.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\obj\Debug\PharmaNet.Sales.Application.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\PharmaNet.Sales.Application.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\PharmaNet.Sales.Application.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\Antlr3.Runtime.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\PharmaNet.Infrastructure.Repository.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\PharmaNet.Sales.Domain.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\System.Web.Optimization.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\WebGrease.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\PharmaNet.Sales.Domain.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\bin\Debug\PharmaNet.Infrastructure.Repository.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\obj\Debug\PharmaNet.Sales.Application.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\obj\Debug\PharmaNet.Sales.Application.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.Application\obj\Debug\PharmaNet.Sales.Application.pdb

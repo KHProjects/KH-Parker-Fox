@@ -12,3 +12,17 @@ C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Infr
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Infrastructure.SQL.pdb
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\obj\Debug\PharmaNet.Sales.SQL.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\obj\Debug\PharmaNet.Sales.SQL.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Sales.SQL.dll.config
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Sales.SQL.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Sales.SQL.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\EntityFramework.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Infrastructure.Repository.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Infrastructure.SQL.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Sales.Domain.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Sales.Domain.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\EntityFramework.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Infrastructure.Repository.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\bin\Debug\PharmaNet.Infrastructure.SQL.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\obj\Debug\PharmaNet.Sales.SQL.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\obj\Debug\PharmaNet.Sales.SQL.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Sales\PharmaNet.Sales.SQL\obj\Debug\PharmaNet.Sales.SQL.pdb

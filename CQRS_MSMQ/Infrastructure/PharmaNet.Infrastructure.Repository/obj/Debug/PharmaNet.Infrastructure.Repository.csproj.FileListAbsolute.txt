@@ -2,3 +2,7 @@ C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Repository
 C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Repository\bin\Debug\PharmaNet.Infrastructure.Repository.pdb
 C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Repository\obj\Debug\PharmaNet.Infrastructure.Repository.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Repository\obj\Debug\PharmaNet.Infrastructure.Repository.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Repository\bin\Debug\PharmaNet.Infrastructure.Repository.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Repository\bin\Debug\PharmaNet.Infrastructure.Repository.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Repository\obj\Debug\PharmaNet.Infrastructure.Repository.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Repository\obj\Debug\PharmaNet.Infrastructure.Repository.pdb

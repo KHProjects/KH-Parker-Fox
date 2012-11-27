@@ -9,3 +9,12 @@ C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\bin\Debug\P
 C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\obj\Debug\PharmaNet.Fulfillment.Test.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\obj\Debug\PharmaNet.Fulfillment.Test.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\obj\Debug\PharmaNet.Fulfillment.Test.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\bin\Debug\PharmaNet.Fulfillment.Test.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\bin\Debug\PharmaNet.Fulfillment.Test.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\bin\Debug\PharmaNet.Fulfillment.Application.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\bin\Debug\PharmaNet.Fulfillment.Domain.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\bin\Debug\PharmaNet.Fulfillment.Application.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\bin\Debug\PharmaNet.Fulfillment.Domain.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\obj\Debug\PharmaNet.Fulfillment.Test.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\obj\Debug\PharmaNet.Fulfillment.Test.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Test\obj\Debug\PharmaNet.Fulfillment.Test.pdb

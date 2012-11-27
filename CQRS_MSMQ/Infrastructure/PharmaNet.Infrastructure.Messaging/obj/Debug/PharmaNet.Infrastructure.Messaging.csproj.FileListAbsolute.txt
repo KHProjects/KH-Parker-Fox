@@ -2,3 +2,7 @@ C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Messaging\
 C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Messaging\bin\Debug\PharmaNet.Infrastructure.Messaging.pdb
 C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Messaging\obj\Debug\PharmaNet.Infrastructure.Messaging.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Messaging\obj\Debug\PharmaNet.Infrastructure.Messaging.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Messaging\bin\Debug\PharmaNet.Infrastructure.Messaging.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Messaging\bin\Debug\PharmaNet.Infrastructure.Messaging.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Messaging\obj\Debug\PharmaNet.Infrastructure.Messaging.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Infrastructure\PharmaNet.Infrastructure.Messaging\obj\Debug\PharmaNet.Infrastructure.Messaging.pdb

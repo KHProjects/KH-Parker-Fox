@@ -5,3 +5,10 @@ C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug
 C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\EntityFramework.xml
 C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\obj\Debug\PharmaNet.Fulfillment.Domain.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\obj\Debug\PharmaNet.Fulfillment.Domain.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\PharmaNet.Fulfillment.Domain.dll.config
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\PharmaNet.Fulfillment.Domain.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\PharmaNet.Fulfillment.Domain.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\EntityFramework.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\bin\Debug\EntityFramework.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\obj\Debug\PharmaNet.Fulfillment.Domain.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Fulfillment\PharmaNet.Fulfillment.Domain\obj\Debug\PharmaNet.Fulfillment.Domain.pdb

@@ -2,3 +2,7 @@ C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Domain\bin\Debug\PharmaN
 C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Domain\bin\Debug\PharmaNet.Rebates.Domain.pdb
 C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Domain\obj\Debug\PharmaNet.Rebates.Domain.dll
 C:\Projects\Sandbox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Domain\obj\Debug\PharmaNet.Rebates.Domain.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Domain\bin\Debug\PharmaNet.Rebates.Domain.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Domain\bin\Debug\PharmaNet.Rebates.Domain.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Domain\obj\Debug\PharmaNet.Rebates.Domain.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\CQRS_MSMQ\Rebates\PharmaNet.Rebates.Domain\obj\Debug\PharmaNet.Rebates.Domain.pdb

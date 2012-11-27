@@ -10,9 +10,6 @@ namespace PharmaNet.Fulfillment.Presentation
 {
     public class FulfillmentService : IFulfillmentService
     {
-        private CustomerService _customerService;
-        private ProductService _productService;
-        private InventoryAllocationService _inventoryAllocationService;
         private PickListService _pickListService;
 
         private IMessageQueueOutbound<Messages.PlaceOrder>
@@ -26,12 +23,6 @@ namespace PharmaNet.Fulfillment.Presentation
 
             FulfillmentDB context = new FulfillmentDB();
 
-            _customerService = new CustomerService(
-                context.GetCustomerRepository());
-            _productService = new ProductService(
-                context.GetProductRepository());
-            _inventoryAllocationService = new InventoryAllocationService(
-                context.GetWarehouseRepository());
             _pickListService = new PickListService(
                 context.GetPickListRepository());
 
