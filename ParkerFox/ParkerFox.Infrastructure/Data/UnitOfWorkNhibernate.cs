@@ -1,6 +1,9 @@
-﻿using NHibernate;
+﻿using System.Collections.Generic;
+using NHibernate;
 using System;
 using System.Linq.Expressions;
+using NHibernate.Linq;
+using ParkerFox.Core.Specifications;
 
 
 namespace ParkerFox.Infrastructure.Data
@@ -47,6 +50,12 @@ namespace ParkerFox.Infrastructure.Data
             ISession session = GetCurrentSession();
 
             return new EntitySet<T>(session.QueryOver<T>().Where(expression).Fetch(include).Eager);
+        }
+
+        public IEnumerable<T> Query<T>(Specification<T> specification)  where T : class
+        {
+            var session = GetCurrentSession();
+            return session.QueryOver<T>().Where(specification.IsSatisfiedBy()).List();
         }
 
         public IQueryOver<T> CreateQuery<T>(Expression<Func<T, bool>> expression) where T : class

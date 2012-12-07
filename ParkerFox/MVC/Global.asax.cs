@@ -24,8 +24,6 @@ namespace MVC
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
             ConfigureSignalR();
-
-
         }
 
         public void Session_Start()

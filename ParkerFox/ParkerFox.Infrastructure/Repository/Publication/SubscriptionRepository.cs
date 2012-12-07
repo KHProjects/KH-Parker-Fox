@@ -1,7 +1,9 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using ParkerFox.Core.Entities.Publication;
+using ParkerFox.Core.Entities.Publication.Specifications;
 using ParkerFox.Core.Entities.Repository.Publication;
-
+using ParkerFox.Core.Specifications;
 using ParkerFox.Infrastructure.Data;
 
 namespace ParkerFox.Infrastructure.Repository.Publication
@@ -13,9 +15,9 @@ namespace ParkerFox.Infrastructure.Repository.Publication
         {
         }
 
-        public Subscription GetByUserId(int userId)
+        public IEnumerable<Subscription> GetActive()
         {
-            return Query(x => x.SubscriptionId > 0).Page(0, 1).FirstOrDefault();
+            return Query(new ActiveSubscription());
         }
     }
 }

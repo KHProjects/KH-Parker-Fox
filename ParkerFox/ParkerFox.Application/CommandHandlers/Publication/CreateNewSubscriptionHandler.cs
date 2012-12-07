@@ -22,9 +22,7 @@ namespace ParkerFox.Application.CommandHandlers.Publication
 
         public CreateNewSubscriptionResponse Handle(CreateNewSubscription command)
         {
-            var subscription = new Subscription()
-            {
-            };
+            var subscription = Subscription.CreateNew();
 
             //subscription.AddTerm(new SubscriptionTerm
             //{

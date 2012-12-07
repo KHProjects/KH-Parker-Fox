@@ -65,6 +65,7 @@
     <Compile Include="Entities\Ecommerce\Order.cs" />
     <Compile Include="Entities\Ecommerce\OrderItem.cs" />
     <Compile Include="Entities\Publication\Account.cs" />
+    <Compile Include="Entities\Publication\Specifications\ActiveSubscription.cs" />
     <Compile Include="Entities\Publication\TimePeriodIntervals.cs" />
     <Compile Include="Entities\Publication\Magazine.cs" />
     <Compile Include="Entities\Publication\Subscription.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Entities\Visitor.cs" />
     <Compile Include="Messaging\IBus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Specifications\Specification.cs" />
     <Compile Include="SystemTime.cs" />
   </ItemGroup>
   <ItemGroup>

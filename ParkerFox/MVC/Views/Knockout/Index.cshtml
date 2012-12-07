@@ -1,0 +1,71 @@
+﻿@model MVC.ViewModel.RegisterViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/knockout-2.2.0.js"></script>
+<script src="~/Scripts/knockout.mapping-latest.js"></script>
+
+<style>
+    #address-pick-dialog{display:none}
+</style>
+
+<dl>
+    <dt>@Html.LabelFor(x=>x.Title)</dt>
+    <dd>@Html.DropDownListFor(x=>x.Title, new SelectList(Model.Titles))</dd>
+    <dt>@Html.LabelFor(x=>x.FirstName)</dt>
+    <dd>@Html.TextBoxFor(x=>x.FirstName, new{data_bind="text:FirstName"})</dd>
+    <dt></dt>
+    <dd>
+        <div data-bind="foreach: Addresses">
+            <div>
+                <span>bla</span>
+            </div>
+        </div>
+    </dd>
+    
+    <dd class="add-address">
+        <dl>
+            <dt>House Name or Number:</dt>
+            <dd><input id="house-name" /></dd>
+        </dl>
+        
+        <input id="post-code-lookup" type="text" />
+        <input id="lookup-address-command" type="button" value="Find Address" />
+    </dd>
+</dl>
+
+<div id="address-pick-dialog" data-bind="template:{name:'address-template'}">YO MAMA</div>
+
+<script>
+    $(function () {
+        var viewModel = ko.mapping.fromJSON('@Html.Raw(Json.Encode(Model))');
+        
+        ko.applyBindings(viewModel);
+        $('#lookup-address-command')
+            .on('click', lookupAddress);
+    });
+    
+    function lookupAddress() {
+        var postCode = $('#post-code-lookup').val();
+        var url = '/api/address/' + postCode;
+
+        $.ajax({ url: url })
+            .done(showAddressPickDialog);
+    };
+    
+    function showAddressPickDialog(data) {
+        var dialog = $('#address-pick-dialog');
+        var viewModel = { Addresses: ko.observableArray(data) };
+        ko.applyBindings(viewModel, dialog[0]);
+        dialog.show();
+    };
+</script>
+
+<script id="address-template" type="text/html">
+    <div class="address-row">
+        <span data-bind="text:NameOrNumber"></span>
+    </div>
+</script>

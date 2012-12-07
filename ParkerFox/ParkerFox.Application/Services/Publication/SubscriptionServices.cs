@@ -17,10 +17,5 @@ namespace ParkerFox.Application.Services.Publication
         {
             _subscriptionRepository = subscriptionRepository;
         }
-
-        public Subscription GetCurrent()
-        {
-            return _subscriptionRepository.GetByUserId(1);
-        }
     }
 }

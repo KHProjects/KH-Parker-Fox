@@ -128,6 +128,8 @@
     <Compile Include="IoC\BenchMarkAttribute.cs" />
     <Compile Include="IoC\BenchMarkInterceptor.cs" />
     <Compile Include="IoC\CustomPropertyInjectionHeuristic.cs" />
+    <Compile Include="IoC\Wcf\NinjectInstanceProvider.cs" />
+    <Compile Include="IoC\Wcf\NinjectServiceBehaviour.cs" />
     <Compile Include="Messaging\Events\IRespondToEvent.cs" />
     <Compile Include="Repository\Ecommerce\CartItemRepository.cs" />
     <Compile Include="Repository\Ecommerce\CustomerRepository.cs" />

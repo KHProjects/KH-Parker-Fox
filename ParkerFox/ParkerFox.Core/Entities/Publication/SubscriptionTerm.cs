@@ -4,9 +4,11 @@ namespace ParkerFox.Core.Entities.Publication
 {
     public class SubscriptionTerm
     {
-        [Obsolete("Just for NHibernate")]
-        protected SubscriptionTerm(){}
-        public SubscriptionTerm(SubscriptionPaymentTypes paymentType, TimePeriod period)
+        public SubscriptionTerm()
+        {
+            
+        }
+        protected SubscriptionTerm(SubscriptionPaymentTypes paymentType, TimePeriod period)
         {
             _paymentType = paymentType;
             _period = period;
@@ -37,6 +39,11 @@ namespace ParkerFox.Core.Entities.Publication
                 return extend > SystemTime.Now();
             }
             return false;
+        }
+
+        public static SubscriptionTerm CreateNew(SubscriptionPaymentTypes paymentType, TimePeriod period)
+        {
+            return new SubscriptionTerm(paymentType, period);
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using ParkerFox.Infrastructure.Data;
+﻿using System.Collections.Generic;
+using ParkerFox.Core.Specifications;
+using ParkerFox.Infrastructure.Data;
 using System;
 using System.Linq.Expressions;
 
@@ -26,6 +28,11 @@ namespace ParkerFox.Infrastructure.Repository
         protected EntitySet<T> Query(Expression<Func<T, bool>> expression)
         {
             return _unitOfWork.Query<T>(expression);
+        }
+
+        protected IEnumerable<T> Query(Specification<T> specification)
+        {
+            return _unitOfWork.Query(specification);
         }
 
         protected IUnitOfWork CurrentUnitOfWork

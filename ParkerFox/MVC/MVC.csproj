@@ -118,16 +118,21 @@
   <ItemGroup>
     <Compile Include="Components\AuthenticationIdGenerator.cs" />
     <Compile Include="Components\SignalRHub.cs" />
+    <Compile Include="Controllers\Api\AddressController.cs" />
     <Compile Include="Controllers\JasmineController.cs" />
     <Compile Include="Controllers\JavascriptController.cs" />
+    <Compile Include="Controllers\KnockoutController.cs" />
     <Compile Include="Controllers\ServerCommsController.cs" />
     <Compile Include="Controllers\SpaController.cs" />
     <Compile Include="Controllers\WebApiController.cs" />
+    <Compile Include="Dto\AddressLookup.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\AddressViewModel.cs" />
+    <Compile Include="ViewModel\RegisterViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -157,6 +162,8 @@
     <Content Include="Scripts\jquery.signalR-0.5.3.min.js" />
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\knockout.mapping-latest.debug.js" />
+    <Content Include="Scripts\knockout.mapping-latest.js" />
     <Content Include="Scripts\MIT-LICENSE.txt" />
     <Content Include="Scripts\ObjectOrientation.js" />
     <Content Include="Scripts\Modules.js" />
@@ -176,6 +183,7 @@
     <Content Include="Views\Javascript\Modules.cshtml" />
     <Content Include="Views\Javascript\Testing.cshtml" />
     <Content Include="Views\Jasmine\SpecRunner.cshtml" />
+    <Content Include="Views\Knockout\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

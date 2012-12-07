@@ -23,7 +23,7 @@ namespace ParkerFox.Site.Controllers.Publication
 
         public async Task<ActionResult> Index()
         {
-            var subscription = _subscriptionServices.GetCurrent();
+            //var subscription = _subscriptionServices.GetCurrent();
 
             return View();
         }

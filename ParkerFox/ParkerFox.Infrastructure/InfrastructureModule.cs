@@ -42,7 +42,7 @@ namespace ParkerFox.Infrastructure
                 {
                     var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["main"].ConnectionString;
 
-                    return Fluently.Configure()
+                     return Fluently.Configure()
                     //.ExposeConfiguration(x => x.SetInterceptor(new QueryInterceptor()))
                     .Database(MsSqlCeConfiguration.Standard
                     .ConnectionString(connectionString)

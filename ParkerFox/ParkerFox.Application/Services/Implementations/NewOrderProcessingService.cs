@@ -6,9 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using ParkerFox.Core.Entities.Ecommerce;
 using ParkerFox.Core.Entities.Repository;
+using ParkerFox.Infrastructure.IoC.Wcf;
 
 namespace ParkerFox.Application.Services.Implementations
 {
+    [NinjectServiceBehaviour]
     public class NewOrderProcessingService : INewOrderProcessingService
     {
         private readonly IOrderRepository _orderRepository;
