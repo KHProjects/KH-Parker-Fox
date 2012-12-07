@@ -19,11 +19,7 @@
     <dd>@Html.TextBoxFor(x=>x.FirstName, new{data_bind="text:FirstName"})</dd>
     <dt></dt>
     <dd>
-        <div data-bind="foreach: Addresses">
-            <div>
-                <span>bla</span>
-            </div>
-        </div>
+        <div data-bind="template:{name:'address-template'}"></div>
     </dd>
     
     <dd class="add-address">
@@ -31,13 +27,13 @@
             <dt>House Name or Number:</dt>
             <dd><input id="house-name" /></dd>
         </dl>
-        
-        <input id="post-code-lookup" type="text" />
+
+        <input id="post-code-lookup" type="text" value="se11 4ut"/>
         <input id="lookup-address-command" type="button" value="Find Address" />
     </dd>
 </dl>
 
-<div id="address-pick-dialog" data-bind="template:{name:'address-template'}">YO MAMA</div>
+<div id="address-pick-dialog" data-bind="template:{name:'address-template'}"></div>
 
 <script>
     $(function () {
@@ -58,14 +54,18 @@
     
     function showAddressPickDialog(data) {
         var dialog = $('#address-pick-dialog');
-        var viewModel = { Addresses: ko.observableArray(data) };
+        var viewModel = { Addresses: data };
+        
         ko.applyBindings(viewModel, dialog[0]);
         dialog.show();
     };
 </script>
 
 <script id="address-template" type="text/html">
-    <div class="address-row">
-        <span data-bind="text:NameOrNumber"></span>
+    <div data-bind="foreach:Addresses">
+        <div class="address-row" >
+            <span data-bind="text:NameOrNumber"></span>
+            <span data-bind="text:Street"></span>
+        </div>
     </div>
 </script>

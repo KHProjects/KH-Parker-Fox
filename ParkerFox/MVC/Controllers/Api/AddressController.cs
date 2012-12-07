@@ -13,11 +13,11 @@ namespace MVC.Controllers.Api
         public IEnumerable<AddressLookup> Get(string id) //called id cos of mapping
         {
             return new List<AddressLookup>
-            {
-                new AddressLookup{ NameOrNumber = "100", PostCode = id},
-                new AddressLookup{ NameOrNumber = "101", PostCode = id},
-                new AddressLookup{ NameOrNumber = "102", PostCode = id}
-            };
+                {
+                    new AddressLookup {NameOrNumber = "100", Street = "Street one", PostCode = id},
+                    new AddressLookup {NameOrNumber = "101", Street = "Street two", PostCode = id},
+                    new AddressLookup {NameOrNumber = "102", Street = "Street three", PostCode = id}
+                };
         }
     }
 }

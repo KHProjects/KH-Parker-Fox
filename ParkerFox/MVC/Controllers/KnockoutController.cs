@@ -19,11 +19,11 @@ namespace MVC.Controllers
                     Titles = new List<string> {"Mr", "Mrs", "Ms", "Dr"},
                     Addresses = new List<AddressViewModel>
                         {
-                            new AddressViewModel {NameOrNumber = "10"},
-                            new AddressViewModel {NameOrNumber = "20"},
-                            new AddressViewModel {NameOrNumber = "30"}
+                            new AddressViewModel {NameOrNumber = "10", Street = "street one"},
+                            new AddressViewModel {NameOrNumber = "20", Street = "street two"},
+                            new AddressViewModel {NameOrNumber = "30", Street = "street three"}
                         }
-                };
+                }; 
 
             return View(viewModel);
         }

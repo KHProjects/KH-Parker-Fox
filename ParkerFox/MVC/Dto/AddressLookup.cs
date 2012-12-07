@@ -8,6 +8,7 @@ namespace MVC.Dto
     public class AddressLookup
     {
         public string NameOrNumber { get; set; }
+        public string Street { get; set; }
         public string PostCode { get; set; }
     }
 }
