@@ -3,8 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Web.Http;
 using System.Web.Mvc;
 
 namespace MVC.Controllers
@@ -17,15 +15,18 @@ namespace MVC.Controllers
                 {
                     FirstName = "seb",
                     Titles = new List<string> {"Mr", "Mrs", "Ms", "Dr"},
-                    Addresses = new List<AddressViewModel>
-                        {
-                            new AddressViewModel {NameOrNumber = "10", Street = "street one"},
-                            new AddressViewModel {NameOrNumber = "20", Street = "street two"},
-                            new AddressViewModel {NameOrNumber = "30", Street = "street three"}
-                        }
+                    Addresses = new List<AddressViewModel>()
                 }; 
 
             return View(viewModel);
+        }
+
+        [HttpPost]
+        public ActionResult Index(RegisterViewModel registerViewModel)
+        {
+            var address = registerViewModel.Addresses;
+
+            return View();
         }
     }
 }

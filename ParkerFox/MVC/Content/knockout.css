@@ -1,0 +1,11 @@
+﻿#address-pick-dialog{display:none}
+#address-pick-dialog div.address-row a{display:block;}    
+dl{border: black 1px solid;border-radius: 15px;padding: 10px;display:block}
+dt, dd{display:block}
+dt{margin-top:0.25em;float: left;clear: left;text-align: right;position: relative /*IEWin hack*/;}
+dd{clear: right;}
+        
+#register-form{width:500px;margin:0 auto}
+#register-form dt{width:100px}
+
+#address-pick-dialog{width:200px;height:200px;margin:auto;background-color:#d0cccc}

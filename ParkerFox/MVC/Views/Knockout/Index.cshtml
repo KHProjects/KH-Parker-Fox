@@ -7,65 +7,44 @@
 <script src="~/Scripts/jquery-1.8.2.min.js"></script>
 <script src="~/Scripts/knockout-2.2.0.js"></script>
 <script src="~/Scripts/knockout.mapping-latest.js"></script>
-
-<style>
-    #address-pick-dialog{display:none}
-</style>
-
-<dl>
-    <dt>@Html.LabelFor(x=>x.Title)</dt>
-    <dd>@Html.DropDownListFor(x=>x.Title, new SelectList(Model.Titles))</dd>
-    <dt>@Html.LabelFor(x=>x.FirstName)</dt>
-    <dd>@Html.TextBoxFor(x=>x.FirstName, new{data_bind="text:FirstName"})</dd>
-    <dt></dt>
-    <dd>
-        <div data-bind="template:{name:'address-template'}"></div>
-    </dd>
-    
-    <dd class="add-address">
-        <dl>
-            <dt>House Name or Number:</dt>
-            <dd><input id="house-name" /></dd>
-        </dl>
-
-        <input id="post-code-lookup" type="text" value="se11 4ut"/>
-        <input id="lookup-address-command" type="button" value="Find Address" />
-    </dd>
-</dl>
-
+<link rel="stylesheet" type="text/css" href="/Content/reset.css" />
+<link rel="stylesheet" type="text/css" href="/Content/knockout.css" />
+@using(Html.BeginForm())
+{    
+    <dl id="register-form">
+        <dt>@Html.LabelFor(x=>x.Title)</dt>
+        <dd>@Html.DropDownListFor(x=>x.Title, new SelectList(Model.Titles))</dd>
+        <dt>@Html.LabelFor(x=>x.FirstName)</dt>
+        <dd>@Html.TextBoxFor(x=>x.FirstName, new{data_bind="text:FirstName"})</dd>
+        <dt></dt>
+        <dd>
+            <div data-bind="template:{name:'address-template'}"></div>
+        </dd>  
+        <dt></dt>  
+        <dd class="add-address">
+            <input id="post-code-lookup" type="text" value="se11 4ut"/>
+            <input id="lookup-address-command" type="button" value="Find Address" />
+        </dd>
+        <dt></dt>
+        <dd><input type="submit" value="Register" /></dd>
+    </dl>
+}
 <div id="address-pick-dialog" data-bind="template:{name:'address-template'}"></div>
-
 <script>
-    $(function () {
-        var viewModel = ko.mapping.fromJSON('@Html.Raw(Json.Encode(Model))');
-        
-        ko.applyBindings(viewModel);
-        $('#lookup-address-command')
-            .on('click', lookupAddress);
-    });
-    
-    function lookupAddress() {
-        var postCode = $('#post-code-lookup').val();
-        var url = '/api/address/' + postCode;
+    var viewModel = ko.mapping.fromJSON('@Html.Raw(Json.Encode(Model))');
 
-        $.ajax({ url: url })
-            .done(showAddressPickDialog);
-    };
-    
-    function showAddressPickDialog(data) {
-        var dialog = $('#address-pick-dialog');
-        var viewModel = { Addresses: data };
-        
-        ko.applyBindings(viewModel, dialog[0]);
-        dialog.show();
-    };
 </script>
+<script src="~/Scripts/App/register.js"></script>
 
 <script id="address-template" type="text/html">
     <div data-bind="foreach:Addresses">
         <div class="address-row" >
-            <span data-bind="text:NameOrNumber"></span>
-            <span data-bind="text:Street"></span>
+            <a href="" data-bind="attr:{'data-value':ko.toJSON($data)}">
+                <input type="hidden" data-bind="attr: { name : 'Addresses[' + $index() +'].NameOrNumber' },value:NameOrNumber" />
+                <input type="hidden" data-bind="attr: { name : 'Addresses[' + $index() +'].Street' },value:Street" />
+                <span data-bind="text:NameOrNumber"></span>
+                <span data-bind="text:Street"></span>                
+            </a>
         </div>
     </div>
 </script>
