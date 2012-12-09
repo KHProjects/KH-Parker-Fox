@@ -141,6 +141,7 @@
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
     <Content Include="Content\knockout.css" />
+    <Content Include="Content\reset.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\App\register.js" />
     <Content Include="Scripts\jasmine\jasmine-html.js" />
