@@ -9,13 +9,14 @@
 <script src="~/Scripts/knockout.mapping-latest.js"></script>
 <link rel="stylesheet" type="text/css" href="/Content/reset.css" />
 <link rel="stylesheet" type="text/css" href="/Content/knockout.css" />
+
 @using(Html.BeginForm())
 {    
     <dl id="register-form">
-        <dt>@Html.LabelFor(x=>x.Title)</dt>
-        <dd>@Html.DropDownListFor(x=>x.Title, new SelectList(Model.Titles))</dd>
-        <dt>@Html.LabelFor(x=>x.FirstName)</dt>
-        <dd>@Html.TextBoxFor(x=>x.FirstName, new{data_bind="text:FirstName"})</dd>
+        <dt>@Html.LabelFor(x => x.Title)</dt>
+        <dd>@Html.DropDownListFor(x => x.Title, new SelectList(Model.Titles))</dd>
+        <dt>@Html.LabelFor(x => x.FirstName)</dt>
+        <dd>@Html.TextBoxFor(x => x.FirstName, new { data_bind = "text:FirstName" })</dd>
         <dt></dt>
         <dd>
             <div data-bind="template:{name:'address-template'}"></div>
@@ -30,12 +31,10 @@
     </dl>
 }
 <div id="address-pick-dialog" data-bind="template:{name:'address-template'}"></div>
-<script>
-    var viewModel = ko.mapping.fromJSON('@Html.Raw(Json.Encode(Model))');
 
-</script>
 <script src="~/Scripts/App/register.js"></script>
 
+<!-- http://knockoutjs.com/documentation/template-binding.html -->
 <script id="address-template" type="text/html">
     <div data-bind="foreach:Addresses">
         <div class="address-row" >
@@ -43,8 +42,12 @@
                 <input type="hidden" data-bind="attr: { name : 'Addresses[' + $index() +'].NameOrNumber' },value:NameOrNumber" />
                 <input type="hidden" data-bind="attr: { name : 'Addresses[' + $index() +'].Street' },value:Street" />
                 <span data-bind="text:NameOrNumber"></span>
-                <span data-bind="text:Street"></span>                
+                <span data-bind="text:Street"></span>
             </a>
         </div>
     </div>
+</script>
+
+<script>
+    var registration = new Registration(ko.mapping.fromJSON('@Html.Raw(Json.Encode(Model))'));
 </script>

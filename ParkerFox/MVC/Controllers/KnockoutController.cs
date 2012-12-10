@@ -13,7 +13,6 @@ namespace MVC.Controllers
         {
             var viewModel = new RegisterViewModel
                 {
-                    FirstName = "seb",
                     Titles = new List<string> {"Mr", "Mrs", "Ms", "Dr"},
                     Addresses = new List<AddressViewModel>()
                 }; 
@@ -26,7 +25,7 @@ namespace MVC.Controllers
         {
             var address = registerViewModel.Addresses;
 
-            return View();
+            return View(registerViewModel);
         }
     }
 }
