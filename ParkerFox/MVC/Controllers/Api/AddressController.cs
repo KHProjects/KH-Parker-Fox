@@ -10,7 +10,7 @@ namespace MVC.Controllers.Api
 {
     public class AddressController : ApiController
     {
-        public IEnumerable<AddressLookup> Get(string id) //called id cos of mapping
+        public IEnumerable<AddressLookup> Get(string id) //called id cos of url mapping
         {
             return new List<AddressLookup>
                 {
@@ -18,6 +18,33 @@ namespace MVC.Controllers.Api
                     new AddressLookup {NameOrNumber = "101", Street = "Street two", PostCode = id},
                     new AddressLookup {NameOrNumber = "102", Street = "Street three", PostCode = id}
                 };
+
+
+
         }
     }
+
+
+
+    public class AddressesByPostCodeDto
+    {
+    }
+
+    public class AddressesByPostCodeController : ApiController
+    {
+        public IEnumerable<AddressesByPostCodeDto> Get() //called id cos of url mapping
+        {
+            return new List<AddressesByPostCodeDto>
+                {
+                    new AddressLookup {NameOrNumber = "100", Street = "Street one", PostCode = id},
+                    new AddressLookup {NameOrNumber = "101", Street = "Street two", PostCode = id},
+                    new AddressLookup {NameOrNumber = "102", Street = "Street three", PostCode = id}
+                };
+
+
+
+        }
+    }
+
+
 }

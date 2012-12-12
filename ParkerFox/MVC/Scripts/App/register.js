@@ -9,8 +9,11 @@
         var postCode = $('#post-code-lookup').val();
         var url = '/api/address/' + postCode;
 
-        $.ajax({ url: url })
-            .done(showAddressPickDialog);
+        $.ajax({
+            url: url,
+            type: 'GET',
+            headers: { 'Accept' : 'application/json; charset=utf-8'}
+        }).done(showAddressPickDialog);
     };
 
     function showAddressPickDialog(data) {
@@ -24,6 +27,7 @@
 
     function selectAddress(e) {
         e.preventDefault();
+        
         var address = ko.mapping.fromJSON($(this).attr('data-value'));
         _viewModel.Addresses.push(address);
         $('#address-pick-dialog').hide();
