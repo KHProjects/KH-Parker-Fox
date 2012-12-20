@@ -14,7 +14,8 @@ namespace MVC.Controllers
             var viewModel = new RegisterViewModel
                 {
                     Titles = new List<string> {"Mr", "Mrs", "Ms", "Dr"},
-                    Addresses = new List<AddressViewModel>()
+                    Addresses = new List<AddressViewModel>(),
+                    FirstName = "Dean"
                 }; 
 
             return View(viewModel);

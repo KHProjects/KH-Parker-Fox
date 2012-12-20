@@ -7,7 +7,7 @@ namespace MVC.ViewModel
 {
     public class AddressViewModel
     {
-        public int Id { get; set; }
+        
         public string NameOrNumber { get; set; }
         public string Street { get; set; }
         public string Town { get; set; }
