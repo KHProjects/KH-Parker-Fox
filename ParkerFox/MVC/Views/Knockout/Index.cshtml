@@ -32,6 +32,8 @@
 }
 <div id="address-pick-dialog" data-bind="template:{name:'address-template'}"></div>
 
+<input id="get-blog-post-command" type="button" value="Blog post" />
+
 <script src="~/Scripts/App/register.js"></script>
 
 <!-- http://knockoutjs.com/documentation/template-binding.html -->
@@ -50,4 +52,20 @@
 
 <script>
     var registration = new Registration(ko.mapping.fromJSON('@Html.Raw(Json.Encode(Model))'));
+    
+    $(function() {
+        $('#get-blog-post-command').on('click', function() {
+            $.ajax({ url: 'api/blog/1/post/2' }).done(function() {
+
+            });
+        });
+    });
+
+    var myObservable = ko.observable();
+
+    myObservable.subscribe(function(val) {
+        console.log(val);
+    }, myObservable, "test-event");
+
+    myObservable.notifySubscribers("Hello world", "test-event");
 </script>

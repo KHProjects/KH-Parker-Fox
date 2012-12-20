@@ -9,6 +9,8 @@ namespace MVC
     {
         public static void Register(HttpConfiguration config)
         {
+            config.Routes.MapHttpRoute("blog", "api/{controller}/{blogId}/post/{postId}", new {Action = "GetPost"});
+
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
