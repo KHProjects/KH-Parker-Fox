@@ -13,6 +13,7 @@ namespace MVC
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.MapHubs();
+            routes.IgnoreRoute("{resource}.ashx/{*pathInfo}");
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
