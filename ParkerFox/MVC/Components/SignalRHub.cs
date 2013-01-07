@@ -1,4 +1,4 @@
-﻿using SignalR.Hubs;
+﻿using Microsoft.AspNet.SignalR.Hubs;
 
 namespace MVC.Components
 {
@@ -6,7 +6,7 @@ namespace MVC.Components
     {
         public void DoSomething()
         {
-            Clients.messageFromServer(new {FirstName = "Seb"});
+            Clients.All.messageFromServer(new {FirstName = "Seb"});
         }
     }
 }

@@ -1,13 +1,11 @@
 ﻿using MVC.Components;
-using SignalR;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
+using Microsoft.AspNet.SignalR;
 
 namespace MVC
 {
@@ -51,8 +49,10 @@ namespace MVC
 
         private void ConfigureSignalR()
         {
-            GlobalHost.DependencyResolver.Register(typeof (IConnectionIdGenerator),
+            GlobalHost.DependencyResolver.Register(typeof(IConnectionIdPrefixGenerator),
                                                    () => new AuthenticationIdGenerator());
+
+            GlobalHost.HubPipeline.AddModule(new LoggingHubPipelineModule());
         }
     }
 }

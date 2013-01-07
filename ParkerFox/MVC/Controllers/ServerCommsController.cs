@@ -1,6 +1,7 @@
 ﻿using MVC.Components;
-using SignalR;
+
 using System.Web.Mvc;
+using Microsoft.AspNet.SignalR;
 
 namespace MVC.Controllers
 {
@@ -14,7 +15,7 @@ namespace MVC.Controllers
         public void SendBackMessage()
         {
             var hubContext = GlobalHost.ConnectionManager.GetHubContext<SignalRHub>();
-            hubContext.Clients.messageFromServer(new {FirstName = "First Name"});
+            hubContext.Clients.All.messageFromServer(new { FirstName = "First Name" });
         }
     }
 }
