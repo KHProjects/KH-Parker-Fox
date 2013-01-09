@@ -137,6 +137,8 @@
     <Compile Include="Components\SignalRHub.cs" />
     <Compile Include="Controllers\Api\AddressController.cs" />
     <Compile Include="Controllers\Api\BlogController.cs" />
+    <Compile Include="Controllers\AsyncController.cs" />
+    <Compile Include="Controllers\HeaderController.cs" />
     <Compile Include="Controllers\JasmineController.cs" />
     <Compile Include="Controllers\JavascriptController.cs" />
     <Compile Include="Controllers\KnockoutController.cs" />
@@ -214,8 +216,11 @@
     <Content Include="Views\Jasmine\SpecRunner.cshtml" />
     <Content Include="Views\Knockout\Index.cshtml" />
     <Content Include="Views\Javascript\Patterns.cshtml" />
+    <Content Include="Views\Async\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

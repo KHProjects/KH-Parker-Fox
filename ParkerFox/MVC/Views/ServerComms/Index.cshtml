@@ -1,7 +1,6 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
-
 <script src="~/Scripts/jquery-1.8.3.min.js"></script>
 <script src="~/Scripts/jquery.signalR-1.0.0-rc1.min.js"></script>
 <script src="/signalr/hubs" type="text/javascript"></script>
@@ -12,8 +11,10 @@
     <div id="output"></div>
 </div>
 
-
 <input id="serverMessage" type="button" value="Get server to send message" />
+<div>
+    <img style="width:100px;height:100px" src="/Handlers/ImageLoader.ashx?imageId=123" />
+</div>
 
 <script>
     $(function() {
@@ -28,10 +29,16 @@
             alert(data.FirstName);
         };
 
-        $.connection.hub.start();
+        $($.connection.hub).bind("onReconnect", function(e, data) {
+            console.log('reconnect');
+        });
+
+        $.connection.hub.start(function() {
+            console.log("my id is " + $.connection.hub.id);
+        });
 
         $('#sendMessage').on('click', function () {
-            signalRHub.server.sendAMessage('fek you');
+            signalRHub.server.sendAMessage($('#messageToSend').val());
         });
     });
 
@@ -42,4 +49,3 @@
     });
 </script>
 
-<img style="width:100px;height:100px" src="/Handlers/ImageLoader.ashx?imageId=123" />
