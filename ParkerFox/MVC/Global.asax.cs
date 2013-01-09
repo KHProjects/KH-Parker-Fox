@@ -53,6 +53,7 @@ namespace MVC
                                                    () => new AuthenticationIdGenerator());
 
             GlobalHost.HubPipeline.AddModule(new LoggingHubPipelineModule());
+            //GlobalHost.DependencyResolver.UseSqlServer(@"Data Source=|DataDirectory|\Database1.sdf");
         }
     }
 }

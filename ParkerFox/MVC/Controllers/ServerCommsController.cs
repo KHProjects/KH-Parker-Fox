@@ -15,7 +15,7 @@ namespace MVC.Controllers
         public void SendBackMessage()
         {
             var hubContext = GlobalHost.ConnectionManager.GetHubContext<SignalRHub>();
-            hubContext.Clients.All.messageFromServer(new { FirstName = "First Name" });
+            hubContext.Clients.All.receiveData(new { FirstName = "First Name" });
         }
     }
 }

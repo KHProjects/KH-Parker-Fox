@@ -15,6 +15,7 @@ namespace MVC.Handlers
             {
                 byte[] imageData = new byte[fileData.Length];
                 fileData.Read(imageData, 0, imageData.Length);
+                context.Response.ContentType = "image/jpeg";
                 context.Response.BinaryWrite(imageData);
             }
         }

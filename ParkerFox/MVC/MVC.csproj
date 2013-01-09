@@ -44,21 +44,22 @@
     <Reference Include="BookSleeve">
       <HintPath>..\packages\BookSleeve.1.2.0.5\lib\BookSleeve.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.Core">
-      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.1.0.0-rc1\lib\net40\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>I:\Software\SignalR\Microsoft.AspNet.SignalR.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.Owin">
-      <HintPath>..\packages\Microsoft.AspNet.SignalR.Owin.1.0.0-rc1\lib\net45\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
+      <HintPath>I:\Software\SignalR\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.Redis">
-      <HintPath>..\packages\Microsoft.AspNet.SignalR.Redis.1.0.0-rc1\lib\net40\Microsoft.AspNet.SignalR.Redis.dll</HintPath>
+    <Reference Include="Microsoft.AspNet.SignalR.SqlServer">
+      <HintPath>I:\Software\SignalR\Microsoft.AspNet.SignalR.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.SystemWeb">
-      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.1.0.0-rc1\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+      <HintPath>I:\Software\SignalR\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin.Host.SystemWeb">
-      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.1.0.0-rc1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <HintPath>I:\Software\SignalR\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -69,6 +70,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http.Formatting, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -130,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Components\AuthenticationIdGenerator.cs" />
+    <Compile Include="Components\HtmlHelperExtensions.cs" />
     <Compile Include="Components\LoggingHubPipelineModule.cs" />
     <Compile Include="Components\SignalRHub.cs" />
     <Compile Include="Controllers\Api\AddressController.cs" />
@@ -156,6 +159,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="App_Data\Database1.sdf" />
     <Content Include="App_Data\pic.jpg" />
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
@@ -190,6 +194,8 @@
     <Content Include="Scripts\MIT-LICENSE.txt" />
     <Content Include="Scripts\ObjectOrientation.js" />
     <Content Include="Scripts\Modules.js" />
+    <Content Include="Scripts\patterns\link.txt" />
+    <Content Include="Scripts\patterns\Prototype.js" />
     <Content Include="Scripts\r.js" />
     <Content Include="Scripts\README.txt" />
     <Content Include="Scripts\require.js" />
@@ -207,6 +213,7 @@
     <Content Include="Views\Javascript\Testing.cshtml" />
     <Content Include="Views\Jasmine\SpecRunner.cshtml" />
     <Content Include="Views\Knockout\Index.cshtml" />
+    <Content Include="Views\Javascript\Patterns.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

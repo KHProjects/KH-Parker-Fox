@@ -2,20 +2,37 @@
     ViewBag.Title = "Index";
 }
 
-<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/jquery-1.8.3.min.js"></script>
 <script src="~/Scripts/jquery.signalR-1.0.0-rc1.min.js"></script>
 <script src="/signalr/hubs" type="text/javascript"></script>
+
+<div>
+    <input id="messageToSend" type="text" />
+    <input id="sendMessage" type="button" value="send message" />
+    <div id="output"></div>
+</div>
+
+
 <input id="serverMessage" type="button" value="Get server to send message" />
 
 <script>
     $(function() {
         var signalRHub = $.connection.signalRHub;
 
-        signalRHub.client.messageFromServer = function(data) {
-            alert(data.FirstName);
+        signalRHub.client.messageFromServer = function(message) {
+            $('#output').append("<div>" + message + "</div>");
         };
         
+        signalRHub.client.receiveData = function(data)
+        {
+            alert(data.FirstName);
+        };
+
         $.connection.hub.start();
+
+        $('#sendMessage').on('click', function () {
+            signalRHub.server.sendAMessage('fek you');
+        });
     });
 
     $(function() {

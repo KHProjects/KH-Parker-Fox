@@ -6,7 +6,12 @@ namespace MVC.Components
     {
         public void DoSomething()
         {
-            Clients.All.messageFromServer(new {FirstName = "Seb"});
+            Clients.All.receiveData(new { FirstName = "Seb" });
+        }
+
+        public void SendAMessage(string message)
+        {
+            Clients.All.messageFromServer("a client sent: " + message);
         }
     }
 }
