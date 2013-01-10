@@ -16,8 +16,38 @@ namespace MVC.Components
 
         protected override bool OnBeforeIncoming(IHubIncomingInvokerContext context)
         {
-            Debug.WriteLine(context.MethodDescriptor.Name);
+            Debug.WriteLine("signalr on before incoming" + context.MethodDescriptor.Name);
             return base.OnBeforeIncoming(context);
+        }
+
+        protected override object OnAfterIncoming(object result, IHubIncomingInvokerContext context)
+        {
+            Debug.WriteLine("OnAfterIncoming");
+            return base.OnAfterIncoming(result, context);
+        }
+
+        protected override void OnAfterDisconnect(IHub hub)
+        {
+            Debug.WriteLine("OnAfterDisconnect");
+            base.OnAfterDisconnect(hub);
+        }
+
+        protected override bool OnBeforeConnect(IHub hub)
+        {
+            Debug.WriteLine("OnBeforeConnect");
+            return base.OnBeforeConnect(hub);
+        }
+
+        protected override bool OnBeforeOutgoing(IHubOutgoingInvokerContext context)
+        {
+            Debug.WriteLine("OnBeforeOutgoing");
+            return base.OnBeforeOutgoing(context);
+        }
+
+        protected override void OnAfterOutgoing(IHubOutgoingInvokerContext context)
+        {
+            Debug.WriteLine("OnAfterOutgoing");
+            base.OnAfterOutgoing(context);
         }
         
     }

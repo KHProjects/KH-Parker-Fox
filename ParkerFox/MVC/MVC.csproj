@@ -133,6 +133,7 @@
   <ItemGroup>
     <Compile Include="Components\AuthenticationIdGenerator.cs" />
     <Compile Include="Components\HtmlHelperExtensions.cs" />
+    <Compile Include="Components\LoggingDelegatingHandler.cs" />
     <Compile Include="Components\LoggingHubPipelineModule.cs" />
     <Compile Include="Components\SignalRHub.cs" />
     <Compile Include="Controllers\Api\AddressController.cs" />

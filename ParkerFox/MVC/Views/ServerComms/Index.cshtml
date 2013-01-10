@@ -6,41 +6,65 @@
 <script src="/signalr/hubs" type="text/javascript"></script>
 
 <div>
-    <input id="messageToSend" type="text" />
-    <input id="sendMessage" type="button" value="send message" />
+    <h3>Calling web api</h3>
+    <input id="callWebApi" type="button" value="Call web api" />
+</div>
+
+<div>
+    <h3>Using SignalR</h3>
+    <div>
+        <input id="messageToSend" type="text" />
+        <input id="sendMessage" type="button" value="send message" />
+    </div>
+    <div>
+        <input id="echoMessage" type="text" />
+        <input id="setEchoMessage" type="button" value="set echo message" />
+    </div>
     <div id="output"></div>
 </div>
 
 <input id="serverMessage" type="button" value="Get server to send message" />
-<div>
-    <img style="width:100px;height:100px" src="/Handlers/ImageLoader.ashx?imageId=123" />
-</div>
 
 <script>
     $(function() {
+        setupWebApi();
+        setupSignalR();
+    });
+    
+    function setupWebApi() {
+        $('#callWebApi').on('click', function() {
+            $.ajax({ url: '/api/webpi' }).done(function() {
+                console.log('finished web api call');
+            });
+        });
+    };
+
+    function setupSignalR() {
         var signalRHub = $.connection.signalRHub;
 
-        signalRHub.client.messageFromServer = function(message) {
-            $('#output').append("<div>" + message + "</div>");
+        signalRHub.client.messageFromServer = function (message) {
+            $('#output').prepend("<div>" + message + "</div>");
         };
-        
-        signalRHub.client.receiveData = function(data)
-        {
+
+        signalRHub.client.receiveData = function (data) {
             alert(data.FirstName);
         };
 
-        $($.connection.hub).bind("onReconnect", function(e, data) {
+        $($.connection.hub).bind("onReconnect", function (e, data) {
             console.log('reconnect');
         });
 
-        $.connection.hub.start(function() {
+        $.connection.hub.start(function () {
             console.log("my id is " + $.connection.hub.id);
         });
 
         $('#sendMessage').on('click', function () {
             signalRHub.server.sendAMessage($('#messageToSend').val());
         });
-    });
+        $('#setEchoMessage').on('click', function () {
+            signalRHub.server.setupEcho($('#echoMessage').val());
+        });
+    };
 
     $(function() {
         $('#serverMessage').on("click", function() {
@@ -48,4 +72,3 @@
         });
     });
 </script>
-

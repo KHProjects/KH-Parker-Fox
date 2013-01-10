@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using MVC.Components;
 
 namespace MVC
 {
@@ -20,6 +21,8 @@ namespace MVC
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.MessageHandlers.Add(new LoggingDelegatingHandler());
         }
     }
 }
