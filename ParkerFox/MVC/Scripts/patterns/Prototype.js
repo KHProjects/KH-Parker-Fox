@@ -4,7 +4,7 @@
     var someClass2 = new myClass();
     
     //--this method is only attached to the instance someClass and not the class myClass
-    someClass.someAdHocMethod = function() {
+    myClass.someAdHocMethod = function() {
         console.log('some ad hoc method called');
     };
 
@@ -26,6 +26,8 @@
 function myClass() {
     this.PropertyOne = "this is property one";
 };
+
+myClass.somePrototypedMethod = function () { console.log('bla'); };
 
 // this method is on the prototype of all myClass instances
 myClass.prototype.somePrototypedMethod = function() {

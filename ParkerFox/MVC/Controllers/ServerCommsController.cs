@@ -1,4 +1,5 @@
-﻿using MVC.Components;
+﻿
+using MVC.Components;
 
 using System.Web.Mvc;
 using Microsoft.AspNet.SignalR;

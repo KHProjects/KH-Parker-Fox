@@ -19,7 +19,8 @@ namespace ParkerFox.WebApi.Ecommerce
         public HttpResponseMessage Post(CartItem cartItem)
         {
             _cartServices.AddItem(cartItem);
-            return new HttpResponseMessage(HttpStatusCode.OK);
+            
+            return new HttpResponseMessage(HttpStatusCode.OK ) {Content = new StringContent("")};
         }
 
         public HttpResponseMessage Put(int productId, BasketItem basketItem)

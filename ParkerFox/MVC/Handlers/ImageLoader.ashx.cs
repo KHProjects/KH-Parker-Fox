@@ -11,10 +11,13 @@ namespace MVC.Handlers
 
         public void ProcessRequest(HttpContext context)
         {
+            string imageId = context.Request.QueryString["imageId"];
+
             using (FileStream fileData = File.Open(context.Server.MapPath("~/App_Data/pic.jpg"), FileMode.Open))
             {
                 byte[] imageData = new byte[fileData.Length];
                 fileData.Read(imageData, 0, imageData.Length);
+                
                 context.Response.ContentType = "image/jpeg";
                 context.Response.BinaryWrite(imageData);
             }
