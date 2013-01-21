@@ -1,0 +1,15 @@
+﻿@model MVC.Models.Customer
+
+@{
+    ViewBag.Title = "ModelBinding";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.EditorFor(x=>x.FirstName)
+
+    @Html.EditorFor(x=>x.Addresses)
+
+    <input type="submit" value="save" />
+}

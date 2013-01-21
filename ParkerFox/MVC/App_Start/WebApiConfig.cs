@@ -23,6 +23,8 @@ namespace MVC
             );
 
             config.MessageHandlers.Add(new LoggingDelegatingHandler());
+            
+            config.Filters.Add(new MyApiActionFilter());
         }
     }
 }

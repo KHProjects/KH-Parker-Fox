@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "JqueryUI";
+}
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.8.3.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.10.0.min.js"></script>
+
+<input id="dateField" type="text" />
+
+<script>
+    $(function () {
+
+        var dates = [new Date(2013, 1, 22), new Date(2013, 1, 24)];
+
+        $('#dateField').datepicker({ beforeShowDay: onBeforeShowDay });
+    });
+    
+    function onBeforeShowDay(date) {
+
+    };
+</script>
