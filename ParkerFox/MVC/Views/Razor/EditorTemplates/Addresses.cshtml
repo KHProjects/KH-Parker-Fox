@@ -1,0 +1,6 @@
+﻿@model IEnumerable<MVC.Models.Address>
+
+@foreach (var address in Model)
+{
+    @Html.EditorFor(address)
+}

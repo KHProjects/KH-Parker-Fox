@@ -1,0 +1,38 @@
+﻿@using MVC.Components
+@model MVC.Models.Customer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    
+    <style>
+
+    </style>
+</head>
+<body>
+    <div>
+        @Html.DisplayFor(x=>x.Title)
+        @Html.EditorFor(x=>x.Created)
+    </div>
+    
+    <div>
+        @Html.DisplayForModel()
+        @Html.EditorForModel()
+    </div> 
+    
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.RadioListFor(_ => _.Title, _ => _.Titles, new{@class="blabla"})
+            @Html.RadioListPartialFor(_ => _.Title, _ => _.Titles)
+            <input type="submit" value="submit" />
+        }
+    </div>
+</body>
+</html>

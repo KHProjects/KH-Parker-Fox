@@ -1,0 +1,11 @@
+﻿@model MVC.ViewModel.RadioListViewModel
+@{
+    Layout = null;
+}
+<div>
+    @foreach (var item in Model.List.Items.Cast<SelectListItem>())
+    {
+        <label>@item.Text</label>
+        <input type="radio" name="@Model.Name" value="@item.Value" @(item.Selected ?"checked=\"checked\"":String.Empty) />
+    }
+</div>
