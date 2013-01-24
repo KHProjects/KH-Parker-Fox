@@ -49,14 +49,14 @@ namespace MVC.Components
 
     public class EchoManager
     {
-        private Dictionary<string, string> _clientMessages = new Dictionary<string, string>();
-        private static Timer echoTimer = new Timer();
+        private readonly Dictionary<string, string> _clientMessages = new Dictionary<string, string>();
+        private static readonly Timer echoTimer = new Timer();
 
-        public static EchoManager Instance = new EchoManager();
+        public static readonly EchoManager Instance = new EchoManager();
 
-        public EchoManager()
+        private EchoManager()
         {
-            echoTimer.Interval = 2000;
+            echoTimer.Interval = 5000;
             echoTimer.Elapsed += (sender, args) => SendOutEchos();
             echoTimer.Start();
         }
@@ -97,7 +97,7 @@ namespace MVC.Components
         private void SendOutEchos()
         {
             var hub = GlobalHost.ConnectionManager.GetHubContext<SignalRHub>();
-            foreach (KeyValuePair<string, string> keyValuePair in _clientMessages)
+            foreach (var keyValuePair in _clientMessages)
             {
                 hub.Clients.Client(keyValuePair.Key).messageFromServer(keyValuePair.Value + " (from " + keyValuePair.Key + " @ " + DateTime.Now.ToLongTimeString() + " )");
             }

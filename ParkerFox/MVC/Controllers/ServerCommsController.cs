@@ -1,8 +1,10 @@
 ﻿
+using System.Data.SqlClient;
 using MVC.Components;
 
 using System.Web.Mvc;
 using Microsoft.AspNet.SignalR;
+using System.Configuration;
 
 namespace MVC.Controllers
 {

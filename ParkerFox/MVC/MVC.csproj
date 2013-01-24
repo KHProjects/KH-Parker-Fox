@@ -44,22 +44,21 @@
     <Reference Include="BookSleeve">
       <HintPath>..\packages\BookSleeve.1.2.0.5\lib\BookSleeve.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>I:\Software\SignalR\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    <Reference Include="Microsoft.AspNet.SignalR.Core">
+      <HintPath>..\lib\SignalR\Microsoft.AspNet.SignalR.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.Owin">
-      <HintPath>I:\Software\SignalR\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
+      <HintPath>..\lib\SignalR\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.SqlServer">
-      <HintPath>I:\Software\SignalR\Microsoft.AspNet.SignalR.SqlServer.dll</HintPath>
+      <HintPath>..\lib\SignalR\Microsoft.AspNet.SignalR.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.SystemWeb">
-      <HintPath>I:\Software\SignalR\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+      <HintPath>..\lib\SignalR\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin.Host.SystemWeb">
-      <HintPath>I:\Software\SignalR\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <HintPath>..\lib\SignalR\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -139,7 +138,6 @@
     <Compile Include="Controllers\Api\AddressController.cs" />
     <Compile Include="Controllers\Api\BlogController.cs" />
     <Compile Include="Controllers\AsyncController.cs" />
-    <Compile Include="Controllers\HeaderController.cs" />
     <Compile Include="Controllers\JasmineController.cs" />
     <Compile Include="Controllers\JavascriptController.cs" />
     <Compile Include="Controllers\KnockoutController.cs" />

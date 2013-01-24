@@ -1,4 +1,5 @@
-﻿using MVC.Components;
+﻿using System.Configuration;
+using MVC.Components;
 using System;
 using System.Web;
 using System.Web.Http;
@@ -53,7 +54,7 @@ namespace MVC
                                                    () => new AuthenticationIdGenerator());
 
             GlobalHost.HubPipeline.AddModule(new LoggingHubPipelineModule());
-            //GlobalHost.DependencyResolver.UseSqlServer(@"Data Source=|DataDirectory|\Database1.sdf");
+            GlobalHost.DependencyResolver.UseSqlServer(ConfigurationManager.ConnectionStrings["parkerfox"].ConnectionString);
         }
     }
 }

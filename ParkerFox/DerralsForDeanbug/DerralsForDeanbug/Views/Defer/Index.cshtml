@@ -1,0 +1,103 @@
+﻿@model DerralsForDeanbug.ViewModels.DeferViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-1.9.0.min.js"></script>
+
+@using (Html.BeginForm())
+{
+    <div class="deferalOptions">
+        <label>interest only:</label><input type="radio" name="deferalOption" value="1" checked="checked"/><br/>
+        <label>option two:</label><input type="radio" name="deferalOption" value="2"/>
+    </div>
+    <div>
+        @Html.EditorFor(x=>x.Loans)
+    </div>
+    <div>        
+        repayment:@Html.TextBoxFor(x => x.Total)
+    </div>
+    <input id="deferCommand" type="button" value="defer"/>
+    
+    <input type="checkbox" data-bind="checked:IsSelected"/>
+}
+
+<script>
+    var deferViewModel = @Html.Raw(Json.Encode(Model));
+
+    deferViewModel.bindToView = function() {
+        var loanRows = $('.active-loan');
+        var $this = this;
+        $.each(this.Loans, function(index, loan) {
+            $this.bindLoanToRow(loan, $(loanRows[index]));
+        });
+    };
+    
+    deferViewModel.adjustTotal = function(amount) {
+
+        var selectedLoan = $.grep(this.Loans, function(loan) {
+            return loan.IsSelected;
+        });
+        
+        //var deferralStrategy = this.getDeferalStrategy();
+
+        //$.each(this.Loans, function(index, loan) {
+        //    deferralStrategy.apply(loan);       
+        //});
+    };
+
+    deferViewModel.getDeferalStrategy = function() {
+        switch (this.Option) {
+        case 1:
+            return {
+                apply: function(loan) {
+                    loan.Principal -= 1;
+                }
+            };
+            break;
+        case 2:
+            return {
+                apply: function(loan) {
+                    loan.Principal -= 10;
+                }
+            };
+            break;
+        }
+    };
+    
+    deferViewModel.bindLoanToRow = function(loan, row) {
+        var boundFields = row.children('[data-bind]');
+
+        $.each(boundFields, function(index, field) {
+            field = $(field);
+            var bindExpression = field.attr('data-bind');
+            field.val(loan[bindExpression]);
+
+            if (field.attr('type') == 'text') {
+                field.keyup(function() {
+                    loan[bindExpression] = $(this).val();
+                });
+            }
+            if (field.attr('type') == 'checkbox') {
+                field.on("change", function() {
+                    loan[bindExpression] = $(this).is(':checked');
+                });
+            }
+        });
+    };   
+</script>
+
+<script>
+    $(function () {
+
+        deferViewModel.bindToView();
+
+        $('#deferCommand').click(function() {
+            deferViewModel.adjustTotal($('#Total').val());           
+        });
+
+        $('.deferalOptions :radio').on("change", function () {
+            deferViewModel.Option = parseInt($(this).val());
+        });
+    });
+</script>

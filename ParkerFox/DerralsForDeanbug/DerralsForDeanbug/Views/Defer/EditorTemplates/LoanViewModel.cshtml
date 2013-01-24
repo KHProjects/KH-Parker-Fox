@@ -1,0 +1,5 @@
+﻿@model DerralsForDeanbug.ViewModels.LoanViewModel
+<div class="active-loan">            
+    @Html.CheckBoxFor(x => x.IsSelected, new { data_bind = "IsSelected" })
+    @Html.TextBoxFor(x => x.Principal, new { data_bind = "Principal" })
+</div>

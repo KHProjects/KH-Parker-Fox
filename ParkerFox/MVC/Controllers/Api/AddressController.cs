@@ -15,5 +15,10 @@ namespace MVC.Controllers.Api
                     new AddressLookup {NameOrNumber = "102", Street = "Street three", PostCode = id}
                 };
         }
+
+        public override System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage> ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext controllerContext, System.Threading.CancellationToken cancellationToken)
+        {
+            return base.ExecuteAsync(controllerContext, cancellationToken);
+        }
     }
 }
