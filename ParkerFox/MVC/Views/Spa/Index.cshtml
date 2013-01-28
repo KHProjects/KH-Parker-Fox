@@ -8,7 +8,7 @@
 <input id="publishEvent" type="button" value="publish event" />
 <div id="display"></div>
 
-<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/jquery-1.8.3.min.js"></script>
 <script src="~/Scripts/amplify.min.js"></script>
 
 <!-- 
@@ -43,7 +43,7 @@
             }
         });
     };
-    
+
     function getCustomers() {
         amplify.request("getCustomers", {}, function (customers) {
             var display = $("#display");

@@ -24,3 +24,29 @@ C:\Users\seb\Dropbox\Code\.NET 4.5\DerralsForDeanbug\DerralsForDeanbug\bin\Syste
 C:\Users\seb\Dropbox\Code\.NET 4.5\DerralsForDeanbug\DerralsForDeanbug\obj\Debug\DerralsForDeanbug.csprojResolveAssemblyReference.cache
 C:\Users\seb\Dropbox\Code\.NET 4.5\DerralsForDeanbug\DerralsForDeanbug\obj\Debug\DerralsForDeanbug.dll
 C:\Users\seb\Dropbox\Code\.NET 4.5\DerralsForDeanbug\DerralsForDeanbug\obj\Debug\DerralsForDeanbug.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\DerralsForDeanbug.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\DerralsForDeanbug.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Net.Http.Formatting.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Helpers.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Http.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Http.WebHost.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Mvc.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Razor.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.WebPages.Deployment.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.WebPages.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.WebPages.Razor.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\Newtonsoft.Json.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Net.Http.Formatting.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Helpers.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Http.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Http.WebHost.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Mvc.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.Razor.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.WebPages.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.WebPages.Deployment.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\bin\System.Web.WebPages.Razor.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\obj\Debug\DerralsForDeanbug.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\obj\Debug\DerralsForDeanbug.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\ParkerFox\DerralsForDeanbug\DerralsForDeanbug\obj\Debug\DerralsForDeanbug.pdb

@@ -1,0 +1,12 @@
+﻿@model DerralsForDeanbug.ViewModels.DeferViewModel
+@{
+    ViewBag.Title = "Index2";
+}
+<script src="~/Scripts/App/Deferral.js"></script>
+
+
+<script>
+    var deferral = new Deferral(@Html.Raw(Json.Encode(Model)));
+    
+    
+</script>

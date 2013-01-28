@@ -4,12 +4,12 @@
     ViewBag.Title = "ModelBinding";
 }
 
-
 @using (Html.BeginForm())
 {
-    @Html.EditorFor(x=>x.FirstName)
+    @Html.EditorFor(x => x.FirstName)
+    @Html.EditorFor(x => x.Addresses)
 
-    @Html.EditorFor(x=>x.Addresses)
+    @Html.EditorFor(x=>x.FirstName, "IFrameEditor")
 
     <input type="submit" value="save" />
 }

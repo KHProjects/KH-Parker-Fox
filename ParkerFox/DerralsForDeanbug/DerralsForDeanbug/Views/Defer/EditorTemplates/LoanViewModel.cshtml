@@ -1,5 +1,8 @@
 ﻿@model DerralsForDeanbug.ViewModels.LoanViewModel
-<div class="active-loan">            
+<div class="active-loan">
     @Html.CheckBoxFor(x => x.IsSelected, new { data_bind = "IsSelected" })
     @Html.TextBoxFor(x => x.Principal, new { data_bind = "Principal" })
+    @Html.TextBoxFor(x => x.Minimum, new { data_bind = "Minimum" })
+    @Html.TextBoxFor(x => x.Group, new { data_bind = "Group" })
+    <span data-bind="Reduction"></span>
 </div>

@@ -135,6 +135,8 @@
     <Compile Include="Components\LoggingDelegatingHandler.cs" />
     <Compile Include="Components\LoggingHubPipelineModule.cs" />
     <Compile Include="Components\MyActionFilter.cs" />
+    <Compile Include="Components\MyActionMethodSelector.cs" />
+    <Compile Include="Components\MyActionResult.cs" />
     <Compile Include="Components\MyApiActionFilter.cs" />
     <Compile Include="Components\RadioListFor.cs" />
     <Compile Include="Components\SignalRHub.cs" />
@@ -301,8 +303,8 @@
     <Content Include="Views\Razor\RadioList.cshtml" />
     <Content Include="Views\Javascript\JqueryUI.cshtml" />
     <Content Include="Views\Razor\ModelBinding.cshtml" />
-    <Content Include="Views\Razor\EditorTemplates\Addresses.cshtml" />
     <Content Include="Views\Razor\EditorTemplates\Address.cshtml" />
+    <Content Include="Views\Razor\EditorTemplates\IFrameEditor.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

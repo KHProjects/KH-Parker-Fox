@@ -8,83 +8,115 @@
 @using (Html.BeginForm())
 {
     <div class="deferalOptions">
-        <label>interest only:</label><input type="radio" name="deferalOption" value="1" checked="checked"/><br/>
+        <label>option one:</label><input type="radio" name="deferalOption" value="1" checked="checked"/><br/>
         <label>option two:</label><input type="radio" name="deferalOption" value="2"/>
     </div>
     <div>
         @Html.EditorFor(x=>x.Loans)
     </div>
-    <div>        
-        repayment:@Html.TextBoxFor(x => x.Total)
+    <div>
+        <div>min: <span id="Minimum" data-bind="Minimum"></span></div>
+        repayment: @Html.TextBoxFor(x => x.Total)
     </div>
     <input id="deferCommand" type="button" value="defer"/>
-    
-    <input type="checkbox" data-bind="checked:IsSelected"/>
 }
 
 <script>
-    var deferViewModel = @Html.Raw(Json.Encode(Model));
+    var deferViewModel = @Html.Raw(Json.Encode(Model)); //--generate a JS viewModel which is a copy of the C# viewModel
 
-    deferViewModel.bindToView = function() {
-        var loanRows = $('.active-loan');
-        var $this = this;
-        $.each(this.Loans, function(index, loan) {
-            $this.bindLoanToRow(loan, $(loanRows[index]));
-        });
-    };
-    
     deferViewModel.adjustTotal = function(amount) {
-
-        var selectedLoan = $.grep(this.Loans, function(loan) {
+        var selectedLoans = $.grep(this.Loans, function(loan) {
             return loan.IsSelected;
         });
-        
-        //var deferralStrategy = this.getDeferalStrategy();
+        if (selectedLoans.length > 0) {
+            var deferralStrategy = this.getDeferalStrategy();
+            deferralStrategy.apply(selectedLoans, amount);
 
-        //$.each(this.Loans, function(index, loan) {
-        //    deferralStrategy.apply(loan);       
-        //});
+            this.updateView();
+        }
     };
 
+    deferViewModel.calculateMinimum = function() {
+        var selectedLoans = $.grep(this.Loans, function(loan) {
+            return loan.IsSelected;
+        });
+        var total = 0;
+        $.each(selectedLoans, function(loanIndex, loan) {
+            total += loan.Minimum;
+        });
+        return total;
+    };
+
+    //this is probably over-architecture, trying some strategy pattern in JS.. you could just call different function depending on Option 
     deferViewModel.getDeferalStrategy = function() {
         switch (this.Option) {
         case 1:
             return {
-                apply: function(loan) {
-                    loan.Principal -= 1;
+                apply: function(loans, amount) {
+                    amount = amount / loans.length;
+                    $.each(loans, function(loanIndex, loan) {
+                        loan.Reduction = amount;
+                    });
                 }
             };
-            break;
         case 2:
             return {
-                apply: function(loan) {
-                    loan.Principal -= 10;
+                apply: function(loans, amount) {
+                    $.each(loans, function(loanIndex, loan) {
+                        loan.Reduction = amount;
+                    });
                 }
             };
-            break;
         }
     };
-    
-    deferViewModel.bindLoanToRow = function(loan, row) {
-        var boundFields = row.children('[data-bind]');
 
-        $.each(boundFields, function(index, field) {
-            field = $(field);
-            var bindExpression = field.attr('data-bind');
-            field.val(loan[bindExpression]);
+    deferViewModel.bindToView = function() {
+        this.updateView();
+        bindFieldToObject($('#Total'), deferViewModel, "Total");
 
-            if (field.attr('type') == 'text') {
-                field.keyup(function() {
-                    loan[bindExpression] = $(this).val();
-                });
-            }
-            if (field.attr('type') == 'checkbox') {
-                field.on("change", function() {
-                    loan[bindExpression] = $(this).is(':checked');
-                });
-            }
+        var loanRows = $('.active-loan');
+        var $this = this;
+        $.each(this.Loans, function(index, loan) {
+            var boundFields = $(loanRows[index]).children('[data-bind]');
+
+            $.each(boundFields, function(fieldIndex, field) {
+                field = $(field);
+                var bindExpression = field.attr('data-bind');
+                bindFieldToObject(field, loan, bindExpression);
+            });
         });
-    };   
+    };
+
+    //knockout would auto detect change on an object and apply it to the ui
+    deferViewModel.updateView = function() {
+        $('#Minimum').text(deferViewModel.calculateMinimum());
+
+        var loanRows = $('.active-loan');
+        
+        $.each(this.Loans, function(index, loan) {
+            var boundFields = $(loanRows[index]).children('[data-bind]');
+            $.each(boundFields, function(fieldIndex, field) {
+                field = $(field);
+                var bindExpression = field.attr('data-bind');
+                field.val(loan[bindExpression]).text(loan[bindExpression]); //text handles just the labels
+            });
+        });
+    };
+
+    function bindFieldToObject(field, object, property) {
+        if (field.attr('type') == 'text') {
+            field.keyup(function() {
+                object[property] = $(this).val();
+                deferViewModel.updateView(); //--lost generic framework style code here by refering to instance
+            });
+        }
+        if (field.attr('type') == 'checkbox') {
+            field.on("change", function() {
+                object[property] = $(this).is(':checked');
+                deferViewModel.updateView(); //--lost generic framework style code here by refering to instance
+            });
+        }
+    };
 </script>
 
 <script>
@@ -93,11 +125,12 @@
         deferViewModel.bindToView();
 
         $('#deferCommand').click(function() {
-            deferViewModel.adjustTotal($('#Total').val());           
+            deferViewModel.adjustTotal($('#Total').val());
         });
 
         $('.deferalOptions :radio').on("change", function () {
             deferViewModel.Option = parseInt($(this).val());
+            deferViewModel.updateView();
         });
     });
 </script>
