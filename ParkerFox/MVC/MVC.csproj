@@ -305,6 +305,7 @@
     <Content Include="Views\Razor\ModelBinding.cshtml" />
     <Content Include="Views\Razor\EditorTemplates\Address.cshtml" />
     <Content Include="Views\Razor\EditorTemplates\IFrameEditor.cshtml" />
+    <Content Include="Views\Javascript\Jquery.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

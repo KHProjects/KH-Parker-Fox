@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Jquery";
+}
+<!-- http://docs.jquery.com/DOM/Traversing -->
+<style>
+    .veryImportant{background-color:red}
+    .lessImportant{background-color:blue}
+</style>
+<script src="~/Scripts/jquery-1.8.3.min.js"></script>
+
+<div class="notice">
+    <p>
+        paragraph one
+    </p>
+    <div>
+        <p>
+            sub paragrahy 
+        </p>
+    </div>
+    
+    <a>just an achor</a>
+    <a href="/javascript/jquery">i'm a hyperlink bitch</a>
+</div>
+
+<input id="hilightParagraphs" type="button" value="hilight paragraphs" />
+
+<table>
+    <tr>
+        <td>row 1 col1</td><td>row 1 col 2</td>
+    </tr>
+    <tr>
+        <td>row 2 col 1</td><td>row 2 col 2</td>
+    </tr>
+    <tr>
+        <td>row 3 col 1</td><td>row 3 col 2</td>
+    </tr>
+    <tr>
+        <td>row 4 col 1</td><td>row 4 col 2</td>
+    </tr>
+</table>
+
+<input id="stripeRows" type="button" value="stripe rows" />
+    
+<script>
+    $(function () {
+        console.log("there are " + $('a[href]').length + " hyperlinks on the page");
+
+
+        $('#hilightParagraphs').click(hilighParagraphs);
+
+        $('#stripeRows').click(stripeRows);
+    });
+
+    function hilighParagraphs() {
+        $('div.notice > p').addClass("veryImportant"); //immediate child selector
+        $('div.notice p').addClass("lessImportant");
+    };
+
+    function stripeRows() {
+        $('table tr:even').css({ backgroundColor: "red" });
+        $('table tr:first td').css({ borderBottom: "solid black 3px" });
+    };
+</script>

@@ -32,6 +32,11 @@ namespace MVC.Controllers
             return View();
         }
 
+        public ViewResult Jquery()
+        {
+            return View();
+        }
+
         public ActionResult JqueryUI()
         {
             return View();
