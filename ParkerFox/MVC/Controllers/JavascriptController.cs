@@ -41,5 +41,10 @@ namespace MVC.Controllers
         {
             return View();
         }
+
+        public ActionResult Cassette()
+        {
+            return View();
+        }
     }
 }

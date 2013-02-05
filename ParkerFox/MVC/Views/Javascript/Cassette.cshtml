@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Cassette";
+}
+@{
+    Bundles.Reference("~/Scripts/patterns/RevealingPrototype.js");
+    Bundles.Reference("~/Scripts/jquery-1.8.3.min.js");
+}
+<script>
+    $(function() {
+        var myClass = new MyClass();
+
+        myClass.init();
+    });
+</script>
