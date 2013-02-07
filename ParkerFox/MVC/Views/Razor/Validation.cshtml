@@ -1,0 +1,19 @@
+﻿@model MVC.ViewModel.RegisterViewModel
+
+@{
+    ViewBag.Title = "Validation";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+
+    @Html.TextBoxFor(x=>x.FirstName)
+    @Html.TextBoxFor(x=>x.DateOfBirth)
+
+    <input type="submit" value="register" />
+}
+<script src="~/Scripts/jquery-1.8.3.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/Scripts/Validation/future.js"></script>

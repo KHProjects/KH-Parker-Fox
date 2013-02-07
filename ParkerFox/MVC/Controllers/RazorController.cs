@@ -1,5 +1,6 @@
 ﻿using MVC.Components;
 using MVC.Models;
+using MVC.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,6 +41,11 @@ namespace MVC.Controllers
             var test = customer.FirstName;
 
             return View(customer);
+        }
+
+        public ActionResult Validation()
+        {
+            return View(new RegisterViewModel());
         }
     }
 }
