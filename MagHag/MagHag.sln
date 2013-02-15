@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Core", "MagHag.Core\MagHag.Core.csproj", "{13A6B299-BFCF-4C78-B84D-1C4B39174B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Tests.Unit", "MagHag.Tests.Unit\MagHag.Tests.Unit.csproj", "{AB2D2D0E-9561-4C83-A0CA-526EA02F3616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Site", "MagHag.Site\MagHag.Site.csproj", "{D2A4C480-47A3-4672-AAA5-38442D8B268C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Infrastructure", "MagHag.Infrastructure\MagHag.Infrastructure.csproj", "{2DA40BBD-F347-4AB4-BE2E-EAE144E0F4A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Application", "MagHag.Application\MagHag.Application.csproj", "{CC0B5471-21E6-4F41-85A4-82D224E7833B}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13A6B299-BFCF-4C78-B84D-1C4B39174B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A6B299-BFCF-4C78-B84D-1C4B39174B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A6B299-BFCF-4C78-B84D-1C4B39174B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A6B299-BFCF-4C78-B84D-1C4B39174B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2D2D0E-9561-4C83-A0CA-526EA02F3616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2D2D0E-9561-4C83-A0CA-526EA02F3616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2D2D0E-9561-4C83-A0CA-526EA02F3616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2D2D0E-9561-4C83-A0CA-526EA02F3616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A4C480-47A3-4672-AAA5-38442D8B268C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A4C480-47A3-4672-AAA5-38442D8B268C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A4C480-47A3-4672-AAA5-38442D8B268C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A4C480-47A3-4672-AAA5-38442D8B268C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA40BBD-F347-4AB4-BE2E-EAE144E0F4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA40BBD-F347-4AB4-BE2E-EAE144E0F4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA40BBD-F347-4AB4-BE2E-EAE144E0F4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA40BBD-F347-4AB4-BE2E-EAE144E0F4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0B5471-21E6-4F41-85A4-82D224E7833B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0B5471-21E6-4F41-85A4-82D224E7833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0B5471-21E6-4F41-85A4-82D224E7833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0B5471-21E6-4F41-85A4-82D224E7833B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core.Kernel\bin\Debug\MagHag.Core.Kernel.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core.Kernel\bin\Debug\MagHag.Core.Kernel.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core.Kernel\obj\Debug\MagHag.Core.Kernel.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core.Kernel\obj\Debug\MagHag.Core.Kernel.pdb
