@@ -19,8 +19,6 @@ namespace MagHag.Core.Entities
             _uncommittedEvents.Add(@event);
             Version++;
 
-            //((dynamic)this).ApplyEvent(@event);
-
             dynamic _this = this;            
             _this.ApplyEvent(@event);
         }

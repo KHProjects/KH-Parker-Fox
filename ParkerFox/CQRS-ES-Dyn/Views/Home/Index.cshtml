@@ -1,0 +1,14 @@
+﻿@model IEnumerable<CQRS_ES.Models.AccountInfo>
+@{
+    ViewBag.Title = "Index";
+}
+
+@foreach (var account in Model)
+{
+    <div>@account.AccountId</div>
+}
+
+@using (Html.BeginForm())
+{
+    <input type="submit" value="add new"/>
+}

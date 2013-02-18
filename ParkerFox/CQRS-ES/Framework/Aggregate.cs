@@ -34,9 +34,11 @@ namespace CQRS_ES.Framework
 
         public void LoadFromHistory(IEnumerable<object> events)
         {
+            dynamic _this = this as dynamic;
             foreach (var @event in events)
             {
-                AggregateUpdater.Update(this, @event);
+                _this.UpdateFrom(@event);
+                //AggregateUpdater.Update(this, @event);
                 Version++;
             }
         }
@@ -44,7 +46,10 @@ namespace CQRS_ES.Framework
         protected void Apply(object @event)
         {
             _uncommittedEvents.Add(@event);
-            AggregateUpdater.Update(this, @event);
+            dynamic _this = this as dynamic;
+            _this.UpdateFrom(@event);
+            //AggregateUpdater.Update(this, @event);
+
             Version++;
         }
 
