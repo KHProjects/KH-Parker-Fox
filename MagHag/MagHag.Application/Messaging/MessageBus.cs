@@ -9,14 +9,47 @@ namespace MagHag.Application.Messaging
 {
     public sealed class MessageBus : IBus
     {
-        public void Send<T>(T command)
+        readonly Dictionary<Type, List<Action<object>>> _handlers = new Dictionary<Type, List<Action<object>>>();
+
+        public void Publish(IEnumerable<object> events)
         {
-            throw new NotImplementedException();
+            foreach (var @event in events)
+                PublishEvent(@event);
         }
 
-        public void Publish<T>(T @event)
+        private void Publish<T>(T @event)
         {
-            throw new NotImplementedException();
+            var type = @event.GetType();
+            var keys = _handlers.Keys.Where(x => x.IsAssignableFrom(type));
+
+            foreach (var key in keys)
+                foreach (var handler in _handlers[key])
+                    handler(@event);
         }
+
+        public void RegisterHandler<T>(Action<T> handler)
+        {
+            List<Action<object>> handlers;
+
+            if (!_handlers.TryGetValue(typeof(T), out handlers))
+            {
+                handlers = new List<Action<object>>();
+                _handlers.Add(typeof(T), handlers);
+            }
+
+            handlers.Add(x => handler((T)x));
+        }
+
+        public void Send<T>(T command)
+        {
+            List<Action<object>> handlers;
+
+            if (!_handlers.TryGetValue(command.GetType(), out handlers))
+                throw new InvalidOperationException(string.Format("No handler registered for command type {0}", command.GetType()));
+            if (handlers.Count != 1) throw new InvalidOperationException("Cannot send to more than one handler");
+
+            handlers[0](command);
+        }
+
     }
 }

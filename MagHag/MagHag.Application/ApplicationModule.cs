@@ -13,7 +13,7 @@ namespace MagHag.Application
     {
         public override void Load()
         {
-            Bind<IBus>().To<MessageBus>();
+            //Bind<IBus>().To<MessageBus>();
         }
     }
 }

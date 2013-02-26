@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlServerCe;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
 
@@ -12,6 +13,24 @@ namespace CQRS_ES.Controllers
     {
         public ActionResult Index()
         {
+            //Person person = new Person();           
+            //Type personType = person.GetType();
+
+            Type personType = Type.GetType("Person");
+            var result = (AwesomeAttribute)personType.GetCustomAttributes<AwesomeAttribute>().First();
+            if (result.IsAwesome)
+            {
+                //do something
+            }
+
+            var personInstance = Activator.CreateInstance(personType);
+
+            List<MemberInfo> members = new List<MemberInfo>(personType.GetMembers(BindingFlags.NonPublic | BindingFlags.Instance));
+
+            var memberInfo = members.Single(_ => _.Name == "Secret");
+
+            //((MethodBase)memberInfo).Invoke(person, null);
+               
             return View(Configuration.Instance.Accounts);
         }
 
@@ -28,5 +47,39 @@ namespace CQRS_ES.Controllers
             return View(Configuration.Instance.Accounts);
         }
 
+    }
+}
+
+[Awesome(true)]
+public class Person
+{
+    public string FirstName { get; set; }
+
+    public static int ThisIsBad = 10;
+
+    public void SayYourname()
+    {
+        
+    }
+
+    private void Secret()
+    {
+        bool pass = true;
+    }
+}
+
+
+public class AwesomeAttribute : Attribute
+{
+    private bool _isA;
+
+    public AwesomeAttribute(bool isAwesome)
+    {
+        _isA = isAwesome;
+    }
+
+    public bool IsAwesome
+    {
+        get { return _isA; }
     }
 }

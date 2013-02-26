@@ -10,3 +10,5 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\MagHag.Core.
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Newtonsoft.Json.xml
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Ninject.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Ninject.xml
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\MagHag.Application.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\MagHag.Application.pdb

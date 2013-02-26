@@ -9,21 +9,20 @@ namespace MVC.Components
     {
         public void index()
         {
-            Bus bus = new Bus();
-            bus.Send(new RegUserCommand());
+            
         }
     }
 
 
     public class Bus
     {
-        ninject.Bind<IHandleCommand<RegUserCommand>>().To<RegUserCommandHandler>();
+        //ninject.Bind<IHandleCommand<RegUserCommand>>().To<RegUserCommandHandler>();
 
-        public void Send<T>(T command)
-        {
-            var handler = ninecjt.GetMyhandleFor(command);
-            handler.Handlr(command);
-        }
+        //public void Send<T>(T command)
+        //{
+        //    var handler = ninecjt.GetMyhandleFor(command);
+        //    handler.Handlr(command);
+        //}
 
         public void Handle(object command)
         {

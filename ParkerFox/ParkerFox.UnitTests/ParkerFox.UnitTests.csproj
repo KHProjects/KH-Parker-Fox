@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Core\Entities\Magazine\SubscriptionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflections.cs" />
     <Compile Include="Site\Controllers\Publication\SubscribeControllerTests.cs" />
   </ItemGroup>
   <ItemGroup>
