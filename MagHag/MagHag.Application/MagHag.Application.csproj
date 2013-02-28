@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="ApplicationModule.cs" />
     <Compile Include="ConcurrencyException.cs" />
-    <Compile Include="IEventStore.cs" />
     <Compile Include="Messaging\CommandHandlers\CreateAccountHandler.cs" />
     <Compile Include="Messaging\MessageBus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

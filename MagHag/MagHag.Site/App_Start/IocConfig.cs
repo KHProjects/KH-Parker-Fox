@@ -1,9 +1,5 @@
-﻿using Ninject;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Web;
+﻿using MagHag.Site.Components;
+using Ninject;
 
 namespace MagHag.Site.App_Start
 {
@@ -12,7 +8,11 @@ namespace MagHag.Site.App_Start
         public static void Setup()
         {
             var standardKernel = new StandardKernel();
-            standardKernel.Load(Assembly.Load("MagHag.Application"));
+
+            standardKernel.Load("MagHag.Infrastructure.dll");
+            standardKernel.Load("MagHag.Application.dll");
+
+            System.Web.Mvc.DependencyResolver.SetResolver(new NinjectDependencyResolver(standardKernel));
         }
     }
 }

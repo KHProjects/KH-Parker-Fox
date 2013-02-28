@@ -44,6 +44,7 @@
     <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\IRepository.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="IBootStrapTask.cs" />
     <Compile Include="Messaging\Commands\CreateAccount.cs" />
     <Compile Include="Messaging\Events\AccountCreated.cs" />
     <Compile Include="Messaging\Events\IEvent.cs" />

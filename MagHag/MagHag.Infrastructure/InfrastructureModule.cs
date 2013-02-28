@@ -1,12 +1,7 @@
-﻿using MagHag.Core.Messaging;
+﻿using MagHag.Core.Entities;
 using MagHag.Core.Messaging.Events;
-using MagHag.Infrastructure.Messaging.EventSourcing;
+using MagHag.Infrastructure.Data;
 using Ninject.Modules;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MagHag.Infrastructure
 {
@@ -15,6 +10,7 @@ namespace MagHag.Infrastructure
         public override void Load()
         {
             Bind<IEventStore>().To<SqlEventStore>();
+            Bind<IRepository>().To<Repository>();
         }
     }
 }

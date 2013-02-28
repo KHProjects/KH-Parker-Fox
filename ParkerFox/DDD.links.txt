@@ -1,1 +1,2 @@
 http://msdn.microsoft.com/en-us/magazine/dd419654.aspx
+http://www.udidahan.com/2012/06/23/ui-composition-techniques-for-correct-service-boundaries/

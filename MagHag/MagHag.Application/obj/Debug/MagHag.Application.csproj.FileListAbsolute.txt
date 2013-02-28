@@ -8,3 +8,13 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.xml
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\MagHag.Application.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\MagHag.Application.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\MagHag.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\MagHag.Core.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.pdb

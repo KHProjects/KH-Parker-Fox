@@ -9,7 +9,6 @@ namespace MagHag.Core.Entities
 {
     public class Account : Aggregate
     {
-        private Guid _id;
         private string _email;
 
         public Account(Guid id, string email)
@@ -17,9 +16,9 @@ namespace MagHag.Core.Entities
             Apply(new AccountCreated(id, email));
         }
 
-        public void UpdateFrom(AccountCreated accountCreated)
+        public void ApplyEvent(AccountCreated accountCreated)
         {
-            _id = accountCreated.Id;
+            Id = accountCreated.Id;
             _email = accountCreated.Email;
         }
     }

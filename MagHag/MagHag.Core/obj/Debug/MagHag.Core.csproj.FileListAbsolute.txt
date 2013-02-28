@@ -3,3 +3,8 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.csprojResolveAssemblyReference.cache
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb

@@ -2,9 +2,6 @@
 using MagHag.Core.Messaging.Events;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MagHag.Core.Entities
 {
@@ -12,6 +9,7 @@ namespace MagHag.Core.Entities
     {
         private readonly List<IEvent> _uncommittedEvents = new List<IEvent>();
 
+        public Guid Id { get; protected set; }
         public long Version { get; private set; }
 
         public void Apply<T>(T @event) where T:IEvent
@@ -19,7 +17,7 @@ namespace MagHag.Core.Entities
             _uncommittedEvents.Add(@event);
             Version++;
 
-            dynamic _this = this;            
+            dynamic _this = this;
             _this.ApplyEvent(@event);
         }
 
@@ -45,6 +43,11 @@ namespace MagHag.Core.Entities
             {
                 return this as dynamic;
             }
+        }
+
+        public void ClearEvents()
+        {
+            _uncommittedEvents.Clear();
         }
     }
 }

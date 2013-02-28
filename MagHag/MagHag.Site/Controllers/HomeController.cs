@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MagHag.Core.Messaging;
+using MagHag.Core.Messaging.Commands;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,13 +10,16 @@ namespace MagHag.Site.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
+        private readonly IBus _bus;
+
+        public HomeController(IBus bus)
+        {
+            _bus = bus;
+        }
 
         public ActionResult Index()
         {
-            MagHag.Core.Entities.User user = new Core.Entities.User();
-            
+            _bus.Send(new CreateAccount {Email = "sabkent@hotmail.com"});
             return View();
         }
 

@@ -8,8 +8,8 @@ namespace MagHag.Core.Messaging.Events
 {
     public interface IEventStore
     {
-        void StoreEvents(object streamId, IEnumerable<IEvent> events, long expectedInitialVersion);
-        IEnumerable<IEvent> LoadEvents(object id, long version = 0);
+        void StoreEvents(Guid streamId, IEnumerable<IEvent> events, long expectedInitialVersion);
+        IEnumerable<IEvent> LoadEvents(Guid id, long version = 0);
         IEnumerable<IEvent> GetAllEventsEver();
     }
 }

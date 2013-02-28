@@ -7,3 +7,12 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\nunit.framework.
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.csprojResolveAssemblyReference.cache
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Tests.Unit.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Tests.Unit.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\nunit.framework.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Core.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\nunit.framework.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.pdb

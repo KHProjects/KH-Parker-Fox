@@ -8,6 +8,7 @@ namespace MagHag.Core.Entities
 {
     public interface IRepository
     {
+        T GetById<T>(Guid id) where T : Aggregate;
         void Save(Aggregate aggregate);
     }
 }
