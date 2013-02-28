@@ -41,13 +41,20 @@
   <ItemGroup>
     <Compile Include="ConcurrencyException.cs" />
     <Compile Include="Entities\Aggregate.cs" />
+    <Compile Include="Entities\Account.cs" />
+    <Compile Include="Entities\IRepository.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Messaging\Commands\CreateAccount.cs" />
+    <Compile Include="Messaging\Events\AccountCreated.cs" />
     <Compile Include="Messaging\Events\IEvent.cs" />
     <Compile Include="Messaging\Events\IEventStore.cs" />
     <Compile Include="Messaging\Events\UserCreated.cs" />
     <Compile Include="Messaging\IBus.cs" />
+    <Compile Include="Messaging\IHandleCommand.cs" />
+    <Compile Include="Messaging\IObserveEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

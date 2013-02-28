@@ -1,5 +1,7 @@
 ﻿using MagHag.Application.Messaging;
+using MagHag.Application.Messaging.CommandHandlers;
 using MagHag.Core.Messaging;
+using MagHag.Core.Messaging.Commands;
 using Ninject.Modules;
 using System;
 using System.Collections.Generic;
@@ -14,6 +16,8 @@ namespace MagHag.Application
         public override void Load()
         {
             //Bind<IBus>().To<MessageBus>();
+
+            Bind<IHandleCommand<CreateAccount>>().To<CreateAccountHandler>();
         }
     }
 }

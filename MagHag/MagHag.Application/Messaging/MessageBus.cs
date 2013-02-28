@@ -1,54 +1,39 @@
 ﻿using MagHag.Core.Messaging;
+using Ninject;
+using Ninject.Syntax;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MagHag.Application.Messaging
 {
     public sealed class MessageBus : IBus
     {
+        private readonly IResolutionRoot _resolutionRoot;
         readonly Dictionary<Type, List<Action<object>>> _handlers = new Dictionary<Type, List<Action<object>>>();
 
-        public void Publish(IEnumerable<object> events)
+        public MessageBus(IResolutionRoot resolutionRoot)
         {
-            foreach (var @event in events)
-                PublishEvent(@event);
+            _resolutionRoot = resolutionRoot;
         }
 
-        private void Publish<T>(T @event)
+        public void Publish<T>(T @event)
         {
-            var type = @event.GetType();
-            var keys = _handlers.Keys.Where(x => x.IsAssignableFrom(type));
+            var type = typeof(IObserveEvent<>).MakeGenericType(new[] { typeof(T) });
 
-            foreach (var key in keys)
-                foreach (var handler in _handlers[key])
-                    handler(@event);
-        }
-
-        public void RegisterHandler<T>(Action<T> handler)
-        {
-            List<Action<object>> handlers;
-
-            if (!_handlers.TryGetValue(typeof(T), out handlers))
-            {
-                handlers = new List<Action<object>>();
-                _handlers.Add(typeof(T), handlers);
-            }
-
-            handlers.Add(x => handler((T)x));
-        }
+            _resolutionRoot.GetAll(type)
+                .Select(_ => _ as IObserveEvent<T>)
+                .ToList()
+                .ForEach(_=>_.Notify(@event));
+         }
 
         public void Send<T>(T command)
         {
-            List<Action<object>> handlers;
-
-            if (!_handlers.TryGetValue(command.GetType(), out handlers))
-                throw new InvalidOperationException(string.Format("No handler registered for command type {0}", command.GetType()));
-            if (handlers.Count != 1) throw new InvalidOperationException("Cannot send to more than one handler");
-
-            handlers[0](command);
+            var type = typeof(IHandleCommand<>).MakeGenericType(new[] { typeof(T) });
+            var handler = _resolutionRoot.TryGet(type) as IHandleCommand<T>;
+            if (handler == null)
+                throw new Exception(String.Format("Handler not found for command {0}", command.GetType()));
+            handler.Handle(command);
         }
 
     }
