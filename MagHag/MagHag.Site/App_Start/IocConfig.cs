@@ -8,9 +8,8 @@ namespace MagHag.Site.App_Start
         public static void Setup()
         {
             var standardKernel = new StandardKernel();
-
-            standardKernel.Load("MagHag.Infrastructure.dll");
-            standardKernel.Load("MagHag.Application.dll");
+            standardKernel.Load<Application.ApplicationModule>();
+            standardKernel.Load<Infrastructure.InfrastructureModule>();
 
             System.Web.Mvc.DependencyResolver.SetResolver(new NinjectDependencyResolver(standardKernel));
         }

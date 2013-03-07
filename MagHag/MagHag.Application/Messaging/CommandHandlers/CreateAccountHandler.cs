@@ -25,6 +25,7 @@ namespace MagHag.Application.Messaging.CommandHandlers
             var account = new Account(Guid.NewGuid(), command.Email);
             var events = account.GetUncommittedChanges();
             _repository.Save(account);
+            //_bus.Publish(events.First());
         }
     }
 }

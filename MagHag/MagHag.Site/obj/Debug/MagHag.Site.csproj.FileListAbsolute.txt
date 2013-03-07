@@ -74,3 +74,5 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\obj\Debug\MagHa
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\obj\Debug\MagHag.Site.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Infrastructure.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Infrastructure.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Infrastructure.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Infrastructure.pdb

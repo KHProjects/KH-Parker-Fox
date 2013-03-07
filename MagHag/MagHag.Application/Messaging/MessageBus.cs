@@ -29,7 +29,7 @@ namespace MagHag.Application.Messaging
 
         public void Send<T>(T command)
         {
-            var type = typeof(IHandleCommand<>).MakeGenericType(new[] { typeof(T) });
+            var type = typeof (IHandleCommand<T>);//.MakeGenericType(new[] { typeof(T) });
             var handler = _resolutionRoot.TryGet(type) as IHandleCommand<T>;
             if (handler == null)
                 throw new Exception(String.Format("Handler not found for command {0}", command.GetType()));
