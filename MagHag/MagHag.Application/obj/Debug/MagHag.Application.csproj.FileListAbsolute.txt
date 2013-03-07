@@ -18,3 +18,6 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debu
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.xml
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.xml

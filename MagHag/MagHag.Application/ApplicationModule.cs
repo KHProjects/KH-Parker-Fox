@@ -15,7 +15,7 @@ namespace MagHag.Application
     {
         public override void Load()
         {
-            Bind<IBus>().To<MessageBus>();
+            Bind<IApplicationBus>().To<MessageBus>();
 
             Bind<IHandleCommand<CreateAccount>>().To<CreateAccountHandler>();
         }

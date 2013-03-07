@@ -18,6 +18,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		links.txt = links.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Billing", "Billing", "{89434C67-9DC3-4476-BDA1-B173685F793D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Backend", "MagHag.Backend\MagHag.Backend.csproj", "{C2C6B789-816E-4138-977A-42FAC7CC5BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Billing.Application", "MagHag.Billing.Application\MagHag.Billing.Application.csproj", "{A5F3B129-5A1B-40B6-A458-29266A021B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subscriptions", "Subscriptions", "{345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Subscriptions.Messaging", "MagHag.Subscriptions.Messaging\MagHag.Subscriptions.Messaging.csproj", "{ABC151CC-E1AE-4A2A-95F2-2DCD35CB2B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Subscriptions.Core", "MagHag.Subscriptions.Core\MagHag.Subscriptions.Core.csproj", "{856128E5-D7FE-4FCF-A256-E42338F5A83B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,8 +60,29 @@ Global
 		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C6B789-816E-4138-977A-42FAC7CC5BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C6B789-816E-4138-977A-42FAC7CC5BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C6B789-816E-4138-977A-42FAC7CC5BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C6B789-816E-4138-977A-42FAC7CC5BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F3B129-5A1B-40B6-A458-29266A021B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F3B129-5A1B-40B6-A458-29266A021B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F3B129-5A1B-40B6-A458-29266A021B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F3B129-5A1B-40B6-A458-29266A021B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC151CC-E1AE-4A2A-95F2-2DCD35CB2B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC151CC-E1AE-4A2A-95F2-2DCD35CB2B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC151CC-E1AE-4A2A-95F2-2DCD35CB2B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC151CC-E1AE-4A2A-95F2-2DCD35CB2B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856128E5-D7FE-4FCF-A256-E42338F5A83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856128E5-D7FE-4FCF-A256-E42338F5A83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856128E5-D7FE-4FCF-A256-E42338F5A83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856128E5-D7FE-4FCF-A256-E42338F5A83B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5F3B129-5A1B-40B6-A458-29266A021B4E} = {89434C67-9DC3-4476-BDA1-B173685F793D}
+		{ABC151CC-E1AE-4A2A-95F2-2DCD35CB2B9D} = {345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}
+		{856128E5-D7FE-4FCF-A256-E42338F5A83B} = {345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}
 	EndGlobalSection
 EndGlobal

@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace MagHag.Application.Messaging
 {
-    public sealed class MessageBus : IBus
+    public sealed class MessageBus : IApplicationBus
     {
         private readonly IResolutionRoot _resolutionRoot;
         readonly Dictionary<Type, List<Action<object>>> _handlers = new Dictionary<Type, List<Action<object>>>();

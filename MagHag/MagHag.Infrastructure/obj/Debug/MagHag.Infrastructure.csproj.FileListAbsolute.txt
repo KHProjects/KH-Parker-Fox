@@ -26,3 +26,6 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\D
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Newtonsoft.Json.xml
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Ninject.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Ninject.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\NServiceBus.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\NServiceBus.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\NServiceBus.xml

@@ -14,9 +14,9 @@ namespace MagHag.Infrastructure.Data
 {
     public sealed class SqlEventStore : IEventStore
     {
-        private readonly IBus _bus;
+        private readonly IApplicationBus _bus;
 
-        public SqlEventStore(IBus bus)
+        public SqlEventStore(IApplicationBus bus)
         {
             _bus = bus;
         }

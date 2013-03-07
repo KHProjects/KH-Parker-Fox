@@ -1,0 +1,5 @@
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Subscriptions.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Subscriptions.Core.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.pdb
