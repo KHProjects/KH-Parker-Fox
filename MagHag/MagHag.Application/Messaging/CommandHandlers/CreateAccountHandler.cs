@@ -1,4 +1,4 @@
-﻿using MagHag.Core.Entities;
+using MagHag.Core.Entities;
 using MagHag.Core.Messaging;
 using MagHag.Core.Messaging.Commands;
 using System;
@@ -11,10 +11,10 @@ namespace MagHag.Application.Messaging.CommandHandlers
 {
     public sealed class CreateAccountHandler : IHandleCommand<CreateAccount>
     {
-        private readonly IBus _bus;
+        private readonly IApplicationBus _bus;
         private readonly IRepository _repository;
 
-        public CreateAccountHandler(IBus bus, IRepository repository)
+        public CreateAccountHandler(IApplicationBus bus, IRepository repository)
         {
             _bus = bus;
             _repository = repository;
@@ -25,7 +25,6 @@ namespace MagHag.Application.Messaging.CommandHandlers
             var account = new Account(Guid.NewGuid(), command.Email);
             var events = account.GetUncommittedChanges();
             _repository.Save(account);
-            //_bus.Publish(events.First());
         }
     }
 }

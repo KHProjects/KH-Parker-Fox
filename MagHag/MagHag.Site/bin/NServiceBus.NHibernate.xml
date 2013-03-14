@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>NServiceBus.NHibernate</name>
+  </assembly>
+  <members>
+    <member name="T:NServiceBus.ConfigureNHibernateSagaPersister">
+      <summary>
+            Contains extension methods to NServiceBus.Configure for the NHibernate saga persister.
+            </summary>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateSagaPersister.NHibernateSagaPersister(NServiceBus.Configure)">
+      <summary>
+            Use the NHibernate backed saga persister implementation.
+            Be aware that this implementation deletes sagas that complete so as not to have the database fill up.
+            SagaData classes are automatically mapped using Fluent NHibernate Conventions.
+            </summary>
+      <param name="config">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateSagaPersister.NHibernateSagaPersisterWithSQLiteAndAutomaticSchemaGeneration(NServiceBus.Configure)">
+      <summary>
+            Use the NHibernate backed saga persister implementation on top of SQLite.
+            SagaData classes are automatically mapped using Fluent NHibernate conventions
+            and there persistence schema is also automatically generated.
+            </summary>
+      <param name="config">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateSagaPersister.NHibernateSagaPersister(NServiceBus.Configure,System.Collections.Generic.IDictionary{System.String,System.String},System.Boolean)">
+      <summary>
+            Use the NHibernate backed saga persister implementation.
+            SagaData classes are automatically mapped using Fluent NHibernate conventions
+            and there persistence schema is automatically generated if requested.
+            </summary>
+      <param name="config">
+      </param>
+      <param name="nhibernateProperties">
+      </param>
+      <param name="autoUpdateSchema">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:NServiceBus.SagaPersisters.NHibernate.Config.Internal.SessionFactoryBuilder">
+      <summary>
+            Builder class for the NHibernate Session Factory
+            </summary>
+    </member>
+    <member name="M:NServiceBus.SagaPersisters.NHibernate.Config.Internal.SessionFactoryBuilder.#ctor(System.Collections.Generic.IEnumerable{System.Type})">
+      <summary>
+            Constructor that accepts the types to scan for saga data classes
+            </summary>
+      <param name="typesToScan">
+      </param>
+    </member>
+    <member name="M:NServiceBus.SagaPersisters.NHibernate.Config.Internal.SessionFactoryBuilder.Build(System.Collections.Generic.IDictionary{System.String,System.String},System.Boolean)">
+      <summary>
+            Builds the session factory with the given properties. Database is updated if updateSchema is set
+            </summary>
+      <param name="nhibernateProperties">
+      </param>
+      <param name="updateSchema">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:NServiceBus.SagaPersisters.NHibernate.Config.Internal.SQLiteConfiguration">
+      <summary>
+            SQLite Configuration
+            </summary>
+    </member>
+    <member name="M:NServiceBus.SagaPersisters.NHibernate.Config.Internal.SQLiteConfiguration.InMemory">
+      <summary>
+            SQLite Configuration In Memory
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.SagaPersisters.NHibernate.Config.Internal.SQLiteConfiguration.UsingFile(System.String)">
+      <summary>
+            SQLite Configuration In File
+            </summary>
+      <param name="filename">File Name</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:NServiceBus.Config.NHibernateSagaPersisterConfig">
+      <summary>
+            Config section for the NHibernate Saga Persister
+            </summary>
+    </member>
+    <member name="P:NServiceBus.Config.NHibernateSagaPersisterConfig.NHibernateProperties">
+      <summary>
+            Collection of NHibernate properties to set
+            </summary>
+    </member>
+    <member name="P:NServiceBus.Config.NHibernateSagaPersisterConfig.UpdateSchema">
+      <summary>
+            ´Determines if the database should be auto updated
+            </summary>
+    </member>
+    <member name="T:NServiceBus.Config.NHibernatePropertyCollection">
+      <summary>
+            Collection of NHibernate properties
+            </summary>
+    </member>
+    <member name="M:NServiceBus.Config.NHibernatePropertyCollection.CreateNewElement">
+      <summary>
+            Creates a new empty property
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.Config.NHibernatePropertyCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+      <summary>
+            Returns the key for the given element
+            </summary>
+      <param name="element">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.Config.NHibernatePropertyCollection.ToProperties">
+      <summary>
+            Converts the collection to a dictionary
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:NServiceBus.Config.NHibernateProperty">
+      <summary>
+            A NHibernate property
+            </summary>
+    </member>
+    <member name="P:NServiceBus.Config.NHibernateProperty.Key">
+      <summary>
+            The key
+            </summary>
+    </member>
+    <member name="P:NServiceBus.Config.NHibernateProperty.Value">
+      <summary>
+            The value to use
+            </summary>
+    </member>
+    <member name="T:NServiceBus.SagaPersisters.NHibernate.SagaPersister">
+      <summary>
+            Saga persister implementation using NHibernate.
+            </summary>
+    </member>
+    <member name="M:NServiceBus.SagaPersisters.NHibernate.SagaPersister.Save(NServiceBus.Saga.ISagaEntity)">
+      <summary>
+            Saves the given saga entity using the current session of the
+            injected session factory.
+            </summary>
+      <param name="saga">the saga entity that will be saved.</param>
+    </member>
+    <member name="M:NServiceBus.SagaPersisters.NHibernate.SagaPersister.Update(NServiceBus.Saga.ISagaEntity)">
+      <summary>
+            Updates the given saga entity using the current session of the
+            injected session factory.
+            </summary>
+      <param name="saga">the saga entity that will be updated.</param>
+    </member>
+    <member name="M:NServiceBus.SagaPersisters.NHibernate.SagaPersister.Get``1(System.Guid)">
+      <summary>
+            Gets a saga entity from the injected session factory's current session
+            using the given saga id.
+            </summary>
+      <param name="sagaId">The saga id to use in the lookup.</param>
+      <returns>The saga entity if found, otherwise null.</returns>
+    </member>
+    <member name="M:NServiceBus.SagaPersisters.NHibernate.SagaPersister.Complete(NServiceBus.Saga.ISagaEntity)">
+      <summary>
+            Deletes the given saga from the injected session factory's
+            current session.
+            </summary>
+      <param name="saga">The saga entity that will be deleted.</param>
+    </member>
+    <member name="P:NServiceBus.SagaPersisters.NHibernate.SagaPersister.SessionFactory">
+      <summary>
+            Injected session factory.
+            </summary>
+    </member>
+    <member name="T:NServiceBus.ConfigureNHibernateTimeoutPersister">
+      <summary>
+            Configuration extensions for the NHibernate Timeouts persister
+            </summary>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateTimeoutPersister.UseNHibernateTimeoutPersisterWithSQLiteAndAutomaticSchemaGeneration(NServiceBus.Configure)">
+      <summary>
+            Configures the persister with Sqlite as its database and auto generates schema on startup.
+            </summary>
+      <param name="config">The configuration object.</param>
+      <returns>The configuration object.</returns>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateTimeoutPersister.UseNHibernateTimeoutPersister(NServiceBus.Configure)">
+      <summary>
+            Configures NHibernate Timeout Persister.
+            Database settings are read from custom config section <see cref="T:NServiceBus.Config.TimeoutPersisterConfig" />.
+            </summary>
+      <param name="config">The configuration object.</param>
+      <returns>The configuration object.</returns>
+    </member>
+    <member name="T:NServiceBus.TimeoutPersisters.NHibernate.Config.NHibernateProperty">
+      <summary>
+            A NHibernate property
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.Config.NHibernateProperty.Key">
+      <summary>
+            The key
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.Config.NHibernateProperty.Value">
+      <summary>
+            The value to use
+            </summary>
+    </member>
+    <member name="T:NServiceBus.TimeoutPersisters.NHibernate.Config.NHibernatePropertyCollection">
+      <summary>
+            Collection of NHibernate properties
+            </summary>
+    </member>
+    <member name="M:NServiceBus.TimeoutPersisters.NHibernate.Config.NHibernatePropertyCollection.CreateNewElement">
+      <summary>
+            Creates a new empty property
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.TimeoutPersisters.NHibernate.Config.NHibernatePropertyCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+      <summary>
+            Returns the key for the given element
+            </summary>
+      <param name="element">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.TimeoutPersisters.NHibernate.Config.NHibernatePropertyCollection.ToProperties">
+      <summary>
+            Converts the collection to a dictionary
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.TimeoutEntity.Id">
+      <summary>
+            Id of this timeout.
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.TimeoutEntity.Destination">
+      <summary>
+            The address of the client who requested the timeout.
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.TimeoutEntity.SagaId">
+      <summary>
+            The saga ID.
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.TimeoutEntity.State">
+      <summary>
+            Additional state.
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.TimeoutEntity.Time">
+      <summary>
+            The time at which the saga ID expired.
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.TimeoutEntity.CorrelationId">
+      <summary>
+            We store the correlation id in order to preserve it across timeouts.
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.TimeoutEntity.Headers">
+      <summary>
+            Store the headers to preserve them across timeouts.
+            </summary>
+    </member>
+    <member name="P:NServiceBus.TimeoutPersisters.NHibernate.TimeoutEntity.Endpoint">
+      <summary>
+            Timeout endpoint name.
+            </summary>
+    </member>
+    <member name="T:NServiceBus.ConfigureNHibernateSubscriptionStorage">
+      <summary>
+            Configuration extensions for the NHibernate subscription storage
+            </summary>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateSubscriptionStorage.DBSubcriptionStorageWithSQLiteAndAutomaticSchemaGeneration(NServiceBus.Configure)">
+      <summary>
+            Configures the storage with Sqlite as DB and auto generates schema on startup
+            </summary>
+      <param name="config">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateSubscriptionStorage.DBSubcriptionStorage(NServiceBus.Configure)">
+      <summary>
+            Configures DB Subscription Storage , DB Settings etc are read from custom config section (DBSubscriptionStoreage)
+            </summary>
+      <param name="config">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateSubscriptionStorage.DBSubcriptionStorage(NServiceBus.Configure,NHibernate.Cfg.Configuration,System.Boolean)">
+      <summary>
+            Configures the storage with the user supplied persistence configuration
+            DB schema is updated if requested by the user
+            </summary>
+      <param name="config">
+      </param>
+      <param name="nhibernateProperties">
+      </param>
+      <param name="autoUpdateSchema">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:NServiceBus.Unicast.Subscriptions.NHibernate.SubscriptionStorage">
+      <summary>
+            Subscription storage using NHibernate for persistence 
+            </summary>
+    </member>
+    <member name="T:NServiceBus.Unicast.Subscriptions.NHibernate.Subscription">
+      <summary>
+            Entity containing subscription data
+            </summary>
+    </member>
+    <member name="T:NServiceBus.ConfigureNHibernateUnitOfWork">
+      <summary>
+            Contains extension methods to NServiceBus.Configure for the NHibernate unit of work manager.
+            </summary>
+    </member>
+    <member name="M:NServiceBus.ConfigureNHibernateUnitOfWork.NHibernateUnitOfWork(NServiceBus.Configure)">
+      <summary>
+            Use the NHibernate backed unit of work implementation.
+            </summary>
+      <param name="config">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:NServiceBus.UnitOfWork.NHibernate.UnitOfWorkManager">
+      <summary>
+            Implementation of unit of work management with NHibernate
+            </summary>
+    </member>
+    <member name="P:NServiceBus.UnitOfWork.NHibernate.UnitOfWorkManager.SessionFactory">
+      <summary>
+            Injected NHibernate session factory.
+            </summary>
+    </member>
+  </members>
+</doc>

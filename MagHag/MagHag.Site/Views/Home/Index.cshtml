@@ -1,5 +1,17 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
 
-<h2>Index</h2>
+
+<input id="raiseSubEvent" type="button" value="raise subscription created" />
+
+<script>
+    $(function() {
+        $('#raiseSubEvent').on('click', function() {
+            $.ajax({
+                url: '/home/RaiseSubscriptionCreatedEvent'
+            });
+        });
+    });
+</script>

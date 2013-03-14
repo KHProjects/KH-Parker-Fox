@@ -1,16 +1,21 @@
-﻿using MagHag.Core.Messaging;
+using MagHag.Core.Messaging;
 using MagHag.Core.Messaging.Commands;
+using MagHag.Subscriptions.Messaging.Commands;
+using NServiceBus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using NServiceBus.Unicast;
+using MagHag.Subscriptions.Messaging;
 
 namespace MagHag.Site.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IBus _bus;
+        //private readonly IApplicationBus _bus;
+        private IBus _bus;
 
         public HomeController(IBus bus)
         {
@@ -19,9 +24,13 @@ namespace MagHag.Site.Controllers
 
         public ActionResult Index()
         {
-            _bus.Send(new CreateAccount {Email = "sabkent@hotmail.com"});
             return View();
         }
 
+
+        public void RaiseSubscriptionCreatedEvent()
+        {
+            _bus.Send(new SubscriptionCreated());
+        }
     }
 }
