@@ -1,15 +1,8 @@
-using MagHag.Core.Messaging;
-using MagHag.Core.Messaging.Commands;
-using MagHag.Subscriptions.Messaging.Commands;
 using NServiceBus;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using NServiceBus.Unicast;
-using MagHag.Subscriptions.Messaging;
-
+using CreateSubscriptionCommand = MagHag.Subscriptions.Core.Commands.CreateSubscription;
+using CreateSubscriptionViewModel = MagHag.Subscriptions.Core.ViewModels.CreateSubscription;
 namespace MagHag.Site.Controllers
 {
     public class HomeController : Controller
@@ -24,13 +17,15 @@ namespace MagHag.Site.Controllers
 
         public ActionResult Index()
         {
+            return View(new CreateSubscriptionViewModel {PublicationId = Guid.NewGuid()});
+        }
+
+        [HttpPost]
+        public ActionResult Index(CreateSubscriptionViewModel createSubscriptionViewModel)
+        {
+            _bus.Send(new CreateSubscriptionCommand{PublicationId = createSubscriptionViewModel.PublicationId});
             return View();
         }
 
-
-        public void RaiseSubscriptionCreatedEvent()
-        {
-            _bus.Send(new SubscriptionCreated());
-        }
     }
 }

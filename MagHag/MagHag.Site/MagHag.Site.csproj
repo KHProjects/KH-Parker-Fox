@@ -83,7 +83,7 @@
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
-    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -283,6 +283,10 @@
     <ProjectReference Include="..\MagHag.Infrastructure\MagHag.Infrastructure.csproj">
       <Project>{2da40bbd-f347-4ab4-be2e-eae144e0f4a0}</Project>
       <Name>MagHag.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MagHag.Subscriptions.Core\MagHag.Subscriptions.Core.csproj">
+      <Project>{856128e5-d7fe-4fcf-a256-e42338f5a83b}</Project>
+      <Name>MagHag.Subscriptions.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\MagHag.Subscriptions.Messaging\MagHag.Subscriptions.Messaging.csproj">
       <Project>{abc151cc-e1ae-4a2a-95f2-2dcd35cb2b9d}</Project>

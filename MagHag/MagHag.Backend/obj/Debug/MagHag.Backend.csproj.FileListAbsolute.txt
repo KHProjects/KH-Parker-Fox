@@ -32,3 +32,7 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\Ma
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Subscriptions.Messaging.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Billing.Application.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Subscriptions.Messaging.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Subscriptions.Application.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Subscriptions.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Subscriptions.Application.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Subscriptions.Core.pdb
