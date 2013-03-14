@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Subscriptions.Messag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Subscriptions.Core", "MagHag.Subscriptions.Core\MagHag.Subscriptions.Core.csproj", "{856128E5-D7FE-4FCF-A256-E42338F5A83B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Subscriptions.Application", "MagHag.Subscriptions.Application\MagHag.Subscriptions.Application.csproj", "{698F1CFC-B1F8-414B-A3DE-5FD259767860}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{856128E5-D7FE-4FCF-A256-E42338F5A83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{856128E5-D7FE-4FCF-A256-E42338F5A83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{856128E5-D7FE-4FCF-A256-E42338F5A83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698F1CFC-B1F8-414B-A3DE-5FD259767860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698F1CFC-B1F8-414B-A3DE-5FD259767860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698F1CFC-B1F8-414B-A3DE-5FD259767860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698F1CFC-B1F8-414B-A3DE-5FD259767860}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,5 +90,6 @@ Global
 		{A5F3B129-5A1B-40B6-A458-29266A021B4E} = {89434C67-9DC3-4476-BDA1-B173685F793D}
 		{ABC151CC-E1AE-4A2A-95F2-2DCD35CB2B9D} = {345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}
 		{856128E5-D7FE-4FCF-A256-E42338F5A83B} = {345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}
+		{698F1CFC-B1F8-414B-A3DE-5FD259767860} = {345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}
 	EndGlobalSection
 EndGlobal

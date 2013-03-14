@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MagHag.Subscriptions.Messaging;
-using MagHag.Subscriptions.Messaging.Commands;
+﻿using MagHag.Subscriptions.Messaging.Events;
 using NServiceBus;
+using System;
 
 namespace MagHag.Billing.Application.Messaging.EventHandlers
 {
@@ -13,7 +8,6 @@ namespace MagHag.Billing.Application.Messaging.EventHandlers
     {
         public void Handle(SubscriptionCreated message)
         {
-
             Console.WriteLine(message.StringEncrypted);
             Console.WriteLine("<Billing>SubsriptionCreatedEventHandler");
         }

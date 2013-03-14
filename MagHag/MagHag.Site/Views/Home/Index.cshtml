@@ -1,17 +1,10 @@
-﻿@{
+﻿@model MagHag.Subscriptions.Core.ViewModels.CreateSubscription
+@{
     ViewBag.Title = "Index";
 }
-<script src="~/Scripts/jquery-1.7.1.min.js"></script>
 
-
-<input id="raiseSubEvent" type="button" value="raise subscription created" />
-
-<script>
-    $(function() {
-        $('#raiseSubEvent').on('click', function() {
-            $.ajax({
-                url: '/home/RaiseSubscriptionCreatedEvent'
-            });
-        });
-    });
-</script>
+@using (Html.BeginForm())
+{
+    @Html.EditorFor(_=>_.PublicationId)
+    <input id="raiseSubEvent" type="submit" value="create subscription" />
+}

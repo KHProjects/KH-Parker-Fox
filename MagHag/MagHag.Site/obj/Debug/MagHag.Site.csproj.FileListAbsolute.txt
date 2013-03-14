@@ -108,3 +108,5 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Raven.Clien
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Raven.Client.Lightweight.xml
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Subscriptions.Messaging.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Subscriptions.Messaging.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Subscriptions.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Subscriptions.Core.pdb
