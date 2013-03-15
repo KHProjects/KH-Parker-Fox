@@ -1,8 +1,8 @@
+using MagHag.Subscriptions.Core.Commands;
+using MagHag.Subscriptions.Core.ViewModels;
 using NServiceBus;
 using System;
 using System.Web.Mvc;
-using CreateSubscriptionCommand = MagHag.Subscriptions.Core.Commands.CreateSubscription;
-using CreateSubscriptionViewModel = MagHag.Subscriptions.Core.ViewModels.CreateSubscription;
 namespace MagHag.Site.Controllers
 {
     public class HomeController : Controller

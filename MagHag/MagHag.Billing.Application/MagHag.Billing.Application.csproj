@@ -46,6 +46,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MagHag.Billing.Messaging\MagHag.Billing.Messaging.csproj">
+      <Project>{7b191702-e5b1-459b-99fb-2167b29f8b53}</Project>
+      <Name>MagHag.Billing.Messaging</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MagHag.Core\MagHag.Core.csproj">
       <Project>{13a6b299-bfcf-4c78-b84d-1c4b39174b8f}</Project>
       <Name>MagHag.Core</Name>

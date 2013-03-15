@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MagHag.Subscriptions.Core.ViewModels
+namespace MagHag.Subscriptions.Core.Commands
 {
-    public class CreateSubscription
+    public class CreateSubscriptionCommand
     {
         public Guid PublicationId { get; set; }
     }

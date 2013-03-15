@@ -11,6 +11,8 @@ namespace MagHag.Backend
                 .FileShareDataBus(@"\..\..\..\DataBusShare\")
                 .DefiningCommandsAs(t => t.Namespace != null && t.Namespace.EndsWith("Commands"))
                 .DefiningEventsAs(t => t.Namespace != null && t.Namespace.EndsWith("Events"))
+                //.DefiningCommandsAs(_ => _.GetType().Name.EndsWith("Command") && _.Namespace != null && _.Namespace.EndsWith("Commands"))
+                //.DefiningEventsAs(_ => _.GetType().Name.EndsWith("Event") && _.Namespace != null && _.Namespace.EndsWith("Events"))
                 .DefiningMessagesAs(t => t.Namespace == "Messages")
                 .MsmqTransport()
                     .MsmqSubscriptionStorage()

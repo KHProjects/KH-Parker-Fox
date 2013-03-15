@@ -5,7 +5,7 @@ using System;
 
 namespace MagHag.Subscriptions.Application.Messaging.CommandHandlers
 {
-    public class CreateSubscriptionCommandHandler : IHandleMessages<CreateSubscription>
+    public class CreateSubscriptionCommandHandler : IHandleMessages<CreateSubscriptionCommand>
     {
         private readonly IBus _bus;
 
@@ -14,7 +14,7 @@ namespace MagHag.Subscriptions.Application.Messaging.CommandHandlers
             _bus = bus;
         }
 
-        public void Handle(CreateSubscription message)
+        public void Handle(CreateSubscriptionCommand message)
         {
             Console.WriteLine("<Subscriptions>CreateSubscriptionCommandHandler");
 

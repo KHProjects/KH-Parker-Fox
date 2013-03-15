@@ -10,3 +10,17 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Applic
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\obj\Debug\MagHag.Subscriptions.Application.csprojResolveAssemblyReference.cache
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\obj\Debug\MagHag.Subscriptions.Application.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\obj\Debug\MagHag.Subscriptions.Application.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Subscriptions.Application.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Subscriptions.Application.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Subscriptions.Core.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Subscriptions.Messaging.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\NServiceBus.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Subscriptions.Core.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Subscriptions.Messaging.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\NServiceBus.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\NServiceBus.xml
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\obj\Debug\MagHag.Subscriptions.Application.csprojResolveAssemblyReference.cache
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\obj\Debug\MagHag.Subscriptions.Application.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\obj\Debug\MagHag.Subscriptions.Application.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Billing.Messaging.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Billing.Messaging.pdb

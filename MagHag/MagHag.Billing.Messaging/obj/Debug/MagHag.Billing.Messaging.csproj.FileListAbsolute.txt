@@ -1,0 +1,5 @@
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\bin\Debug\MagHag.Billing.Messaging.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\bin\Debug\MagHag.Billing.Messaging.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.csprojResolveAssemblyReference.cache
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.pdb

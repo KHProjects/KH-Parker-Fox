@@ -21,3 +21,6 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debu
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.xml
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.xml

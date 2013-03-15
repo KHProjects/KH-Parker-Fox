@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Infrastructure", "Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Application", "MagHag.Application\MagHag.Application.csproj", "{CC0B5471-21E6-4F41-85A4-82D224E7833B}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51A0A84D-5A9F-4C4A-8FD1-5924ABC0CFCB}"
 	ProjectSection(SolutionItems) = preProject
 		links.txt = links.txt
@@ -31,6 +29,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Subscriptions.Core", "MagHag.Subscriptions.Core\MagHag.Subscriptions.Core.csproj", "{856128E5-D7FE-4FCF-A256-E42338F5A83B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Subscriptions.Application", "MagHag.Subscriptions.Application\MagHag.Subscriptions.Application.csproj", "{698F1CFC-B1F8-414B-A3DE-5FD259767860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Billing.Messaging", "MagHag.Billing.Messaging\MagHag.Billing.Messaging.csproj", "{7B191702-E5B1-459B-99FB-2167B29F8B53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,10 +58,6 @@ Global
 		{CC0B5471-21E6-4F41-85A4-82D224E7833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC0B5471-21E6-4F41-85A4-82D224E7833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC0B5471-21E6-4F41-85A4-82D224E7833B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C09EE604-16A5-48B2-BE5C-2F08AAFCD8AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C2C6B789-816E-4138-977A-42FAC7CC5BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C2C6B789-816E-4138-977A-42FAC7CC5BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2C6B789-816E-4138-977A-42FAC7CC5BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -82,12 +78,17 @@ Global
 		{698F1CFC-B1F8-414B-A3DE-5FD259767860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{698F1CFC-B1F8-414B-A3DE-5FD259767860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{698F1CFC-B1F8-414B-A3DE-5FD259767860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B191702-E5B1-459B-99FB-2167B29F8B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B191702-E5B1-459B-99FB-2167B29F8B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B191702-E5B1-459B-99FB-2167B29F8B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B191702-E5B1-459B-99FB-2167B29F8B53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A5F3B129-5A1B-40B6-A458-29266A021B4E} = {89434C67-9DC3-4476-BDA1-B173685F793D}
+		{7B191702-E5B1-459B-99FB-2167B29F8B53} = {89434C67-9DC3-4476-BDA1-B173685F793D}
 		{ABC151CC-E1AE-4A2A-95F2-2DCD35CB2B9D} = {345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}
 		{856128E5-D7FE-4FCF-A256-E42338F5A83B} = {345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}
 		{698F1CFC-B1F8-414B-A3DE-5FD259767860} = {345EC5AF-F8E1-4B0E-B08F-92CF104DBFEF}

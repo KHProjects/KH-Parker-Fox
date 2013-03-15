@@ -43,9 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Messaging\CommandHandlers\CreateSubscriptionCommandHandler.cs" />
+    <Compile Include="Messaging\EventHandlers\PaymentProcessedEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MagHag.Billing.Messaging\MagHag.Billing.Messaging.csproj">
+      <Project>{7b191702-e5b1-459b-99fb-2167b29f8b53}</Project>
+      <Name>MagHag.Billing.Messaging</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MagHag.Subscriptions.Core\MagHag.Subscriptions.Core.csproj">
       <Project>{856128e5-d7fe-4fcf-a256-e42338f5a83b}</Project>
       <Name>MagHag.Subscriptions.Core</Name>
