@@ -50,7 +50,10 @@
     <Compile Include="ConcurrencyException.cs" />
     <Compile Include="Messaging\CommandHandlers\CreateAccountHandler.cs" />
     <Compile Include="Messaging\CommandHandlers\ProcessPaymentHandler.cs" />
+    <Compile Include="Messaging\INotifyClient.cs" />
+    <Compile Include="Messaging\INotifyClientEvent.cs" />
     <Compile Include="Messaging\MessageBus.cs" />
+    <Compile Include="Messaging\NotifyClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

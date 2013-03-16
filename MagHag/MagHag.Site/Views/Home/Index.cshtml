@@ -2,9 +2,28 @@
 @{
     ViewBag.Title = "Index";
 }
+<script src="~/Scripts/jquery-1.8.3.min.js"></script>
+<script src="~/Scripts/jquery.signalR-1.0.0-rc1.min.js"></script>
+<script src="~/signalr/hubs"></script>
 
 @using (Html.BeginForm())
 {
     @Html.EditorFor(_=>_.PublicationId)
     <input id="raiseSubEvent" type="submit" value="create subscription" />
 }
+
+<script>
+    //var paymentProcessingHub = $.connection.paymentProcessingHub;
+    
+    //paymentProcessingHub.client.paymentProcessed = function(paymentId) {
+    //    alert('payment processed');
+    //};
+
+    $(function () {
+
+        console.log($.connection.paymentProcessingHub);
+        $.connection.hub.start(function() {
+            console.log("my id is " + $.connection.hub.id);
+        });
+    });
+</script>

@@ -32,3 +32,13 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\D
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\NServiceBus.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\NServiceBus.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\NServiceBus.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Owin.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Infrastructure\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml

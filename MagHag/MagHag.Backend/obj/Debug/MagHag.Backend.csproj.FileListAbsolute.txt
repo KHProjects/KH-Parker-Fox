@@ -76,3 +76,9 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\obj\Debug\MagHag.Backend.exe
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\obj\Debug\MagHag.Backend.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Billing.Messaging.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Billing.Messaging.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Billing.Messaging.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Billing.Messaging.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\Newtonsoft.Json.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\Newtonsoft.Json.xml

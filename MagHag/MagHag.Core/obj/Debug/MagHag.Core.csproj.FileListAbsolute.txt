@@ -10,3 +10,4 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHa
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.csprojResolveAssemblyReference.cache

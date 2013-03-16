@@ -150,3 +150,16 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Site\bin\Raven.Client.Lightweight.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Site\bin\Raven.Client.Lightweight.xml
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Billing.Messaging.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Billing.Messaging.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Billing.Messaging.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Owin.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Billing.Messaging.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Subscriptions.Application.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\MagHag.Subscriptions.Application.pdb
