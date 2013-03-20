@@ -7,7 +7,6 @@ namespace MagHag.Site.Controllers
 {
     public class HomeController : Controller
     {
-        //private readonly IApplicationBus _bus;
         private IBus _bus;
 
         public HomeController(IBus bus)
@@ -26,6 +25,5 @@ namespace MagHag.Site.Controllers
             _bus.Send(new CreateSubscriptionCommand{PublicationId = createSubscriptionViewModel.PublicationId});
             return View();
         }
-
     }
 }

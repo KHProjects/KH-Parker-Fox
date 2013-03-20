@@ -6,6 +6,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Transactions;
 using MagHag.Application;
+using MagHag.Core.Messaging.EventSourcing;
 using MagHag.Core.Messaging.Events;
 using MagHag.Core.Messaging;
 using Newtonsoft.Json;
@@ -14,12 +15,12 @@ namespace MagHag.Infrastructure.Data
 {
     public sealed class SqlEventStore : IEventStore
     {
-        private readonly IApplicationBus _bus;
+        //private readonly IApplicationBus _bus;
 
-        public SqlEventStore(IApplicationBus bus)
-        {
-            _bus = bus;
-        }
+        //public SqlEventStore(IApplicationBus bus)
+        //{
+        //    _bus = bus;
+        //}
 
         public void StoreEvents(Guid streamId, IEnumerable<IEvent> events, long expectedInitialVersion)
         {
@@ -59,7 +60,7 @@ namespace MagHag.Infrastructure.Data
                 }
             }
 
-            _bus.Publish(events);
+           // _bus.Publish(events);
         }
 
         public IEnumerable<IEvent> LoadEvents(Guid id, long version = 0)

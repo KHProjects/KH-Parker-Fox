@@ -1,169 +1,254 @@
-2013-03-14 08:59:56,480 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 08:59:56,626 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 08:59:56,687 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 08:59:56,716 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 08:59:56,723 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 08:59:56,725 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:00:15,351 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 09:04:07,761 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 09:04:07,862 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 09:04:07,923 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 09:04:09,048 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 09:04:09,056 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:04:09,058 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:04:23,291 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 09:05:36,731 [Worker.12] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Received an empty message - ignoring.
-2013-03-14 09:06:03,490 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 09:06:03,561 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 09:06:03,661 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 09:06:03,680 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 09:06:03,687 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:06:03,688 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:06:17,462 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 09:06:21,358 [Worker.12] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Received an empty message - ignoring.
-2013-03-14 09:08:36,034 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 09:08:36,098 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 09:08:36,356 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 09:08:36,367 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 09:08:36,375 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:08:36,376 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:08:50,601 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 09:15:13,666 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 09:15:13,733 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 09:15:13,824 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 09:15:13,835 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 09:15:13,842 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:15:13,844 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:15:28,007 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 09:15:29,544 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue pdf4548\private$\maghag.backend.subscriptions does not exist.
-2013-03-14 09:15:29,545 [1] INFO  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Going to create queue: pdf4548\private$\maghag.backend.subscriptions
-2013-03-14 09:21:46,847 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 09:21:46,972 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 09:21:47,067 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 09:21:47,075 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:21:47,076 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:22:02,664 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 09:22:04,295 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
-2013-03-14 09:22:06,502 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
-2013-03-14 09:22:06,546 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6165
-System.InvalidOperationException: Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
+2013-03-19 08:38:38,387 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-03-19 08:38:38,625 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-03-19 08:38:38,679 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-03-19 08:38:38,709 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
+2013-03-19 08:38:38,717 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-19 08:38:38,724 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-19 08:39:05,391 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
+2013-03-19 08:39:05,529 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-19 08:39:05,551 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-19 08:39:07,756 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 08:39:08,024 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 08:39:08,033 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 11:09:38,852 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-03-19 11:09:39,582 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-03-19 11:09:39,647 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-03-19 11:09:39,659 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
+2013-03-19 11:09:39,684 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-19 11:09:39,687 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-19 11:10:09,914 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-19 11:10:09,936 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-19 11:10:12,267 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 11:10:12,309 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 11:10:12,314 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 11:10:12,319 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 11:10:12,322 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 11:10:12,327 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 12:11:00,874 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-03-19 12:11:01,047 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-03-19 12:11:01,124 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-03-19 12:11:01,139 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
+2013-03-19 12:11:01,151 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-19 12:11:01,153 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-19 12:11:22,216 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-19 12:11:22,239 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-19 12:11:24,531 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 12:11:24,817 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+Ninject.ActivationException: Error activating IRepository
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  3) Injection of dependency IRepository into parameter repository of constructor of type CreateSubscriptionCommandHandler
+  2) Injection of dependency CreateSubscriptionCommandHandler into parameter resolutionRoot of constructor of type NinjectChildContainer
+  1) Request for NinjectChildContainer
+
+Suggestions:
+  1) Ensure that you have defined a binding for IRepository.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+   at Ninject.KernelBase.Resolve(IRequest request) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 362
+   at Ninject.Planning.Targets.Target`1.GetValue(Type service, IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 197
+   at Ninject.Planning.Targets.Target`1.ResolveWithin(IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 165
+   at Ninject.Activation.Providers.StandardProvider.GetValue(IContext context, ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 114
+   at Ninject.Activation.Providers.StandardProvider.<>c__DisplayClass4.<Create>b__2(ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Ninject.Activation.Providers.StandardProvider.Create(IContext context) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at Ninject.Activation.Context.Resolve() in c:\Projects\Ninject\ninject\src\Ninject\Activation\Context.cs:line 157
+   at Ninject.KernelBase.<>c__DisplayClass10.<Resolve>b__c(IBinding binding) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 386
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Ninject.ResolutionExtensions.Get(IResolutionRoot root, Type service, IParameter[] parameters) in c:\Projects\Ninject\ninject\src\Ninject\Syntax\ResolutionExtensions.cs:line 151
+   at NServiceBus.ObjectBuilder.Ninject.Internal.NinjectChildContainer.Build(Type typeToBuild)
+   at NServiceBus.ObjectBuilder.Common.CommonObjectBuilder.NServiceBus.ObjectBuilder.IBuilder.BuildAndDispatch(Type typeToBuild, Action`1 action) in c:\BuildAgent\work\nsb.master_6\src\impl\ObjectBuilder.Common\ObjectBuilder.Common\CommonObjectBuilder.cs:line 166
+   at NServiceBus.Unicast.DefaultDispatcherFactory.<>c__DisplayClass2.<GetDispatcher>b__0() in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\DefaultDispatcherFactory.cs:line 15
+   at NServiceBus.Unicast.UnicastBus.<>c__DisplayClass2f.<DispatchMessageToHandlersBasedOnType>b__2c(Action dispatch) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1127
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at NServiceBus.Unicast.UnicastBus.DispatchMessageToHandlersBasedOnType(IBuilder builder, Object toHandle) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1130
+2013-03-19 12:11:24,897 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6233
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
    at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
    at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
    at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
    at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
-2013-03-14 09:22:06,581 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
-2013-03-14 09:22:06,607 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6165
-System.InvalidOperationException: Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
+2013-03-19 12:11:24,957 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+Ninject.ActivationException: Error activating IRepository
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  3) Injection of dependency IRepository into parameter repository of constructor of type CreateSubscriptionCommandHandler
+  2) Injection of dependency CreateSubscriptionCommandHandler into parameter resolutionRoot of constructor of type NinjectChildContainer
+  1) Request for NinjectChildContainer
+
+Suggestions:
+  1) Ensure that you have defined a binding for IRepository.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+   at Ninject.KernelBase.Resolve(IRequest request) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 362
+   at Ninject.Planning.Targets.Target`1.GetValue(Type service, IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 197
+   at Ninject.Planning.Targets.Target`1.ResolveWithin(IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 165
+   at Ninject.Activation.Providers.StandardProvider.GetValue(IContext context, ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 114
+   at Ninject.Activation.Providers.StandardProvider.<>c__DisplayClass4.<Create>b__2(ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Ninject.Activation.Providers.StandardProvider.Create(IContext context) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at Ninject.Activation.Context.Resolve() in c:\Projects\Ninject\ninject\src\Ninject\Activation\Context.cs:line 157
+   at Ninject.KernelBase.<>c__DisplayClass10.<Resolve>b__c(IBinding binding) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 386
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Ninject.ResolutionExtensions.Get(IResolutionRoot root, Type service, IParameter[] parameters) in c:\Projects\Ninject\ninject\src\Ninject\Syntax\ResolutionExtensions.cs:line 151
+   at NServiceBus.ObjectBuilder.Ninject.Internal.NinjectChildContainer.Build(Type typeToBuild)
+   at NServiceBus.ObjectBuilder.Common.CommonObjectBuilder.NServiceBus.ObjectBuilder.IBuilder.BuildAndDispatch(Type typeToBuild, Action`1 action) in c:\BuildAgent\work\nsb.master_6\src\impl\ObjectBuilder.Common\ObjectBuilder.Common\CommonObjectBuilder.cs:line 166
+   at NServiceBus.Unicast.DefaultDispatcherFactory.<>c__DisplayClass2.<GetDispatcher>b__0() in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\DefaultDispatcherFactory.cs:line 15
+   at NServiceBus.Unicast.UnicastBus.<>c__DisplayClass2f.<DispatchMessageToHandlersBasedOnType>b__2c(Action dispatch) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1127
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at NServiceBus.Unicast.UnicastBus.DispatchMessageToHandlersBasedOnType(IBuilder builder, Object toHandle) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1130
+2013-03-19 12:11:25,007 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6233
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
    at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
    at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
    at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
    at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
-2013-03-14 09:22:06,625 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
-2013-03-14 09:22:06,651 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6165
-System.InvalidOperationException: Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
+2013-03-19 12:11:25,045 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+Ninject.ActivationException: Error activating IRepository
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  3) Injection of dependency IRepository into parameter repository of constructor of type CreateSubscriptionCommandHandler
+  2) Injection of dependency CreateSubscriptionCommandHandler into parameter resolutionRoot of constructor of type NinjectChildContainer
+  1) Request for NinjectChildContainer
+
+Suggestions:
+  1) Ensure that you have defined a binding for IRepository.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+   at Ninject.KernelBase.Resolve(IRequest request) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 362
+   at Ninject.Planning.Targets.Target`1.GetValue(Type service, IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 197
+   at Ninject.Planning.Targets.Target`1.ResolveWithin(IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 165
+   at Ninject.Activation.Providers.StandardProvider.GetValue(IContext context, ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 114
+   at Ninject.Activation.Providers.StandardProvider.<>c__DisplayClass4.<Create>b__2(ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Ninject.Activation.Providers.StandardProvider.Create(IContext context) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at Ninject.Activation.Context.Resolve() in c:\Projects\Ninject\ninject\src\Ninject\Activation\Context.cs:line 157
+   at Ninject.KernelBase.<>c__DisplayClass10.<Resolve>b__c(IBinding binding) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 386
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Ninject.ResolutionExtensions.Get(IResolutionRoot root, Type service, IParameter[] parameters) in c:\Projects\Ninject\ninject\src\Ninject\Syntax\ResolutionExtensions.cs:line 151
+   at NServiceBus.ObjectBuilder.Ninject.Internal.NinjectChildContainer.Build(Type typeToBuild)
+   at NServiceBus.ObjectBuilder.Common.CommonObjectBuilder.NServiceBus.ObjectBuilder.IBuilder.BuildAndDispatch(Type typeToBuild, Action`1 action) in c:\BuildAgent\work\nsb.master_6\src\impl\ObjectBuilder.Common\ObjectBuilder.Common\CommonObjectBuilder.cs:line 166
+   at NServiceBus.Unicast.DefaultDispatcherFactory.<>c__DisplayClass2.<GetDispatcher>b__0() in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\DefaultDispatcherFactory.cs:line 15
+   at NServiceBus.Unicast.UnicastBus.<>c__DisplayClass2f.<DispatchMessageToHandlersBasedOnType>b__2c(Action dispatch) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1127
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at NServiceBus.Unicast.UnicastBus.DispatchMessageToHandlersBasedOnType(IBuilder builder, Object toHandle) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1130
+2013-03-19 12:11:25,101 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6233
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
    at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
    at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
    at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
    at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
-2013-03-14 09:22:06,666 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
-2013-03-14 09:22:06,692 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6165
-System.InvalidOperationException: Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
+2013-03-19 12:11:25,139 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+Ninject.ActivationException: Error activating IRepository
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  3) Injection of dependency IRepository into parameter repository of constructor of type CreateSubscriptionCommandHandler
+  2) Injection of dependency CreateSubscriptionCommandHandler into parameter resolutionRoot of constructor of type NinjectChildContainer
+  1) Request for NinjectChildContainer
+
+Suggestions:
+  1) Ensure that you have defined a binding for IRepository.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+   at Ninject.KernelBase.Resolve(IRequest request) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 362
+   at Ninject.Planning.Targets.Target`1.GetValue(Type service, IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 197
+   at Ninject.Planning.Targets.Target`1.ResolveWithin(IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 165
+   at Ninject.Activation.Providers.StandardProvider.GetValue(IContext context, ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 114
+   at Ninject.Activation.Providers.StandardProvider.<>c__DisplayClass4.<Create>b__2(ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Ninject.Activation.Providers.StandardProvider.Create(IContext context) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at Ninject.Activation.Context.Resolve() in c:\Projects\Ninject\ninject\src\Ninject\Activation\Context.cs:line 157
+   at Ninject.KernelBase.<>c__DisplayClass10.<Resolve>b__c(IBinding binding) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 386
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Ninject.ResolutionExtensions.Get(IResolutionRoot root, Type service, IParameter[] parameters) in c:\Projects\Ninject\ninject\src\Ninject\Syntax\ResolutionExtensions.cs:line 151
+   at NServiceBus.ObjectBuilder.Ninject.Internal.NinjectChildContainer.Build(Type typeToBuild)
+   at NServiceBus.ObjectBuilder.Common.CommonObjectBuilder.NServiceBus.ObjectBuilder.IBuilder.BuildAndDispatch(Type typeToBuild, Action`1 action) in c:\BuildAgent\work\nsb.master_6\src\impl\ObjectBuilder.Common\ObjectBuilder.Common\CommonObjectBuilder.cs:line 166
+   at NServiceBus.Unicast.DefaultDispatcherFactory.<>c__DisplayClass2.<GetDispatcher>b__0() in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\DefaultDispatcherFactory.cs:line 15
+   at NServiceBus.Unicast.UnicastBus.<>c__DisplayClass2f.<DispatchMessageToHandlersBasedOnType>b__2c(Action dispatch) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1127
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at NServiceBus.Unicast.UnicastBus.DispatchMessageToHandlersBasedOnType(IBuilder builder, Object toHandle) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1130
+2013-03-19 12:11:25,186 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6233
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
    at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
    at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
    at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
    at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
-2013-03-14 09:22:06,711 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
-2013-03-14 09:22:06,738 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6165
-System.InvalidOperationException: Subscription message from maghag.backend@pdf4548 arrived at this endpoint, yet this endpoint is not configured to be a publisher.
+2013-03-19 12:11:25,224 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+Ninject.ActivationException: Error activating IRepository
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  3) Injection of dependency IRepository into parameter repository of constructor of type CreateSubscriptionCommandHandler
+  2) Injection of dependency CreateSubscriptionCommandHandler into parameter resolutionRoot of constructor of type NinjectChildContainer
+  1) Request for NinjectChildContainer
+
+Suggestions:
+  1) Ensure that you have defined a binding for IRepository.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+   at Ninject.KernelBase.Resolve(IRequest request) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 362
+   at Ninject.Planning.Targets.Target`1.GetValue(Type service, IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 197
+   at Ninject.Planning.Targets.Target`1.ResolveWithin(IContext parent) in c:\Projects\Ninject\ninject\src\Ninject\Planning\Targets\Target.cs:line 165
+   at Ninject.Activation.Providers.StandardProvider.GetValue(IContext context, ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 114
+   at Ninject.Activation.Providers.StandardProvider.<>c__DisplayClass4.<Create>b__2(ITarget target) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Ninject.Activation.Providers.StandardProvider.Create(IContext context) in c:\Projects\Ninject\ninject\src\Ninject\Activation\Providers\StandardProvider.cs:line 96
+   at Ninject.Activation.Context.Resolve() in c:\Projects\Ninject\ninject\src\Ninject\Activation\Context.cs:line 157
+   at Ninject.KernelBase.<>c__DisplayClass10.<Resolve>b__c(IBinding binding) in c:\Projects\Ninject\ninject\src\Ninject\KernelBase.cs:line 386
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Ninject.ResolutionExtensions.Get(IResolutionRoot root, Type service, IParameter[] parameters) in c:\Projects\Ninject\ninject\src\Ninject\Syntax\ResolutionExtensions.cs:line 151
+   at NServiceBus.ObjectBuilder.Ninject.Internal.NinjectChildContainer.Build(Type typeToBuild)
+   at NServiceBus.ObjectBuilder.Common.CommonObjectBuilder.NServiceBus.ObjectBuilder.IBuilder.BuildAndDispatch(Type typeToBuild, Action`1 action) in c:\BuildAgent\work\nsb.master_6\src\impl\ObjectBuilder.Common\ObjectBuilder.Common\CommonObjectBuilder.cs:line 166
+   at NServiceBus.Unicast.DefaultDispatcherFactory.<>c__DisplayClass2.<GetDispatcher>b__0() in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\DefaultDispatcherFactory.cs:line 15
+   at NServiceBus.Unicast.UnicastBus.<>c__DisplayClass2f.<DispatchMessageToHandlersBasedOnType>b__2c(Action dispatch) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1127
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at NServiceBus.Unicast.UnicastBus.DispatchMessageToHandlersBasedOnType(IBuilder builder, Object toHandle) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1130
+2013-03-19 12:11:25,274 [Worker.13] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6233
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
    at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
    at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
    at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
    at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
-2013-03-14 09:22:06,760 [Worker.13] ERROR NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Message has failed the maximum number of times allowed, ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6165.
-2013-03-14 09:22:46,035 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 09:22:46,099 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 09:22:46,171 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 09:22:46,182 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 09:22:46,189 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:22:46,190 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:23:00,169 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 09:23:01,612 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
-2013-03-14 09:24:34,560 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 09:24:34,623 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 09:24:34,679 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 09:24:34,692 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 09:24:34,701 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:24:34,702 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 09:24:48,633 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 09:24:50,265 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
-2013-03-14 09:24:57,656 [Worker.12] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-03-14 09:24:57,705 [Worker.12] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-03-14 13:14:33,942 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 13:14:34,027 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 13:14:34,116 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 13:14:34,131 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 13:14:34,142 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:14:34,144 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:14:50,618 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 13:14:52,840 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue seb-laptop\private$\maghag.backend.subscriptions does not exist.
-2013-03-14 13:14:52,842 [1] INFO  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Going to create queue: seb-laptop\private$\maghag.backend.subscriptions
-2013-03-14 13:14:53,394 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-03-14 13:14:54,698 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-03-14 13:48:57,602 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 13:48:57,716 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 13:48:57,865 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 13:48:57,886 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 13:48:57,901 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:48:57,904 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:49:46,845 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 13:49:46,955 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 13:49:47,071 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 13:49:47,093 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 13:49:47,107 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:49:47,109 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:50:06,035 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Received an empty message - ignoring.
-2013-03-14 13:51:12,489 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 13:51:12,591 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 13:51:12,693 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 13:51:12,708 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 13:51:12,721 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:51:12,722 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:51:34,439 [Worker.13] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Received an empty message - ignoring.
-2013-03-14 13:52:42,188 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 13:52:42,298 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 13:52:42,422 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 13:52:42,439 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 13:52:42,452 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:52:42,453 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:52:59,871 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 13:53:02,058 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-03-14 13:53:08,501 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-03-14 13:54:40,279 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 13:54:40,381 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 13:54:40,488 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 13:54:40,507 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 13:54:40,519 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:54:40,521 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:55:08,414 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-14 13:55:08,504 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-14 13:55:08,597 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-14 13:55:08,613 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-14 13:55:08,626 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:55:08,629 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-14 13:55:26,847 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-14 13:55:29,261 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-03-14 13:55:29,286 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-03-14 13:55:34,361 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-03-14 13:55:34,371 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-03-15 18:18:22,238 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-03-15 18:18:22,614 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-03-15 18:18:22,868 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
-2013-03-15 18:18:22,900 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
-2013-03-15 18:18:22,907 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-15 18:18:22,909 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-03-15 18:18:41,669 [1] WARN  MessageMapper [(null)] <(null)> - Interface IEventStore contains methods and can there for not be mapped. Be aware that non mapped interface can't be used to send messages.
-2013-03-15 18:18:45,497 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
-2013-03-15 18:18:45,516 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
-2013-03-15 18:18:48,063 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-03-15 18:18:48,289 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-03-15 18:18:48,296 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 12:11:25,298 [Worker.13] ERROR NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Message has failed the maximum number of times allowed, ID=fda75ea7-fd19-4fdb-9195-e071c83e759b\6233.
+2013-03-19 12:11:25,439 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 12:11:25,456 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 12:12:08,556 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-03-19 12:12:08,697 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-03-19 12:12:08,756 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-03-19 12:12:08,777 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
+2013-03-19 12:12:08,787 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-19 12:12:08,791 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-19 12:12:24,729 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-19 12:12:24,896 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-19 12:12:26,852 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 12:12:26,920 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-03-19 12:12:26,946 [Worker.13] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@pdf4548 to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null

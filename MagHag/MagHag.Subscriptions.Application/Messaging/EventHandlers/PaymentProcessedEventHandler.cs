@@ -11,12 +11,9 @@ namespace MagHag.Subscriptions.Application.Messaging.EventHandlers
 {
     public class PaymentProcessedEventHandler : IHandleMessages<PaymentProcessedEvent>
     {
-        private readonly INotifyClient _notifyClient;
-
         public void Handle(PaymentProcessedEvent message)
         {
-            Console.Write("<Subscriptions>PaymentProcessed");
-            _notifyClient.Notify(message);
+            Console.WriteLine("<Subscriptions>PaymentProcessed");
         }
     }
 }

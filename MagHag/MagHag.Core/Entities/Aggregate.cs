@@ -1,4 +1,5 @@
 ﻿
+using MagHag.Core.Messaging.EventSourcing;
 using MagHag.Core.Messaging.Events;
 using System;
 using System.Collections.Generic;

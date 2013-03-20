@@ -1,5 +1,4 @@
-﻿using MagHag.Site.App_Start;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +11,8 @@ using NServiceBus;
 using NServiceBus.Config;
 using NServiceBus.ObjectBuilder;
 using Ninject;
+using Microsoft.AspNet.SignalR;
+using MagHag.Subscriptions.Application.Messaging;
 
 namespace MagHag.Site
 {
@@ -27,14 +28,12 @@ namespace MagHag.Site
             //TODO: create Bootstrap
             RouteTable.Routes.MapHubs(); //SignalR
 
+            //RouteTable.Routes.MapConnection<PaymentProcessingHub>("paymentProcessing", "paymentProcessing");
+
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            
-
-            //IocConfig.Setup();
 
             NServiceBus.Configure.With()
                 .NinjectBuilder(CreateKernel())
@@ -43,7 +42,7 @@ namespace MagHag.Site
                 .XmlSerializer()
                 .MsmqTransport()
                     .MsmqSubscriptionStorage()
-                    .IsTransactional(false)
+                    .IsTransactional(true)
                     .PurgeOnStartup(false)
                 .DisableTimeoutManager()
                 .UnicastBus()
@@ -55,9 +54,6 @@ namespace MagHag.Site
         private IKernel CreateKernel()
         {
             var standardKernel = new StandardKernel();
-
-            standardKernel.Load("MagHag.Infrastructure.dll");
-            standardKernel.Load("MagHag.Application.dll");
             return standardKernel;
         }
     }

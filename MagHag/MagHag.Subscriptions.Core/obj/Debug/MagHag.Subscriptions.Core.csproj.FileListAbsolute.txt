@@ -8,3 +8,14 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.S
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.csprojResolveAssemblyReference.cache
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.pdb
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Subscriptions.Core.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Subscriptions.Core.pdb
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.pdb
+I:\Projects\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Subscriptions.Core.dll
+I:\Projects\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Subscriptions.Core.pdb
+I:\Projects\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.csprojResolveAssemblyReference.cache
+I:\Projects\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.dll
+I:\Projects\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.pdb
+I:\Projects\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.dll
+I:\Projects\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.pdb

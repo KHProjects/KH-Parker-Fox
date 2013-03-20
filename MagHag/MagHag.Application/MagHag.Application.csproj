@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationModule.cs" />
     <Compile Include="ConcurrencyException.cs" />
     <Compile Include="Messaging\CommandHandlers\CreateAccountHandler.cs" />
     <Compile Include="Messaging\CommandHandlers\ProcessPaymentHandler.cs" />

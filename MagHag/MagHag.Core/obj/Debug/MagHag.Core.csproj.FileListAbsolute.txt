@@ -11,3 +11,17 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServ
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.csprojResolveAssemblyReference.cache
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb
+I:\Projects\MagHag\MagHag.Core\bin\Debug\MagHag.Core.dll
+I:\Projects\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
+I:\Projects\MagHag\MagHag.Core\bin\Debug\NServiceBus.dll
+I:\Projects\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
+I:\Projects\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
+I:\Projects\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
+I:\Projects\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb

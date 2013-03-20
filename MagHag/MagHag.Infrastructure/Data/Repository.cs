@@ -1,5 +1,6 @@
 ﻿using MagHag.Application;
 using MagHag.Core.Entities;
+using MagHag.Core.Messaging.EventSourcing;
 using MagHag.Core.Messaging.Events;
 using Ninject;
 using Ninject.Syntax;
