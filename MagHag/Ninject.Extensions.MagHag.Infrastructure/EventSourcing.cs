@@ -1,11 +1,7 @@
 ﻿using MagHag.Core.Messaging.EventSourcing;
 using MagHag.Infrastructure.Data;
+using MagHag.Infrastructure.Messaging.EventSourcing;
 using Ninject.Modules;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ninject.Extensions.MagHag.Infrastructure
 {

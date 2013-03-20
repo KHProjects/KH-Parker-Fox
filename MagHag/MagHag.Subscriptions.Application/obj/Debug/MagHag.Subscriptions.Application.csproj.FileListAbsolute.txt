@@ -33,18 +33,7 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Applic
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Ninject.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Ninject.xml
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Core.pdb
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Newtonsoft.Json.dll
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Owin.dll
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Microsoft.Web.Infrastructure.xml
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\Newtonsoft.Json.xml
 C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Subscriptions.Application.dll
 C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Subscriptions.Application.pdb
@@ -92,3 +81,5 @@ I:\Projects\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Infrastruct
 I:\Projects\MagHag\MagHag.Subscriptions.Application\bin\Debug\Newtonsoft.Json.dll
 I:\Projects\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Infrastructure.pdb
 I:\Projects\MagHag\MagHag.Subscriptions.Application\bin\Debug\Newtonsoft.Json.xml
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Infrastructure.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\bin\Debug\MagHag.Infrastructure.pdb

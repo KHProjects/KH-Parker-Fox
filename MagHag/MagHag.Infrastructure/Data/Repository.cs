@@ -1,7 +1,5 @@
-﻿using MagHag.Application;
-using MagHag.Core.Entities;
+﻿using MagHag.Core.Entities;
 using MagHag.Core.Messaging.EventSourcing;
-using MagHag.Core.Messaging.Events;
 using Ninject;
 using Ninject.Syntax;
 using System;
@@ -14,9 +12,10 @@ namespace MagHag.Infrastructure.Data
         private readonly IEventStore _eventStore;
         private readonly IResolutionRoot _resolutionRoot;
 
-        public Repository(IEventStore eventStore)
+        public Repository(IEventStore eventStore, IResolutionRoot resolutionRoot)
         {
             _eventStore = eventStore;
+            _resolutionRoot = resolutionRoot;
         }
 
         public T GetById<T>(Guid id) where T : Aggregate

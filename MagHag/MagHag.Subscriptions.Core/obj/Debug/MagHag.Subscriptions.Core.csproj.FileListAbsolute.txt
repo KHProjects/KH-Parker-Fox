@@ -19,3 +19,5 @@ I:\Projects\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core
 I:\Projects\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.pdb
 I:\Projects\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.dll
 I:\Projects\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.pdb

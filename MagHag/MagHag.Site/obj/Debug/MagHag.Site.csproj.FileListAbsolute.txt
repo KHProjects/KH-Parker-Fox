@@ -345,3 +345,9 @@ I:\Projects\MagHag\MagHag.Site\bin\Ninject.Extensions.Subscriptions.dll
 I:\Projects\MagHag\MagHag.Site\bin\Ninject.Extensions.MagHag.Application.pdb
 I:\Projects\MagHag\MagHag.Site\bin\Ninject.Extensions.MagHag.Infrastructure.pdb
 I:\Projects\MagHag\MagHag.Site\bin\Ninject.Extensions.Subscriptions.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Ninject.Extensions.MagHag.Application.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Ninject.Extensions.MagHag.Infrastructure.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Ninject.Extensions.Subscriptions.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Ninject.Extensions.MagHag.Application.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Ninject.Extensions.MagHag.Infrastructure.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Site\bin\Ninject.Extensions.Subscriptions.pdb

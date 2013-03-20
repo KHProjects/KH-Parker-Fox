@@ -122,6 +122,10 @@
       <Project>{f46c5139-4683-4692-a530-9ebb962ec790}</Project>
       <Name>Ninject.Extensions.MagHag.Application</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Ninject.Extensions.MagHag.Infrastructure\Ninject.Extensions.MagHag.Infrastructure.csproj">
+      <Project>{bf239cdf-003c-4222-9f61-336bf0b1bd38}</Project>
+      <Name>Ninject.Extensions.MagHag.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Ninject.Extensions.Subscriptions\Ninject.Extensions.Subscriptions.csproj">
       <Project>{c3427141-f003-4b25-84f1-79998b6bc090}</Project>
       <Name>Ninject.Extensions.Subscriptions</Name>

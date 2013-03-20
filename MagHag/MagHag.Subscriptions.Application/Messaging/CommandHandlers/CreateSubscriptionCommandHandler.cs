@@ -12,10 +12,10 @@ namespace MagHag.Subscriptions.Application.Messaging.CommandHandlers
         private readonly IBus _bus;
         private readonly IRepository _repository;
 
-        public CreateSubscriptionCommandHandler(IBus bus/*, IRepository repository*/)
+        public CreateSubscriptionCommandHandler(IBus bus, IRepository repository)
         {
             _bus = bus;
-            //_repository = repository;
+            _repository = repository;
         }
 
         public void Handle(CreateSubscriptionCommand message)
@@ -23,7 +23,7 @@ namespace MagHag.Subscriptions.Application.Messaging.CommandHandlers
             Console.WriteLine("<Subscriptions>CreateSubscriptionCommandHandler");
 
             var subscription = new Subscription(Guid.NewGuid());
-            //_repository.Save(subscription);
+            _repository.Save(subscription);
 
             _bus.Publish(new SubscriptionCreated());
         }

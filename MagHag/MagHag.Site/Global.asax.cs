@@ -42,7 +42,7 @@ namespace MagHag.Site
                 .XmlSerializer()
                 .MsmqTransport()
                     .MsmqSubscriptionStorage()
-                    .IsTransactional(true)
+                    .IsTransactional(false)
                     .PurgeOnStartup(false)
                 .DisableTimeoutManager()
                 .UnicastBus()
