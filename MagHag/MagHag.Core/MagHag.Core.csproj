@@ -51,8 +51,8 @@
     <Compile Include="Messaging\Commands\CreateAccount.cs" />
     <Compile Include="Messaging\Commands\ProcessPayment.cs" />
     <Compile Include="Messaging\Events\AccountCreated.cs" />
-    <Compile Include="Messaging\Events\IEvent.cs" />
-    <Compile Include="Messaging\Events\IEventStore.cs" />
+    <Compile Include="Messaging\EventSourcing\IEvent.cs" />
+    <Compile Include="Messaging\EventSourcing\IEventStore.cs" />
     <Compile Include="Messaging\Events\UserCreated.cs" />
     <Compile Include="Messaging\IApplicationBus.cs" />
     <Compile Include="Messaging\IHandleCommand.cs" />

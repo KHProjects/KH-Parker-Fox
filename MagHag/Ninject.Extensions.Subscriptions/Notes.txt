@@ -1,0 +1,1 @@
+﻿https://github.com/ninject/ninject/wiki/Modules-and-the-Kernel

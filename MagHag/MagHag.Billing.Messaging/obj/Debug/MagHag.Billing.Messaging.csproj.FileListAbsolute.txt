@@ -8,3 +8,11 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\bi
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.csprojResolveAssemblyReference.cache
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.pdb
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\bin\Debug\MagHag.Billing.Messaging.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\bin\Debug\MagHag.Billing.Messaging.pdb
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.dll
+C:\Users\seb\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.pdb
+I:\Projects\MagHag\MagHag.Billing.Messaging\bin\Debug\MagHag.Billing.Messaging.dll
+I:\Projects\MagHag\MagHag.Billing.Messaging\bin\Debug\MagHag.Billing.Messaging.pdb
+I:\Projects\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.dll
+I:\Projects\MagHag\MagHag.Billing.Messaging\obj\Debug\MagHag.Billing.Messaging.pdb

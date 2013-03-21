@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license id="2df5609e-3aa5-4a29-8019-d505befceec8" expiration="2013-06-18T00:00:00.0000000" type="Trial" LicenseVersion="4.0" LicenseType="Trial" WorkerThreads="Max" MaxMessageThroughputPerSecond="Max" AllowedNumberOfWorkerNodes="Max">
+  <name>sabkent@hotmail.com</name>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>HAShGY7pp2ccVLwAtIfLF2ngRko=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>JiGTMT17o+xU62YtUbumoVXMArF+lJr488HViTpRtTTYmQYsJKL7ATVmt5WTgBZkAgFe5kVIJgA/Z2fjmn4wwk0uItZItustVnXsObcjPYWar1e3UL15CBKzhsoUc6HBzLwtjAd1YdvsAQJ9orF9unolE8mozDTkhlVvb79J1os=</SignatureValue>
+  </Signature>
+</license>

@@ -17,7 +17,11 @@ namespace MagHag.Billing.Application.Messaging.EventHandlers
         public void Handle(SubscriptionCreated message)
         {
             Console.WriteLine("<Billing>SubsriptionCreatedEventHandler");
-            _bus.Publish(new PaymentProcessedEvent());
+
+            //process the payment
+
+
+            _bus.Publish(new PaymentProcessedEvent { SubscriptionId = Guid.NewGuid() });
         }
     }
 }

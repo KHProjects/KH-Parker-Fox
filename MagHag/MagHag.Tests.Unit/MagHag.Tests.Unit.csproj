@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SubscriberTests.cs" />
     <Compile Include="UserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -49,9 +50,25 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MagHag.Application\MagHag.Application.csproj">
+      <Project>{cc0b5471-21e6-4f41-85a4-82d224e7833b}</Project>
+      <Name>MagHag.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MagHag.Core\MagHag.Core.csproj">
       <Project>{13a6b299-bfcf-4c78-b84d-1c4b39174b8f}</Project>
       <Name>MagHag.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MagHag.Subscriptions.Application\MagHag.Subscriptions.Application.csproj">
+      <Project>{698f1cfc-b1f8-414b-a3de-5fd259767860}</Project>
+      <Name>MagHag.Subscriptions.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MagHag.Subscriptions.Core\MagHag.Subscriptions.Core.csproj">
+      <Project>{856128e5-d7fe-4fcf-a256-e42338f5a83b}</Project>
+      <Name>MagHag.Subscriptions.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MagHag.Subscriptions.Messaging\MagHag.Subscriptions.Messaging.csproj">
+      <Project>{abc151cc-e1ae-4a2a-95f2-2dcd35cb2b9d}</Project>
+      <Name>MagHag.Subscriptions.Messaging</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,17 +1,21 @@
-﻿using System;
+using MagHag.Billing.Messaging.Events;
+using Microsoft.AspNet.SignalR;
+using NServiceBus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using MagHag.Billing.Messaging.Events;
-using NServiceBus;
 
 namespace MagHag.Site.Components.Messaging
 {
-    public class PaymentProcessedEventHandler : IHandleMessages<PaymentProcessedEvent>
+    //should we seperate the hub and the handler?
+    public class PaymentProcessedEventHandler : Hub, IHandleMessages<PaymentProcessedEvent>
     {
-        public void Handle(PaymentProcessedEvent message)
+        public void Handle(PaymentProcessedEvent @event)
         {
-            bool pass = true;
+            var hubContext = GlobalHost.ConnectionManager.GetHubContext<PaymentProcessedEventHandler>();
+
+            hubContext.Clients.All.paymentProcessed(@event); 
         }
     }
 }

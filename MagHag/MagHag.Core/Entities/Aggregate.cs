@@ -1,4 +1,6 @@
 ﻿
+
+using MagHag.Core.Messaging.EventSourcing;
 using MagHag.Core.Messaging.Events;
 using System;
 using System.Collections.Generic;
@@ -17,8 +19,7 @@ namespace MagHag.Core.Entities
             _uncommittedEvents.Add(@event);
             Version++;
 
-            dynamic _this = this;
-            _this.ApplyEvent(@event);
+            
         }
 
         public void LoadFromHistory(IEnumerable<IEvent> events)

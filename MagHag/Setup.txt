@@ -1,0 +1,1 @@
+I had issues with performance counters, had to run the command lodctr /r   http://support.microsoft.com/kb/300956

@@ -1,13 +1,17 @@
+using System.Configuration;
+
 namespace MagHag.Backend 
 {
+    using Ninject;
     using NServiceBus;
+    using System.Data.SqlServerCe;
 
     public class EndpointConfig : IConfigureThisEndpoint, AsA_Publisher, IWantCustomInitialization
     {
         public void Init()
         {
             Configure.With()
-                .DefaultBuilder()
+                .NinjectBuilder(new StandardKernel())
                 .FileShareDataBus(@"\..\..\..\DataBusShare\")
                 .DefiningCommandsAs(t => t.Namespace != null && t.Namespace.EndsWith("Commands"))
                 .DefiningEventsAs(t => t.Namespace != null && t.Namespace.EndsWith("Events"))
