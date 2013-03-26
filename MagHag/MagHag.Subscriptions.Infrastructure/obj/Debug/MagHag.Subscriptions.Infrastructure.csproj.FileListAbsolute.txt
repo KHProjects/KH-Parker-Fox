@@ -19,3 +19,9 @@ C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastruct
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\obj\Debug\MagHag.Subscriptions.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\obj\Debug\MagHag.Subscriptions.Infrastructure.dll
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\obj\Debug\MagHag.Subscriptions.Infrastructure.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\bin\Debug\Raven.Abstractions.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\bin\Debug\Raven.Client.Lightweight.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\bin\Debug\Raven.Abstractions.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\bin\Debug\Raven.Abstractions.xml
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\bin\Debug\Raven.Client.Lightweight.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Infrastructure\bin\Debug\Raven.Client.Lightweight.xml

@@ -26,3 +26,19 @@
 2013-03-26 13:40:15,896 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
 2013-03-26 13:40:33,497 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
 2013-03-26 13:40:33,518 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-26 16:52:12,133 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-03-26 16:52:12,242 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-03-26 16:52:12,304 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
+2013-03-26 16:52:12,734 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
+2013-03-26 16:52:12,735 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
+2013-03-26 16:52:12,735 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
+2013-03-26 16:52:12,746 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
+2013-03-26 16:52:12,746 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
+2013-03-26 16:52:12,747 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
+2013-03-26 16:52:12,748 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
+2013-03-26 16:52:12,748 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
+2013-03-26 16:52:12,756 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-26 16:52:12,758 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-26 16:52:34,636 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-26 16:52:34,659 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-26 16:52:34,660 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548

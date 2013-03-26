@@ -25,7 +25,7 @@ namespace MagHag.Site.Controllers
         [HttpPost]
         public ActionResult Index(CreateSubscriptionViewModel createSubscriptionViewModel)
         {
-            _bus.Send(new CreateSubscriptionCommand{PublicationId = createSubscriptionViewModel.PublicationId});
+            //_bus.Send(new CreateSubscriptionCommand{PublicationId = createSubscriptionViewModel.PublicationId});
             return View();
         }
 

@@ -145,3 +145,9 @@ C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\obj\Debug\Ninject.Extensions.Subscriptions.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\obj\Debug\Ninject.Extensions.Subscriptions.dll
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\obj\Debug\Ninject.Extensions.Subscriptions.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\bin\Debug\Raven.Client.Lightweight.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\bin\Debug\Raven.Abstractions.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\bin\Debug\Raven.Client.Lightweight.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\bin\Debug\Raven.Client.Lightweight.xml
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\bin\Debug\Raven.Abstractions.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\Ninject.Extensions.Subscriptions\bin\Debug\Raven.Abstractions.xml

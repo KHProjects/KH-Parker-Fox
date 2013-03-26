@@ -54,3 +54,17 @@ I:\Projects\MagHag\MagHag.Billing.Application\bin\Debug\NServiceBus.xml
 I:\Projects\MagHag\MagHag.Billing.Application\obj\Debug\MagHag.Billing.Application.csprojResolveAssemblyReference.cache
 I:\Projects\MagHag\MagHag.Billing.Application\obj\Debug\MagHag.Billing.Application.dll
 I:\Projects\MagHag\MagHag.Billing.Application\obj\Debug\MagHag.Billing.Application.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\MagHag.Billing.Application.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\MagHag.Billing.Application.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\MagHag.Billing.Messaging.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\MagHag.Core.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\MagHag.Subscriptions.Messaging.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\NServiceBus.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\MagHag.Billing.Messaging.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\MagHag.Core.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\MagHag.Subscriptions.Messaging.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\NServiceBus.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\bin\Debug\NServiceBus.xml
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\obj\Debug\MagHag.Billing.Application.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\obj\Debug\MagHag.Billing.Application.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Application\obj\Debug\MagHag.Billing.Application.pdb
