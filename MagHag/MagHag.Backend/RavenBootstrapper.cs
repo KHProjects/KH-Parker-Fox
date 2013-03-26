@@ -11,7 +11,7 @@ using Raven.Client.Document;
 
 namespace MagHag.Backend
 {
-    public class RavenBootstrapper //: INeedInitialization
+    public class RavenBootstrapper : INeedInitialization
     {
         public void Init()
         {

@@ -1,0 +1,5 @@
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Core\bin\Debug\MagHag.Billing.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Core\bin\Debug\MagHag.Billing.Core.pdb
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Core\obj\Debug\MagHag.Billing.Core.csprojResolveAssemblyReference.cache
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Core\obj\Debug\MagHag.Billing.Core.dll
+C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Billing.Core\obj\Debug\MagHag.Billing.Core.pdb

@@ -14,3 +14,10 @@ MagHag/MagHag.v11.suo
 MagHag/Ninject.Extensions.MagHag.Application/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 MagHag/Ninject.Extensions.MagHag.Infrastructure/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 MagHag/Ninject.Extensions.Subscriptions/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+MagHag/MagHag.Application/bin/Debug/MagHag.Application.dll
+*.pdb
+*.dll
+*.cache
+*/bin/*
+*/obj/*
+*.exe

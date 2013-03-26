@@ -23,3 +23,10 @@ C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\b
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Subscriptions.Core.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Subscriptions.Core.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\bin\Debug\MagHag.Core.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Core\obj\Debug\MagHag.Subscriptions.Core.pdb

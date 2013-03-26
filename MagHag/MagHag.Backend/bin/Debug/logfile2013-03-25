@@ -1,0 +1,26 @@
+2013-03-25 12:58:45,391 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-03-25 12:58:45,640 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-03-25 12:58:45,700 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
+2013-03-25 12:58:46,425 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
+2013-03-25 12:58:46,426 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
+2013-03-25 12:58:46,427 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
+2013-03-25 12:58:46,437 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
+2013-03-25 12:58:46,437 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
+2013-03-25 12:58:46,438 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
+2013-03-25 12:58:46,439 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
+2013-03-25 12:58:46,440 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
+2013-03-25 12:58:46,448 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-25 12:58:46,450 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-03-25 12:59:09,526 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-25 12:59:09,547 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@pdf4548
+2013-03-25 12:59:37,320 [20] ERROR Raven.Client.Connection.ReplicationInformer [(null)] <(null)> - Could not contact master for new replication information
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8080
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at Raven.Client.Connection.HttpJsonRequest.ReadJsonInternal(Func`1 getResponse) in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Connection\HttpJsonRequest.cs:line 342
+   at Raven.Client.Connection.HttpJsonRequest.ReadResponseJson() in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Connection\HttpJsonRequest.cs:line 240
+   at Raven.Client.Connection.ServerClient.DirectGet(String serverUrl, String key) in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Connection\ServerClient.cs:line 215
+   at Raven.Client.Connection.ReplicationInformer.RefreshReplicationInformation(ServerClient commands) in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Connection\ReplicationInformer.cs:line 351

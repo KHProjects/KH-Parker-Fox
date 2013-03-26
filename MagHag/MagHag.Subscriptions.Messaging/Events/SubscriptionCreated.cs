@@ -9,7 +9,5 @@ namespace MagHag.Subscriptions.Messaging.Events
     public class SubscriptionCreated
     {
         public Guid PublicationId { get; set; }
-        public string StringEncrypted { get; set; }
-
     }
 }

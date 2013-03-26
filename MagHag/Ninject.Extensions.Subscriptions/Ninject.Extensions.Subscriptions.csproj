@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="ClientEventsModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryLayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Notes.txt" />
@@ -76,6 +77,10 @@
     <ProjectReference Include="..\MagHag.Subscriptions.Core\MagHag.Subscriptions.Core.csproj">
       <Project>{856128e5-d7fe-4fcf-a256-e42338f5a83b}</Project>
       <Name>MagHag.Subscriptions.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MagHag.Subscriptions.Infrastructure\MagHag.Subscriptions.Infrastructure.csproj">
+      <Project>{b0d23593-1b4d-4924-96c1-e1d8241c24dc}</Project>
+      <Name>MagHag.Subscriptions.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
