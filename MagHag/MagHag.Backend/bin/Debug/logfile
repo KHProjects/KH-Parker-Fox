@@ -57,3 +57,4 @@ NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception
    at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
    at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
    at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2013-04-03 13:21:14,345 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured

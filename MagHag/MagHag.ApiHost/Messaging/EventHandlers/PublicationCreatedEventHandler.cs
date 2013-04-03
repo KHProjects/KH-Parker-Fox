@@ -1,7 +1,7 @@
 ﻿using System;
 using MagHag.ApiHost.Representations;
-using NServiceBus;
 using MagHag.Subscriptions.Messaging.Events;
+using NServiceBus;
 
 namespace MagHag.ApiHost.Messaging.EventHandlers
 {

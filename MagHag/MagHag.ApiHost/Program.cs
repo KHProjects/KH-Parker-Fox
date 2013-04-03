@@ -15,11 +15,11 @@ namespace MagHag.ApiHost
     {
         static void Main(string[] args)
         {
-            IntializeDocumentStorage();
-            Console.WriteLine("Document store initialized");
-            InitializeApiHost();
-            Console.WriteLine("Api Host initialized");
-            Console.Read();
+            //IntializeDocumentStorage();
+            //Console.WriteLine("Document store initialized");
+            //InitializeApiHost();
+            //Console.WriteLine("Api Host initialized");
+            //Console.Read();
         }
 
         private static IDocumentStore _documentStore;

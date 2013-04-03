@@ -27,3 +27,5 @@ MagHag/MagHag.Application/bin/*
 MagHag/MagHag.Billing.Application/bin/*
 MagHag/MagHag.Application/bin/*
 MagHag/MagHag.Backend/bin/*
+MagHag/MagHag.ReadStore/bin/*
+MagHag/MagHag.ReadStore/obj/*
