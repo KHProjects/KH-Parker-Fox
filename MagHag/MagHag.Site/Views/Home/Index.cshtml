@@ -10,6 +10,8 @@
 
 <input id="sendCommand" type="button" value="create subscription" />
 
+<input id="publicationName" type="text"/><input id="createPublicationCommand" type="button" value="create publication" />
+
 <script>
     var paymentProcessedEventHandler = $.connection.paymentProcessedEventHandler;
     
@@ -23,6 +25,15 @@
                 url: '/home/index',
                 type: 'POST',
                 data : {PublicationId:'fe8f2b0a-9dd3-49a0-bd01-91ccbc941a10'}
+            });
+        });
+
+        $('#createPublicationCommand').on('click', function() {
+            var name = $('#publicationName').val();
+            $.ajax({
+                url: '/home/',
+                type: 'POST',
+                data: {PublicationName: name }
             });
         });
 

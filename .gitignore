@@ -21,3 +21,9 @@ MagHag/MagHag.Application/bin/Debug/MagHag.Application.dll
 */bin/*
 */obj/*
 *.exe
+MagHag/MagHag.ApiHost/bin/*
+MagHag/MagHag.ApiHost/obj/*
+MagHag/MagHag.Application/bin/*
+MagHag/MagHag.Billing.Application/bin/*
+MagHag/MagHag.Application/bin/*
+MagHag/MagHag.Backend/bin/*

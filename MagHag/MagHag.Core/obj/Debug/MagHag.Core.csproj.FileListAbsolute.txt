@@ -28,3 +28,11 @@ I:\Projects\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb

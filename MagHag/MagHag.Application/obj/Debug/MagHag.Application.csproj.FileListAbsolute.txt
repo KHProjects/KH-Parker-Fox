@@ -50,3 +50,16 @@ I:\Projects\MagHag\MagHag.Application\bin\Debug\NServiceBus.xml
 I:\Projects\MagHag\MagHag.Application\obj\Debug\MagHag.Application.csprojResolveAssemblyReference.cache
 I:\Projects\MagHag\MagHag.Application\obj\Debug\MagHag.Application.dll
 I:\Projects\MagHag\MagHag.Application\obj\Debug\MagHag.Application.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\MagHag.Application.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\MagHag.Application.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\MagHag.Core.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\MagHag.Core.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\Ninject.xml
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.pdb
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\bin\Debug\NServiceBus.xml
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.dll
+C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Application\obj\Debug\MagHag.Application.pdb

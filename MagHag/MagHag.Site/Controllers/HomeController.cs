@@ -29,6 +29,12 @@ namespace MagHag.Site.Controllers
             return View();
         }
 
+        [HttpPost]
+        public void CreatePublication(string publicationName)
+        {
+            bool test = true;
+        }
+
         public ActionResult Publications()
         {
             var publications = _queryPublications.GetActive();

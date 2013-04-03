@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Billing.Core", "MagH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.Subscriptions.Infrastructure", "MagHag.Subscriptions.Infrastructure\MagHag.Subscriptions.Infrastructure.csproj", "{B0D23593-1B4D-4924-96C1-E1D8241C24DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagHag.ApiHost", "MagHag.ApiHost\MagHag.ApiHost.csproj", "{CA4A8574-6C13-43C6-97A9-AAC6EB247C28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{B0D23593-1B4D-4924-96C1-E1D8241C24DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D23593-1B4D-4924-96C1-E1D8241C24DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D23593-1B4D-4924-96C1-E1D8241C24DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4A8574-6C13-43C6-97A9-AAC6EB247C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4A8574-6C13-43C6-97A9-AAC6EB247C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4A8574-6C13-43C6-97A9-AAC6EB247C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4A8574-6C13-43C6-97A9-AAC6EB247C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
