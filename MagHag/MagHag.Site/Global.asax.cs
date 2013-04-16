@@ -14,6 +14,7 @@ using Ninject;
 using Microsoft.AspNet.SignalR;
 using MagHag.Subscriptions.Application.Messaging;
 
+
 namespace MagHag.Site
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -28,15 +29,15 @@ namespace MagHag.Site
             //TODO: create Bootstrap
             RouteTable.Routes.MapHubs(); //SignalR
 
-            //RouteTable.Routes.MapConnection<PaymentProcessingHub>("paymentProcessing", "paymentProcessing");
-
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
+            var kernel = CreateKernel();
+
             NServiceBus.Configure.With()
-                .NinjectBuilder(CreateKernel())
+                .NinjectBuilder(kernel)
                 .ForMVC()
                 .Log4Net()
                 .XmlSerializer()
@@ -49,6 +50,7 @@ namespace MagHag.Site
                 .CreateBus()
                 .Start();
 
+            GlobalConfiguration.Configuration.DependencyResolver = new Ninject.Web.WebApi.NinjectDependencyResolver(kernel);
         }
 
         private IKernel CreateKernel()

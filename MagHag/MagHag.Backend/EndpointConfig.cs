@@ -20,8 +20,8 @@ namespace MagHag.Backend
                 .DefiningMessagesAs(t => t.Namespace == "Messages")
                 .MsmqTransport()
                     .MsmqSubscriptionStorage()
-                    .IsTransactional(false)
-                    .PurgeOnStartup(false)
+                    .IsTransactional(true)
+                    .PurgeOnStartup(true)
            .DisableTimeoutManager();
         }
     }

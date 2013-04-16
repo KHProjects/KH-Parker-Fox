@@ -32,7 +32,7 @@ namespace MagHag.Site.Controllers
         [HttpPost]
         public void CreatePublication(string publicationName)
         {
-            bool test = true;
+            _bus.Send(new CreatePublication {Id = Guid.NewGuid(), Title = publicationName});
         }
 
         public ActionResult Publications()

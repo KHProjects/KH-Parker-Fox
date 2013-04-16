@@ -3,5 +3,21 @@
 
 @foreach (var publication in Model)
 {
-    <div>@publication.Title</div>
+    <div>
+        @publication.Title
+        <input type="button" value="subscribe" class="subscribe" data-publicationId="@publication.Id" />
+    </div>
 }
+
+<script>
+    $(function() {
+        $('input.subscribe').on('click', function () {
+            $.ajax({
+                url: '/api/subscription',
+                type: 'POST',
+                data: { PublicationId: $(this).attr('data-publicationId') }
+            });
+        });
+    });
+
+</script>

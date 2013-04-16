@@ -1,8 +1,3 @@
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.dll
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.csprojResolveAssemblyReference.cache
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.dll
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
 C:\Users\skent\Documents\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
@@ -25,9 +20,6 @@ I:\Projects\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
 I:\Projects\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
 I:\Projects\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
 I:\Projects\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.dll
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.dll
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.dll
@@ -35,3 +27,10 @@ C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBu
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
 C:\Projects\Sandbox\GitHub\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\MagHag.Core.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb

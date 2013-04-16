@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>GeoAPI</id>
+    <version>1.6.0</version>
+    <authors>NetTopologySuite - Team</authors>
+    <owners>NetTopologySuite - Team</owners>
+    <licenseUrl>http://geoapi.codeplex.com/license</licenseUrl>
+    <projectUrl>http://geoapi.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GeoAPI.NET project provides a common framework based on OGC/ISO standards to improve interoperability among .NET GIS projects.</description>
+    <releaseNotes>This version matches NetTopologySuite v1.12 API.</releaseNotes>
+    <copyright>Copyright 2007-2011</copyright>
+    <tags>OGC SFS NTS</tags>
+    <references>
+      <reference file="GeoAPI.dll" />
+      <reference file="GeoAPI.WindowsPhone.dll" />
+      <reference file="GeoAPI.Silverlight.dll" />
+    </references>
+  </metadata>
+</package>

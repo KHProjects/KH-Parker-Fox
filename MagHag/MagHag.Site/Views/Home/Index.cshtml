@@ -1,4 +1,6 @@
-﻿@model MagHag.Subscriptions.Core.ViewModels.CreateSubscriptionViewModel
+﻿
+
+@model MagHag.Subscriptions.Core.ViewModels.CreateSubscriptionViewModel
 @{
     ViewBag.Title = "Index";
 }
@@ -8,10 +10,10 @@
 
 @Html.Action("Publications")
 
-<input id="sendCommand" type="button" value="create subscription" />
-
-<input id="publicationName" type="text"/><input id="createPublicationCommand" type="button" value="create publication" />
-
+<div>
+    <input id="publicationName" type="text"/>
+    <input id="createPublicationCommand" type="button" value="create publication" />
+</div>
 <script>
     var paymentProcessedEventHandler = $.connection.paymentProcessedEventHandler;
     
@@ -31,7 +33,7 @@
         $('#createPublicationCommand').on('click', function() {
             var name = $('#publicationName').val();
             $.ajax({
-                url: '/home/',
+                url: '/home/CreatePublication',
                 type: 'POST',
                 data: {PublicationName: name }
             });

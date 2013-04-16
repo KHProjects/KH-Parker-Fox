@@ -1,26 +1,33 @@
-﻿using MagHag.Subscriptions.Core.Commands;
+﻿using MagHag.Core.Entities;
+using MagHag.Subscriptions.Core.Commands;
+using MagHag.Subscriptions.Core.Entities;
 using MagHag.Subscriptions.Messaging.Events;
 using NServiceBus;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MagHag.Subscriptions.Application.Messaging.CommandHandlers
 {
     public class CreatePublicationCommandHandler : IHandleMessages<CreatePublication>
     {
         private IBus _bus;
+        private IRepository _repository;
 
-        public CreatePublicationCommandHandler(IBus bus)
+        public CreatePublicationCommandHandler(IBus bus, IRepository repository)
         {
             _bus = bus;
+            _repository = repository;
         }
 
         public void Handle(CreatePublication message)
         {
-            _bus.Publish(new PublicationCreated());
+            var publication = new Publication(message.Id, message.Title);
+
+            _repository.Save(publication);
+
+            _bus.Publish(new PublicationCreated
+                {
+                    PublicationId = message.Id,
+                    Name = message.Title
+                });
         }
     }
 }

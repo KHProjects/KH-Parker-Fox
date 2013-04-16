@@ -3,6 +3,7 @@ using MagHag.Subscriptions.Core.ReadModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,10 +13,20 @@ namespace MagHag.Subscriptions.Infrastructure.Queries
     {
         public IEnumerable<ActivePublication> GetActive()
         {
-            return new List<ActivePublication>
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri("http://localhost:8181");
+
+                using (var response = httpClient.GetAsync("publication").Result)
                 {
-                    new ActivePublication{Id = Guid.NewGuid(), Title = "Disposing of the bodies of your minions"}
-                };
+                    if (response.IsSuccessStatusCode)
+                    {
+                        return response.Content.ReadAsAsync<IEnumerable<ActivePublication>>().Result;
+                    }
+                }
+            }
+
+            return new List<ActivePublication>();
         }
     }
 }
