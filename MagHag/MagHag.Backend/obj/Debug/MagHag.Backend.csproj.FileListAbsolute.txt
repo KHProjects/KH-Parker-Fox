@@ -277,3 +277,5 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\System.Net.Http.For
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\obj\Debug\MagHag.Backend.csprojResolveAssemblyReference.cache
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\obj\Debug\MagHag.Backend.exe
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\obj\Debug\MagHag.Backend.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Subscriptions.Application.Denormalizer.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Backend\bin\Debug\MagHag.Subscriptions.Application.Denormalizer.pdb

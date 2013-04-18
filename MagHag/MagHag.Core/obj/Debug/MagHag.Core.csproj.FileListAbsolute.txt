@@ -34,3 +34,4 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\bin\Debug\NServiceBus.xml
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Core\obj\Debug\MagHag.Core.csprojResolveAssemblyReference.cache

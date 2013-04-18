@@ -1,20 +1,23 @@
-﻿
-
-@model MagHag.Subscriptions.Core.ViewModels.CreateSubscriptionViewModel
+﻿@model MagHag.Subscriptions.Core.ViewModels.CreateSubscriptionViewModel
 @{
     ViewBag.Title = "Index";
 }
 <script src="~/Scripts/jquery-1.9.1.min.js"></script>
 <script src="~/Scripts/jquery.signalR-1.0.1.min.js"></script>
 <script src="/signalr/hubs"></script>
+<script src="~/Scripts/Publication.js"></script>
 
-@Html.Action("Publications")
-
+<div id="publications">
+    @*@Html.Action("Publications")*@
+</div>
 <div>
     <input id="publicationName" type="text"/>
     <input id="createPublicationCommand" type="button" value="create publication" />
 </div>
-<script>
+
+@Html.AddStartupScript("PublicationManager", "#publications", "/home/publications")
+
+@*<script>
     var paymentProcessedEventHandler = $.connection.paymentProcessedEventHandler;
     
     paymentProcessedEventHandler.client.paymentProcessed = function (paymentProcessedEvent) {
@@ -39,8 +42,6 @@
             });
         });
 
-        $.connection.hub.start().done(function () {
-            console.log('hub started');
-        });
     });
-</script>
+</script>*@
+<script src="~/Scripts/ConnectionManager.js"></script>

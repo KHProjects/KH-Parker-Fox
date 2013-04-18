@@ -14,8 +14,7 @@ namespace MagHag.Site
                 .DefiningCommandsAs(t => t.Namespace != null && t.Namespace.EndsWith("Commands"))
                 .DefiningEventsAs(t => t.Namespace != null && t.Namespace.EndsWith("Events"))
                 .DefiningMessagesAs(t => t.Namespace != null && t.Namespace.EndsWith("Commands"))
-                .DefiningEncryptedPropertiesAs(p => p.Name.StartsWith("Encrypted"))
-                ;
+                .DefiningEncryptedPropertiesAs(p => p.Name.StartsWith("Encrypted"));
         }
     }
     class EncryptionConfig : IWantCustomInitialization

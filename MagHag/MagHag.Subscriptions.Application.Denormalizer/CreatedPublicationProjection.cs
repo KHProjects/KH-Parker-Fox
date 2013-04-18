@@ -10,6 +10,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace MagHag.Subscriptions.Application.Messaging.EventHandlers
 {
@@ -20,7 +21,8 @@ namespace MagHag.Subscriptions.Application.Messaging.EventHandlers
     {
         public void Handle(PublicationCreated message)
         {
-            Console.WriteLine("CreatedPublicationProjection {0}", message.Name);
+            Debug.WriteLine("CreatedPublicationProjection thread");
+            //Console.WriteLine("CreatedPublicationProjection {0}", message.Name);
             var activePublication = new ActivePublication {Id = message.PublicationId, Title = message.Name};
             
             var httpClient = new HttpClient

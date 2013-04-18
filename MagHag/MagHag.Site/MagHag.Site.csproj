@@ -187,7 +187,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Components\HtmlHelperExtensions.cs" />
     <Compile Include="Components\Messaging\PaymentProcessedEventHandler.cs" />
+    <Compile Include="Components\Messaging\PublicationEventNotifier.cs" />
     <Compile Include="Components\NinjectBootStrapper.cs" />
     <Compile Include="Components\NinjectDependencyResolver.cs" />
     <Compile Include="Components\NServiceBusControllerActivator.cs" />
@@ -267,6 +269,8 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\ConnectionManager.js" />
+    <Content Include="Scripts\Customer.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
@@ -284,6 +288,7 @@
     <Content Include="Scripts\knockout-2.2.1.debug.js" />
     <Content Include="Scripts\knockout-2.2.1.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\Publication.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

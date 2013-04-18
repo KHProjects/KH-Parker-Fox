@@ -1,6 +1,5 @@
 ﻿@model IEnumerable<MagHag.Subscriptions.Core.ReadModels.ActivePublication>
 
-
 @foreach (var publication in Model)
 {
     <div>
@@ -9,7 +8,7 @@
     </div>
 }
 
-<script>
+@*<script>
     $(function() {
         $('input.subscribe').on('click', function () {
             $.ajax({
@@ -20,4 +19,4 @@
         });
     });
 
-</script>
+</script>*@

@@ -108,6 +108,10 @@
       <Project>{13a6b299-bfcf-4c78-b84d-1c4b39174b8f}</Project>
       <Name>MagHag.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MagHag.Subscriptions.Application.Denormalizer\MagHag.Subscriptions.Application.Denormalizer.csproj">
+      <Project>{961e30e4-7543-4261-ac4b-f20f59d4569f}</Project>
+      <Name>MagHag.Subscriptions.Application.Denormalizer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MagHag.Subscriptions.Application\MagHag.Subscriptions.Application.csproj">
       <Project>{698f1cfc-b1f8-414b-a3de-5fd259767860}</Project>
       <Name>MagHag.Subscriptions.Application</Name>

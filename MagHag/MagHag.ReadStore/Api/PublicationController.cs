@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using MagHag.Subscriptions.Messaging.ReadModel;
-using Raven.Client;
+﻿using MagHag.Subscriptions.Messaging.ReadModel;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;

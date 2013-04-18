@@ -77,7 +77,6 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\nunit.framework.
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\NServiceBus.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\Ninject.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Billing.Messaging.dll
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\Newtonsoft.Json.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Application.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Core.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Subscriptions.Application.pdb
@@ -89,7 +88,6 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\NServiceBus.xml
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\Ninject.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\Ninject.xml
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\MagHag.Billing.Messaging.pdb
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\bin\Debug\Newtonsoft.Json.xml
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.csprojResolveAssemblyReference.cache
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Tests.Unit\obj\Debug\MagHag.Tests.Unit.pdb
