@@ -1,9 +1,10 @@
-﻿using MagHag.Subscriptions.Messaging.ReadModel;
+﻿
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Web.Http;
 using Dapper;
+using MagHag.Subscriptions.Core.ReadModel;
 
 namespace MagHag.ReadStore.Api
 {
@@ -23,7 +24,7 @@ namespace MagHag.ReadStore.Api
             using (var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["MagHag.ReadStore"].ConnectionString))
             {
                 connection.Open();
-                connection.Execute("INSERT dbo.ActivePublication VALUES(@Id, @Title)", activePublication);
+                connection.Execute("INSERT dbo.ActivePublication VALUES(@PublicationId, @Title)", activePublication);
             }
         }
     }

@@ -1,22 +1,11 @@
-﻿@model IEnumerable<MagHag.Subscriptions.Core.ReadModels.ActivePublication>
+﻿@model IEnumerable<MagHag.Subscriptions.Core.ReadModel.ActivePublication>
 
 @foreach (var publication in Model)
 {
     <div>
-        @publication.Title
-        <input type="button" value="subscribe" class="subscribe" data-publicationId="@publication.Id" />
+        <span>
+            @publication.Title
+        </span>
+        <input type="button" value="subscribe" class="subscribe" data-publicationId="@publication.PublicationId" />
     </div>
 }
-
-@*<script>
-    $(function() {
-        $('input.subscribe').on('click', function () {
-            $.ajax({
-                url: '/api/subscription',
-                type: 'POST',
-                data: { PublicationId: $(this).attr('data-publicationId') }
-            });
-        });
-    });
-
-</script>*@

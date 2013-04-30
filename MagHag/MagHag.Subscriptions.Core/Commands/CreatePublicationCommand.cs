@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MagHag.Subscriptions.Messaging.ReadModel
+namespace MagHag.Subscriptions.Core.Commands
 {
-    public class ActivePublication
+    public class CreatePublicationCommand
     {
-        public Guid Id { get; set; }                
+        public Guid Id { get; set; }
         public string Title { get; set; }
     }
 }

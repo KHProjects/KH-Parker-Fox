@@ -8,31 +8,16 @@
 <script src="~/Scripts/Publication.js"></script>
 
 <div id="publications">
-    @*@Html.Action("Publications")*@
 </div>
 <div>
     <input id="publicationName" type="text"/>
     <input id="createPublicationCommand" type="button" value="create publication" />
 </div>
 
-@Html.AddStartupScript("PublicationManager", "#publications", "/home/publications")
+@Html.AddStartupScript("MagHag.PublicationManager", "#publications", "/home/publications")
 
-@*<script>
-    var paymentProcessedEventHandler = $.connection.paymentProcessedEventHandler;
-    
-    paymentProcessedEventHandler.client.paymentProcessed = function (paymentProcessedEvent) {
-        console.log('payment processed ' + paymentProcessedEvent.SubscriptionId);
-    };
-
+<script>
     $(function () {
-        $('#sendCommand').on('click', function () {
-            $.ajax({
-                url: '/home/index',
-                type: 'POST',
-                data : {PublicationId:'fe8f2b0a-9dd3-49a0-bd01-91ccbc941a10'}
-            });
-        });
-
         $('#createPublicationCommand').on('click', function() {
             var name = $('#publicationName').val();
             $.ajax({
@@ -42,6 +27,29 @@
             });
         });
 
+        $('#publications').on('click', 'input.subscribe', function (button) {
+            var id = $(this).attr('data-PublicationId');
+            $.ajax({
+                url: '/api/subscription',
+                type: 'POST',
+                contentType: 'application/json;charset=utf-8',
+                data : JSON.stringify({PublicationId:id})
+            }).done(function() {
+                console.log('done');
+            });
+        });
+    });
+</script>
+
+@*<script>
+    $(function() {
+        var connection = $.hubConnection();
+        var proxy = connection.createHubProxy('publicationEventNotifier');
+        proxy.on('publicationCreated', function (publicationActivated) {
+            console.log('pub created picked up by proxy less: ' + publicationActivated.PublicationId);
+        });
+        connection.start();
     });
 </script>*@
+
 <script src="~/Scripts/ConnectionManager.js"></script>

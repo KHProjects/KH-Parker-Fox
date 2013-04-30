@@ -51,11 +51,14 @@ namespace MagHag.Site
                 .Start();
 
             GlobalConfiguration.Configuration.DependencyResolver = new Ninject.Web.WebApi.NinjectDependencyResolver(kernel);
+            
+            GlobalHost.DependencyResolver = new SignalRDependencyResolver(kernel); 
         }
 
         private IKernel CreateKernel()
         {
             var standardKernel = new StandardKernel();
+            standardKernel.Bind<IUserConnectionRepository>().To<UserConnectionRepository>();
             return standardKernel;
         }
     }

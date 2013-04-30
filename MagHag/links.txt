@@ -4,3 +4,5 @@ http://www.jamesmcguigan.co.uk/strategic-domain-driven-design/
 http://eohmicrosoft.blogspot.co.uk/2012/08/laying-it-out-onion-architecture.html
 http://stackoverflow.com/questions/8184490/confusion-about-message-bus-command-dispatcher-patterns
 http://www.methodsandtools.com/archive/archive.php?id=97
+
+SIGNALR: http://brijbhushan.net/2013/03/22/learning-asp-net-signalr-part-1/

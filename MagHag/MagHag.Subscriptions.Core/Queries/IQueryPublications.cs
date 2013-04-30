@@ -1,4 +1,4 @@
-﻿using MagHag.Subscriptions.Core.ReadModels;
+﻿using MagHag.Subscriptions.Core.ReadModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -30,7 +30,8 @@ namespace System.Web.Mvc
 
         public static MvcHtmlString AddStartupScript(this HtmlHelper htmlHelper, string className, params object[] args)
         {
-            string variableName = className[0].ToString().ToLower() + className.Substring(1);
+            var name = className.Substring(0, className.LastIndexOf(".", StringComparison.InvariantCulture));
+            string variableName = name[0].ToString().ToLower() + name.Substring(1);
 
             string argument = null;
             if (args != null && args.Length > 0)

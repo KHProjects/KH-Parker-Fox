@@ -1,6 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using MagHag.Subscriptions.Core;
-using MagHag.Subscriptions.Core.ReadModels;
+using MagHag.Subscriptions.Core.ReadModel;
 using MagHag.Subscriptions.Messaging.Events;
 using Newtonsoft.Json;
 using NServiceBus;
@@ -23,7 +23,7 @@ namespace MagHag.Subscriptions.Application.Messaging.EventHandlers
         {
             Debug.WriteLine("CreatedPublicationProjection thread");
             //Console.WriteLine("CreatedPublicationProjection {0}", message.Name);
-            var activePublication = new ActivePublication {Id = message.PublicationId, Title = message.Name};
+            var activePublication = new ActivePublication {PublicationId = message.PublicationId, Title = message.Name};
             
             var httpClient = new HttpClient
                 {

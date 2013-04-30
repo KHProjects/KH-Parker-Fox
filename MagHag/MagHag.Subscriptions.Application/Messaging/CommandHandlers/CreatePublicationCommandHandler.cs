@@ -6,7 +6,7 @@ using NServiceBus;
 
 namespace MagHag.Subscriptions.Application.Messaging.CommandHandlers
 {
-    public class CreatePublicationCommandHandler : IHandleMessages<CreatePublication>
+    public class CreatePublicationCommandHandler : IHandleMessages<CreatePublicationCommand>
     {
         private IBus _bus;
         private IRepository _repository;
@@ -17,7 +17,7 @@ namespace MagHag.Subscriptions.Application.Messaging.CommandHandlers
             _repository = repository;
         }
 
-        public void Handle(CreatePublication message)
+        public void Handle(CreatePublicationCommand message)
         {
             var publication = new Publication(message.Id, message.Title);
 

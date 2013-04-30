@@ -97,6 +97,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MagHag.Subscriptions.Core\MagHag.Subscriptions.Core.csproj">
+      <Project>{856128e5-d7fe-4fcf-a256-e42338f5a83b}</Project>
+      <Name>MagHag.Subscriptions.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MagHag.Subscriptions.Messaging\MagHag.Subscriptions.Messaging.csproj">
       <Project>{abc151cc-e1ae-4a2a-95f2-2dcd35cb2b9d}</Project>
       <Name>MagHag.Subscriptions.Messaging</Name>
