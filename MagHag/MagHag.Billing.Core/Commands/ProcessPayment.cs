@@ -8,5 +8,6 @@ namespace MagHag.Billing.Core.Commands
 {
     public class ProcessPayment
     {
+        public string PaymentToken { get; set; }
     }
 }

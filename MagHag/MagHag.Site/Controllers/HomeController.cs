@@ -4,6 +4,8 @@ using MagHag.Subscriptions.Core.ViewModels;
 using NServiceBus;
 using System;
 using System.Web.Mvc;
+using System.Web.Routing;
+using System.Web.Security;
 namespace MagHag.Site.Controllers
 {
     public class HomeController : Controller
@@ -17,8 +19,12 @@ namespace MagHag.Site.Controllers
             _queryPublications = queryPublications;
         }
 
+        [Authorize]
         public ActionResult Index()
         {
+            string name = HttpContext.User.Identity.Name;
+
+
             return View(new CreateSubscriptionViewModel {PublicationId = Guid.NewGuid()});
         }
 
@@ -39,6 +45,18 @@ namespace MagHag.Site.Controllers
         {
             var publications = _queryPublications.GetActive();
             return PartialView("PublicationCatalog", publications);
+        }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Login(string userName, string returnUrl)
+        {
+            FormsAuthentication.SetAuthCookie(userName, false);
+            return Redirect(returnUrl ?? "/");
         }
     }
 }

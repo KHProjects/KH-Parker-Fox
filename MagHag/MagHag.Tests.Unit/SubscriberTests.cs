@@ -23,6 +23,17 @@ namespace MagHag.Tests.Unit
             conn.Open();
         }
 
+        [Test]
+        public void Design()
+        {
+            Subscriber subscriber = new Subscriber();
+
+            Publication publication = new Publication(Guid.NewGuid(), "");
+
+            Subscription subcription = subscriber.Subscribe(publication);
+
+        }
+
 
         [Test]
         public void CanReflectOverMyLifeChoices()

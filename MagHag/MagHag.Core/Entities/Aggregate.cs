@@ -1,9 +1,6 @@
-﻿
-
-using System.Collections.Concurrent;
+﻿using System.Collections.Concurrent;
 using System.Linq;
 using MagHag.Core.Messaging.EventSourcing;
-using MagHag.Core.Messaging.Events;
 using System;
 using System.Collections.Generic;
 

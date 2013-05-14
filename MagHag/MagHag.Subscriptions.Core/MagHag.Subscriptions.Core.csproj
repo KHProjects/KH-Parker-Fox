@@ -42,13 +42,16 @@
     <Compile Include="Commands\ActivatePublication.cs" />
     <Compile Include="Commands\CreatePublicationCommand.cs" />
     <Compile Include="Commands\CreateSubscriptionCommand.cs" />
+    <Compile Include="Entities\DatePart.cs" />
     <Compile Include="Entities\Publication.cs" />
     <Compile Include="Entities\Subscriber.cs" />
     <Compile Include="Entities\Subscription.cs" />
+    <Compile Include="Entities\SubscriptionTerm.cs" />
     <Compile Include="Events\ChangedBillingAddressEvent.cs" />
     <Compile Include="Events\PublicationActivated.cs" />
     <Compile Include="Events\PublicationCreated.cs" />
     <Compile Include="Events\SubscribedToPublication.cs" />
+    <Compile Include="Events\SubscriptionActivated.cs" />
     <Compile Include="Events\SubscriptionCreated.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queries\IQueryPublications.cs" />

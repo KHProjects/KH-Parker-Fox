@@ -9,5 +9,6 @@ namespace MagHag.Subscriptions.Core.Commands
     public class CreateSubscriptionCommand
     {
         public Guid PublicationId { get; set; }
+        public string UserName { get; set; }
     }
 }

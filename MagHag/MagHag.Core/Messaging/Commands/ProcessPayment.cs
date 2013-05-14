@@ -9,5 +9,6 @@ namespace MagHag.Core.Messaging.Commands
 {
     public class ProcessPayment //: ICommand
     {
+        public Guid PaymentId { get; set; }
     }
 }

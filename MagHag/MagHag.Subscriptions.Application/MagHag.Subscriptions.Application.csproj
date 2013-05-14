@@ -57,7 +57,7 @@
     <Compile Include="Messaging\CommandHandlers\ActivatePublicationCommandHandler.cs" />
     <Compile Include="Messaging\CommandHandlers\CreatePublicationCommandHandler.cs" />
     <Compile Include="Messaging\CommandHandlers\CreateSubscriptionCommandHandler.cs" />
-    <Compile Include="Messaging\EventHandlers\PaymentProcessedEventHandler.cs" />
+    <Compile Include="Messaging\EventHandlers\PaymentAcceptedEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

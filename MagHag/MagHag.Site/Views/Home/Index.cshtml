@@ -14,7 +14,7 @@
     <input id="createPublicationCommand" type="button" value="create publication" />
 </div>
 
-@Html.AddStartupScript("MagHag.PublicationManager", "#publications", "/home/publications")
+@Html.AddStartupScript("MagHag.PublicationManager", "#publications", "/home/publications", "/api/subscription")
 
 <script>
     $(function () {
@@ -26,30 +26,7 @@
                 data: {PublicationName: name }
             });
         });
-
-        $('#publications').on('click', 'input.subscribe', function (button) {
-            var id = $(this).attr('data-PublicationId');
-            $.ajax({
-                url: '/api/subscription',
-                type: 'POST',
-                contentType: 'application/json;charset=utf-8',
-                data : JSON.stringify({PublicationId:id})
-            }).done(function() {
-                console.log('done');
-            });
-        });
     });
 </script>
-
-@*<script>
-    $(function() {
-        var connection = $.hubConnection();
-        var proxy = connection.createHubProxy('publicationEventNotifier');
-        proxy.on('publicationCreated', function (publicationActivated) {
-            console.log('pub created picked up by proxy less: ' + publicationActivated.PublicationId);
-        });
-        connection.start();
-    });
-</script>*@
 
 <script src="~/Scripts/ConnectionManager.js"></script>

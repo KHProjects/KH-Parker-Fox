@@ -32,7 +32,7 @@ namespace MagHag.Infrastructure.Messaging.EventSourcing
             {
                 connection.Open();
 
-                const string commandText = "SELECT TOP 1 CurrentSequence FROM Stream WHERE StreamId = @StreamId;";
+                const string commandText = "SELECT TOP 1 CurrentSequence FROM dbo.Stream WHERE StreamId = @StreamId;";
                 long? existingSequence;
                 using (var command = new SqlCommand(commandText, connection))
                 {
@@ -64,7 +64,7 @@ namespace MagHag.Infrastructure.Messaging.EventSourcing
         public IEnumerable<IEvent> LoadEvents(Guid id, long version = 0)
         {
             const string commandText =
-                "SELECT EventType, Body FROM [Event] WHERE StreamId = @StreamId AND Sequence >= @Sequence ORDER BY TimeStamp;";
+                "SELECT EventType, Body FROM dbo.[Event] WHERE StreamId = @StreamId AND Sequence >= @Sequence ORDER BY TimeStamp;";
             var connectionString = ConfigurationManager.ConnectionStrings["main"].ConnectionString;
 
             using (var connection = new SqlConnection(connectionString))
@@ -88,7 +88,7 @@ namespace MagHag.Infrastructure.Messaging.EventSourcing
 
         public IEnumerable<IEvent> GetAllEventsEver()
         {
-            const string cmdText = "SELECT EventType, BODY from [Event] ORDER BY TimeStamp";
+            const string cmdText = "SELECT EventType, BODY from dbo.[Event] ORDER BY TimeStamp";
             var connectionString = ConfigurationManager.ConnectionStrings["main"].ConnectionString;
             using (var con = new SqlConnection(connectionString))
             using (var cmd = new SqlCommand(cmdText, con))
@@ -111,7 +111,7 @@ namespace MagHag.Infrastructure.Messaging.EventSourcing
         {
             foreach (var @event in serializedEvents)
             {
-                const string insertCommandText = "INSERT INTO [Event] (EventId, StreamId, Sequence, TimeStamp, EventType, Body) VALUES (@EventId, @StreamId, @Sequence, @TimeStamp, @EventType, @Body);";
+                const string insertCommandText = "INSERT INTO dbo.[Event] (EventId, StreamId, Sequence, TimeStamp, EventType, Body) VALUES (@EventId, @StreamId, @Sequence, @TimeStamp, @EventType, @Body);";
                 using (var command = new SqlCommand(insertCommandText, connection))
                 {
                     command.Parameters.AddWithValue("EventId", Guid.NewGuid());
@@ -130,7 +130,7 @@ namespace MagHag.Infrastructure.Messaging.EventSourcing
         private void StartNewSequence(Guid streamId, long nextVersion, SqlConnection connection)
         {
             const string commandText =
-                "INSERT INTO Stream (StreamId, CurrentSequence) VALUES (@StreamId, @CurrentSequence);";
+                "INSERT INTO dbo.Stream (StreamId, CurrentSequence) VALUES (@StreamId, @CurrentSequence);";
             using (var command = new SqlCommand(commandText, connection))
             {
                 command.Parameters.AddWithValue("StreamId", streamId.ToString());
@@ -145,7 +145,7 @@ namespace MagHag.Infrastructure.Messaging.EventSourcing
         private void UpdateSequence(Guid streamId, long expectedInitialVersion, long nextVersion, SqlConnection connection)
         {
             const string commandText =
-                "UPDATE Streams SET CurrentSequence = @CurrentSequence WHERE StreamId = @StreamId AND CurrentSequence = @OriginalSequence;";
+                "UPDATE dbo.Stream SET CurrentSequence = @CurrentSequence WHERE StreamId = @StreamId AND CurrentSequence = @OriginalSequence;";
             using (var command = new SqlCommand(commandText, connection))
             {
                 command.Parameters.AddWithValue("StreamId", streamId.ToString());

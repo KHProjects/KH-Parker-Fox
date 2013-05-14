@@ -12,3 +12,6 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Core\bin\Debug\MagHag.Billing
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Core\bin\Debug\MagHag.Billing.Core.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Core\obj\Debug\MagHag.Billing.Core.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Core\obj\Debug\MagHag.Billing.Core.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Core\bin\Debug\MagHag.Core.dll
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Core\bin\Debug\MagHag.Core.pdb
+C:\Development\KH-Parker-Fox\MagHag\MagHag.Billing.Core\obj\Debug\MagHag.Billing.Core.csprojResolveAssemblyReference.cache

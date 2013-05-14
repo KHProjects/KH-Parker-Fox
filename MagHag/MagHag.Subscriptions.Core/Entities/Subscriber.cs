@@ -1,10 +1,6 @@
 ﻿using MagHag.Core.Entities;
 using MagHag.Subscriptions.Core.Events;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MagHag.Subscriptions.Core.Entities
 {
@@ -21,9 +17,15 @@ namespace MagHag.Subscriptions.Core.Entities
                     PostCode = postCode
                 };
 
-
-
             Apply(changedBillingAddressEvent);
+        }
+
+        public Subscription Subscribe(Publication publication)
+        {
+            var subscribedToPublication = new SubscribedToPublication();
+            Apply(subscribedToPublication);
+
+            return new Subscription(Guid.NewGuid());
         }
 
         private void UpdateFrom(ChangedBillingAddressEvent changedBillingAddressEvent)
@@ -32,16 +34,9 @@ namespace MagHag.Subscriptions.Core.Entities
             _postCode = changedBillingAddressEvent.PostCode;
         }
 
-        public void Subscribe(Guid publicationId)
-        {
-            var subscribedToPublication = new SubscribedToPublication();
-            Apply(subscribedToPublication);
-        }
-
         private void UpdateFrom(SubscribedToPublication subscribedToPublication)
         {
             
         }
-        
     }
 }

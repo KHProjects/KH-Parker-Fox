@@ -1,126 +1,120 @@
-2013-04-30 08:31:07,686 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-04-30 08:31:07,776 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-04-30 08:31:07,863 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
-2013-04-30 08:31:08,434 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
-2013-04-30 08:31:08,435 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
-2013-04-30 08:31:08,436 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
-2013-04-30 08:31:08,449 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
-2013-04-30 08:31:08,450 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
-2013-04-30 08:31:08,450 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
-2013-04-30 08:31:08,451 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
-2013-04-30 08:31:08,451 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
-2013-04-30 08:31:08,462 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 08:31:08,465 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 08:31:26,548 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 08:31:26,581 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 08:31:26,583 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 08:31:30,578 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationActivated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 08:31:30,623 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 08:31:30,628 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 08:31:30,633 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 08:31:30,638 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 08:31:30,643 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 08:37:23,038 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-04-30 08:37:23,140 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-04-30 08:37:23,226 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
-2013-04-30 08:37:23,775 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
-2013-04-30 08:37:23,776 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
-2013-04-30 08:37:23,777 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
-2013-04-30 08:37:23,789 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
-2013-04-30 08:37:23,794 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
-2013-04-30 08:37:23,795 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
-2013-04-30 08:37:23,795 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
-2013-04-30 08:37:23,796 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
-2013-04-30 08:37:23,812 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 08:37:23,815 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 09:09:28,026 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-04-30 09:09:28,128 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-04-30 09:09:28,243 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
-2013-04-30 09:09:28,875 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
-2013-04-30 09:09:28,876 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
-2013-04-30 09:09:28,877 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
-2013-04-30 09:09:28,895 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
-2013-04-30 09:09:28,896 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
-2013-04-30 09:09:28,897 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
-2013-04-30 09:09:28,898 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
-2013-04-30 09:09:28,900 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
-2013-04-30 09:09:28,914 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 09:09:28,918 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 09:09:45,874 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 09:09:45,908 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 09:09:45,912 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 09:09:47,052 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:09:47,098 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationActivated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:09:47,104 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:09:47,109 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:09:47,114 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:09:47,120 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationActivated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:09:47,124 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:09:47,129 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:09:47,133 [Worker.14] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:35:46,003 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-04-30 09:35:46,086 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-04-30 09:35:46,160 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
-2013-04-30 09:35:46,915 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
-2013-04-30 09:35:46,916 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
-2013-04-30 09:35:46,917 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
-2013-04-30 09:35:46,933 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
-2013-04-30 09:35:46,934 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
-2013-04-30 09:35:46,934 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
-2013-04-30 09:35:46,935 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
-2013-04-30 09:35:46,935 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
-2013-04-30 09:35:46,947 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 09:35:46,950 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 09:36:05,484 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 09:36:05,517 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 09:36:05,522 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 09:36:06,686 [Worker.9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:36:06,731 [Worker.9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationActivated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:36:06,736 [Worker.9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:36:06,741 [Worker.9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:36:06,746 [Worker.9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 09:36:06,751 [Worker.9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:01:22,107 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-04-30 13:01:22,197 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-04-30 13:01:22,272 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
-2013-04-30 13:01:22,957 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
-2013-04-30 13:01:22,959 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
-2013-04-30 13:01:22,960 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
-2013-04-30 13:01:22,971 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
-2013-04-30 13:01:22,972 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
-2013-04-30 13:01:22,973 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
-2013-04-30 13:01:22,973 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
-2013-04-30 13:01:22,974 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
-2013-04-30 13:01:22,985 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 13:01:22,987 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 13:01:41,646 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 13:01:41,686 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 13:01:41,690 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 13:01:42,889 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:01:42,944 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:01:42,950 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationActivated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:01:42,955 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:01:42,961 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:01:42,966 [Worker.16] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:05:58,266 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
-2013-04-30 13:05:58,365 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
-2013-04-30 13:05:58,466 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
-2013-04-30 13:05:59,056 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
-2013-04-30 13:05:59,058 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
-2013-04-30 13:05:59,059 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
-2013-04-30 13:05:59,070 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
-2013-04-30 13:05:59,071 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
-2013-04-30 13:05:59,072 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
-2013-04-30 13:05:59,072 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
-2013-04-30 13:05:59,073 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
-2013-04-30 13:05:59,091 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 13:05:59,095 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
-2013-04-30 13:06:15,951 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 13:06:15,982 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 13:06:15,985 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
-2013-04-30 13:06:18,171 [Worker.15] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationActivated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:06:18,247 [Worker.15] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:06:18,259 [Worker.15] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:06:18,296 [Worker.15] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:06:18,317 [Worker.15] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-2013-04-30 13:06:18,354 [Worker.15] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:06:42,924 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-05-05 10:06:43,007 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-05-05 10:06:43,096 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
+2013-05-05 10:06:43,669 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
+2013-05-05 10:06:43,670 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
+2013-05-05 10:06:43,673 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
+2013-05-05 10:06:43,685 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
+2013-05-05 10:06:43,686 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
+2013-05-05 10:06:43,687 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
+2013-05-05 10:06:43,688 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
+2013-05-05 10:06:43,689 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
+2013-05-05 10:06:43,705 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-05-05 10:06:43,708 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-05-05 10:07:01,310 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:07:01,341 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:07:01,347 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:07:20,482 [Worker.28] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:07:20,524 [Worker.28] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationActivated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:07:20,529 [Worker.28] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:07:20,537 [Worker.28] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:07:20,543 [Worker.28] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:07:20,548 [Worker.28] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:13:32,613 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-05-05 10:13:32,705 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-05-05 10:13:32,794 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
+2013-05-05 10:13:33,385 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
+2013-05-05 10:13:33,386 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
+2013-05-05 10:13:33,388 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
+2013-05-05 10:13:33,403 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
+2013-05-05 10:13:33,403 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
+2013-05-05 10:13:33,404 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
+2013-05-05 10:13:33,404 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
+2013-05-05 10:13:33,405 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
+2013-05-05 10:13:33,421 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-05-05 10:13:33,424 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-05-05 10:13:50,830 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:13:50,864 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:13:50,866 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:13:53,027 [Worker.17] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationActivated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:13:53,082 [Worker.17] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:13:53,104 [Worker.17] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.site@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:13:53,109 [Worker.17] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:13:53,114 [Worker.17] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:13:53,120 [Worker.17] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing maghag.backend@seb-laptop to message type MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2013-05-05 10:48:17,542 [Worker.17] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+MagHag.Application.ConcurrencyException: Exception of type 'MagHag.Application.ConcurrencyException' was thrown.
+   at MagHag.Infrastructure.Messaging.EventSourcing.SqlEventStore.StoreEvents(Guid streamId, IEnumerable`1 events, Int64 expectedInitialVersion) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\Messaging\EventSourcing\SqlEventStore.cs:line 45
+   at MagHag.Infrastructure.Data.Repository.Save(Aggregate aggregate) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\Data\Repository.cs:line 35
+   at MagHag.Subscriptions.Application.Messaging.CommandHandlers.CreateSubscriptionCommandHandler.Handle(CreateSubscriptionCommand message) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\Messaging\CommandHandlers\CreateSubscriptionCommandHandler.cs:line 26
+2013-05-05 10:48:17,597 [Worker.17] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=81762e47-49ca-45ee-ab99-c37da1ecf1bd\30859
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2013-05-05 10:48:21,731 [Worker.17] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+MagHag.Application.ConcurrencyException: Exception of type 'MagHag.Application.ConcurrencyException' was thrown.
+   at MagHag.Infrastructure.Messaging.EventSourcing.SqlEventStore.StoreEvents(Guid streamId, IEnumerable`1 events, Int64 expectedInitialVersion) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\Messaging\EventSourcing\SqlEventStore.cs:line 45
+   at MagHag.Infrastructure.Data.Repository.Save(Aggregate aggregate) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\Data\Repository.cs:line 35
+   at MagHag.Subscriptions.Application.Messaging.CommandHandlers.CreateSubscriptionCommandHandler.Handle(CreateSubscriptionCommand message) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\Messaging\CommandHandlers\CreateSubscriptionCommandHandler.cs:line 26
+2013-05-05 10:48:21,780 [Worker.17] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=81762e47-49ca-45ee-ab99-c37da1ecf1bd\30859
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2013-05-05 10:48:23,723 [Worker.17] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+MagHag.Application.ConcurrencyException: Exception of type 'MagHag.Application.ConcurrencyException' was thrown.
+   at MagHag.Infrastructure.Messaging.EventSourcing.SqlEventStore.StoreEvents(Guid streamId, IEnumerable`1 events, Int64 expectedInitialVersion) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\Messaging\EventSourcing\SqlEventStore.cs:line 45
+   at MagHag.Infrastructure.Data.Repository.Save(Aggregate aggregate) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\Data\Repository.cs:line 35
+   at MagHag.Subscriptions.Application.Messaging.CommandHandlers.CreateSubscriptionCommandHandler.Handle(CreateSubscriptionCommand message) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\Messaging\CommandHandlers\CreateSubscriptionCommandHandler.cs:line 26
+2013-05-05 10:48:23,774 [Worker.17] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=81762e47-49ca-45ee-ab99-c37da1ecf1bd\30859
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2013-05-05 10:48:26,380 [Worker.17] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - CreateSubscriptionCommandHandler failed handling message.
+MagHag.Application.ConcurrencyException: Exception of type 'MagHag.Application.ConcurrencyException' was thrown.
+   at MagHag.Infrastructure.Messaging.EventSourcing.SqlEventStore.StoreEvents(Guid streamId, IEnumerable`1 events, Int64 expectedInitialVersion) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\Messaging\EventSourcing\SqlEventStore.cs:line 45
+   at MagHag.Infrastructure.Data.Repository.Save(Aggregate aggregate) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Infrastructure\Data\Repository.cs:line 35
+   at MagHag.Subscriptions.Application.Messaging.CommandHandlers.CreateSubscriptionCommandHandler.Handle(CreateSubscriptionCommand message) in c:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application\Messaging\CommandHandlers\CreateSubscriptionCommandHandler.cs:line 26
+2013-05-05 10:48:26,424 [Worker.17] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=81762e47-49ca-45ee-ab99-c37da1ecf1bd\30859
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\nsb.master_6\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\nsb.master_6\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2013-05-05 10:57:12,242 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-05-05 10:57:12,348 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-05-05 10:57:12,437 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
+2013-05-05 10:57:12,989 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
+2013-05-05 10:57:12,990 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
+2013-05-05 10:57:12,992 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
+2013-05-05 10:57:13,014 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
+2013-05-05 10:57:13,015 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
+2013-05-05 10:57:13,017 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
+2013-05-05 10:57:13,018 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
+2013-05-05 10:57:13,019 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
+2013-05-05 10:57:13,036 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-05-05 10:57:13,039 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-05-05 10:57:30,521 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:57:30,551 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:57:30,558 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 10:59:53,761 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-05-05 10:59:53,859 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2013-05-05 10:59:53,960 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Using embeded license found in registry [HKEY_CURRENT_USER\Software\NServiceBus\3.3\License].
+2013-05-05 10:59:54,596 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Found a Trial license.
+2013-05-05 10:59:54,597 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Registered to sabkent@hotmail.com
+2013-05-05 10:59:54,599 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 18/06/2013 00:00:00
+2013-05-05 10:59:54,612 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseVersion]: [4.0]
+2013-05-05 10:59:54,613 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [LicenseType]: [Trial]
+2013-05-05 10:59:54,614 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [WorkerThreads]: [Max]
+2013-05-05 10:59:54,615 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [MaxMessageThroughputPerSecond]: [Max]
+2013-05-05 10:59:54,615 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - [AllowedNumberOfWorkerNodes]: [Max]
+2013-05-05 10:59:54,626 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-05-05 10:59:54,629 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-05-05 11:00:11,411 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Billing.Messaging.Events.PaymentProcessedEvent, MagHag.Billing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 11:00:11,440 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.PublicationCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop
+2013-05-05 11:00:11,446 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to MagHag.Subscriptions.Messaging.Events.SubscriptionCreated, MagHag.Subscriptions.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue maghag.backend@seb-laptop

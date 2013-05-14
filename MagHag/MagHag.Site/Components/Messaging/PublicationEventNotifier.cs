@@ -14,32 +14,32 @@ namespace MagHag.Site.Components.Messaging
             _userConnectionRepository = userConnectionRepository;
         }
 
-        //public override Task OnConnected()
-        //{
-        //    AddConnection();
+        public override Task OnConnected()
+        {
+            AddConnection();
 
-        //    return base.OnConnected();
-        //}
+            return base.OnConnected();
+        }
 
-        //public override Task OnDisconnected()
-        //{
-        //    string userName = Context.User.Identity.Name;
-        //    string connectionId = Context.ConnectionId;
+        public override Task OnDisconnected()
+        {
+            string userName = Context.User.Identity.Name;
+            string connectionId = Context.ConnectionId;
 
-        //    var userConnection = _userConnectionRepository.GetByUserName(userName);
+            var userConnection = _userConnectionRepository.GetByUserName(userName);
 
-        //    lock (userConnection.ConnectionIds)
-        //    {
-        //        userConnection.ConnectionIds.Remove(connectionId);
-        //    }
-        //    return base.OnDisconnected();
-        //}
+            lock (userConnection.ConnectionIds)
+            {
+                userConnection.ConnectionIds.Remove(connectionId);
+            }
+            return base.OnDisconnected();
+        }
 
-        //public override Task OnReconnected()
-        //{
-        //    AddConnection();
-        //    return base.OnReconnected();
-        //}
+        public override Task OnReconnected()
+        {
+            AddConnection();
+            return base.OnReconnected();
+        }
 
         public void Handle(PublicationCreated message)
         {
@@ -55,17 +55,17 @@ namespace MagHag.Site.Components.Messaging
             hubContext.Clients.All.publicationActivated(message); 
         }
 
-        //private void AddConnection()
-        //{
-        //    string userName = Context.User.Identity.Name;
-        //    string connectionId = Context.ConnectionId;
+        private void AddConnection()
+        {
+            string userName = Context.User.Identity.Name;
+            string connectionId = Context.ConnectionId;
 
-        //    var userConnection = _userConnectionRepository.GetByUserName(userName);
+            var userConnection = _userConnectionRepository.GetByUserName(userName);
 
-        //    lock (userConnection.ConnectionIds)
-        //    {
-        //        userConnection.ConnectionIds.Add(connectionId);
-        //    }
-        //}
+            lock (userConnection.ConnectionIds)
+            {
+                userConnection.ConnectionIds.Add(connectionId);
+            }
+        }
     }
 }

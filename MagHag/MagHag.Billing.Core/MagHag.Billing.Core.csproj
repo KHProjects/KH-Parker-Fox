@@ -39,9 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Commands\ProcessPayment.cs" />
+    <Compile Include="Entities\Payment.cs" />
+    <Compile Include="Entities\PaymentStatuses.cs" />
+    <Compile Include="Events\PaymentAccepted.cs" />
+    <Compile Include="Events\PaymentCreated.cs" />
+    <Compile Include="Events\PaymentRejected.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MagHag.Core\MagHag.Core.csproj">
+      <Project>{13a6b299-bfcf-4c78-b84d-1c4b39174b8f}</Project>
+      <Name>MagHag.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

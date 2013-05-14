@@ -1,4 +1,5 @@
-﻿@model IEnumerable<MagHag.Subscriptions.Core.ReadModel.ActivePublication>
+﻿
+@model IEnumerable<MagHag.Subscriptions.Core.ReadModel.ActivePublication>
 
 @foreach (var publication in Model)
 {
@@ -6,6 +7,6 @@
         <span>
             @publication.Title
         </span>
-        <input type="button" value="subscribe" class="subscribe" data-publicationId="@publication.PublicationId" />
+        <input type="button" value="subscribe" class="subscribeCommand" data-publicationId="@publication.PublicationId" />
     </div>
 }

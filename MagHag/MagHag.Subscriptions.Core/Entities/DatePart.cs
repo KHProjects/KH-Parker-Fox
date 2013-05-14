@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MagHag.Billing.Core
+namespace MagHag.Subscriptions.Core.Entities
 {
-    public class Class1
+    public enum DatePart
     {
+        Day,
+        Month,
+        Year
     }
 }
