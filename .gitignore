@@ -32,3 +32,11 @@ MagHag/MagHag.ReadStore/obj/*
 MagHag/MagHag.Application/bin/*
 MagHag/MagHag.Application/bin/*
 MagHag/MagHag.Application/bin/*
+MagHag/MagHag.Application/bin/*
+MagHag/MagHag.Application/bin/*
+MagHag/MagHag.Backend/bin/*
+MagHag/MagHag.Billing.Application/bin/*
+MagHag/MagHag.Core/bin/*
+MagHag/MagHag.Infrastructure/bin/*
+MagHag/MagHag.Site/bin/*
+MagHag/MagHag.Subscriptions.Application/bin/*

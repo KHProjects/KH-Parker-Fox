@@ -21,4 +21,3 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Messaging\bin\Debug\Mag
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Messaging\bin\Debug\MagHag.Subscriptions.Messaging.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Messaging\obj\Debug\MagHag.Subscriptions.Messaging.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Messaging\obj\Debug\MagHag.Subscriptions.Messaging.pdb
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Messaging\obj\Debug\MagHag.Subscriptions.Messaging.csprojResolveAssemblyReference.cache

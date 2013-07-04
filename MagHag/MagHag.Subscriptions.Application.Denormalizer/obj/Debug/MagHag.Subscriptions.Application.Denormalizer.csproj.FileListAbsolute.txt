@@ -2,7 +2,6 @@ C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application.Denormalize
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application.Denormalizer\bin\Debug\MagHag.Subscriptions.Application.Denormalizer.pdb
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application.Denormalizer\bin\Debug\MagHag.Subscriptions.Core.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application.Denormalizer\bin\Debug\MagHag.Subscriptions.Messaging.dll
-C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application.Denormalizer\bin\Debug\NES.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application.Denormalizer\bin\Debug\Newtonsoft.Json.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application.Denormalizer\bin\Debug\NServiceBus.dll
 C:\Development\KH-Parker-Fox\MagHag\MagHag.Subscriptions.Application.Denormalizer\bin\Debug\System.Net.Http.Formatting.dll
